@@ -32,6 +32,7 @@ It is already the world’s most advanced software for sound synthesis and piano
 - Train your ear to recognize harmonic partials and their ranks
 - Practice tuning safely without risk to real instruments
 - Analyze and replicate the characteristics of an acoustic piano, including inharmonicity
+- Define the tuning method in a few lines using a simple grammar that establishes relationships between notes
 - Propose and test multiple tunings in real-time before applying them to the actual instrument
 - Use perfect unison with ViGAPhone’s output to tune real instruments quickly and precisely
 - Perform spectral analysis to detect unwanted resonances or harmonization issues
@@ -89,6 +90,7 @@ Il est déjà le meilleur logiciel au monde en synthèse sonore et pour l'assist
 - un outil pédagogique pour apprendre à accorder un piano, contrôler le résultat, valider les capacités d'un apprenti
 - former l'oreille à différentier les partiels et leurs rangs
 - s'entraîner à l'accordage sans risque pour l'instrument réel
+- définir la méthode d'accordage en quelques lignes grâce à une grammaire simple établissant les relations entre les notes
 - reprendre les caractéristiques d'un piano acoustique, étudier ou chercher la meilleure façon d'accorder un piano particulier avec son inharmonicité spécifique, proposer différents accordages instantanément et les tester en réel avec d'autres instruments avant de réaliser celui retenu par le musicien ; utiliser le résultat pour accorder rapidement et facilement l'instrument, simplement grâce à l'unisson parfait avec le son produit par le ViGAPhone
 - étudier l'analyse spectrale et la répartition des partiels pour trouver les vibrations parasites ou les défauts d'harmonisation
 
