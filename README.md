@@ -1,4 +1,72 @@
-# ViGAWorld-ViGAPhone
+# 🇫🇷 ViGAWorld-ViGAPhone : voir plus loin
+# 🇬🇧 ViGAPhone
+(machine translation)
+
+**ViGAPhone** is a realistic musical instrument synthesizer and a powerful tool for piano tuners and technicians.
+
+## 🎹 Overview
+
+ViGAPhone is a realistic synthesis program for Linux or Windows computers, optionally used with a MIDI keyboard. It is designed for performing musicians, professional tuners, and occasional hobbyists.
+
+If you're familiar with Pianoteq (Modartt), Ivory (Synthogy), or Kontakt (Native Instruments), you already have some insight into physical modeling or sampling-based synthesis.
+
+ViGAPhone is based on physical modeling synthesis for percussive string and wind instruments, like Pianoteq, but with far more possibilities offered to the user. The first version was developed around the piano, but it already includes everything needed to emulate other instruments or create entirely new ones.
+
+It is already the world’s most advanced software for sound synthesis and piano tuning assistance.
+
+---
+
+## 🎵 Features for Musicians
+
+- Realistic, rich, deep, and expressive sound with touch-sensitive timbre
+- Emulate any existing instrument, including specific acoustic pianos
+- Create entirely new instruments with original sounds
+- Fully customizable synthesis engine
+- Share compact configuration files (just a few kilobytes) that encode the "DNA" of a concert piano
+
+---
+
+## 🛠️ Features for Piano Tuners
+
+- Pedagogical tool for learning and validating piano tuning skills
+- Train your ear to recognize harmonic partials and their ranks
+- Practice tuning safely without risk to real instruments
+- Analyze and replicate the characteristics of an acoustic piano, including inharmonicity
+- Propose and test multiple tunings in real-time before applying them to the actual instrument
+- Use perfect unison with ViGAPhone’s output to tune real instruments quickly and precisely
+- Perform spectral analysis to detect unwanted resonances or harmonization issues
+
+---
+
+## ⚙️ Technical Highlights
+ViGAPhone is built on the ADSR model, describing the four phases of a musical note’s life. Combined with an automatic spectral analysis engine and waveform-based audio rendering, musicians can define ADSR parameters and recreate the sound of a real piano in minutes—so precisely that it becomes indistinguishable from the original.
+
+It features:
+- A keyboard-driven text interface: minimalist but highly efficient for professionals
+- A graphical interface for real-time sound analysis, timbre reproduction, and ultra-precise piano tuning
+- An extremely compact executable size—where design quality and code efficiency truly matter
+
+---
+
+## 🔐 Licensing
+
+ViGAPhone is distributed as a binary-only application. No source code is provided.
+
+To use ViGAPhone, you must obtain a license from [https://vigaworld.com](https://vigaworld.com). Each license is linked to a registered user and their system. Redistribution, reverse engineering, or modification is strictly prohibited.
+
+---
+
+## 📫 Contact
+
+For licensing or support inquiries:
+
+- Website: [https://vigaworld.com](https://vigaworld.com)  
+- Email: [contact@vigaworld.com](mailto:contact@vigaworld.com)
+
+----------------------------------------------------------------------------------------------------------------------
+
+# 🇫🇷 ViGAWorld-ViGAPhone
+
 ViGAPhone est un synthétiseur d'Instruments de musique réaliste et un outil pour les accordeurs réparateurs de pianos et autres
 
 # Tout sur le ViGAPhone: un synthétiseur réaliste extraordinaire pour les musiciens interprètes et créatifs, un outil révolutionnaire et indispensable pour les accordeurs de pianos et autres
@@ -27,3 +95,11 @@ Le principe est simple, il est basé sur le modèle ADSR qui décrit les 4 péri
 Une interface texte, entièrement commandée au clavier, austère dirons certains, mais sans fioritures et parfaitement efficace idéale pour les professionnels ; accompagnée d'une interface graphique pour l'analyse sonore en temps réel, la reproduction du timbre d'un instrument ou l'accordage d'un piano avec une précision inégalée. A vos claviers!
 
 une taille de fichier exécutable du programme extrêmement réduite, ici c'est la qualité de la conception et du code qui pèse lourd.
+
+## 🔐 Licence
+
+ViGAPhone est distribué uniquement sous forme binaire. Aucun accès au code source n’est fourni.
+
+Pour utiliser ViGAPhone, vous devez obtenir une licence via [https://vigaworld.com](https://vigaworld.com). Chaque licence est liée à un utilisateur enregistré et à son système.
+
+Toute redistribution, ingénierie inverse ou modification est strictement interdite.
