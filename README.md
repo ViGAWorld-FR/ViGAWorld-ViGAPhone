@@ -61,7 +61,7 @@ To use ViGAPhone, you must obtain a license from [https://vigaworld.com](https:/
 For licensing or support inquiries:
 
 - Website: [https://vigaworld.com](https://vigaworld.com)  
-- Email: [contact@vigaworld.com](mailto:contact@vigaworld.com)
+- Email: [contactnotcopythis@vigaworld.com]
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -103,5 +103,13 @@ une taille de fichier exécutable du programme extrêmement réduite, ici c'est 
 ViGAPhone est distribué uniquement sous forme binaire. Aucun accès au code source n’est fourni.
 
 Pour utiliser ViGAPhone, vous devez obtenir une licence via [https://vigaworld.com](https://vigaworld.com). Chaque licence est liée à un utilisateur enregistré et à son système.
+
+## 📫 Contact
+
+For licensing or support inquiries:
+
+- Website: [https://vigaworld.com](https://vigaworld.com)  
+- Email: [contactnotcopythis@vigaworld.com]
+
 
 Toute redistribution, ingénierie inverse ou modification est strictement interdite.
