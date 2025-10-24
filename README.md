@@ -1,4 +1,4 @@
-## 🇫🇷 ViGAWorld-ViGAPhone : voir plus loin
+## 🇫🇷 ViGAWorld-ViGAPhone : préentation en français, voir plus loin
 ## 🇬🇧 ViGAPhone
 (machine translation)
 
