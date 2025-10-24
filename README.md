@@ -1,6 +1,5 @@
 ## FR ViGAPhone : [présentation en français, voir plus loin](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/tree/main#fr-vigaphone)
-## EN ViGAPhone
-(machine translation)
+## EN ViGAPhone (machine translation)
 
 **ViGAPhone** is a realistic musical instrument synthesizer and a powerful tool for piano tuners and technicians.
 
