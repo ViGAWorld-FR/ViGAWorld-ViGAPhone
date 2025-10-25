@@ -11,7 +11,7 @@ If you're familiar with Pianoteq (Modartt), Ivory (Synthogy), or Kontakt (Native
 
 ViGAPhone is based on physical modeling synthesis for percussive string and wind instruments, like Pianoteq, but with far more possibilities offered to the user. The first version was developed around the piano, but it already includes everything needed to emulate other instruments or create entirely new ones.
 
-It is already the world’s most advanced software for sound synthesis and piano tuning assistance.
+It is already the world’s most advanced software combining sound synthesis and tuning assistance for pianos and all other instruments.
 
 ---
 
@@ -78,7 +78,8 @@ ViGAPhone est un synthétiseur d'Instruments de musique réaliste et un outil po
 Je mets à votre disposition mon programme de synthèse réaliste: le ViGAPhone, pour ordinateur Linux ou Windows optionnellement accompagné d'un clavier MIDI. Il devrait intéresser un maximum de personnes car il est fait pour les musiciens, les accordeurs professionnels ou amateurs occasionnels. Si vous connaissez Pianoteq de Modartt ou Ivory de Synthogy ou Kontakt de Native-Instrument ou etc, vous connaissez déjà un peu le sujet de la synthèse par modèle physique ou par sampling. 
 
 ViGAPhone est basé sur la synthèse par modèle physique des instruments à cordes à percussion ou à vent, comme  Pianoteq, mais avec beaucoup plus de possibilités offertes à l'utilisateur. La première version a été développée autour de l'instrument Piano, mais elle possède déjà tout ce qu'il faut pour imiter d'autres instruments ou en créer de nouveaux.
-Il est déjà le meilleur logiciel au monde en synthèse sonore et pour l'assistance à l'accordage des pianos et tous autres instruments.
+
+Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore et l'assistance à l'accordage des pianos et tous autres instruments.
 
 # Voici les services qu'offre le ViGAPhone pour les :
 ## 🎵 musiciens
