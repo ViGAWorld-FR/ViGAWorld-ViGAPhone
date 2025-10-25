@@ -47,7 +47,7 @@ It features:
 - A keyboard-driven text interface: minimalist but highly efficient for professionals
 - A graphical interface for real-time sound analysis, timbre reproduction, and ultra-precise piano tuning
 - An extremely compact executable size—where design quality and code efficiency truly matter
-- The audio engine is extremely powerful—arguably the most efficient in the world. It can run on 15-year-old computers and handle tens of thousands of simultaneous waveforms in real time without overloading the system
+- The audio engine is extremely powerful—arguably the most efficient in the world. It can run on 15-year-old computers and handle tens of thousands of simultaneous waveforms in real time without overloading the system.
 
 ---
 
@@ -101,10 +101,10 @@ Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore et l
 
 ## ⚙️ Côté technique:
 Le principe est simple, il est basé sur le modèle ADSR qui décrit les 4 périodes de la vie d'une note de musique. Associé à un outil automatique d'analyse spectrale pour mettre en équation le timbre de l’instrument réel à l'aide du moteur de rendu audio utilisant des générateurs d'ondes, le musicien crée son instrument de synthèse en définissant les paramètres ADSR, et ainsi en quelques minutes, il peut enregistrer un piano réel puis le jouer sur son ordinateur sans qu'il soit possible de distinguer si l'on entend l'enregistrement du piano réel ou sa synthèse.
-- Une interface texte, entièrement commandée au clavier, austère dirons certains, mais sans fioritures et parfaitement efficace idéale pour les professionnels
+- Une interface texte, entièrement commandée au clavier, austère dirons certains, mais sans fioritures et parfaitement efficace idéale pour les professionnels.
 - Une interface graphique pour l'analyse sonore en temps réel, la reproduction du timbre d'un instrument ou l'accordage d'un piano avec une précision inégalée. A vos claviers!
 - Une taille de fichier exécutable du programme extrêmement réduite, ici c'est la qualité de la conception et du code qui pèse lourd.
-- Le moteur audio est extrêmement performant, sans doute le plus performant du monde, il peut fonctionner sur des ordinateurs de 15 ans d'âge et gérer plusieurs dizaines de milliers d'ondes en temps réel sans saturer le système.
+- Le moteur audio est extrêmement performant, sans doute le plus performant au monde, il peut fonctionner sur des ordinateurs de 15 ans d'âge et gérer plusieurs dizaines de milliers d'ondes en temps réel sans saturer le système.
 
 ## 🔐 Licence
 
