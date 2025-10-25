@@ -17,11 +17,13 @@ It is already the world’s most advanced software for sound synthesis and piano
 
 ## 🎵 Features for Musicians
 
-- Realistic, rich, deep, and expressive sound with touch-sensitive timbre
-- Emulate any existing instrument, including specific acoustic pianos
+- Realistic, rich, deep, and expressive sound with touch-sensitive timbre, offering everything needed to enjoy performing or composing
+- Emulate any existing instrument,  such as replicating a specific acoustic piano
 - Create entirely new instruments with original sounds
-- Fully customizable synthesis engine
+- Fully customizable instrument and synthesis engine
 - Share compact configuration files (just a few kilobytes) that encode the "DNA" of a concert piano
+- Discover and preserve the best tuning methods for your real instrument, tailored to the style of music being played
+- Request a professional tuner to apply a specific and consistent tuning, ideal for concert halls or touring musicians
 
 ---
 
@@ -80,11 +82,13 @@ Il est déjà le meilleur logiciel au monde en synthèse sonore et pour l'assist
 
 # Voici les services qu'offre le ViGAPhone pour les :
 ## 🎵 musiciens
-- un son réaliste, riche, profond, unique, un timbre sensible au toucher, tout ce qu'il faut pour prendre plaisir à jouer ou à composer
-- la possibilité d'imiter n'importe quel instrument existant, comme de copier un piano acoustique particulier
-- la possibilité de créer de nouveaux instruments avec des nouveaux sons
-- un instrument entièrement paramétrable
-- la possibilité d'échanger les fichiers de paramétrages dont la taille fait quelques kilos octets pour contenir l'équivalent de l'ADN d'un piano de concert par exemple
+- jouer avec un son réaliste, riche, profond, unique, un timbre sensible au toucher, tout ce qu'il faut pour prendre plaisir à jouer ou à composer
+- imiter n'importe quel instrument existant, comme de copier un piano acoustique particulier
+- créer de nouveaux instruments avec des nouveaux sons
+- avoir un instrument entièrement paramétrable
+- échanger les fichiers de paramétrages dont la taille fait quelques kilos octets pour contenir l'équivalent de l'ADN d'un piano de concert par exemple
+- trouver et conserver les meilleures façons d'accorder son instrument réel en fonction du style de musique jouée,
+- demander à un accordeur professionnel de réaliser un accord particulier et constant, idéal pour les salles de concert ou les musiciens itinérants
 
 ## 🛠️ accordeurs professionnels ou occasionnels
 - un outil pédagogique pour apprendre à accorder un piano, contrôler le résultat, valider les capacités d'un apprenti
