@@ -13,8 +13,11 @@ ViGAPhone is based on physical modeling synthesis for percussive string and wind
 
 It is already the world’s most advanced software combining sound synthesis and tuning assistance for pianos and all other instruments.
 
+- ViGAPhone high precision piano or instruments tuner / accordeur haute précision de piano et d'instruments
 ![ViGAPhone high precision piano or instruments tuner / accordeur haute précision de piano et d'instruments](images/accorder.png)
+- ViGAPhone piano's inharmonicity acquisition
 ![ViGAPhone piano's inharmonicity acquisition](images/inharmonicite.png)
+- ViGAPhone piano's timbre acquisition and modeling / Acquisition et modélisation du timbre du piano
 ![ViGAPhone piano's timbre acquisition and modeling / Acquisition et modélisation du timbre du piano](images/captureTimbreAnalyse.png)
 
 ---
