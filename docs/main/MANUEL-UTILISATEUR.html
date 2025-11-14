@@ -7,7 +7,7 @@
 	<meta name="author" content="TualatriX"/>
 	<meta name="created" content="2008-02-15T12:08:28"/>
 	<meta name="changedby" content="Vincent GACOUGNOLLE"/>
-	<meta name="changed" content="2025-11-14T13:08:31.281838455"/>
+	<meta name="changed" content="2025-11-14T22:37:52.322649432"/>
 	<meta name="Info 1" content=""/>
 	<meta name="Info 2" content=""/>
 	<meta name="Info 3" content=""/>
@@ -25,25 +25,7 @@
 	</style>
 </head>
 <body lang="fr-FR" dir="ltr">
-<div id="user-content--licence" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
-	<br/>
-<br/>
-
-	</p>
-</div>
-<div id="user-content-quelques-points-clés" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
-	<br/>
-<br/>
-
-	</p>
-</div>
-<div id="user-content-️-côté-technique" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
-	<br/>
-<br/>
-
-	</p>
-</div>
-<div id="user-content-️-pour-les-accordeurs-professionnels-ou-occasionnels-pour-les-réparateurs-et-les-facteurs-dinstruments-musicaux" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
+<div id="user-content---tout-sur-le-vigaphone" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
 	<br/>
 <br/>
 
@@ -55,7 +37,25 @@
 
 	</p>
 </div>
-<div id="user-content---tout-sur-le-vigaphone" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
+<div id="user-content-️-pour-les-accordeurs-professionnels-ou-occasionnels-pour-les-réparateurs-et-les-facteurs-dinstruments-musicaux" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
+	<br/>
+<br/>
+
+	</p>
+</div>
+<div id="user-content-️-côté-technique" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
+	<br/>
+<br/>
+
+	</p>
+</div>
+<div id="user-content-quelques-points-clés" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
+	<br/>
+<br/>
+
+	</p>
+</div>
+<div id="user-content--licence" dir="ltr" style="position: absolute; top: 0cm; left: -0.74cm; width: 0.74cm; border: none; padding: 0cm; background: #ffffff"><p>
 	<br/>
 <br/>
 
@@ -407,20 +407,20 @@ github.com et le calcul sha256sum fait localement de l'archive.</font></p>
 <h2 class="western"><a name="__RefHeading___Toc93340_3142432121"></a><font face="Arial, sans-serif">2.2Les
 fichiers et répertoires</font></h2>
 <p><font face="Arial, sans-serif">Le répertoire de base doit
-contenir l'application ViGAPhone (ou un lien symbolique)  avec les
-droits d'exécution, le fichier ViGAPhone-General.tsv, et
-optionnellement un fichier Instrument qui sera automatiquement chargé
-pour jouer le son d'accueil.</font></p>
+contenir l'application ViGAPhone (ou un lien symbolique) avec les
+droits d'exécution, et optionnellement un fichier Instrument qui
+sera automatiquement chargé pour jouer le son d'accueil.</font></p>
 <p><font face="Arial, sans-serif">Les différents paramétrages sont
 contenus dans des fichiers de type tsv, ouvrables et modifiables avec
 l'application ViGAPhone ou à l'aide d'un simple tableur bureautique.</font></p>
 <p><font face="Arial, sans-serif">Les répertoires sont les suivants:</font></p>
 <p><font face="Arial, sans-serif">configuration : contient des
 fichiers de configurations, comme les règles d'accordage définissant
-le tempérament de l'Instrument</font></p>
+le tempérament de l'Instrument, et le fichier ViGAPhone-General.tsv
+utilisé au démarrage de l'application pour son initialisation</font></p>
 <p><font face="Arial, sans-serif">Instrument : contient les fichiers
-Instruments, sous-répertoires Percussion, Vent, pour classer les
-Instruments par type de production sonore</font></p>
+Instruments, optionnellement les sous-répertoires Percussion, Vent,
+pour classer les Instruments par type de production sonore</font></p>
 <p><font face="Arial, sans-serif">wav : contient les fichiers de type
 wav pour les tables d'ondes de base ou les bruits mécaniques</font></p>
 <p><font face="Arial, sans-serif">wavCapture : contient les fichiers
@@ -1042,9 +1042,10 @@ exemple complet le plus simple: sur le canal Droit une réverbération
 <h2 class="western"><a name="__RefHeading___Toc85062_3142432121"></a><font face="Arial, sans-serif">5.2Fichier
 de paramétrage de l'Instrument</font></h2>
 <p style="margin-bottom: 0cm; font-weight: normal"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Le
-nom du fichier Instrument commence obligatoirement par
-&quot;ViGAPhone-Instrument_MIDI&quot; et se termine par &quot;.tsv&quot;,
-il peut être modifié à l'aide d'un simple tableur bureautique
+nom du fichier Instrument porte le suffixe obligatoire
+&quot;.vigaphone.tsv&quot; qui permet de typer le fichier et de
+l'associer à l’application pour un lancement plus facile, son
+contenu peut être modifié à l'aide d'un simple tableur bureautique
 comme excel ou libreoffice en précisant à l'ouverture : le
 séparateur de champ = [tabulation], le séparateur de chaîne de
 caractères multi-lignes=[&quot;], le jeu de caractères UTF8. </font></font>
@@ -1052,18 +1053,12 @@ caractères multi-lignes=[&quot;], le jeu de caractères UTF8. </font></font>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
 
 </p>
-<p style="margin-bottom: 0cm"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Entre
-le préfixe et le suffixe du nom du fichier, l'utilisateur peut
-inscrire le nom qu'il veut pour identifier son instrument et sa
+<p style="margin-bottom: 0cm"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">L</span><span style="font-weight: normal">'utilisateur
+peut inscrire le nom qu'il veut pour identifier son instrument et sa
 version.</span><span style="font-weight: normal"> Il faut é</span>viter
 les noms de fichiers contenant des caractères accentués ou spéciaux
 pour rester compatible avec les systèmes d'exploitation et
 l'international.</font></font></p>
-<p style="margin-bottom: 0cm"><br/>
-
-</p>
-<p style="margin-bottom: 0cm"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">nom
-du fichier par défaut : ViGAPhone-Instrument_MIDI.tsv</font></font></p>
 <p style="margin-bottom: 0cm"><br/>
 
 </p>
