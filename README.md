@@ -58,6 +58,7 @@ It is already the world’s most advanced software combining sound synthesis and
 - Practice tuning safely without risk to real instruments
 - Analyze and replicate the characteristics of an acoustic piano, including inharmonicity
 - Define the tuning method in a few lines using a simple grammar that establishes relationships between notes that is the temperament
+- Tune the piano and any musical instrument either visually or by ear
 - Propose and test multiple tunings in real-time before applying them to the actual instrument
 - Use perfect unison with ViGAPhone’s output to tune real instruments quickly and precisely
 - Perform spectral analysis to detect unwanted resonances or harmonization issues
@@ -102,24 +103,24 @@ To use ViGAPhone, you must obtain a license from [https://vigaworld.com](https:/
 
 For licensing or support inquiries:
 
-- Website: [https://vigaworld.com](https://vigaworld.com)  
+- Website: [https://vigaworld.com](https://vigaworld.com)
 - Email: [contactnotcopythis@vigaworld.com]
 
 ----------------------------------------------------------------------------------------------------------------------
 
 <p id="vigaphone-fr"></p>
 
-# FR ViGAWorld - ViGAPhone : parce que la musique est un monde de partage ! 
+# FR ViGAWorld - ViGAPhone : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone** est un synthétiseur MIDI d'instruments de musique réaliste et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
 
 ## Manuel utilisateur
 [Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
 
-## 🎹  Tout sur le ViGAPhone: 
+## 🎹  Tout sur le ViGAPhone:
 - Un synthétiseur réaliste extraordinaire pour les musiciens interprètes et créatifs, un outil révolutionnaire et indispensable pour les accordeurs de pianos et autres.
 
-Je mets à votre disposition mon programme de synthèse réaliste: le ViGAPhone, pour ordinateur Linux ou Windows optionnellement accompagné d'un clavier MIDI. Il devrait intéresser un maximum de personnes car il est fait pour les musiciens, les accordeurs professionnels ou amateurs occasionnels. Si vous connaissez Pianoteq de Modartt ou Ivory de Synthogy ou Kontakt de Native-Instrument ou etc, vous connaissez déjà un peu le sujet de la synthèse par modèle physique ou par sampling. 
+Je mets à votre disposition mon programme de synthèse réaliste: le ViGAPhone, pour ordinateur Linux ou Windows optionnellement accompagné d'un clavier MIDI. Il devrait intéresser un maximum de personnes car il est fait pour les musiciens, les accordeurs professionnels ou amateurs occasionnels. Si vous connaissez Pianoteq de Modartt ou Ivory de Synthogy ou Kontakt de Native-Instrument ou etc, vous connaissez déjà un peu le sujet de la synthèse par modèle physique ou par sampling.
 
 ViGAPhone est basé sur la synthèse par modèle physique des instruments à cordes à percussion ou à vent, comme  Pianoteq, mais avec beaucoup plus de possibilités offertes à l'utilisateur. La première version a été développée autour de l'instrument Piano, mais elle possède déjà tout ce qu'il faut pour imiter d'autres instruments ou en créer de nouveaux.
 
@@ -140,6 +141,7 @@ Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore et l
 - former l'oreille à différentier les partiels et leurs rangs
 - s'entraîner à l'accordage sans risque pour l'instrument réel
 - définir la méthode d'accordage en quelques lignes grâce à une grammaire simple établissant les relations entre les notes appelée tempérament
+- accorder le piano et tout instrument de musique visuellement ou à l'oreille
 - reprendre les caractéristiques d'un piano acoustique, étudier ou chercher la meilleure façon d'accorder ce piano particulier avec son inharmonicité spécifique, proposer différents accordages instantanément et les tester en réel avec d'autres instruments avant de réaliser celui retenu par le musicien ; utiliser le résultat pour accorder rapidement et facilement l'instrument, simplement grâce à l'unisson parfait avec le son produit par le ViGAPhone
 - étudier l'analyse spectrale et la répartition des partiels pour trouver les vibrations parasites ou les défauts d'harmonisation
 
@@ -180,7 +182,7 @@ Pour utiliser ViGAPhone, vous devez obtenir une licence via [https://vigaworld.c
 
 For licensing or support inquiries:
 
-- Website: [https://vigaworld.com](https://vigaworld.com)  
+- Website: [https://vigaworld.com](https://vigaworld.com)
 - Email: [contactnotcopythis@vigaworld.com]
 
 
