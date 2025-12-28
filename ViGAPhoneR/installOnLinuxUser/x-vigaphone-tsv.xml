@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-vigaphone-tsv">
+    <comment>ViGAPhone Instrument TSV</comment>
+    <sub-class-of type="text/tab-separated-values"/>
+    <glob pattern="*.vigaphone.tsv" weight="60"/>
+    <icon name="application-x-vigaphone-tsv"/>
+    <generic-icon name="application-x-vigaphone-tsv"/>
+  </mime-type>
+</mime-info>
+

@@ -1,0 +1,14 @@
+InstrType	piano		
+Description	Tempérament égal, toutes les doubles octaves sont tempérées de LA en LA+2, pas de copie à l’unisson autre que pour le LA, modéré dans l’extrême aigu pour éviter la casse		
+Objectif			
+MIDInoteNum	règle accord	Note nom	note num
+1	N12P2P1		
+21	*		
+45	N12P2P1 T-24P1P4		
+46	*		
+69	T-24P1P4 T+24P4P1	La 3	49
+70	*		
+93	N-24P1P4 T+24P4P1		
+94	*		
+105	N-12P1P2 T+12P2P1		
+106	*		

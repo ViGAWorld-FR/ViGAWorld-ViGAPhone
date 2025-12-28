@@ -1,0 +1,13 @@
+InstrType	piano
+Description	Tempérament égal partout, unisson à l’octave pour les basses et médium à faible inharmonicité, ensuite les octaves sont tempérées de LA en LA, pas de copie à l’unisson autre que pour le LA
+Objectif	Maintenir la qualité des accords dans les aigus
+NoteNum@M20	règle accord
+-11	N12P2P1
+38	*
+49	T-12P1P2 T+12P2P1
+50	*
+61	N-12P1P2 T+12P2P1
+62	*
+73	N-12P1P2 T+12P2P1
+74	*
+85	N-12P1P2

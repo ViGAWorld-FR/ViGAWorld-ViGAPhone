@@ -1,0 +1,11 @@
+InstrType	piano		
+Description	tempérament égal, selon la méthode de Serge Cordier : partition tempérée de RE3 à LA3 en quinte juste, étendue en quinte juste, extrêmes aigus et graves à l’octave		
+Objectif			
+MIDInoteNum	règle accord	Note nom	note num
+1	N12P2P1		
+33	N7P3P2		
+62	N7P3P2	Ré 3	37
+63	*		
+69	T-7P2P3	La 3	49
+70	N-7P2P3	La# 3	50
+105	N-12P1P2	La 6	

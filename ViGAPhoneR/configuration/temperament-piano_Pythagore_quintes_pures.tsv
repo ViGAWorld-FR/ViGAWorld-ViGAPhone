@@ -1,0 +1,49 @@
+InstrType	piano		
+Description	Tempérament pythagoricien, quintes pures		
+Objectif			
+MIDInoteNum	règle accord	Note nom	note num
+	# définit les notes de références en passe 1		
+1	*		
+34	N7P3P2 D-7P2P3		
+35	*		
+41	N7P3P2 D-7P2P3		
+42	*		
+48	N7P3P2 D-7P2P3		
+49	*		
+55	N7P3P2 D-7P2P3		
+56	*		
+62	N7P3P2 D-7P2P3		
+63	*		
+69	D-7P2P3 D7P3P2	La 3	49
+70	*	La# 3	50
+76	N-7P2P3 D7P3P2		
+77	*		
+83	N-7P2P3 D7P3P2		
+84	*		
+90	N-7P2P3 D7P3P2		
+91	*		
+97	N-7P2P3 D7P3P2		
+98	*		
+57	# construire la partition en passe 2 et finir l’accord à l’octave		
+57	N12P2P1		
+58	N-24P1P4		
+59	N24P4P1		
+60	N-12P1P2		
+61	N36P8P1		
+63	N-36P1P8		
+64	N12P2P1		
+65	N-24P1P4		
+66	N24P4P1		
+67	N-12P1P2		
+68	N36P8P1		
+70	# étendre la partition en passe 2		
+70	N-12P1P2		
+77	N-12P1P2		
+84	N-12P1P2		
+91	N-12P1P2		
+98	N-12P1P2		
+56	N12P2P1		
+49	N12P2P1		
+42	N12P2P1		
+35	N12P2P1		
+1	N12P2P1		

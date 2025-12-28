@@ -1,0 +1,8 @@
+InstrType	piano
+Description	Tempérament égal, partition de LA2 à LA3, étendue à l’unisson par octave, prend en compte l’inharmonicité avec des octaves justes
+Objectif	accord classique
+NoteNum@M20	règle accord
+-19	N12P2P1
+38	*
+49	T-12P1P2
+50	N-12P1P2

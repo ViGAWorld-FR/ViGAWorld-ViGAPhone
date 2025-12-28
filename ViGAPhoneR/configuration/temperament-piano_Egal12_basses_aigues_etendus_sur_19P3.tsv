@@ -1,0 +1,9 @@
+InstrType	piano		
+Description	prend en compte l’inharmonicité en étirant les basses et les aigues selon le partiel 3 et l’unisson à note+19		
+Objectif	Maintenir la qualité des accords en étirant légèrement les aigus		
+MIDInoteNum	règle accord	Note nom	note num
+9	N19P3P1		
+57	*		
+69	T-12P1P2 T+12P2P1	La 3	49
+70	*		
+81	N-19P1P3		
