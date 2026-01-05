@@ -1,3 +1,13 @@
+0.9.3 corrections:
+- sauvegarde incrémentielle du fichier Instrument ajout de l'option d'écrasement ou de nouveau nom de fichier
+- fait le silence avant la capture du timbre
+linux :
+- procédure d'installation
+- exécutable cherche la libjack de pipewire-jack cachée sous Ubuntu 25.10 et Debian
+- serveur son jack, bascule sur alsa si le serveur jack est installé mais pas lancé
+windows:
+- procédure d'installation
+
 0.9.2 corrections windows:
 - le type de fichier associé au ViGAPhone est limité à .tsv au lieu de .vigaphone.tsv
 - gestion des flèches du clavier pour changer de note
