@@ -1,0 +1,2953 @@
+# French translations for ViGAPhone package.
+# Copyright (C) 2026 THE ViGAPhone'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ViGAPhone package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ViGAPhone\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-09 18:43+0100\n"
+"PO-Revision-Date: 2026-01-06 22:31+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: accordeur.cpp:156
+msgid ""
+"Choisir une forme d'onde :\n"
+"0 abandonne\n"
+"1 sinusoïde\n"
+"2 triangle\n"
+"3 carré\n"
+"4 dent de scie\n"
+"5 sinusoïde avec 3 harmoniques, pente à -6dB\n"
+"6 sinusoïde avec 10 harmoniques, pente à -6dB\n"
+"7 triangle avec 3 harmoniques, pente à -6dB\n"
+"8 Onde définie pour l'Instrument\n"
+"9 la sinusoide du Chef \n"
+"?"
+msgstr ""
+
+#: accordeur.cpp:173
+msgid "Erreur, choix hors limites"
+msgstr ""
+
+#: accordeur.cpp:177
+msgid "==> ERREUR : L'Instrument n'a pas d'onde définie dans son paramètrage."
+msgstr ""
+
+#: accordeur.cpp:418
+msgid ""
+"\n"
+"Conseil : \n"
+"1) choisir la note à accorder à l'aide des touches pmPM, s pour une sélection automatique \n"
+"2) accorder la note à l'unisson 1 corde à la fois, soit à l'oreille en la jouant avec la touche ' ',\n"
+" soit avec les fréquences indiquées et le comparateur d'unisson fréquentiel \n"
+"3) utiliser la vue graphique pour une visualisation plus précise \n"
+"Pour plus d'information sur la technique d'accordage lire la documentation technique "
+msgstr ""
+
+#: accordeur.cpp:428
+msgid "Touche de commande h : liste des notes et partiels en résonance avec la note courante "
+msgstr ""
+
+#. puts("==============================================================");
+#. ligne Note...
+#. printf("Note <%-9s %7.2fHz P2=%7.2fHz P3=%6.1fHz> \nFréq détectée : %7.2fHz %c Unisson : "
+#. , pNote->NoteNom.c_str(), p1, p2, p3, Orchestra->periphSonEtMIDI.freqAmplFFT[0].first, spinner);
+#: accordeur.cpp:460
+msgid "Note "
+msgstr ""
+
+#: accordeur.cpp:493
+#, c-format
+msgid "Fréq détectée : \t   %7.2fHz %c \tUnisson : "
+msgstr ""
+
+#: accordeur.cpp:521
+msgid "signal bruité!"
+msgstr ""
+
+#: accordeur.cpp:540
+msgid "Mesures :       \t"
+msgstr ""
+
+#. puts("\n\n\nConseil : régler le niveau d'enregistrement du microphone pour que le son joué le plus fort soit proche du 0dB, puis éventuellement régler la variable AccordNivBruit dans la vue du spectrogramme pour que le niveau 'max' du bruit de silence soit juste inférieur à AccordNivBruit soit normalement inférieur à -50dB dans de bonnes conditions environnementales.");
+#: accordeur.cpp:660
+msgid ""
+"\n"
+"Conseil : \n"
+"1) régler le niveau d'enregistrement du microphone pour que le son joué le plus fort soit proche du 0dB, \n"
+"2) faire le silence et régler la variable AccordNivBruit à l'aide des touches pmPM pour que le niveau 'max'\n"
+" du bruit du silence soit juste inférieur à AccordNivBruit, normalement inférieur à -50dB\n"
+" dans de bonnes conditions environnementales."
+msgstr ""
+
+#. */
+#. for (auto it = amplitudes.begin();it++) printf();
+#. for (auto it = 0; it < nbNotes;it++) printf("%2d %5.1fdB\n", it, amplitudes[it]);
+#. printf("minFreqLog %f, maxFreqLog %f nbNotes %d ",minFreqLog, maxFreqLog, nbNotes);
+#. printf(" max%5.fdB moyen%5.fdB AccordNivBruit%5.fdB     "
+#. , linToDB(Orchestra->periphSonEtMIDI.captureNiveauMax)
+#. , linToDB(Orchestra->periphSonEtMIDI.captureNiveauMoyen)
+#. , linToDB(Orchestra->pFicGeneral->AccordNivBruit));
+#.
+#. dbg printf("minFreq %.f, maxFreq %.f nbNotes %d AccordNivBruit%5.fdB ;",minFreq, maxFreq);
+#: accordeur.cpp:759
+#, c-format
+msgid "Spectre de %d notes "
+msgstr ""
+
+#: accordeur.cpp:762
+#, c-format
+msgid "au diapason %s %5.1fHz "
+msgstr ""
+
+#. printf("au diapason %s (%d) %5.1fHz note %d/M%d ", *diapasonNoteNom, diapason,pNote->NoteNum, diapasonNoteNom, diapasonNoteNum);
+#. (freq && Orchestra->periphSonEtMIDI.freqAmplFFTnbPeaks>100)?"bruit!":"";
+#. std::isnan(ampli2))
+#: accordeur.cpp:766
+msgid "pas de son?"
+msgstr ""
+
+#: accordeur.cpp:771
+msgid "capture gelée "
+msgstr ""
+
+#: accordeur.cpp:775
+msgid "(sélect. auto) "
+msgstr ""
+
+#: accordeur.cpp:777
+#, c-format
+msgid "Note identifiée : %s %c[K"
+msgstr ""
+
+#: accordeur.cpp:782
+#, c-format
+msgid "Paramètre AccordNivBruit%5.fdB ;"
+msgstr ""
+
+#: accordeur.cpp:783
+#, c-format
+msgid " niveaux sonores : max%5.fdB moyen%5.fdB     "
+msgstr ""
+
+#. puts("\n\n\nConseil : régler le niveau d'enregistrement du microphone pour que le son joué le plus fort soit proche du 0dB, puis éventuellement régler la variable AccordNivBruit dans la vue du spectrogramme pour que le niveau 'max' du bruit de silence soit juste inférieur à AccordNivBruit soit normalement inférieur à -50dB dans de bonnes conditions environnementales.");
+#: accordeur.cpp:830
+msgid ""
+"\n"
+"Conseil : Edition de l'inharmonicité, touches de contrôle :\n"
+"  mMpP : change la valeur \n"
+"  + -  : agrandit réduit le maximum affiché \n"
+"  [flèches] : change la note courante\n"
+"  B    : bascule sur la vue d'édition des partiels\n"
+msgstr ""
+
+#. - if (!pNote->bNoteCaptureeSauvegarde)
+#: accordeur.cpp:838 accordeur.cpp:977
+msgid "  c    : capture le timbre de la note (le microphone et AccordNivBruit doivent avoir été réglés)\n"
+msgstr ""
+
+#. auto & k=Orchestra->noteCaptureeSauvegarde.MIDINoteNum;
+#. -			auto & k=Orchestra->noteCaptureeSauvegarde.MIDINoteNum;
+#: accordeur.cpp:844 accordeur.cpp:983
+msgid ""
+"  A    : abandonne la capture et restaure le timbre de la note \n"
+"  v n  : valide la capture, n: valide et lance la capture de la note suivante\n"
+msgstr ""
+
+#: accordeur.cpp:931
+#, c-format
+msgid "Spectre d'inharmonicité en Cents (100ièmes de 1/2 ton) de %d notes "
+msgstr ""
+
+#: accordeur.cpp:934
+#, c-format
+msgid "au diapason %5.1fHz note %s     "
+msgstr ""
+
+#. Cents : dérive de la fréquence à l'octave
+#: accordeur.cpp:942
+#, c-format
+msgid "Note %s fréquence %.1fHz taux d'inharmonicité %.6f Cents %.2f"
+msgstr ""
+
+#: accordeur.cpp:943
+#, c-format
+msgid " mesuré à %.1fHz"
+msgstr ""
+
+#: accordeur.cpp:946
+#, c-format
+msgid "Fréquence du dernier partiel(#%d) %.1fHz soit %.1f fois la fréquence de base (limitée à %dHz)       "
+msgstr ""
+
+#: accordeur.cpp:969
+msgid ""
+"\n"
+"Conseil : Edition des partiels touches de contrôle:\n"
+"  mMpP : change la valeur,    jk   : change de partiel\n"
+"  + -  : ajoute supprime le dernier partiel\n"
+"  [flèches] : change la note courante\n"
+"  B    : bascule sur la vue d'édition de l'inharmonicité\n"
+msgstr ""
+
+#. , seffaceur.c_str());
+#: accordeur.cpp:1054
+#, c-format
+msgid "Spectre des %d partiels "
+msgstr ""
+
+#: accordeur.cpp:1057
+#, c-format
+msgid "Note %s partiel %d fréquence %.1fHz amplitude %.1fdB          \n"
+msgstr ""
+
+#. printf("Inharmonicité %.6 ; note précédente %.6f ; note suivante %.6f        \n", pNote->Inharmonicite);
+#: accordeur.cpp:1061
+#, c-format
+msgid "Inharmonicité %.6f         "
+msgstr ""
+
+#: accordeur.cpp:1306
+#, c-format
+msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s> Note relative#%d\n"
+msgstr ""
+
+#: accordeur.cpp:1359
+#, c-format
+msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s>\n"
+msgstr ""
+
+#. si rc, on fait le 2eme passage pour afficher les erreurs
+#: accordeur.cpp:1377
+msgid "second passage\n"
+msgstr ""
+
+#: accordeur.cpp:1401
+msgid "Erreur, il n'y a pas eu de calcul d'accordage\n"
+msgstr ""
+
+#: accordeur.cpp:1421
+msgid "MIDI#\tnote nom\trègle d'accord\tfréquences des partiels 1 à 4\n"
+msgstr ""
+
+#: accordeur.cpp:1465
+msgid "==>Erreur: accordage impossible, le diapason de l'Instrument n'est pas défini correctement\n"
+msgstr ""
+
+#: accordeur.cpp:1482
+msgid "==> Erreur: accordage en échec\n"
+msgstr ""
+
+#: accordeur.cpp:1494
+#, c-format
+msgid "==>Erreur d'accordage, la note %s n'a pas été accordée, vérifier les règles d'accord\n"
+msgstr ""
+
+#. aficher la liste des fichiers candidats et demander de choisir parmi
+#: accordeur.cpp:1605
+msgid "Choisir un fichier Tempérament contenant les règles d'accordage:"
+msgstr ""
+
+#: accordeur.cpp:1606 midi.cpp:284 midi.cpp:356
+msgid "  0 : abandonne, [ENTREE] rafraîchit la liste\n"
+msgstr ""
+
+#: accordeur.cpp:1619 accordeur.cpp:1797 cmdclav.cpp:1356 ficinstru.cpp:1561
+msgid "choix invalide"
+msgstr ""
+
+#: accordeur.cpp:1629
+#, c-format
+msgid "Erreur, impossible d'ouvrir le fichier <%s>\n"
+msgstr ""
+
+#: accordeur.cpp:1747
+#, c-format
+msgid "==> Erreur de lecture du fichier ou mauvaise syntaxe %s \n"
+msgstr ""
+
+#: accordeur.cpp:1777
+msgid "Choisir une action:"
+msgstr ""
+
+#. Accordage préparé, c
+#: accordeur.cpp:1778
+msgid ""
+"  0 : abandonne\n"
+"  r : affiche le résultat de l'accordage\n"
+"  c : choisis un nouveau jeu de règles d'accordage\n"
+"  v : valide l'accordage et l'applique à l'Instrument\n"
+"?"
+msgstr ""
+
+#: accordeur.cpp:1794
+msgid "Nouvel accordage effectué\n"
+msgstr ""
+
+#. printf("Note %s freq %7.1fHz non trouvée, recherche en spectre large, la note est à contrôler "
+#: accordeur.cpp:1850
+#, c-format
+msgid "Note %s fréquence %7.1fHz non trouvée "
+msgstr ""
+
+#. if (!Orchestra->OAI_debug) pnl();
+#: accordeur.cpp:1873
+#, c-format
+msgid ""
+"\n"
+"Note %s mauvaise fréquence du partiel 1, fréquence cherchée %.2fHz non trouvée,\n"
+" vérifier la fréquence estimée et régler l'amplitude du partiel 1\n"
+msgstr ""
+
+#: accordeur.cpp:1879
+#, c-format
+msgid "Note %s fréquence trouvée %7.1fHz nb partiels %3d taux d'inharmonicité "
+msgstr ""
+
+#: accordeur.cpp:1886
+msgid "======0"
+msgstr ""
+
+#: accordeur.cpp:1887
+msgid ", mauvaise qualité !"
+msgstr ""
+
+#. il faut bloquer la note et faire un init avec le changement des partiels
+#: accordeur.cpp:1902 accordeur.cpp:1953
+msgid "==> Erreur, la note est active et ne peut être restructurée."
+msgstr ""
+
+#: accordeur.cpp:1930
+#, c-format
+msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
+msgstr ""
+
+#. bool bViGAPhoneWAV;// vrai si c'est une sauvegarde
+#. FloatTableau_t y_abs; y_abs.resize(WAVsize);
+#: accordeur.cpp:2087
+msgid "Nb échantillons="
+msgstr ""
+
+#: accordeur.cpp:2088
+msgid " ; taux="
+msgstr ""
+
+#: accordeur.cpp:2088
+msgid "/s ; durée="
+msgstr ""
+
+#. bViGAPhoneWAV = 1;
+#. <= 120dB
+#. <= 60dB
+#: accordeur.cpp:2104
+msgid "Fichier WAV avec silence absolu, sauvegarde ViGAPhone\n"
+msgstr ""
+
+#. 0.1s
+#: accordeur.cpp:2118
+msgid "Recherche des notes :"
+msgstr ""
+
+#. notesDebFinTemps.emplace_back(start_time, end_time);
+#: accordeur.cpp:2216
+#, c-format
+msgid "%3d  Note trouvée de %s à %s durée=%.1f sec"
+msgstr ""
+
+#: accordeur.cpp:2217
+#, c-format
+msgid ", son saturé jusqu'à %s "
+msgstr ""
+
+#: accordeur.cpp:2235
+msgid "Note rejetée de "
+msgstr ""
+
+#: accordeur.cpp:2236 graphique.cpp:416
+msgid " à "
+msgstr ""
+
+#: accordeur.cpp:2237
+msgid " secondes durée="
+msgstr ""
+
+#: accordeur.cpp:2251
+msgid "Nombre de notes trouvées : "
+msgstr ""
+
+#: accordeur.cpp:2252
+#, c-format
+msgid ", %d avec du son saturé"
+msgstr ""
+
+#. std::cout << "0 : abandonne \n";
+#. pnl();
+#: accordeur.cpp:2263
+msgid "Entrer le nom du fichier au format WAV mono float et contenant une série de notes jouées séparées par un silence \n"
+msgstr ""
+
+#: accordeur.cpp:2264
+#, c-format
+msgid "- La note courante=%s détermine la première note de la série enregistrée dans le fichier \n"
+msgstr ""
+
+#: accordeur.cpp:2265
+#, c-format
+msgid "- Le paramètre général AccordNivBruit=%.1fdB détermine le niveau de silence séparant les notes, si le nombre de notes trouvées n'est pas bon c'est que le son est trop bruité et il faut augmenter ce niveau, il est aussi possible avec Audacity de séparer les notes par des 'blancs' \n"
+msgstr ""
+
+#: accordeur.cpp:2267
+msgid "- activer le mode débogage pour avoir le détail de l'analyse"
+msgstr ""
+
+#: accordeur.cpp:2275
+msgid "Lecture du fichier..."
+msgstr ""
+
+#: accordeur.cpp:2276
+msgid "Abandon de la commande"
+msgstr ""
+
+#: accordeur.cpp:2277
+msgid "Fichier chargé en mémoire, analyse..."
+msgstr ""
+
+#. printf("\n==> ERREUR: le nombre de notes à charger à partir de la note courante en première position ne correspond pas au clavier de l'Instrument\nIl est possible de limiter le nombre de notes à capturer avec l'option : 1+%d\n", instrument->keyMax-Orchestra->keyLast);
+#: accordeur.cpp:2292
+#, c-format
+msgid ""
+"\n"
+"==> ATTENTION: le nombre de notes à charger à partir de la note courante en première position ne correspond pas au clavier de l'Instrument\n"
+"Il est possible de limiter le nombre de notes à capturer avec l'option : 1+%d\n"
+msgstr ""
+
+#. dbg printf("notesDebFinIndexs.size() %lu Orchestra->instrument->keyMax %d -Orchestra->instrument->keyMin %d =%d\n",notesDebFinIndexs.size(),Orchestra->instrument->keyMax ,Orchestra->instrument->keyMin, Orchestra->instrument->keyMax -Orchestra->instrument->keyMin);
+#: accordeur.cpp:2297
+msgid "Si le nombre de notes trouvées est inférieur au nombre attendu, augmenter le paramètre AccordNivBruit qui sépare les notes."
+msgstr ""
+
+#: accordeur.cpp:2299
+msgid "- option:W=charge seulement le WAV et la fréquence de chaque note, les autres paramètres devront être modifiés manuellement"
+msgstr ""
+
+#: accordeur.cpp:2300
+msgid "- option:numéro de la note à capturer en premier et à charger dans la note courante(<numéro[+<nombre>]),la fréquence doit correspondre"
+msgstr ""
+
+#. puts("- Choisir des notes à capturer en donnant leurs numéros séparés par des espaces");
+#: accordeur.cpp:2302
+msgid "Appuyer sur ENTREE pour continuer l'analyse du timbre, 'a' pour abandonner"
+msgstr ""
+
+#: accordeur.cpp:2303
+#, c-format
+msgid "Les %d notes seront chargées à partir de la note : %s ?"
+msgstr ""
+
+#: accordeur.cpp:2317
+msgid ""
+"==> ATTENTION: le nombre de notes à charger à partir de la note courante dépasse la limite de l'Instrument\n"
+"Abandon de la commande"
+msgstr ""
+
+#. analyse fft des notes
+#: accordeur.cpp:2324
+msgid "Capture du timbre de chaque note trouvée..."
+msgstr ""
+
+#: accordeur.cpp:2362
+#, c-format
+msgid "Analyse de la note %3d=%s %7.1fHz "
+msgstr ""
+
+#: accordeur.cpp:2396
+#, c-format
+msgid "Fin de l'analyse: %d notes chargées"
+msgstr ""
+
+#: accordeur.cpp:2397
+#, c-format
+msgid " dont %d de mauvaise qualité à vérifier"
+msgstr ""
+
+#: accordeur.cpp:2400
+msgid "En cas d'échec:"
+msgstr ""
+
+#: accordeur.cpp:2401
+msgid "- activer le mode débogage et recommencer l'analyse pour avoir plus d'informations"
+msgstr ""
+
+#: accordeur.cpp:2403
+msgid ""
+"- modifier la fréquence de la note si trop éloignée de la réalité ou si capture d'une fréquence parasite, \n"
+"- vérifier le spectre capturé de la note fautive,\n"
+"- vérifier les paramètres comme la note courante qui doit correspondre à la première note dans le fichier WAV"
+msgstr ""
+
+#: accordeur.cpp:2410
+msgid "Les fréquences théoriques des notes ont été modifiées selon les valeurs réelles."
+msgstr ""
+
+#: accordeur.cpp:2411
+msgid "Il faut harmoniser l'Instrument et le sauvegarder dans un nouveau fichier Instrument:"
+msgstr ""
+
+#: accordeur.cpp:2412
+msgid "- ajuster le taux d'inharmonicité et réguler sa progression"
+msgstr ""
+
+#: accordeur.cpp:2413
+msgid "- supprimer les derniers partiels non significatifs et éventuellement ajuster les amplitudes"
+msgstr ""
+
+#: accordeur.cpp:2414
+msgid "- accorder l'Instrument."
+msgstr ""
+
+#. pour gommer les défauts d'origine
+#. printf("Il faut éditer l'inharmonicité pour corriger les éventuels défauts de mesures et harmoniser la progression du taux.\n");
+#. printf("Il faut éditer les partiels pour supprimer ceux qui ne sont pas significatifs et harmoniser la progression du nombre.\n");
+#. =nb notes, affichage sur 80 colonnes
+#: accordeur.cpp:2419
+#, c-format
+msgid "==> ATTENTION, le nombre de notes trouvées=%d est différent du nombre de notes de l'Instrument=%d \n"
+msgstr ""
+
+#: accordeur.cpp:2421
+msgid "L'Instrument est près à être joué, il faut l'accorder"
+msgstr ""
+
+#: accordeur.cpp:2445
+#, c-format
+msgid ""
+"\n"
+"Note %s frequence %.1fHz: liste des %d couples (fréquence, amplitude) capturés\n"
+msgstr ""
+
+#. if (i++<4000)
+#. std::cout << "Fréquence : " << f << " Hz, Amplitude : " << db << " dB "<<" freq/freqP1 "<< printFloat(f/freqP1,3)<<"\n";
+#. printf("Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f inharmonicité>=%.6f \n",f, db, f/freqP1, inha2);
+#: accordeur.cpp:2459
+#, c-format
+msgid "Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f \n"
+msgstr ""
+
+#. if (Orchestra->OAI_debug)
+#: accordeur.cpp:2478
+msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
+msgstr ""
+
+#: accordeur.cpp:2480
+msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
+msgstr ""
+
+#: audioLinux.cpp:65
+#, c-format
+msgid "==> ERREUR : JACK perte de %d événements MIDI taille buffer %d dépassée \n"
+msgstr ""
+
+#: audioLinux.cpp:353
+msgid "==> Aucun port d'entrée jack AUDIO trouvé.\n"
+msgstr ""
+
+#. Afficher les ports trouvés
+#: audioLinux.cpp:357
+msgid "- Liste des clients JACK fournissant une entrée AUDIO :\n"
+msgstr ""
+
+#: audioLinux.cpp:392
+#, c-format
+msgid "JACK <%s> est déconnecté\n"
+msgstr ""
+
+#: audioLinux.cpp:480
+msgid "JACK le périphérique est déjà connecté via ALSA, abandon de la connexion automatique JACK\n"
+msgstr ""
+
+#: audioLinux.cpp:484
+msgid "JACK le port est déjà connecté\n"
+msgstr ""
+
+#: audioLinux.cpp:504 audioLinux.cpp:645
+#, c-format
+msgid "==> Echec de connexion JACK MIDI-IN de <%s> à <%s> \n"
+msgstr ""
+
+#: audioLinux.cpp:508 audioLinux.cpp:650
+#, c-format
+msgid "Connexion réussie JACK MIDI-IN à <%s> \n"
+msgstr ""
+
+#: audioLinux.cpp:522
+msgid "==> Aucun port de sortie jack MIDI trouvé.\n"
+msgstr ""
+
+#. Afficher les ports trouvés
+#: audioLinux.cpp:526
+msgid "- Liste des clients JACK fournissant une sortie MIDI :\n"
+msgstr ""
+
+#: audioLinux.cpp:571
+msgid "Erreur : Aucun port trouvé"
+msgstr ""
+
+#: audioLinux.cpp:634
+#, c-format
+msgid "JACK nouveau port MIDI OUT : %s \n"
+msgstr ""
+
+#: audioLinux.cpp:720
+msgid ""
+"==>ERREUR ALSA : échec de l'ouverture du périphérique de capture \n"
+" "
+msgstr ""
+
+#.
+#. printf("\n");
+#. printf("Indiquer le port MIDI désiré au format cc:pp parmi la liste des ports MIDI compatibles, premier par défaut:");
+#. printf("\n");
+#.
+#. si pas de nom de serveur midi
+#: audioLinux.cpp:747
+msgid "- Liste des clients ALSA fournissant une sortie MIDI :\n"
+msgstr ""
+
+#: audioLinux.cpp:842
+#, c-format
+msgid "ALSA <%s> est déconnecté\n"
+msgstr ""
+
+#: audioLinux.cpp:967
+msgid "ALSA le périphérique est déjà connecté via JACK, abandon de la connexion automatique ALSA\n"
+msgstr ""
+
+#: audioLinux.cpp:972
+msgid "ALSA le port est déjà connecté\n"
+msgstr ""
+
+#. printfml2("==> Echec de connexion ALSA MIDI-IN de <%s> à <%s> \n", str.c_str(), clientnom.c_str());
+#: audioLinux.cpp:987
+#, c-format
+msgid "==> Echec de connexion ALSA MIDI-IN à <%s> \n"
+msgstr ""
+
+#: audioLinux.cpp:989 audioLinux.cpp:2156
+msgid "Connexion réussie ALSA MIDI à <"
+msgstr ""
+
+#: audioLinux.cpp:1011
+#, c-format
+msgid "ALSA nouveau port MIDI OUT : %s \n"
+msgstr ""
+
+#: audioLinux.cpp:1333
+msgid "==> ALSA:connexion extérieure du client MIDI : "
+msgstr ""
+
+#: audioLinux.cpp:1354
+#, c-format
+msgid "==> ALSA: déconnexion du client MIDI '%s' \n"
+msgstr ""
+
+#: audioLinux.cpp:1361
+msgid "ALSA: branchement d'un périphérique MIDI \n"
+msgstr ""
+
+#: audioLinux.cpp:1591
+msgid "Client ALSA MIDI arrêté"
+msgstr ""
+
+#: audioLinux.cpp:1602
+msgid "Client ALSA AUDIO arrêté"
+msgstr ""
+
+#: audioLinux.cpp:1612
+msgid "Client JACK MIDI arrêté"
+msgstr ""
+
+#: audioLinux.cpp:1621
+msgid "Client JACK PCM arrêté"
+msgstr ""
+
+#: audioLinux.cpp:1657
+msgid "Erreur efd\n"
+msgstr ""
+
+#. Au lieu de Segfault, on informe l'utilisateur proprement
+#: audioLinux.cpp:1674
+msgid "==> Erreur : Le serveur JACK est introuvable ou n'est pas lancé, bascule sur ALSA."
+msgstr ""
+
+#: audioLinux.cpp:1684
+#, c-format
+msgid "Nouvelle instance de l'application <%s>, connexion MIDI automatique désactivée\n"
+msgstr ""
+
+#: audioLinux.cpp:1729
+msgid "==> Impossible de créer le port de sortie gauche\n"
+msgstr ""
+
+#: audioLinux.cpp:1738
+msgid "==> Impossible de créer le port de sortie droit\n"
+msgstr ""
+
+#. Les politiques SCHED_FIFO et SCHED_RR concernent la planification en temps réel, où la priorité peut être définie de manière explicite.
+#. std::cout << "Failed to set pEnginePCMThread priority: " << strerror(errno) << std::endl;
+#: audioLinux.cpp:1765
+#, c-format
+msgid "Failed to set Engine-jack-PCM thread priority: %s \n"
+msgstr ""
+
+#. nbp,
+#: audioLinux.cpp:1780
+#, c-format
+msgid "- Connexion JACK AUDIO PCM-OUT stéréo par défaut de <%s[L|R]> :\n"
+msgstr ""
+
+#: audioLinux.cpp:1792
+msgid "==> Aucun port d'entrée jack AUDIO PCM stéréo trouvé pour jouer le son.\n"
+msgstr ""
+
+#: audioLinux.cpp:1807 audioLinux.cpp:1833
+#, c-format
+msgid "==> Echec de connexion JACK AUDIO Left de <%s> à <%s> \n"
+msgstr ""
+
+#: audioLinux.cpp:1812 audioLinux.cpp:1837
+#, c-format
+msgid "Connexion réussie JACK AUDIO Left à <%s> \n"
+msgstr ""
+
+#: audioLinux.cpp:1817 audioLinux.cpp:1842
+#, c-format
+msgid "==> Echec de connexion JACK AUDIO Right de <%s> à <%s> \n"
+msgstr ""
+
+#. if (b) printfml2("==> Echec de connexion de JACK AUDIO PCM stéréo, faire la connexion manuelle avec qpwgraph ou préciser les ports en paramètre de l'application \n");
+#: audioLinux.cpp:1822 audioLinux.cpp:1846
+#, c-format
+msgid "Connexion réussie JACK AUDIO Right à <%s> \n"
+msgstr ""
+
+#: audioLinux.cpp:1850
+msgid ""
+"==> Echec de connexion de JACK AUDIO PCM stéréo, faire la connexion manuelle ou \n"
+" préciser les ports en paramètres de lancement de l'application en fonction de la liste suivante des ports actifs... \n"
+msgstr ""
+
+#. forcer à passer sur ALSA
+#: audioLinux.cpp:1853
+msgid "==> Client Audio PCM basculé sur ALSA, JACK PCM est supprimé\n"
+msgstr ""
+
+#: audioLinux.cpp:1866
+msgid "Client JACK AUDIO arrêté"
+msgstr ""
+
+#: audioLinux.cpp:1870
+msgid "--- Client JACK PCM-OUT démarré et actif..."
+msgstr ""
+
+#: audioLinux.cpp:1887
+#, c-format
+msgid "==> Cannot open ALSA PCM device: %s \n"
+msgstr ""
+
+#: audioLinux.cpp:1924
+#, c-format
+msgid "==> Attention : sample rate %d impossible le plus proche est %d \n"
+msgstr ""
+
+#. printfml2("==> ALSA Erreur snd_pcm_hw_params_set_period_size_near : TailleTamponAudio %d impossible le plus proche est %d \n",Orchestra->periphSonEtMIDI.serveurAudioTampon, xxx);
+#: audioLinux.cpp:1946
+#, c-format
+msgid "==> ALSA Erreur taille periode %d impossible, le plus proche est %d \n"
+msgstr ""
+
+#: audioLinux.cpp:1957
+#, c-format
+msgid "==> ALSA Erreur buffer taille du Tampon=%d impossible, le plus proche est %d \n"
+msgstr ""
+
+#. - mis dans le thread
+#. // * Prepare the PCM device for playback * /
+#. err = snd_pcm_prepare((snd_pcm_t *)Orchestra->periphSonEtMIDI.alsaPCMHandle);
+#. if (err < 0) {
+#. fprintf(stderr, "==> Cannot prepare PCM device: %s\n", snd_strerror(err));
+#. break;
+#. }
+#.
+#: audioLinux.cpp:1983
+msgid "--- Client ALSA PCM-OUT démarré et actif..."
+msgstr ""
+
+#: audioLinux.cpp:1999
+#, c-format
+msgid "Failed to set alsaPCM thread priority: %s \n"
+msgstr ""
+
+#. Au lieu de Segfault, on informe l'utilisateur proprement
+#: audioLinux.cpp:2022
+msgid "==> Erreur : Le serveur JACK MIDI est introuvable ou n'est pas lancé."
+msgstr ""
+
+#: audioLinux.cpp:2032
+#, c-format
+msgid "Nouvelle instance <%s>, connexion MIDI automatique désactivée\n"
+msgstr ""
+
+#: audioLinux.cpp:2045
+msgid "--- Client JACK MIDI-IN démarré et actif..."
+msgstr ""
+
+#: audioLinux.cpp:2062 audioLinux.cpp:2133
+msgid "Faire la connexion manuelle ou préciser les ports en paramètres de lancement de l'application en fonction de la liste suivante des ports actifs..."
+msgstr ""
+
+#: audioLinux.cpp:2078
+msgid "==> Impossible d'activer le client JACK\n"
+msgstr ""
+
+#. Ouvrir le séquenceur ALSA
+#. SND_SEQ_OPEN_DUPLEX me permet d'écrire dans le séquenceur pour m'envoyer l'evt d'arrêt de l'application
+#. SND_SEQ_OPEN_INPUT
+#: audioLinux.cpp:2098
+msgid "==> Erreur lors de l'ouverture du séquenceur ALSA.\n"
+msgstr ""
+
+#: audioLinux.cpp:2112
+msgid "==> Erreur lors de la création du port d'entrée MIDI ALSA.\n"
+msgstr ""
+
+#. s'abonner aux évt de branchement de périph pour s'y connecter
+#. snd_seq_set_client_event_filter((snd_seq_t *)Orchestra->periphSonEtMIDI.alsaSeq_handle, SND_SEQ_EVENT_PORT_START);
+#. snd_seq_set_client_event_filter((snd_seq_t *)Orchestra->periphSonEtMIDI.alsaSeq_handle, SND_SEQ_EVENT_CLIENT_START);
+#. bloquant pour l'application lancée
+#: audioLinux.cpp:2126
+msgid "--- Client ALSA MIDI-IN démarré et actif..."
+msgstr ""
+
+#: audioLinux.cpp:2132
+#, c-format
+msgid "==> Echec de connexion ALSA MIDI, port MIDI <%s> non trouvé\n"
+msgstr ""
+
+#. Connecter le port d'entrée à la source MIDI
+#. printf("Connexion ALSA MIDI à <%s> port client:port = %03d:%02d \n", Orchestra->periphSonEtMIDI.AlsaMIDIOut, clientMIDI, canalMIDI);
+#. dbg printf(" Orchestra->periphSonEtMIDI.alsaSeq_handle %ld, port_in_id %ld\n", (long)Orchestra->periphSonEtMIDI.alsaSeq_handle, (long)port_in_id);
+#. Utilisation de client 14 et port 0 = MIDI Through
+#: audioLinux.cpp:2151
+msgid "==> Erreur lors de la connexion au port MIDI.\n"
+msgstr ""
+
+#: audioLinux.cpp:2177 audioWin.cpp:661
+msgid "--- En attente des événements MIDI..."
+msgstr ""
+
+#: audioLinux.cpp:2180
+msgid "==> Attention:aucun client MIDI connecté\n"
+msgstr ""
+
+#: audioLinux.cpp:2198
+msgid "Erreur ouverture sortie son 'default' "
+msgstr ""
+
+#: audioLinux.cpp:2210
+msgid "Erreur ouverture entrée: "
+msgstr ""
+
+#: audioLinux.cpp:2212
+msgid ""
+"Appuyer sur [ENTREE] pour lancer la mesure ou corriger la connexion ALSA manuellement avec qpwgraph\n"
+"?"
+msgstr ""
+
+#. snd_pcm_writei(playback_handle, buffer, sizeof(buffer));
+#: audioLinux.cpp:2225
+msgid "Envoi d'une impulsion et attente de son retour...\n"
+msgstr ""
+
+#: audioLinux.cpp:2232
+msgid "Erreur lecture entrée: "
+msgstr ""
+
+#. std::cout << "Latence estimée: " << latency.count() << " microsecondes" << std::endl;
+#. , dont latence de mesure = %.3f millisecondes
+#: audioLinux.cpp:2246
+#, c-format
+msgid "Latence sortie son + chaîne système = %.3f millisecondes\n"
+msgstr ""
+
+#: audioLinux.cpp:2250
+msgid "Latence non mesurée\n"
+msgstr ""
+
+#: audioLinux.cpp:2256
+msgid "Mesure de la latence audio + chaîne système..."
+msgstr ""
+
+#: audioLinux.cpp:2257
+msgid ""
+"Pour mesurer la latence physique, préciser le nom du port d'enregistrement au lancement de l'application\n"
+" et mettre un câble pour boucler la sortie audio avec l'entrée audio."
+msgstr ""
+
+#: audioLinux.cpp:2262
+msgid "==> Erreur : Le serveur JACK est introuvable ou n'est pas lancé."
+msgstr ""
+
+#: audioLinux.cpp:2268
+msgid "Impossible d'enregistrer le port JACK."
+msgstr ""
+
+#: audioLinux.cpp:2277
+msgid "Échec de l'activation du client JACK."
+msgstr ""
+
+#: audioLinux.cpp:2296
+#, c-format
+msgid "Attention, il y a plusieurs ports JACK *:monitor_FL, le retenu est : <%s>\n"
+msgstr ""
+
+#: audioLinux.cpp:2300
+msgid "Impossible de connecter le port d'écoute avec '"
+msgstr ""
+
+#. dbg std::cout << " Erreur:"<<strerror(err)<<"\nFaire la connexion manuelle avec qpwgraph." << std::endl;
+#: audioLinux.cpp:2302
+msgid ""
+"Faire la connexion manuelle avec qpwgraph puis appuyer sur [ENTREE] pour lancer la mesure\n"
+"?"
+msgstr ""
+
+#. std::cout << "Connexion JACK établie avec '"<<pn<<"'." << std::endl;
+#: audioLinux.cpp:2312
+msgid ""
+"Appuyer sur [ENTREE] pour lancer la mesure ou corriger la connexion JACK manuellement avec qpwgraph\n"
+"?"
+msgstr ""
+
+#. std::cout << "En attente d'un signal audio ≥ " << THRESHOLD << "..." << std::endl;
+#: audioLinux.cpp:2322
+#, c-format
+msgid "Envoi d'une impulsion et attente de son retour sur le port JACK <%s>...\n"
+msgstr ""
+
+#. std::chrono::duration<float, std::micro>
+#. std::cout << "Latence estimée: " << latency.count() << " microsecondes" << std::endl;
+#. float L=latency.count()/1000. - 1./Orchestra->periphSonEtMIDI.Sample_rate*sizeof(buffer)/sizeof(float)*1000;//, dont latence de mesure = %.3f millisecondes
+#: audioLinux.cpp:2364
+msgid "Rappel sur la configuration de la sortie son:\n"
+msgstr ""
+
+#. , dont latence de mesure = %.3f millisecondes
+#: audioLinux.cpp:2368
+#, c-format
+msgid "Latence audio + chaîne système = %.1f millisecondes\n"
+msgstr ""
+
+#: audioLinux.cpp:2374
+msgid "Impulsion non détectée, latence non mesurée.\n"
+msgstr ""
+
+#: audioLinux.cpp:2430
+msgid "Erreur snd_pcm_set_params ALSA: "
+msgstr ""
+
+#: audioWin.cpp:68
+msgid "Erreur : Impossible d'obtenir IMMDeviceEnumerator\n"
+msgstr ""
+
+#: audioWin.cpp:73
+msgid "Erreur : Impossible d'obtenir le périphérique audio par défaut\n"
+msgstr ""
+
+#: audioWin.cpp:81
+msgid "Erreur : Impossible d'activer IAudioClient\n"
+msgstr ""
+
+#: audioWin.cpp:92 audioWin.cpp:994
+msgid "Erreur : Impossible d'obtenir le format audio\n"
+msgstr ""
+
+#: audioWin.cpp:116 audioWin.cpp:1001
+msgid "==>ERREUR, format audio float32 non pris en charge par Windows...\n"
+msgstr ""
+
+#: audioWin.cpp:120
+#, c-format
+msgid "==>ERREUR, format audio %d canaux non pris en charge, seulement stereo possible...\n"
+msgstr ""
+
+#: audioWin.cpp:175
+msgid "==> Attention : WASAPI le mode exclusif est utilisé par une autre application, passe en mode partagé\n"
+msgstr ""
+
+#: audioWin.cpp:177
+#, c-format
+msgid "==> Attention : WASAPI le mode exclusif n'est pas possible pour cette durée de buffer %.3fms, passe en mode partagé\n"
+msgstr ""
+
+#: audioWin.cpp:179
+msgid "==> Attention : WASAPI le mode exclusif ne supporte pas le format float32, passe en mode partagé\n"
+msgstr ""
+
+#: audioWin.cpp:181
+#, c-format
+msgid "==> Attention (%lX): WASAPI mode exclusif échoué, passe en mode partagé\n"
+msgstr ""
+
+#: audioWin.cpp:196
+msgid "==> Erreur : WASAPI mode partagé échoué, passe en mode non low latency\n"
+msgstr ""
+
+#: audioWin.cpp:205
+msgid ""
+"\n"
+"==> Echec de l'initialisation de WASAPI\n"
+msgstr ""
+
+#: audioWin.cpp:261
+#, c-format
+msgid "Erreur : Impossible d'initialiser le client audio %ld \n"
+msgstr ""
+
+#: audioWin.cpp:269
+msgid "Erreur : Impossible de créer l'événement audio\n"
+msgstr ""
+
+#: audioWin.cpp:277
+msgid "Erreur : Impossible d'associer l'événement audio\n"
+msgstr ""
+
+#: audioWin.cpp:285
+msgid "Erreur : Impossible d'obtenir IAudioRenderClient\n"
+msgstr ""
+
+#: audioWin.cpp:292
+msgid "Erreur : Impossible d'obtenir la taille du tampon\n"
+msgstr ""
+
+#: audioWin.cpp:330
+msgid "Erreur : Impossible de démarrer la lecture audio\n"
+msgstr ""
+
+#: audioWin.cpp:358 audioWin.cpp:949
+msgid "Erreur : Impossible d'initialiser COM\n"
+msgstr ""
+
+#: audioWin.cpp:391
+#, c-format
+msgid "Erreur : WaitForSingleObject a échoué (code erreur : %lu)\n"
+msgstr ""
+
+#: audioWin.cpp:393
+msgid "==> Erreur, handle invalide, pas de PCM possible \n"
+msgstr ""
+
+#: audioWin.cpp:398
+msgid "Alerte : Événement inattendu capturé\n"
+msgstr ""
+
+#: audioWin.cpp:408
+msgid "Erreur : Impossible d'obtenir le padding audio\n"
+msgstr ""
+
+#: audioWin.cpp:450
+msgid "Erreur : Impossible de libérer le tampon\n"
+msgstr ""
+
+#: audioWin.cpp:454
+msgid "Erreur : Impossible d'obtenir le tampon audio\n"
+msgstr ""
+
+#: audioWin.cpp:475
+msgid "Erreur : Impossible de créer le thread audio\n"
+msgstr ""
+
+#: audioWin.cpp:544
+msgid "Erreur MIDI !\n"
+msgstr ""
+
+#: audioWin.cpp:581
+msgid "Attends le démarrage du serveur audio PCM"
+msgstr ""
+
+#: audioWin.cpp:586
+msgid "==> ERREUR : client Audio PCM en échec non démarré.\n"
+msgstr ""
+
+#: audioWin.cpp:589
+msgid "--- Client Audio PCM démarré et actif...\n"
+msgstr ""
+
+#: audioWin.cpp:605 audioWin.cpp:634
+msgid "Aucun périphérique MIDI-OUT disponible.\n"
+msgstr ""
+
+#: audioWin.cpp:628
+#, c-format
+msgid "Périphérique %d : \"%s\"\n"
+msgstr ""
+
+#: audioWin.cpp:642
+#, c-format
+msgid "Erreur, périphérique <%s> non trouvé, ouverture de <%s> \n"
+msgstr ""
+
+#: audioWin.cpp:649 audioWin.cpp:742 audioWin.cpp:887
+msgid "Le périphérique MIDI est déjà connecté\n"
+msgstr ""
+
+#: audioWin.cpp:651 audioWin.cpp:889
+#, c-format
+msgid "Erreur : Impossible d'ouvrir le périphérique MIDI (Code d'erreur : %d).\n"
+msgstr ""
+
+#: audioWin.cpp:657 audioWin.cpp:900
+#, c-format
+msgid "--- Connecté au périphérique WinMM MIDI <%s> \n"
+msgstr ""
+
+#: audioWin.cpp:659 audioWin.cpp:748 audioWin.cpp:902
+msgid "--- Client WINMM MIDI démarré et actif\n"
+msgstr ""
+
+#: audioWin.cpp:686
+msgid "Client WINMM MIDI arrêté\n"
+msgstr ""
+
+#: audioWin.cpp:701
+msgid "Client Audio PCM arrêté\n"
+msgstr ""
+
+#: audioWin.cpp:744
+#, c-format
+msgid "Erreur : Impossible d'ouvrir le périphérique MIDI <%s> (Code d'erreur : %X).\n"
+msgstr ""
+
+#: audioWin.cpp:753
+#, c-format
+msgid "Connecté au périphérique WinMM MIDI <%s> \n"
+msgstr ""
+
+#: audioWin.cpp:756
+#, c-format
+msgid "==> Echec de connexion WINMM à <%s> \n"
+msgstr ""
+
+#: audioWin.cpp:844
+msgid "Erreur, thread non promu temps réel\n"
+msgstr ""
+
+#: audioWin.cpp:864
+#, c-format
+msgid "WINMM nouveau port MIDI OUT : %s \n"
+msgstr ""
+
+#: audioWin.cpp:958 audioWin.cpp:965 audioWin.cpp:972 audioWin.cpp:1059
+msgid "Erreur"
+msgstr ""
+
+#: audioWin.cpp:1005
+#, c-format
+msgid "==>ERREUR, format audio %d canaux non pris en charge, seulement mono/stereo possible...\n"
+msgstr ""
+
+#: audioWin.cpp:1220
+msgid "Erreur Stop: "
+msgstr ""
+
+#: cmdclav.cpp:35
+msgid "En attente de l'arrêt de la note..."
+msgstr ""
+
+#: cmdclav.cpp:39
+msgid "La note ne s'arrête pas, arrêt immédiat forcé"
+msgstr ""
+
+#. playAllNotesOff(instrument);
+#: cmdclav.cpp:51
+msgid "En attente de l'arrêt de toutes les notes"
+msgstr ""
+
+#. prevTOA <=
+#. > prevTOA){
+#: cmdclav.cpp:71
+msgid "Les notes ne s'arrêtent pas, arrêt immédiat forcé"
+msgstr ""
+
+#: cmdclav.cpp:92
+msgid "Compare les partiels du dernier accord joué de "
+msgstr ""
+
+#: cmdclav.cpp:92
+msgid " notes et marque les battements engendrés par les fréquences proches...\n"
+msgstr ""
+
+#: cmdclav.cpp:93
+msgid "Ne prend en compte que les partiels de volume >"
+msgstr ""
+
+#: cmdclav.cpp:94
+msgid "Par défaut, les battements affichés ont une fréquence < "
+msgstr ""
+
+#: cmdclav.cpp:94
+msgid "Hz et un volume de battement > "
+msgstr ""
+
+#: cmdclav.cpp:94
+msgid ""
+"dB,\n"
+" entrer les 2 nouvelles valeurs fréquence amplitude, ou appuyer sur [ENTREE] pour afficher le résultat.\n"
+"?"
+msgstr ""
+
+#: cmdclav.cpp:97
+#, c-format
+msgid "Battement < %dHz et volume de battement > %ddB\n"
+msgstr ""
+
+#: cmdclav.cpp:102
+#, c-format
+msgid "Fréquence:%9.2fHz Note1 %-9s\n"
+msgstr ""
+
+#: cmdclav.cpp:106
+#, c-format
+msgid "Fréquence:%9.2fHz Note1 %-9s Partiel:%02d Volume:%3.0fdB"
+msgstr ""
+
+#: cmdclav.cpp:110
+#, c-format
+msgid "Fréquence:%9.2fHz Note2 %-9s\n"
+msgstr ""
+
+#: cmdclav.cpp:113
+#, c-format
+msgid "Fréquence:%9.2fHz Note2 %-9s Partiel:%02d Volume:%3.0fdB"
+msgstr ""
+
+#: cmdclav.cpp:119
+#, c-format
+msgid "Fréquence:%9.2fHz Note3 %-9s\n"
+msgstr ""
+
+#: cmdclav.cpp:122
+#, c-format
+msgid "Fréquence:%9.2fHz Note3 %-9s Partiel:%02d Volume:%3.0fdB"
+msgstr ""
+
+#: cmdclav.cpp:135
+msgid "Fréquence: %fHz Note%1d %[^V]Volume:%f"
+msgstr ""
+
+#: cmdclav.cpp:154
+#, c-format
+msgid "Résultat : %d partiels vibrent avec un battement important\n"
+msgstr ""
+
+#. affiche les ondes sympathiques
+#: cmdclav.cpp:161
+#, c-format
+msgid "Note : %s liste des notes et partiels en résonnance, limité à %.fdB \n"
+msgstr ""
+
+#: cmdclav.cpp:167
+#, c-format
+msgid "Note %s:P%d freq %.1fHz amplitude %.1fdB liste des notes partiels proches: \n"
+msgstr ""
+
+#: cmdclav.cpp:182
+msgid "Liste détaillée des partiels : "
+msgstr ""
+
+#. std::cout <<"voix partiel fréquence amplitude phase => graphique <= \n";
+#: cmdclav.cpp:184
+msgid "voix partiel fréquence amplitude inharmonicité => graphique <="
+msgstr ""
+
+#: cmdclav.cpp:209
+#, c-format
+msgid "%02d %02d %9.2fHz %7.2fdB dérive %9.2fHz =>%-32s<= \n"
+msgstr ""
+
+#: cmdclav.cpp:222
+msgid "Liste des partiels de la note : "
+msgstr ""
+
+#: cmdclav.cpp:223
+#, c-format
+msgid "%s fréquence=%.2f inharmonicité=%0.9f Nb_voix=%d Nb_partiels=%d \n"
+msgstr ""
+
+#: cmdclav.cpp:225
+msgid "Liste des fréquences des voix : "
+msgstr ""
+
+#: cmdclav.cpp:230
+msgid "Coefficient de normalisation sonore : "
+msgstr ""
+
+#: cmdclav.cpp:240
+#, c-format
+msgid "puissance sonore des ondes : %.1fdB, "
+msgstr ""
+
+#: cmdclav.cpp:241
+#, c-format
+msgid "coefficient correcteur=%.1fdB\n"
+msgstr ""
+
+#: cmdclav.cpp:244
+msgid "pas de normalisation"
+msgstr ""
+
+#. */
+#: cmdclav.cpp:247
+msgid "Forme d'onde : "
+msgstr ""
+
+#: cmdclav.cpp:249 cmdclav.cpp:254 cmdclav.cpp:265
+msgid "produit par le fichier"
+msgstr ""
+
+#: cmdclav.cpp:251
+msgid "produit par calcul d'une sinusoïde"
+msgstr ""
+
+#: cmdclav.cpp:252
+msgid "Bruit de Attack : "
+msgstr ""
+
+#: cmdclav.cpp:255 cmdclav.cpp:266
+#, c-format
+msgid " durée %.3fms \n"
+msgstr ""
+
+#: cmdclav.cpp:261
+msgid "Pas de fichier sonore pour le bruit de Attack"
+msgstr ""
+
+#: cmdclav.cpp:263
+msgid "Bruit de Release : "
+msgstr ""
+
+#: cmdclav.cpp:269
+msgid "Pas de fichier sonore pour le bruit de Release"
+msgstr ""
+
+#: cmdclav.cpp:271
+msgid "Amplitudes réelles des partiels : "
+msgstr ""
+
+#. affiche de meme les partiels calculés
+#: cmdclav.cpp:278
+msgid "Amplitudes calculées des partiels : "
+msgstr ""
+
+#: cmdclav.cpp:282
+#, c-format
+msgid "voix %2d : "
+msgstr ""
+
+#: cmdclav.cpp:307
+msgid "La licence est valable : "
+msgstr ""
+
+#: cmdclav.cpp:307
+msgid " jours"
+msgstr ""
+
+#: cmdclav.cpp:309
+msgid "--- Information sur le fichier Instrument"
+msgstr ""
+
+#: cmdclav.cpp:312
+msgid "--- Information sur l'environnement technique"
+msgstr ""
+
+#: cmdclav.cpp:318
+msgid "CPU, nombre de coeurs, AVX : "
+msgstr ""
+
+#: cmdclav.cpp:321
+msgid "Nombre de threads actifs créés = "
+msgstr ""
+
+#: cmdclav.cpp:339
+msgid "Améliorations sonores : "
+msgstr ""
+
+#: cmdclav.cpp:340
+msgid "Stéréo "
+msgstr ""
+
+#: cmdclav.cpp:340 cmdclav.cpp:341 cmdclav.cpp:342
+msgid "inactive"
+msgstr ""
+
+#: cmdclav.cpp:340 cmdclav.cpp:341 cmdclav.cpp:342
+msgid "active"
+msgstr ""
+
+#: cmdclav.cpp:341
+msgid ", Résonance sympathique "
+msgstr ""
+
+#: cmdclav.cpp:342
+msgid ", Réverbération "
+msgstr ""
+
+#: cmdclav.cpp:345
+msgid "Modèle de Réverbération courant : "
+msgstr ""
+
+#: cmdclav.cpp:347 graphique.cpp:415
+msgid " avec "
+msgstr ""
+
+#: cmdclav.cpp:347
+msgid " réverbérations"
+msgstr ""
+
+#: cmdclav.cpp:348 cmdclav.cpp:365 cmdclav.cpp:369 cmdclav.cpp:379
+#: cmdclav.cpp:389
+msgid "actif"
+msgstr ""
+
+#: cmdclav.cpp:348 cmdclav.cpp:372 cmdclav.cpp:384 cmdclav.cpp:395
+#: cmdclav.cpp:437
+msgid "inactif"
+msgstr ""
+
+#: cmdclav.cpp:352
+msgid "Audio PCM configuration : "
+msgstr ""
+
+#: cmdclav.cpp:357 cmdclav.cpp:423
+msgid "Serveur Audio PCM : "
+msgstr ""
+
+#: cmdclav.cpp:358
+msgid "Pas de Serveur Audio PCM actif"
+msgstr ""
+
+#: cmdclav.cpp:362
+msgid "Client Audio PCM : "
+msgstr ""
+
+#: cmdclav.cpp:369
+msgid " connecté au port par défaut"
+msgstr ""
+
+#: cmdclav.cpp:377
+msgid "Client Audio JACK MIDI : "
+msgstr ""
+
+#: cmdclav.cpp:380 cmdclav.cpp:390
+msgid "liste des connexions"
+msgstr ""
+
+#: cmdclav.cpp:388 cmdclav.cpp:394
+msgid "Client Audio ALSA MIDI : "
+msgstr ""
+
+#: cmdclav.cpp:425
+msgid "WASAPI partagé "
+msgstr ""
+
+#: cmdclav.cpp:427
+msgid "WASAPI exclusif "
+msgstr ""
+
+#. else if (Orchestra->periphSonEtMIDI.serveurSon == WAVERT) std::cout << "WAVERT\n";
+#. else std::cout << "inconnu?\n";
+#: cmdclav.cpp:435
+msgid "Serveur Audio WINMM MIDI : "
+msgstr ""
+
+#: cmdclav.cpp:439
+msgid "actif, connecté à : "
+msgstr ""
+
+#: cmdclav.cpp:442
+msgid "inconnu"
+msgstr ""
+
+#: cmdclav.cpp:445
+msgid "Droite"
+msgstr ""
+
+#: cmdclav.cpp:451
+msgid "Logarithmique"
+msgstr ""
+
+#: cmdclav.cpp:454
+msgid "Exponentielle"
+msgstr ""
+
+#: cmdclav.cpp:457
+msgid "Utilisateur définie"
+msgstr ""
+
+#: cmdclav.cpp:460
+msgid "Courbe de vélocité : "
+msgstr ""
+
+#: cmdclav.cpp:460
+msgid ", minimum à "
+msgstr ""
+
+#: cmdclav.cpp:461
+msgid "Volume général : "
+msgstr ""
+
+#: cmdclav.cpp:466
+msgid "Mode spécial : "
+msgstr ""
+
+#: cmdclav.cpp:466
+msgid "Accordeur actif\n"
+msgstr ""
+
+#. modifie in vivo la structure de la note
+#: cmdclav.cpp:527 cmdclav.cpp:1095
+msgid "==> Erreur, la note est active et ne peut être restructurée.\n"
+msgstr ""
+
+#: cmdclav.cpp:774
+msgid "Erreur, choix hors limites\n"
+msgstr ""
+
+#: cmdclav.cpp:891
+msgid "Paramètre Général à modifier : "
+msgstr ""
+
+#: cmdclav.cpp:918
+msgid "Il manque le paramètrage de la réverbération\n"
+msgstr ""
+
+#: cmdclav.cpp:1031
+msgid "==>Erreur, paramètre non modifiable \n"
+msgstr ""
+
+#. printf("Paramètre de la Note courante à modifier : ");//%s \n", ColonneInfoNomIdFmt[Orchestra->selectedPrm -1]);
+#: cmdclav.cpp:1045
+#, c-format
+msgid "Paramètre à modifier = %s : note <%s>"
+msgstr ""
+
+#. - bPrmModified=1;// pour ne pas avoir le message d'erreur de prm non modifiable
+#: cmdclav.cpp:1100
+#, c-format
+msgid " = %d (déviation = %.2fHz) "
+msgstr ""
+
+#: cmdclav.cpp:1170
+msgid "==>Erreur, l'inharmonicité est trop forte, la fréquence du dernier partiel est hors limites\n"
+msgstr ""
+
+#: cmdclav.cpp:1197
+msgid "==>ERREUR : il faut d'abord donner une valeur à SustainTimeT60\n"
+msgstr ""
+
+#: cmdclav.cpp:1216
+msgid "==>ERREUR : il faut d'abord donner une valeur à DecayTime et SustainTimeT60\n"
+msgstr ""
+
+#: cmdclav.cpp:1265
+msgid ""
+"\n"
+"Ce paramètre ne peut être modifié sans une capture sonore de la note."
+msgstr ""
+
+#. printf("paramètre non modifiable, il faut utiliser un tableur pour éditer le fichier Instrument\n");
+#: cmdclav.cpp:1301
+msgid "Paramètre non modifiable, il faut utiliser un tableur pour éditer le fichier Instrument"
+msgstr ""
+
+#: cmdclav.cpp:1332
+msgid "Choisir un paramètre général à modifier, puis touches de contrôle:"
+msgstr ""
+
+#: cmdclav.cpp:1333 cmdclav.cpp:1383
+msgid " mMpP      : modifie la valeur numérique ou binaire "
+msgstr ""
+
+#: cmdclav.cpp:1334 cmdclav.cpp:1384
+msgid " jk        : passe au paramètre précédent ou suivant "
+msgstr ""
+
+#: cmdclav.cpp:1335 cmdclav.cpp:1385
+msgid " [flèches] : change la note courante "
+msgstr ""
+
+#: cmdclav.cpp:1336 cmdclav.cpp:1386
+msgid " ' ' ou b  : joue la note courante "
+msgstr ""
+
+#: cmdclav.cpp:1337
+msgid " 0 ou q    : quitte le mode d'édition "
+msgstr ""
+
+#. puts("Choisir un paramètre à modifier pour la note courante, touches de contrôle:");
+#: cmdclav.cpp:1382
+msgid "Choisir un paramètre à modifier pour la note courante, puis touches de contrôle:"
+msgstr ""
+
+#: cmdclav.cpp:1387
+msgid " 0 ou q    : quitte le mode d'édition"
+msgstr ""
+
+#: cmdclav.cpp:1428
+msgid "choix invalide\n"
+msgstr ""
+
+#: cmdclav.cpp:1449
+msgid "Affichage des informations est arrêté"
+msgstr ""
+
+#: cmdclav.cpp:1455
+msgid "Affichage des informations est démarré"
+msgstr ""
+
+#: cmdclav.cpp:1469 cmdclav.cpp:1533
+msgid "Choisir une action à réaliser:\n"
+msgstr ""
+
+#: cmdclav.cpp:1544
+msgid "Le volume sonore est normalisé, certains réglages peuvent sembler être inopérants\n"
+msgstr ""
+
+#: cmdclav.cpp:1580 ficinstru.cpp:1805
+msgid "==>Erreur, l'Instrument n'a pas de note diapason, l'accordage n'est pas possible. \n"
+msgstr ""
+
+#: cmdclav.cpp:1591 cmdclav.cpp:1621
+#, c-format
+msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
+msgstr ""
+
+#: cmdclav.cpp:1772
+#, c-format
+msgid "\t\tNote <%s> %.1fHz \n"
+msgstr ""
+
+#: cmdclav.cpp:1963 cmdclav.cpp:2043
+msgid ""
+"\n"
+"Erreur, il faut d'abord jouer une première note \n"
+msgstr ""
+
+#: cmdclav.cpp:2052
+msgid ""
+"\n"
+"Erreur, il faut d'abord jouer un accord de 2 ou 3 notes \n"
+msgstr ""
+
+#: cmdclav.cpp:2073
+msgid "Erreur, serveur son non géré\n"
+msgstr ""
+
+#: cmdclav.cpp:2077
+msgid "fonction non disponible sous windows"
+msgstr ""
+
+#: cmdclav.cpp:2129
+msgid "Le son de la capture est maintenant joué à la place du son synthétisé \n"
+msgstr ""
+
+#: cmdclav.cpp:2130
+msgid "Le son synthétisé est maintenant joué à la place du son de la capture \n"
+msgstr ""
+
+#: cmdclav.cpp:2134
+#, c-format
+msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
+msgstr ""
+
+#. pas d'affichage si en mod accordeur
+#: engine.cpp:993
+#, c-format
+msgid "==> Attention : volume sonore trop élevé de %0.1fdB, volume général baissé de %0.1fdB à %0.1fdB \n"
+msgstr ""
+
+#: engine.cpp:1003
+#, c-format
+msgid "==> Attention : volume sonore correction automatique hors limite = %0.1fdB\n"
+msgstr ""
+
+#. xxx
+#. if (Orchestra->periphSonEtMIDI.VolumeGeneral < AUDIBLE_AMPLITUDE_MIN_M90DB) {
+#. dbg cmdClavier(instrument, '!');
+#: engine.cpp:1007
+msgid ""
+"\n"
+"arrêt de l'application pour préserver le système audio"
+msgstr ""
+
+#: engine.cpp:1641
+#, c-format
+msgid "  note %s:P%-3d fréquence %6.1fHz amplitude %6.1fdB écart : %6.1fHz %4.1fCents \n"
+msgstr ""
+
+#: engine.cpp:1658
+#, c-format
+msgid "note %s:P%d amplitude %6.1fdB à %6.2fHz \n"
+msgstr ""
+
+#: engine.cpp:2603
+#, c-format
+msgid "==> ERREUR: impossible de retirer la note %s, abandon de la commande \n"
+msgstr ""
+
+#: fftanalyse.cpp:1472
+#, c-format
+msgid "Capture démarrée jusqu'au niveau sonore de %.fdB ou un appui sur une touche..."
+msgstr ""
+
+#: ficgen.cpp:29 ficgen.cpp:35 ficgen.cpp:86 ficgen.cpp:94 ficgen.cpp:100
+#: ficgen.cpp:109
+#, c-format
+msgid "==> Erreur fichier General, erreur de format ou de valeur, ligne %u <%s>\n"
+msgstr ""
+
+#: ficgen.cpp:95
+msgid "==> Erreur fichier General, le paramètre VelociteMinimum doit être en dB et < 0dB \n"
+msgstr ""
+
+#: ficgen.cpp:101
+msgid "==> Erreur fichier General, le paramètre VelociteMinimum doit être défini après le paramètre VelociteCourbe \n"
+msgstr ""
+
+#: ficgen.cpp:110
+msgid "==> Erreur fichier General, le paramètre VelociteGamma doit être >=1 et <= 5 \n"
+msgstr ""
+
+#: ficgen.cpp:122
+#, c-format
+msgid "Suite à un défaut de déclaration, la Reverb <%s> n'est pas chargée\n"
+msgstr ""
+
+#. instrument->ficInstru.nbErreurs++;
+#: ficgen.cpp:148
+msgid "==> Erreur fichier General, le paramètre VolumeGeneral doit être en dB et < 0dB \n"
+msgstr ""
+
+#: ficgen.cpp:154
+msgid "==> Erreur fichier General, le paramètre FreqAffichage doit être >=10 et <= 60 \n"
+msgstr ""
+
+#: ficgen.cpp:165
+#, c-format
+msgid "==> Erreur fichier General, le paramètre GraphiqueCouleurFondTexte doit être de 6 nombres flotants (%d trouvés) entre 0 et 1 \n"
+msgstr ""
+
+#. ignore la ligne de titres
+#: ficgen.cpp:187
+#, c-format
+msgid "==> Erreur fichier General, ligne %d non reconnue : <%s>\n"
+msgstr ""
+
+#: ficinstru.cpp:112
+#, c-format
+msgid "erreur, fichier WAV non trouvé ==>%s<== \n"
+msgstr ""
+
+#: ficinstru.cpp:120
+#, c-format
+msgid "erreur, fichier WAV trop court ==>%s<== \n"
+msgstr ""
+
+#: ficinstru.cpp:126
+#, c-format
+msgid "erreur, fichier non RIFF/WAVE ==>%s<== \n"
+msgstr ""
+
+#: ficinstru.cpp:142
+#, c-format
+msgid "Erreur, chunk fmt manquant ==>%s<== \n"
+msgstr ""
+
+#: ficinstru.cpp:164
+#, c-format
+msgid "Format audio non supporté: audioFormat=%d, channels=%d, bitsPerSample=%d\n"
+msgstr ""
+
+#: ficinstru.cpp:175
+msgid "Erreur lecture chunk\n"
+msgstr ""
+
+#: ficinstru.cpp:186
+#, c-format
+msgid "Erreur, saut de chunk impossible dans le fichier WAV ==>%s<== \n"
+msgstr ""
+
+#: ficinstru.cpp:198
+msgid "erreur de lecture des données audio\n"
+msgstr ""
+
+#: ficinstru.cpp:249
+#, c-format
+msgid "erreur, note %s fichier non trouvé ==>%s<== \n"
+msgstr ""
+
+#: ficinstru.cpp:437 ficinstru.cpp:2148
+#, c-format
+msgid "==> Erreur, impossible d'ouvrir en écriture le fichier : <%s> \n"
+msgstr ""
+
+#: ficinstru.cpp:469
+#, c-format
+msgid "Fichier enregistré : <%s>\n"
+msgstr ""
+
+#. if (std::filesystem::exists(dir)) dir="";
+#: ficinstru.cpp:486
+#, c-format
+msgid "Répertoire d'enregistrement des sons capturés : <%s>\n"
+msgstr ""
+
+#: ficinstru.cpp:610
+#, c-format
+msgid "==> Attention : nom de colonne inconnu <%s> \n"
+msgstr ""
+
+#: ficinstru.cpp:622
+msgid "Erreur : ligne des noms des colonnes déjà analysée \n"
+msgstr ""
+
+#: ficinstru.cpp:637
+#, c-format
+msgid "==> ATTENTON : nombre de colonnes = %d, pour un maximum de %d attendues !\n"
+msgstr ""
+
+#: ficinstru.cpp:729
+#, c-format
+msgid "==> ERREUR : ligne %d, la note doit avoir un nom l'identifiant\n"
+msgstr ""
+
+#: ficinstru.cpp:739
+#, c-format
+msgid "==> ERREUR : ligne %d, la note doit avoir un numéro l'identifiant\n"
+msgstr ""
+
+#: ficinstru.cpp:911
+#, c-format
+msgid "==> Erreur de valeur=%s, le StereoYSource doit être dans [0..10] mètres \n"
+msgstr ""
+
+#: ficinstru.cpp:1032
+#, c-format
+msgid "==> Attention note %s : niveau de puissance en dB (ne pas écrire dB dans les cases) du filtre harmonique interdit =%.2fdB , doit être  <0 et 0 = pas de filtre, forcé à 0 \n"
+msgstr ""
+
+#: ficinstru.cpp:1046
+#, c-format
+msgid "Attention, note %s avec %d fréquences déclarées et nombre de voix incohérent <%d> corrigé à <%d> \n"
+msgstr ""
+
+#: ficinstru.cpp:1055
+#, c-format
+msgid "Attention, note %s avec un nombre d'haromiques fixé incompatible avec des harmoniques listés\n"
+msgstr ""
+
+#: ficinstru.cpp:1066
+#, c-format
+msgid "Erreur, note %s les harmoniques sont mal définis : <%s>\n"
+msgstr ""
+
+#: ficinstru.cpp:1089
+#, c-format
+msgid "==> Attention note %s : trop d'harmoniques inaudibles, nbh * fréquence note= %d * %7.1fHz > %dHz, nombre réduit à %d \n"
+msgstr ""
+
+#: ficinstru.cpp:1096
+#, c-format
+msgid "Attention, note %s avec 0 voix/corde \n"
+msgstr ""
+
+#. valeur négative interdite
+#: ficinstru.cpp:1099
+#, c-format
+msgid "Attention, note %s avec nombre de voix/corde hors limites \n"
+msgstr ""
+
+#: ficinstru.cpp:1112
+#, c-format
+msgid "==> Erreur : note %s, nombre d'harmoniques=%d, note avec 0 ou trop d'harmoniques \n"
+msgstr ""
+
+#. printf("ligne %d erreur MIDINoteNum numéro hors interval \n%s\n", ligne, str);
+#. - printf(strout);
+#: ficinstru.cpp:1150
+#, c-format
+msgid "==> ERREUR : ligne %d, le numéro de note MIDI doit être dans la plage [1:%d]\n"
+msgstr ""
+
+#: ficinstru.cpp:1157
+#, c-format
+msgid ""
+"ligne %d erreur MIDINoteNum déjà définie \n"
+"%s\n"
+msgstr ""
+
+#: ficinstru.cpp:1204
+#, c-format
+msgid "Attention, note %s avec fichier Attack WAV mal renseigné\n"
+msgstr ""
+
+#: ficinstru.cpp:1208
+#, c-format
+msgid "Attention, note %s avec fichier Attack WAV volume non renseigné ou à 0\n"
+msgstr ""
+
+#: ficinstru.cpp:1221
+#, c-format
+msgid "Attention, note %s : la durée de l'attaque ne peut pas être < à 0, elle est forcée au quart d'onde \n"
+msgstr ""
+
+#: ficinstru.cpp:1236
+#, c-format
+msgid "Attention, note MIDI %s avec fichier Release WAV mal renseigné\n"
+msgstr ""
+
+#: ficinstru.cpp:1242
+#, c-format
+msgid "Attention, note %s avec fichier Release WAV volume non renseigné ou à 0\n"
+msgstr ""
+
+#. + (instrument->instrFamille&0xFFFF);
+#. instrument->ficInstru.nbErreurs++;
+#: ficinstru.cpp:1314
+#, c-format
+msgid "==> ATTENTION, le paramètre instrType n'est pas reconnu : <%s> \n"
+msgstr ""
+
+#: ficinstru.cpp:1334
+msgid "==> Erreur, le paramètre PedaleSoftVolume doit être en dB et < 0dB \n"
+msgstr ""
+
+#: ficinstru.cpp:1343
+msgid "==> Erreur, le paramètre PedaleUnaCorda doit être 0 ou 1 \n"
+msgstr ""
+
+#: ficinstru.cpp:1349
+msgid "==> Erreur, le paramètre PedaleSoftVolume doit être défini avant PedaleUnaCorda \n"
+msgstr ""
+
+#: ficinstru.cpp:1358
+#, c-format
+msgid "Erreur : PitchbendRange %.1f hors limite \n"
+msgstr ""
+
+#: ficinstru.cpp:1396
+msgid "==> Erreur, le paramètre NiveauCouplageMecanique doit être en dB et < 0dB \n"
+msgstr ""
+
+#. err++;
+#: ficinstru.cpp:1439
+#, c-format
+msgid "==> Erreur de format ou de valeur ligne %u \n"
+msgstr ""
+
+#: ficinstru.cpp:1440
+msgid "==> Erreur, le paramètre VelociteMinimum doit être en dB et < 0dB \n"
+msgstr ""
+
+#: ficinstru.cpp:1451
+#, c-format
+msgid "====> Erreur, ligne %d le paramètre n'est pas reconnu : %s \n"
+msgstr ""
+
+#. aficher la liste des fichiers candidats et demander de choisir parmi
+#: ficinstru.cpp:1523
+msgid "Choisir un fichier Instrument dans le répertoire courant:"
+msgstr ""
+
+#: ficinstru.cpp:1524
+msgid "  0 : abandonne, '.' accéde au répertoire de base et '..' au parent, [ENTREE] rafraîchit la liste\n"
+msgstr ""
+
+#: ficinstru.cpp:1543
+msgid "Erreur, le nom du fichier donné n'existe pas"
+msgstr ""
+
+#: ficinstru.cpp:1591
+#, c-format
+msgid "erreur, fichier Instrument non trouvé ==>%s<== \n"
+msgstr ""
+
+#: ficinstru.cpp:1598
+msgid "Erreur, système non arrêté avant le chargement de la nouvelle configuration \n"
+msgstr ""
+
+#: ficinstru.cpp:1679
+#, c-format
+msgid "==>ERREUR : ligne %d non reconnue \n"
+msgstr ""
+
+#: ficinstru.cpp:1692
+#, c-format
+msgid "ERREUR : Le fichier <%s> n'est pas reconnu comme Instrument \n"
+msgstr ""
+
+#: ficinstru.cpp:1707
+msgid "==>Erreur, il manque la définition du Diapason normalement à 440Hz@M69\n"
+msgstr ""
+
+#: ficinstru.cpp:1712
+#, c-format
+msgid "Diapason par défaut appliqué selon la note <%s> : fréquence=%.2fHz\n"
+msgstr ""
+
+#: ficinstru.cpp:1744
+msgid "Attention, TH_IR_freq_ampl_dB est vide \n"
+msgstr ""
+
+#: ficinstru.cpp:1768
+msgid "Attention, TH_IR_freq_ampl_dB erreur de format, il manque un séparateur ' ' \n"
+msgstr ""
+
+#: ficinstru.cpp:1783
+#, c-format
+msgid "==> Erreur, la note %s est rejetée, ligne %d "
+msgstr ""
+
+#: ficinstru.cpp:1818
+msgid "==>Erreur, l'Instrument est de type piano, il manque la définition du paramètre NiveauCouplageMecanique il est forcé à -30dB. \n"
+msgstr ""
+
+#: ficinstru.cpp:1852
+#, c-format
+msgid ""
+"\n"
+"Suite à%s un abandon, le fichier Instrument n'a pas été chargé.\n"
+msgstr ""
+
+#: ficinstru.cpp:2113
+#, c-format
+msgid "Sauvegarde du fichier Instrument: %s\n"
+msgstr ""
+
+#: ficinstru.cpp:2118
+#, c-format
+msgid ""
+"Appuyer sur [ENTREE] pour faire une sauvegarde incrémentielle avec '+'\n"
+" ou saisir X pour écrire sur le fichier Instrument actuel\n"
+" ou saisir un nouveau nom de fichier Instrument sans le sufix '%s'\n"
+"?"
+msgstr ""
+
+#: ficinstru.cpp:2135
+#, c-format
+msgid "nom de fichier incorrect <%s>\n"
+msgstr ""
+
+#: ficinstru.cpp:2143
+#, c-format
+msgid "--- Sauvegarde de l'Instrument dans le fichier : <%s> \n"
+msgstr ""
+
+#: ficinstru.cpp:2406
+msgid "Sauvegarde réussie"
+msgstr ""
+
+#: graphique.cpp:365
+msgid ":Spectre Capture de la note "
+msgstr ""
+
+#. dbg printf("\r %s %s %s %d freq %f             ",*pNote->NoteNom, *pNote->RegleAccord, *regleAccord.pNote2->NoteNom, regleAccord.partielN2,regleAccord.pNote2->voix_ondes[regleAccord.partielN2 -1].freq());
+#.
+#. sTitreVueAccordeur += " accorder la fréquence du partiel "
+#. + printFloat(regleAccord.partielN1)
+#. + " avec "
+#. + strNoteReference(regleAccord.pNote2)
+#. + " partiel " +printFloat(regleAccord.partielN2)
+#. +" à la fréquence "
+#. + printFloat(baseFreq,2) + "Hz"
+#. ;
+#.
+#: graphique.cpp:414 graphique.cpp:426
+msgid "accorder "
+msgstr ""
+
+#: graphique.cpp:426
+msgid ":P1 à "
+msgstr ""
+
+#: graphique.cpp:518
+msgid ">>> JOUE LE SON REEL <<< "
+msgstr ""
+
+#: graphique.cpp:519
+msgid "Touches de commande : r=rafraîchit, q=quitte, ?=affiche l'aide sur la console"
+msgstr ""
+
+#. f=fréquences échelle lin/log,//, Z=zoom on/off normalise à 0dB le spectre temporel
+#: graphique.cpp:520
+msgid ", t=choix du spectre, f=échelle dB/réelle, g=gèle la capture, %=envoie les commandes à la console"
+msgstr ""
+
+#. (*listePicsPartiels)[0].first;
+#. titre = "Spectre temporel: Amplitude(dB)/temps(s) pour la Note attendue : " + strNoteReference(pNote)
+#: graphique.cpp:584
+msgid "Spectre temporel: Amplitude/temps(s) pour la Note attendue : "
+msgstr ""
+
+#: graphique.cpp:585 graphique.cpp:953
+msgid ", fréquence : théorique "
+msgstr ""
+
+#. titre += "réelle " + printFloat(capture.freqP1,2) + " Hz"
+#. + ", écart : "+ printFloat(ecartHz,2) + " Hz ("+ printFloat(ecartCents,1) + " cents) "
+#: graphique.cpp:598
+#, c-format
+msgid "réelle %.2fHz, écart : %.2fHz (%.1f cents) "
+msgstr ""
+
+#. else
+#: graphique.cpp:607
+msgid "capture gelée"
+msgstr ""
+
+#: graphique.cpp:610
+msgid ", Max à "
+msgstr ""
+
+#: graphique.cpp:611
+msgid ", analyse à : "
+msgstr ""
+
+#: graphique.cpp:611
+msgid " ms durée "
+msgstr ""
+
+#: graphique.cpp:613
+msgid ", la note n'a pas été capturée"
+msgstr ""
+
+#: graphique.cpp:945
+msgid "Spectre fréquentiel: Amplitude/fréquence(Hz) + amplitudes des "
+msgstr ""
+
+#: graphique.cpp:945
+msgid " Partiels/pics, "
+msgstr ""
+
+#: graphique.cpp:951
+msgid "Comparateur d'unisson fréquentiel:"
+msgstr ""
+
+#: graphique.cpp:952
+msgid " règle d'accord:"
+msgstr ""
+
+#: graphique.cpp:952
+msgid ", pour la Note attendue : "
+msgstr ""
+
+#: graphique.cpp:959
+msgid "réelle "
+msgstr ""
+
+#: graphique.cpp:960
+msgid ", écart : "
+msgstr ""
+
+#. titreSpectre += ", paramètre:"+s;
+#: graphique.cpp:967
+msgid "paramètre: "
+msgstr ""
+
+#. dbg sprintf(s,"commande de capture: c a v n bMesureFreqNote %d etapeCaptureTimbreDemarre %d noteModifiee %d ", (int)Orchestra->bMesureFreqNote,(int)Orchestra->etapeCaptureTimbreDemarre, (int)pNote->noteModifiee++);
+#: graphique.cpp:975
+#, c-format
+msgid "%s, commande de capture : c : capture, A : abandon, v n : valide, n: valide + note suivante "
+msgstr ""
+
+#: graphique.cpp:977
+#, c-format
+msgid "%s, en attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
+msgstr ""
+
+#: graphique.cpp:982
+#, c-format
+msgid "Capture démarrée jusqu'au silence ou appuyer sur une touche pour arrêter..."
+msgstr ""
+
+#. -	Orchestra->pGraphiqueCaptureTimbreThread = 0;
+#: graphique.cpp:1641
+msgid "Fenêtre SpectreCapture fermée."
+msgstr ""
+
+#: graphique.cpp:1658
+msgid "Ouvre la fenêtre SpectreCapture..."
+msgstr ""
+
+#: graphique.cpp:1659
+msgid "La fenêtre SpectreCapture est déjà ouverte."
+msgstr ""
+
+#: graphique_linux.cpp:288
+msgid "==> ERREUR: impossible d'initialiser FreeType\n"
+msgstr ""
+
+#: graphique_linux.cpp:294
+#, c-format
+msgid "==> ERREUR: impossible de trouver une fonte équivalente à <%s> \n"
+msgstr ""
+
+#: graphique_linux.cpp:300
+#, c-format
+msgid "Fonte chargée par défaut : %s : %s \n"
+msgstr ""
+
+#: graphique_linux.cpp:315
+#, c-format
+msgid "==> ERREUR:échec du chargement de la fonte <%s>\n"
+msgstr ""
+
+#: graphique_windows.cpp:66
+#, c-format
+msgid "==> Erreur:la fonte <%s> n'existe pas \n"
+msgstr ""
+
+#: graphique_windows.cpp:87 graphique_windows.cpp:108
+#, c-format
+msgid "==> Erreur:la fonte <%s> taille %d n'existe pas \n"
+msgstr ""
+
+#: graphique_windows.cpp:361
+msgid "Erreur icône de l'application non trouvée\n"
+msgstr ""
+
+#. dbg
+#: graphique_windows.cpp:487
+msgid "vue graphique au 1ier plan"
+msgstr ""
+
+#. +x permet de sauter le '"' en cas de multi-lignes
+#: init.cpp:537
+#, c-format
+msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
+msgstr ""
+
+#. 3 = nombre de & composant 1 élément
+#. dbg
+#. printf("s2.size() %u nb %u\n", s2.size(), nb);
+#: init.cpp:549
+msgid "==> Erreur:Reverb pas assez d'éléments ou mauvais format.\n"
+msgstr ""
+
+#: init.cpp:578
+#, c-format
+msgid "==>Erreur Reverb: délai hors limites, ligne <%s>\n"
+msgstr ""
+
+#: init.cpp:588
+#, c-format
+msgid "==>Erreur Reverb: l'amplitude est en dB <0, ligne <%s>\n"
+msgstr ""
+
+#: init.cpp:600
+#, c-format
+msgid "==>Erreur Reverb: délai trop important forcé à 0, ligne <%s>\n"
+msgstr ""
+
+#: init.cpp:608
+#, c-format
+msgid "==>Erreur Reverb: mauvaise syntaxe, ligne <%s>\n"
+msgstr ""
+
+#: init.cpp:620
+msgid "==> Erreur:Reverb mauvaise syntaxe.\n"
+msgstr ""
+
+#: init.cpp:630
+#, c-format
+msgid "==>Erreur Reverb: délai feedback trop important forcé à 0, ligne <%s>\n"
+msgstr ""
+
+#: init.cpp:669
+#, c-format
+msgid ""
+"==> Erreur: VelociteCourbeUDef, il y a %d paires *&* au lieu de 127 \n"
+"<%s>\n"
+msgstr ""
+
+#: init.cpp:677
+#, c-format
+msgid "==> Erreur: VelociteCourbeUDef, index %d hors limites [1:127] \n"
+msgstr ""
+
+#: init.cpp:685
+#, c-format
+msgid "==> Erreur: VelociteCourbeUDef, valeur %.3f hors limites [1:127] \n"
+msgstr ""
+
+#. pNote->voix_ondes = new(std::nothrow) Onde_t[(int)pNote->voix_ondesSize]{};
+#: init.cpp:721
+msgid "défaut d'allocation mémoire voix_ondes"
+msgstr ""
+
+#: init.cpp:757
+#, c-format
+msgid "==> Erreur : clé de clavier MIDI hors limite %d \n"
+msgstr ""
+
+#: init.cpp:776
+#, c-format
+msgid "==> ERREUR : init_note %s (int)pNote->voix_ondesSize %d pNote->listePartielsAmplitudesSize %d \n"
+msgstr ""
+
+#. printfml2("==>Erreur, le paramètre StereoLargeurEcoute=%fm est trop grand, il est limité à %fm \n"
+#: init.cpp:837
+#, c-format
+msgid "==>Erreur, le paramètre StereoLargeurEcoute=%fm est trop grand \n"
+msgstr ""
+
+#: init.cpp:855
+#, c-format
+msgid "==>Erreur, le paramètre StereoYSource=%fm est hors limites doit être entre 0m et 10.m \n"
+msgstr ""
+
+#. dbg printf("date du jour <%s> date compile <%s> nb jours diff %d\n", *dj, DateCompil, diffd);
+#: licenceHW.cpp:356
+msgid ": L'application est trop ancienne, merci de faire une mise à jour et de renouveler votre licence d'utilisation"
+msgstr ""
+
+#: licenceHW.cpp:357
+#, c-format
+msgid ""
+"\n"
+"==> ERREUR%s \n"
+msgstr ""
+
+#: licenceHW.cpp:358
+#, c-format
+msgid ""
+"\n"
+"==> ATTENTION%s, il vous reste %d jours d'utilisation \n"
+msgstr ""
+
+#: licenceHW.cpp:461
+msgid "Voici le texte contenant la signature de l'ordinateur à copier/coller sur le site web pour obtenir une licence:\n"
+msgstr ""
+
+#: licenceHW.cpp:478
+msgid "==> ERREUR égalité KO \n"
+msgstr ""
+
+#: midi.cpp:278 midi.cpp:350
+msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
+msgstr ""
+
+#: midi.cpp:283
+msgid "Choisir le client MIDI à connecter :\n"
+msgstr ""
+
+#: midi.cpp:293 midi.cpp:372
+msgid "La liste est vide, connecter un périphérique MIDI puis appuyer sur [ENTREE] pour rafraîchir la liste\n"
+msgstr ""
+
+#: midi.cpp:341
+msgid "connexion auto JACK\n"
+msgstr ""
+
+#: midi.cpp:345
+msgid "connexion auto ALSA\n"
+msgstr ""
+
+#: midi.cpp:355
+msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
+msgstr ""
+
+#: midi.cpp:482
+#, c-format
+msgid "Session MIDI sauvegardée dans le fichier '%s'\n"
+msgstr ""
+
+#: midi.cpp:521
+#, c-format
+msgid "%s canal %2d volume de %d dB réglé à %d dB \n"
+msgstr ""
+
+#: midi.cpp:648
+#, c-format
+msgid "====> Attention : volume général modifié de %0.1fdB à %0.1fdB \n"
+msgstr ""
+
+#: midi.cpp:712
+#, c-format
+msgid "%s ATTENTION note non définie \n"
+msgstr ""
+
+#: midi.cpp:763
+msgid " hors limites [-1:1]"
+msgstr ""
+
+#: midi.cpp:775
+#, c-format
+msgid "%s pitchbend à %.3f%s, plage de variation +-%.1f 1/2 tons soit la fréquence*%.3f value H%04X param H%04X \n"
+msgstr ""
+
+#: services.cpp:109
+msgid "Fichier Instrument : "
+msgstr ""
+
+#: services.cpp:110
+msgid "Nom court, Version Date : "
+msgstr ""
+
+#: services.cpp:115
+msgid "Description : "
+msgstr ""
+
+#: services.cpp:118
+msgid "Auteur du paramétrage : "
+msgstr ""
+
+#: services.cpp:155
+msgid "Vélocité minimum : "
+msgstr ""
+
+#: services.cpp:158
+msgid "Instrument spécial : "
+msgstr ""
+
+#: services.cpp:163
+msgid "Clavier : "
+msgstr ""
+
+#: services.cpp:163
+msgid " touches"
+msgstr ""
+
+#: services.cpp:164 services.cpp:174
+msgid " dont "
+msgstr ""
+
+#: services.cpp:164 services.cpp:174
+msgid " basses"
+msgstr ""
+
+#: services.cpp:173
+msgid " touches spéciales/pédales"
+msgstr ""
+
+#: services.cpp:244
+msgid "==>Erreur de format numérique pour la valeur <"
+msgstr ""
+
+#: services.cpp:516
+msgid "--- Information sur l'application\n"
+msgstr ""
+
+#: services.cpp:517
+msgid "Conçu par "
+msgstr ""
+
+#: services.cpp:517
+msgid " en date du "
+msgstr ""
+
+#: services.cpp:518
+msgid " ; compilée le "
+msgstr ""
+
+#: services.cpp:554
+#, c-format
+msgid "Erreur lors de la récupération des dimensions de l'écran : %lu\n"
+msgstr ""
+
+#: services.cpp:563
+#, c-format
+msgid "Pas de redimensionnement nécessaire. Dimensions actuelles : %d colonnes, %d lignes.\n"
+msgstr ""
+
+#: services.cpp:572
+#, c-format
+msgid "Erreur lors de la modification du tampon d'écran : %lu\n"
+msgstr ""
+
+#: services.cpp:584
+#, c-format
+msgid "Erreur lors de la modification de l'écran : %lu\n"
+msgstr ""
+
+#: services.cpp:588
+#, c-format
+msgid "L'écran doit être redimensionné à %d colonnes et %d lignes.\n"
+msgstr ""
+
+#: services.cpp:603
+msgid "Erreur lors de la modification de la taille de l'écran"
+msgstr ""
+
+#: services.cpp:605
+#, c-format
+msgid "L'écran doit être redimensionné à %d colonnes et %d lignes sous Linux.\n"
+msgstr ""
+
+#: services.cpp:657
+#, c-format
+msgid ""
+"==> ATTENTION: Pour afficher correctement les informations, il faut agrandir l'écran,\n"
+" taille actuelle:(%d,%d) taille minimum souhaitée (%d,%d).\n"
+msgstr ""
+
+#: services.cpp:764
+#, c-format
+msgid "Sortie audio:SampleRate=%d échantillons par seconde sur %d canaux, ServeurAudioTampon=%d=%0.3fms ServeurAudioPeriode=%d=%0.3fms\n"
+msgstr ""
+
+#: services.cpp:773
+#, c-format
+msgid "Capture audio:SampleRate=%d échantillons par seconde sur %d canaux, ServeurAudioPeriode=%d=%0.3fms \n"
+msgstr ""
+
+#. activerEffetsSonores(1);
+#: services.cpp:911
+msgid "Mode spécial Accordeur désactivé\n"
+msgstr ""
+
+#: varglob.cpp:122
+msgid ""
+"Bienvenue dans le ViGAPhone World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
+"Parce que la musique est un monde de partage !"
+msgstr ""
+
+#: varglob.cpp:123
+msgid "==> Merci de lire le fichier LICENSE.txt avant usage pour la licence d'utilisation."
+msgstr ""
+
+#: varglob.cpp:124
+msgid "'?' affiche la liste des commandes disponibles. \n"
+msgstr ""
+
+#. Arrêter le programme par les touches 'CTRL C' \n
+#.
+#: varglob.cpp:130
+msgid "Ajouter l'option -h pour avoir la liste des paramètres de lancement\n"
+msgstr ""
+
+#: varglob.cpp:134
+msgid ""
+"Options de lancement du programme :\n"
+"<ce programme> [<Options>] [<nom du fichier de l'Instrument>] \n"
+"Options: \n"
+"-f <nom du fichier de l'Instrument> : nom du fichier de l'Instrument ou nom d'un répertoire contenant des instruments\n"
+"-ServeurAudio JACK | ALSA | WASAPI| WASAPIEX : Choix du serveur son pour linux=JACK ou ALSA, pour windows=WASAPI en mode partagé ou WASAPIEX en mode exclusif mais dans ce cas la carte son doit supporter le format float32 \n"
+"-ServeurAudioPeriode <valeur> : nombre d'échantillons sonores dans 1 periode de traitement, 512 par défaut, influe sur le délai de latence. JACK n'utilise pas de tampon ciculaire et offre la meilleure latence avec le plus de risque de pets en cas de retard, ALSA comme WASAPI utilise un tampon circulaire de 2 à 4 périodes,  ayant plus de latence mais étant moins sujet à produrie des pets. \n"
+"-ServeurAudioFreq <valeur> : fréquence d'échantillonnage souhaitée, 48000 par défaut, pour test avec ALSA seulement car normalement c'est le système d'exploitation qui définit cela en fonction des contraintes matérielles\n"
+"-ServeurAudioNbThreadsPCM : nombre de threads affectés au moteur audio, par défaut = nombre de coeurs de la CPU \n"
+"-ServeurMIDI JACK+ALSA | JACK | ALSA : Choix du serveur MIDI JACK ou ALSA ou les deux JACK+ALSA \n"
+"-AlsaMIDIOut <nom du connecteur ALSA clavier ou source MIDI> : exemples 'MIDI Out:out' 'VMPK Output:out' \n"
+"-JackWaveInL <nom du connecteur de sortie son gauche> : exemples 'Built-in Audio Analog Stereo:playback_FL' 'cinnamon:input_FL' \n"
+"-JackWaveInR <nom du connecteur de sortie son droit> : exemples 'Built-in Audio Analog Stereo:playback_FR' 'Built-in Audio Analog Stereo:playback_FR' \n"
+"-JackMIDIOut <nom du connecteur JACK clavier ou source MIDI> : exemples 'Mamba:out' 'Midi-Bridge:CASIO USB-MIDI 1:(capture_0)' 'CASIO USB-MIDI MIDI 1' \n"
+"-WinMIDIOut <nom du périphérique MIDI windows> : \"ViGAPhoneLoop\" \n"
+"-MIDIXAUTO : connexion automatique au client MIDI qui se branche, actif par défaut \n"
+"-OndeVolumeMinimum <valeur> : volume minimum pour extinction d'une onde valeur en dB <=0 : optimise les performances, éteint les ondes dont le volume sonore est inférieur à ce seuil, n‘est actif que quand le nombre d’ondes est supérieur au seuil, valeur par exemple : -60dB \n"
+"-OndeVolumeMinimumNbSeuil <valeur> : optimise les performances, seuil de nombre d’ondes actives autorisant d’éteindre les plus faibles valeur par exemple : 11000\n"
+"-StereoLargeurEcoute <valeur> : largeur en mètres de la séparation des points d'écoute gauche et droit, par défaut 0,20m \n"
+"-StereoAffaiblissement <valeur> : valeur maximale de l'affaiblissement selon l'angle de la source par rapport aux points d'écoute et à leur écart, par défaut -6dB/m \n"
+"-Tada <volume> : joue une musique d'accueil au démarrage, volume entre 0 et 10, 0=ne joue pas la musique, 10 par défaut \n"
+"-IMIDI : affiche les événements MIDI \n"
+"-D : affiche des informations de débogage\n"
+"-DMIDI : affiche les données brutes des événements MIDI non traités \n"
+"-h pour avoir la liste des paramètres de lancement\n"
+"\n"
+"Le programme démarre en mode interactif: \n"
+"Taper '?' affiche la liste des commandes disponibles. \n"
+"Arrêter le programme par la touche 'Q' ou plus brutalement par 'CTRL C' \n"
+msgstr ""
+
+#. -Langage <code> : choisir la langue affichée : fr, en, ... voir le contenu du répertoire locale \n
+#. +LatenceMesurePortNom <nom du connecteur audio> : pour la mesure de la latence, soit en interne soit en externe avec un câble audio bouclant la sortie audio avec l'entrée audio\n
+#. -AlsaWaveInL <nom du connecteur> : 'hw:default' \n
+#. -AlsaWaveInR <nom du connecteur> : 'hw:default' \n
+#. -NormaliseNoteVolume : calcule la puissance des harmoniques et applique une correction pour que chaque note soit de même puissance, vrai par défaut \n
+#. -EngineIn_jackCB : pour test technique uniquement, le moteur de rendu audio fait ses calculs dans le thread de JACK au lieu d'un thread séparé avec tampon\n
+#. -NormaliseNoteVolume <valeur> : égalise l'énergie sonore de chaque note relativement à l'ensemble, 0=non, 1=oui, oui par défaut\n
+#. ; sous windows la periode doit être un multiple de 64
+#. -ServeurAudioTampon <valeur> : nombre d'échantillons sonores dans le tampon audio contenant 2 ou 3 périodes de traitement, 512 par défaut, influe sur le délai de latence \n
+#.
+#: varglob.cpp:177
+msgid ""
+" \n"
+"--- Liste des commandes disponibles sur la dernière note jouée: \n"
+"[flèches] : change la note courante, gauche = précédente, droite = suivante, bas = octave inférieure, haut = octave supérieure ; si les flèches ne marchent pas utiliser les commandes mMpP \n"
+"[espace] : rejoue/arrête la ou les 3 dernières notes \n"
+"b : rejoue et maintient la ou les 3 dernières notes, les touches restent baissées\n"
+"n : mémorise la note courante pour former un accord \n"
+"H : affiche les fréquences et amplitudes des partiels et quelques informations sur la note \n"
+"h : compare les partiels du dernier accord joué et affiche les concordances et les dissonances \n"
+"h + assitant accordeur graphique : liste des notes et partiels en résonance avec la note courante \n"
+"m M : diminue le paramètre un peu ou FORTEMENT \n"
+"N : choisit un paramètre de note à modifier \n"
+"p P : augmente le paramètre un peu ou FORTEMENT \n"
+"r : rafraîchit la vue ou le paramètre en cours de modification \n"
+"s : joue le son capturé au lieu du son synthétisé On/Off \n"
+" \n"
+"--- Liste des commandes générales: \n"
+"% : ouvre la fenêtre graphique, affiche en temps réel les spectres sonores temporels et fréquentiels\n"
+"a : arrête toutes les notes (all notes off), efface l'accord mémorisé \n"
+"A : menu spécial Accordeur\n"
+"d : affiche les informations de débogage On/Off \n"
+"D : menu spécial Divers et Debogage\n"
+"F : charge un nouveau fichier d'Instrument \n"
+"G : choisit un paramètre global à modifier \n"
+"I : affiche les informations sur le programme et le fichier d'Instrument \n"
+"q : quitte la commande en cours \n"
+"Q : quitte le programme \n"
+"r : rafraichit l'écran \n"
+"R : recharge le fichier d'Instrument et restaure les valeurs d'origine \n"
+"S : sauvegarde les paramètres de l'Instrument dans un fichier ainsi que les captures sonores \n"
+"X : change la connexion à un client MIDI \n"
+"? : affiche la liste des commandes disponibles \n"
+msgstr ""
+
+#.
+#.
+#. L : mesure la Latence audio globale \n
+#. b comme bis, baisse les touches
+#. % : affiche pour toutes les notes la puissance sonore des ondes et le coefficient correcteur\n[0..9] : choix du numéro du paramètre à modifier \n
+#.
+#.
+#: varglob.cpp:220
+msgid ""
+"\n"
+"--- Liste des commandes dans la vue graphique: \n"
+"g : gèle la capture sonore pour l'analyse du timbre \n"
+"f : choisit l'échelle dB/réelle \n"
+"jJkK mMpP : déplacement et zoom \n"
+"q : quitte et ferme la fenêtre \n"
+"Q : quitte le programme \n"
+"r : recompose la vue  \n"
+"t : choisit le spectre \n"
+"z : zoom on/off \n"
+"% : envoie les commandes jkmMpP à la console, agit sur le paramètre à modifier \n"
+"[flèches] [espace] a b s : identiques console\n"
+"[début/home] : positionne le spectre au début\n"
+"? : affiche sur la console la liste des commandes disponibles pour la vue graphique\n"
+msgstr ""
+
+#: varglob.cpp:292
+msgid "abandonne"
+msgstr ""
+
+#: varglob.cpp:293
+msgid "volume sonore général"
+msgstr ""
+
+#: varglob.cpp:294
+msgid "stéréo On/Off"
+msgstr ""
+
+#: varglob.cpp:295
+msgid "résonance sympathique On/Off"
+msgstr ""
+
+#: varglob.cpp:296
+msgid "réverbération On/Off"
+msgstr ""
+
+#: varglob.cpp:297
+msgid "réverbération liste et sélection"
+msgstr ""
+
+#: varglob.cpp:298
+msgid "Instrument en cours: normalise le volume des notes On/Off"
+msgstr ""
+
+#: varglob.cpp:299
+msgid "Instrument en cours: diapason"
+msgstr ""
+
+#: varglob.cpp:300
+msgid "Instrument en cours: Niveau de Couplage Mécanique pour la résonance sympathique"
+msgstr ""
+
+#: varglob.cpp:301
+msgid "clavier MIDI: courbe de vélocité D E L U"
+msgstr ""
+
+#: varglob.cpp:302
+msgid "clavier MIDI: puissance gamma"
+msgstr ""
+
+#: varglob.cpp:303
+msgid "clavier MIDI: volume sonore de la vélocité minimum"
+msgstr ""
+
+#: varglob.cpp:304
+msgid "réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie, enveloppe ADSR sans DS, vélocitée max, Reverb Off, sur toutes les notes, On/Off"
+msgstr ""
+
+#: varglob.cpp:305
+msgid "réduit temporairement le nombre de voix à 1 sur toutes les notes On/Off"
+msgstr ""
+
+#: varglob.cpp:306
+msgid "bascule temporairement les notes sur les captures sonores pour jouer les sons réels enregistrés On/Off"
+msgstr ""
+
+#: varglob.cpp:307
+msgid "MIDI: affiche les événements reçus On/Off"
+msgstr ""
+
+#: varglob.cpp:308
+msgid "MIDI: affiche les événements reçus non traités On/Off"
+msgstr ""
+
+#: varglob.cpp:309
+msgid "verrouille SustainTime dans la modification de DecayTime et SustainVolume On/Off"
+msgstr ""
+
+#: varglob.cpp:322 varglob.cpp:354
+msgid "ou entrée vide : abandonne"
+msgstr ""
+
+#: varglob.cpp:323
+msgid "affiche le spectrogramme pour régler le microphone et le niveau de bruit"
+msgstr ""
+
+#: varglob.cpp:324
+msgid "assistant console pour accorder l'Instrument réel: mesure la fréquence de la note jouée et joue son unisson"
+msgstr ""
+
+#: varglob.cpp:325
+msgid "assistant graphique pour accorder l'Instrument réel: ajoute des informations de consonnances"
+msgstr ""
+
+#: varglob.cpp:326
+msgid "affiche/modifie/capture l'inharmonicité des notes, capture le timbre de la note de l'Instrument"
+msgstr ""
+
+#: varglob.cpp:327
+msgid "affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument"
+msgstr ""
+
+#: varglob.cpp:328
+msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
+msgstr ""
+
+#: varglob.cpp:329
+msgid "ouvre la fenêtre graphique: signal audio + spectre fréquence/amplitude des partiels"
+msgstr ""
+
+#: varglob.cpp:330
+msgid "enregistre les fichiers WAV des notes capturées"
+msgstr ""
+
+#: varglob.cpp:331
+msgid "accorde l'Instrument selon ses règles d'accordage "
+msgstr ""
+
+#: varglob.cpp:332
+msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
+msgstr ""
+
+#: varglob.cpp:333
+msgid "affiche les règles et fréquences des notes de l'Instrument"
+msgstr ""
+
+#: varglob.cpp:355
+msgid "affiche la distribution des notes actives sur les threads Engine-PCM"
+msgstr ""
+
+#: varglob.cpp:356
+msgid "affiche la signature de l'ordinateur pour obtenir une licence d'utilisation"
+msgstr ""
+
+#: varglob.cpp:357
+msgid "test:choisit la forme de l'onde de base"
+msgstr ""
+
+#: ViGAPhone.cpp:158
+msgid ""
+"\n"
+"Il n'y a pas de note en cours, arrêt de la commande d'édition.\n"
+msgstr ""
+
+#. 3| 159| -17dB =>*************   <= La 3   ADSR=D time= 0,91 vol= -17dB fus|xrun 0 JACKload  7% OSload  0% maxPeriode= 0,835ms
+#: ViGAPhone.cpp:164
+msgid "nbNotes|nbOndes|=>    VU-mètre    <= dernière note jouée....volume  3pédales|xrun   threads/cpu charge      délais de calcul"
+msgstr ""
+
+#: ViGAPhone.cpp:221
+#, c-format
+msgid "%c[41mAttention : %s charge système %.0f%c "
+msgstr ""
+
+#. pour arrêter la composition de l'affichage
+#: ViGAPhone.cpp:405
+#, c-format
+msgid "==> ATTENTION : le fichier <%s> a été supprimé ou déplacé\n"
+msgstr ""
+
+#. pour arrêter la composition de l'affichage
+#: ViGAPhone.cpp:412
+#, c-format
+msgid "==> ATTENTION : le fichier <%s> a été restauré\n"
+msgstr ""
+
+#: ViGAPhone.cpp:420
+msgid "Fichier Instrument mis à jour, ok je le recharge...\n"
+msgstr ""
+
+#. filtrer pour trouver le périph avec un port MIDI-OUT compatible
+#. ne pas afficher de message, atendre un tour, si le périph n'est pas connecté au ViGAPhone, le proposer
+#: ViGAPhone.cpp:500
+msgid "JACK connexion d'un périphérique MIDI\n"
+msgstr ""
+
+#: ViGAPhone.cpp:505
+msgid "JACK déconnexion d'un périphérique MIDI\n"
+msgstr ""
+
+#. filtrer pour trouver le périph avec un port MIDI-OUT compatible
+#. ne pas afficher de message, atendre un tour, si le périph n'est pas connecté au ViGAPhone, le proposer
+#: ViGAPhone.cpp:528
+msgid "ALSA connexion d'un périphérique MIDI\n"
+msgstr ""
+
+#: ViGAPhone.cpp:533
+msgid "ALSA déconnexion d'un périphérique MIDI\n"
+msgstr ""
+
+#. filtrer pour trouver le périph avec un port MIDI-OUT compatible
+#. ne pas afficher de message, atendre un tour, si le périph n'est pas connecté au ViGAPhone, le proposer
+#: ViGAPhone.cpp:553
+msgid "WINMM connexion d'un périphérique MIDI\n"
+msgstr ""
+
+#: ViGAPhone.cpp:558
+msgid "WINMM déconnexion d'un périphérique MIDI\n"
+msgstr ""
+
+#: ViGAPhone.cpp:657
+msgid ""
+"\n"
+"\n"
+"Temps d'utilisation sans licence dépassé, limité à "
+msgstr ""
+
+#: ViGAPhone.cpp:657
+msgid ""
+" minutes. Fermeture de l'application. \n"
+"Merci de l'avoir essayée, prenez une licence pour une utilisation illimitée.\n"
+msgstr ""
+
+#. printf(" \n");
+#. ConsoleEchoGuard guard;// sensé rétalbir automatiquement l'écho du terminal à la sortie
+#. Définit la page de codes de sortie utilisée par la console associée au processus appelant
+#. _setmode(_fileno(stdout), _O_TEXT);  // Rétablit le mode texte normal
+#: ViGAPhone.cpp:685
+#, c-format
+msgid ""
+"\n"
+"Erreur : SetConsoleOutputCP(CP_UTF8) a échoué (code erreur : %lu)\n"
+msgstr ""
+
+#: ViGAPhone.cpp:755
+msgid ""
+"\n"
+"==> ATTENTION : Arrêt forcé demandé plusieurs fois, sortie agressive..\n"
+msgstr ""
+
+#: ViGAPhone.cpp:761
+msgid "==> ATTENTION : Arrêt forcé demandé, pour quitter proprement l'application, utiliser la commande 'Q'."
+msgstr ""
+
+#: ViGAPhone.cpp:816
+#, c-format
+msgid "==> Erreur, le paramètre de serveur audio n'est pas reconnu : <%s> \n"
+msgstr ""
+
+#: ViGAPhone.cpp:827
+#, c-format
+msgid "==> Erreur, le paramètre de source MIDI n'est pas reconnu : <%s> \n"
+msgstr ""
+
+#: ViGAPhone.cpp:914
+#, c-format
+msgid "==> Erreur, la fréquence du serveur audio ne peut être inférieure à %dHz \n"
+msgstr ""
+
+#: ViGAPhone.cpp:960
+#, c-format
+msgid "==> Erreur, paramètre <%s> non reconnu.\n"
+msgstr ""
+
+#. -? ko
+#. if (access("/usr/bin/x-terminal-emulator", X_OK) == 0) {
+#. // Construire la commande avec l'argument
+#. for (int i = 1 ; i <= argc ; i++) cmd = cmd + " " + argv[i] ;
+#. system(*cmd);
+#. return 0;
+#. }
+#: ViGAPhone.cpp:1072
+msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
+msgstr ""
+
+#: ViGAPhone.cpp:1084
+msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
+msgstr ""
+
+#. fichier général non trouvé
+#: ViGAPhone.cpp:1120
+msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
+msgstr ""
+
+#: ViGAPhone.cpp:1230
+msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
+msgstr ""
+
+#: ViGAPhone.cpp:1257
+msgid "Lancement des moteurs Audio PCM et MIDI..."
+msgstr ""
+
+#: ViGAPhone.cpp:1277
+msgid "Paramétrage de l'Instrument..."
+msgstr ""
+
+#: ViGAPhone.cpp:1283
+msgid "==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
+msgstr ""
+
+#: ViGAPhone.cpp:1312
+#, c-format
+msgid ""
+"\n"
+"==> ATTENTION : La licence d'utilisation n'est pas valide ou n'est pas trouvée.\n"
+"L'usage de l'application est limité à %d minutes.\n"
+"Rendez-vous sur le site web du ViGAWorld/ViGAPhone pour vous enregistrez comme utilisateur et obtenir une licence.\n"
+msgstr ""
+
+#: ViGAPhone.cpp:1333
+msgid "Arrêt de l'application..."
+msgstr ""
+
+#. reset_terminal_mode();
+#. enableEcho();
+#. stoperServersAudio();
+#. stop vue graphique par evt bidon
+#. vueCaptureGraphiqueReveille();
+#. attend que tout les threads soient stoppés //X y compris le main() qui fait le coUninitialize de windows
+#: ViGAPhone.cpp:1342
+msgid "A bientôt ! \n"
+msgstr ""
