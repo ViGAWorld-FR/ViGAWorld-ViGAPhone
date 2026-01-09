@@ -1,3 +1,10 @@
+1.0.0
+Evolution :
+- Le ViGAPhone devient multilingue, choix de langue selon OS ou option SetLocale
+- les utilisateurs sont invités à parfaire les traductions existantes ou à en créer de nouvelles
+
+Corrections:
+- lancement automatique dans "windows terminal" si installé
 0.9.3 corrections:
 - sauvegarde incrémentielle du fichier Instrument ajout de l'option d'écrasement ou de nouveau nom de fichier
 - fait le silence avant la capture du timbre
