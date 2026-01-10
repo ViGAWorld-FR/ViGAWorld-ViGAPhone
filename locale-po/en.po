@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-09 18:43+0100\n"
+"POT-Creation-Date: 2026-01-10 11:19+0100\n"
 "PO-Revision-Date: 2026-01-07 20:10+0100\n"
 "Last-Translator: Gemini\n"
 "Language-Team: none\n"
@@ -2624,7 +2624,7 @@ msgstr "Audio capture:SampleRate=%d samples per second on %d channels, AudioServ
 msgid "Mode spécial Accordeur désactivé\n"
 msgstr "Special Tuner mode disabled\n"
 
-#: varglob.cpp:122
+#: varglob.cpp:123
 msgid ""
 "Bienvenue dans le ViGAPhone World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
 "Parce que la musique est un monde de partage !"
@@ -2632,21 +2632,21 @@ msgstr ""
 "Welcome to the ViGAPhone World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
 "Because music is a world of sharing!"
 
-#: varglob.cpp:123
+#: varglob.cpp:124
 msgid "==> Merci de lire le fichier LICENSE.txt avant usage pour la licence d'utilisation."
 msgstr "==> Please read the LICENSE.txt file before use for the license terms."
 
-#: varglob.cpp:124
+#: varglob.cpp:125
 msgid "'?' affiche la liste des commandes disponibles. \n"
 msgstr "'?' displays the list of available commands. \n"
 
 #. Arrêter le programme par les touches 'CTRL C' \n
 #.
-#: varglob.cpp:130
+#: varglob.cpp:131
 msgid "Ajouter l'option -h pour avoir la liste des paramètres de lancement\n"
 msgstr "Pass -h to see all startup options\n"
 
-#: varglob.cpp:134
+#: varglob.cpp:135
 msgid ""
 "Options de lancement du programme :\n"
 "<ce programme> [<Options>] [<nom du fichier de l'Instrument>] \n"
@@ -2716,7 +2716,7 @@ msgstr ""
 #. ; sous windows la periode doit être un multiple de 64
 #. -ServeurAudioTampon <valeur> : nombre d'échantillons sonores dans le tampon audio contenant 2 ou 3 périodes de traitement, 512 par défaut, influe sur le délai de latence \n
 #.
-#: varglob.cpp:177
+#: varglob.cpp:178
 msgid ""
 " \n"
 "--- Liste des commandes disponibles sur la dernière note jouée: \n"
@@ -2789,7 +2789,7 @@ msgstr ""
 #. % : affiche pour toutes les notes la puissance sonore des ondes et le coefficient correcteur\n[0..9] : choix du numéro du paramètre à modifier \n
 #.
 #.
-#: varglob.cpp:220
+#: varglob.cpp:221
 msgid ""
 "\n"
 "--- Liste des commandes dans la vue graphique: \n"
@@ -2821,135 +2821,280 @@ msgstr ""
 "[home]: position spectrum at start\n"
 "?: display list of commands for graphic view on console\n"
 
-#: varglob.cpp:292
+#. le id commence à 1
+#. lié à FicInstruNoteColonneNom_t, utilisé par cmdclav:modifieNotePrm() et FicInstru:lireClavierValeurs()
+#. les numéros sont attribués à vie ; un '\0' en premier annule la colonne et doit ignorer la valeur
+#. format : nom du paramètre colonne, identifiant à vie, format numérique(f=float,d=entier)|texte(s=string), valeur par défaut, X texte d'information
+#. ils sont listés dans l'ordre du fichier Instrument
+#. todo ajouter un numéro de regroupage affiché et filtré par la liste des paramètres à modifier
+#: varglob.cpp:248
+msgid "MIDInoteNum"
+msgstr ""
+
+#: varglob.cpp:249
+#, fuzzy
+msgid "note nom"
+msgstr "Note "
+
+#: varglob.cpp:250
+#, fuzzy
+msgid "note num"
+msgstr "Note "
+
+#: varglob.cpp:251
+msgid "fréquence P1"
+msgstr ""
+
+#: varglob.cpp:252
+#, fuzzy
+msgid "règle accord"
+msgstr " tuning rule:"
+
+#: varglob.cpp:253
+msgid "nb voix"
+msgstr ""
+
+#: varglob.cpp:254
+msgid "avecEtouffoir"
+msgstr ""
+
+#: varglob.cpp:255
+msgid "position de frappe >= 2"
+msgstr ""
+
+#: varglob.cpp:256
+msgid "déviation accord voix +-Hz"
+msgstr ""
+
+#: varglob.cpp:257
+msgid "nb partiels"
+msgstr ""
+
+#: varglob.cpp:258
+msgid "dureté du marteau"
+msgstr ""
+
+#: varglob.cpp:259
+msgid "fréq coupure filtre marteau passe bas"
+msgstr ""
+
+#: varglob.cpp:260
+msgid "fréq coupure filtre TH passe bas"
+msgstr ""
+
+#: varglob.cpp:261
+msgid "puissance filtre TH passe bas en dB"
+msgstr ""
+
+#: varglob.cpp:262
+msgid "volumeAjuste dB"
+msgstr ""
+
+#. 1 ou 0dB, si vide donne 1 par défaut
+#: varglob.cpp:263
+msgid "stereoXSource"
+msgstr ""
+
+#. Position dans le plan XY de la source sonore
+#: varglob.cpp:264
+msgid "stereoYSource"
+msgstr ""
+
+#. Position dans le plan XY de la source sonore
+#: varglob.cpp:265
+msgid "ondeWAVfile"
+msgstr ""
+
+#: varglob.cpp:266
+msgid "AttackWAVfile"
+msgstr ""
+
+#: varglob.cpp:267
+msgid "AttackWAVvolume dB"
+msgstr ""
+
+#: varglob.cpp:268
+msgid "AttackTime"
+msgstr ""
+
+#: varglob.cpp:269
+msgid "DecayTime"
+msgstr ""
+
+#: varglob.cpp:270
+msgid "SustainVolume dB"
+msgstr ""
+
+#. amplitude fin decay début sustain
+#: varglob.cpp:271
+msgid "SustainTimeT60"
+msgstr ""
+
+#. temps T60 =amplitude à -60dB//T60 car c'est le temps que met la note jouée fort pour que son amplitude descende à -60dB
+#: varglob.cpp:272
+msgid "ReleaseTimeT60"
+msgstr ""
+
+#: varglob.cpp:273
+msgid "ReleaseWAVfile"
+msgstr ""
+
+#: varglob.cpp:274
+msgid "ReleaseWAVvolume dB"
+msgstr ""
+
+#: varglob.cpp:275
+msgid "fréq coupure filtre amortissement fréquentiel"
+msgstr ""
+
+#: varglob.cpp:276
+msgid "puissance filtre amortissement fréquentiel en dB"
+msgstr ""
+
+#: varglob.cpp:277
+#, fuzzy
+msgid "inharmonicité coef B"
+msgstr "Inharmonicity %.6f         "
+
+#: varglob.cpp:278
+#, fuzzy
+msgid "inharmonicité fréq P1"
+msgstr "Inharmonicity %.6f         "
+
+#: varglob.cpp:279
+#, fuzzy
+msgid "liste amplitudes réelles des partiels dB"
+msgstr "Real partial amplitudes: "
+
+#: varglob.cpp:296
 msgid "abandonne"
 msgstr "cancel"
 
-#: varglob.cpp:293
+#: varglob.cpp:297
 msgid "volume sonore général"
 msgstr "master volume"
 
-#: varglob.cpp:294
+#: varglob.cpp:298
 msgid "stéréo On/Off"
 msgstr "stereo On/Off"
 
-#: varglob.cpp:295
+#: varglob.cpp:299
 msgid "résonance sympathique On/Off"
 msgstr "sympathetic resonance On/Off"
 
-#: varglob.cpp:296
+#: varglob.cpp:300
 msgid "réverbération On/Off"
 msgstr "reverb On/Off"
 
-#: varglob.cpp:297
+#: varglob.cpp:301
 msgid "réverbération liste et sélection"
 msgstr "reverb list and selection"
 
-#: varglob.cpp:298
+#: varglob.cpp:302
 msgid "Instrument en cours: normalise le volume des notes On/Off"
 msgstr "Current instrument: normalize note volume On/Off"
 
-#: varglob.cpp:299
+#: varglob.cpp:303
 msgid "Instrument en cours: diapason"
 msgstr "Current instrument: pitch standard (A440)"
 
-#: varglob.cpp:300
+#: varglob.cpp:304
 msgid "Instrument en cours: Niveau de Couplage Mécanique pour la résonance sympathique"
 msgstr "Current instrument: Mechanical Coupling Level for sympathetic resonance"
 
-#: varglob.cpp:301
+#: varglob.cpp:305
 msgid "clavier MIDI: courbe de vélocité D E L U"
 msgstr "MIDI keyboard: velocity curve D E L U"
 
-#: varglob.cpp:302
+#: varglob.cpp:306
 msgid "clavier MIDI: puissance gamma"
 msgstr "MIDI keyboard: gamma power"
 
-#: varglob.cpp:303
+#: varglob.cpp:307
 msgid "clavier MIDI: volume sonore de la vélocité minimum"
 msgstr "MIDI keyboard: minimum velocity volume"
 
-#: varglob.cpp:304
+#: varglob.cpp:308
 msgid "réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie, enveloppe ADSR sans DS, vélocitée max, Reverb Off, sur toutes les notes, On/Off"
 msgstr "temporarily reduce sound effects: mono voice, damper, infinite duration, ADSR envelope without DS, max velocity, Reverb Off, on all notes, On/Off"
 
-#: varglob.cpp:305
+#: varglob.cpp:309
 msgid "réduit temporairement le nombre de voix à 1 sur toutes les notes On/Off"
 msgstr "temporarily reduce polyphony to 1 voice for all notes On/Off"
 
-#: varglob.cpp:306
+#: varglob.cpp:310
 msgid "bascule temporairement les notes sur les captures sonores pour jouer les sons réels enregistrés On/Off"
 msgstr "temporarily switch notes to audio samples to play recorded real sounds On/Off"
 
-#: varglob.cpp:307
+#: varglob.cpp:311
 msgid "MIDI: affiche les événements reçus On/Off"
 msgstr "MIDI: display received events On/Off"
 
-#: varglob.cpp:308
+#: varglob.cpp:312
 msgid "MIDI: affiche les événements reçus non traités On/Off"
 msgstr "MIDI: display unhandled received events On/Off"
 
-#: varglob.cpp:309
+#: varglob.cpp:313
 msgid "verrouille SustainTime dans la modification de DecayTime et SustainVolume On/Off"
 msgstr "lock SustainTime when modifying DecayTime and SustainVolume On/Off"
 
-#: varglob.cpp:322 varglob.cpp:354
+#: varglob.cpp:326 varglob.cpp:358
 msgid "ou entrée vide : abandonne"
 msgstr "or empty input: cancel"
 
-#: varglob.cpp:323
+#: varglob.cpp:327
 msgid "affiche le spectrogramme pour régler le microphone et le niveau de bruit"
 msgstr "display spectrogram to adjust microphone and noise level"
 
-#: varglob.cpp:324
+#: varglob.cpp:328
 msgid "assistant console pour accorder l'Instrument réel: mesure la fréquence de la note jouée et joue son unisson"
 msgstr "console assistant to tune real instrument: measures played note frequency and plays its unison"
 
-#: varglob.cpp:325
+#: varglob.cpp:329
 msgid "assistant graphique pour accorder l'Instrument réel: ajoute des informations de consonnances"
 msgstr "graphic assistant to tune real instrument: adds consonance information"
 
-#: varglob.cpp:326
+#: varglob.cpp:330
 msgid "affiche/modifie/capture l'inharmonicité des notes, capture le timbre de la note de l'Instrument"
 msgstr "display/modify/capture note inharmonicity, capture instrument note timbre"
 
-#: varglob.cpp:327
+#: varglob.cpp:331
 msgid "affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument"
 msgstr "display/modify/capture partials of played note, capture instrument note timbre"
 
-#: varglob.cpp:328
+#: varglob.cpp:332
 msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
 msgstr "capture instrument note timbre from WAV file, must start from current note"
 
-#: varglob.cpp:329
+#: varglob.cpp:333
 msgid "ouvre la fenêtre graphique: signal audio + spectre fréquence/amplitude des partiels"
 msgstr "open graphic window: audio signal + partials frequency/amplitude spectrum"
 
-#: varglob.cpp:330
+#: varglob.cpp:334
 msgid "enregistre les fichiers WAV des notes capturées"
 msgstr "save WAV files of captured notes"
 
-#: varglob.cpp:331
+#: varglob.cpp:335
 msgid "accorde l'Instrument selon ses règles d'accordage "
 msgstr "tune the instrument according to its tuning rules "
 
-#: varglob.cpp:332
+#: varglob.cpp:336
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
 msgstr "choose instrument temperament, a set of automatic tuning rules"
 
-#: varglob.cpp:333
+#: varglob.cpp:337
 msgid "affiche les règles et fréquences des notes de l'Instrument"
 msgstr "display instrument note rules and frequencies"
 
-#: varglob.cpp:355
+#: varglob.cpp:359
 msgid "affiche la distribution des notes actives sur les threads Engine-PCM"
 msgstr "display active note distribution across Engine-PCM threads"
 
-#: varglob.cpp:356
+#: varglob.cpp:360
 msgid "affiche la signature de l'ordinateur pour obtenir une licence d'utilisation"
 msgstr "display computer signature to obtain a license"
 
-#: varglob.cpp:357
+#: varglob.cpp:361
 msgid "test:choisit la forme de l'onde de base"
 msgstr "test: choose basic waveform"
 
