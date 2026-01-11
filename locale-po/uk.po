@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-10 11:31+0100\n"
+"POT-Creation-Date: 2026-01-10 13:06+0100\n"
 "PO-Revision-Date: 2026-01-09 17:57+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1929,100 +1929,100 @@ msgstr ""
 "? : показати список команд у консолі\n"
 
 msgid "MIDInoteNum"
-msgstr ""
+msgstr "MIDInoteNum"
 
 msgid "note nom"
-msgstr "Нота "
+msgstr "назва ноти"
 
 msgid "note num"
-msgstr "Нота "
+msgstr "номер ноти"
 
 msgid "fréquence P1"
-msgstr ""
+msgstr "частота P1"
 
 msgid "règle accord"
-msgstr " правило налаштування:"
+msgstr "правило строю"
 
 msgid "nb voix"
-msgstr ""
+msgstr "кількість голосів"
 
 msgid "avecEtouffoir"
-msgstr ""
+msgstr "з демпфером"
 
 msgid "position de frappe >= 2"
-msgstr ""
+msgstr "позиція удару >= 2"
 
 msgid "déviation accord voix +-Hz"
-msgstr ""
+msgstr "відхилення строю голосу +-Гц"
 
 msgid "nb partiels"
-msgstr ""
+msgstr "кількість обертонів"
 
 msgid "dureté du marteau"
-msgstr ""
+msgstr "твердість молоточка"
 
 msgid "fréq coupure filtre marteau passe bas"
-msgstr ""
+msgstr "частота зрізу НЧ‑фільтра молоточка"
 
 msgid "fréq coupure filtre TH passe bas"
-msgstr ""
+msgstr "частота зрізу НЧ‑фільтра TH"
 
 msgid "puissance filtre TH passe bas en dB"
-msgstr ""
+msgstr "рівень НЧ‑фільтра TH у дБ"
 
 msgid "volumeAjuste dB"
-msgstr ""
+msgstr "скоригована гучність дБ"
 
 msgid "stereoXSource"
-msgstr ""
+msgstr "stereoXSource"
 
 msgid "stereoYSource"
-msgstr ""
+msgstr "stereoYSource"
 
 msgid "ondeWAVfile"
-msgstr ""
+msgstr "waveWAVfile"
 
 msgid "AttackWAVfile"
-msgstr ""
+msgstr "AttackWAVfile"
 
 msgid "AttackWAVvolume dB"
-msgstr ""
+msgstr "AttackWAV гучність дБ"
 
 msgid "AttackTime"
-msgstr ""
+msgstr "AttackTime"
 
 msgid "DecayTime"
-msgstr ""
+msgstr "DecayTime"
 
 msgid "SustainVolume dB"
-msgstr ""
+msgstr "Sustain гучність дБ"
 
 msgid "SustainTimeT60"
-msgstr ""
+msgstr "Sustain час T60"
 
 msgid "ReleaseTimeT60"
-msgstr ""
+msgstr "Release час T60"
 
 msgid "ReleaseWAVfile"
-msgstr ""
+msgstr "ReleaseWAVfile"
 
 msgid "ReleaseWAVvolume dB"
-msgstr ""
+msgstr "ReleaseWAV гучність дБ"
 
 msgid "fréq coupure filtre amortissement fréquentiel"
-msgstr ""
+msgstr "частота зрізу спектрального загасання"
 
 msgid "puissance filtre amortissement fréquentiel en dB"
-msgstr ""
+msgstr "рівень спектрального загасання у дБ"
 
 msgid "inharmonicité coef B"
-msgstr "Інгармонічність %.6f         "
+msgstr "коефіцієнт інгармонічності B"
 
 msgid "inharmonicité fréq P1"
-msgstr "Інгармонічність %.6f         "
+msgstr "інгармонічність частоти P1"
 
 msgid "liste amplitudes réelles des partiels dB"
-msgstr "Реальні амплітуди часткових: "
+msgstr "реальні амплітуди обертонів дБ"
 
 msgid "abandonne"
 msgstr "скасувати"
@@ -2093,8 +2093,12 @@ msgstr "графічний асистент для налаштування ре
 msgid "affiche/modifie/capture l'inharmonicité des notes, capture le timbre de la note de l'Instrument"
 msgstr "показує/змінює/захоплює інгармонічність нот, захоплює тембр ноти інструмента"
 
-msgid "affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument"
-msgstr "показує/змінює/захоплює часткові ноти, захоплює тембр ноти інструмента"
+msgid ""
+"affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument\n"
+"\t(la capture des notes peut aussi se faire dans la vue graphique en mode transmission de commandes)"
+msgstr ""
+"показує/змінює/захоплює обертони зіграної ноти, захоплює тембр ноти інструмента\n"
+"\t(захоплення нот також можливе у графічному режимі під час передавання команд)"
 
 msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
 msgstr "захоплює тембр нот інструмента з WAV‑файлу, починаючи з поточної ноти"

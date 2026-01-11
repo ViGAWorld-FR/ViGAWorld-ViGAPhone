@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-10 11:31+0100\n"
+"POT-Creation-Date: 2026-01-10 13:06+0100\n"
 "PO-Revision-Date: 2026-01-07 20:10+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1933,100 +1933,100 @@ msgstr ""
 "?: display list of commands for graphic view on console\n"
 
 msgid "MIDInoteNum"
-msgstr ""
+msgstr "MIDInoteNum"
 
 msgid "note nom"
-msgstr "Note "
+msgstr "note name"
 
 msgid "note num"
-msgstr "Note "
+msgstr "note number"
 
 msgid "fréquence P1"
-msgstr ""
+msgstr "P1 frequency"
 
 msgid "règle accord"
-msgstr " tuning rule:"
+msgstr "tuning rule"
 
 msgid "nb voix"
-msgstr ""
+msgstr "voices count"
 
 msgid "avecEtouffoir"
-msgstr ""
+msgstr "with damper"
 
 msgid "position de frappe >= 2"
-msgstr ""
+msgstr "strike position >= 2"
 
 msgid "déviation accord voix +-Hz"
-msgstr ""
+msgstr "voice tuning deviation +-Hz"
 
 msgid "nb partiels"
-msgstr ""
+msgstr "partials count"
 
 msgid "dureté du marteau"
-msgstr ""
+msgstr "hammer hardness"
 
 msgid "fréq coupure filtre marteau passe bas"
-msgstr ""
+msgstr "hammer low‑pass cutoff freq"
 
 msgid "fréq coupure filtre TH passe bas"
-msgstr ""
+msgstr "TH low‑pass cutoff freq"
 
 msgid "puissance filtre TH passe bas en dB"
-msgstr ""
+msgstr "TH low‑pass filter level dB"
 
 msgid "volumeAjuste dB"
-msgstr ""
+msgstr "adjusted volume dB"
 
 msgid "stereoXSource"
-msgstr ""
+msgstr "stereoXSource"
 
 msgid "stereoYSource"
-msgstr ""
+msgstr "stereoYSource"
 
 msgid "ondeWAVfile"
-msgstr ""
+msgstr "waveWAVfile"
 
 msgid "AttackWAVfile"
-msgstr ""
+msgstr "AttackWAVfile"
 
 msgid "AttackWAVvolume dB"
-msgstr ""
+msgstr "AttackWAV volume dB"
 
 msgid "AttackTime"
-msgstr ""
+msgstr "AttackTime"
 
 msgid "DecayTime"
-msgstr ""
+msgstr "DecayTime"
 
 msgid "SustainVolume dB"
-msgstr ""
+msgstr "Sustain volume dB"
 
 msgid "SustainTimeT60"
-msgstr ""
+msgstr "Sustain T60 time"
 
 msgid "ReleaseTimeT60"
-msgstr ""
+msgstr "Release T60 time"
 
 msgid "ReleaseWAVfile"
-msgstr ""
+msgstr "ReleaseWAVfile"
 
 msgid "ReleaseWAVvolume dB"
-msgstr ""
+msgstr "ReleaseWAV volume dB"
 
 msgid "fréq coupure filtre amortissement fréquentiel"
-msgstr ""
+msgstr "spectral damping cutoff freq"
 
 msgid "puissance filtre amortissement fréquentiel en dB"
-msgstr ""
+msgstr "spectral damping level dB"
 
 msgid "inharmonicité coef B"
-msgstr "Inharmonicity %.6f         "
+msgstr "inharmonicity B coef"
 
 msgid "inharmonicité fréq P1"
-msgstr "Inharmonicity %.6f         "
+msgstr "inharmonicity P1 freq"
 
 msgid "liste amplitudes réelles des partiels dB"
-msgstr "Real partial amplitudes: "
+msgstr "real partial amplitudes dB"
 
 msgid "abandonne"
 msgstr "cancel"
@@ -2097,8 +2097,12 @@ msgstr "graphic assistant to tune real instrument: adds consonance information"
 msgid "affiche/modifie/capture l'inharmonicité des notes, capture le timbre de la note de l'Instrument"
 msgstr "display/modify/capture note inharmonicity, capture instrument note timbre"
 
-msgid "affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument"
-msgstr "display/modify/capture partials of played note, capture instrument note timbre"
+msgid ""
+"affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument\n"
+"\t(la capture des notes peut aussi se faire dans la vue graphique en mode transmission de commandes)"
+msgstr ""
+"displays/edits/captures the partials of the played note, captures the tone of the instrument note\n"
+"\t(note capture can also be performed in the graphical view when command transmission mode is active)"
 
 msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
 msgstr "capture instrument note timbre from WAV file, must start from current note"
