@@ -1,3 +1,11 @@
+1.0.1
+Evolution :
+traductions complètes
+
+Corrections:
+windows:
+- passe la fenêtre du terminal en pleine écran car "windows terminal" ne permet pas le redimensionnement
+
 1.0.0
 Evolution :
 - Le ViGAPhone devient multilingue, choix de langue selon OS ou option SetLocale
@@ -5,6 +13,7 @@ Evolution :
 
 Corrections:
 - lancement automatique dans "windows terminal" si installé
+
 0.9.3 corrections:
 - sauvegarde incrémentielle du fichier Instrument ajout de l'option d'écrasement ou de nouveau nom de fichier
 - fait le silence avant la capture du timbre
