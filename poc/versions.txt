@@ -1,8 +1,10 @@
-1.0.1
 Evolution :
-traductions complètes
+- traductions complètes
 
 Corrections:
+- efface le mute après une capture
+- possible de jouer le son réel d'une note nouvellement capturée
+
 windows:
 - passe la fenêtre du terminal en pleine écran car "windows terminal" ne permet pas le redimensionnement
 
