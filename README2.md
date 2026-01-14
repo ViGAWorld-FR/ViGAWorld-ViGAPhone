@@ -1,4 +1,4 @@
-- FR ViGAWorld - ViGAPhone : [présentation en français, voir plus loin](#vigaphone-fr)
+#- FR ViGAWorld - ViGAPhone : [présentation en français, voir plus loin](#vigaphone-fr)
 
 
 <p align="center">
