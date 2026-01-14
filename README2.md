@@ -1,6 +1,3 @@
-#- FR ViGAWorld - ViGAPhone : [présentation en français, voir plus loin](#vigaphone-fr)
-
-
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
