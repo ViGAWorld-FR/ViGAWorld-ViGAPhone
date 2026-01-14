@@ -1,8 +1,19 @@
-- FR ViGAWorld - ViGAPhone : [présentation en français, voir plus loin](#vigaphone-fr)
+<p align="center">
+  <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
+  <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
+</p>
+
+<div align="center">
 
 | English TOC | Français TDM |
-|--------|----------|
-| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Linux / Windows installation](#Installation-en) <br> | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) <br>
+| :--- | :--- |
+| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Linux / Windows installation](#Installation-en) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) |
+
+</div>
+
+<br clear="all" />
+
+---
 
 
 
