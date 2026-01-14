@@ -1,10 +1,12 @@
 - FR ViGAWorld - ViGAPhone : [présentation en français, voir plus loin](#vigaphone-fr)
 
-# EN ViGAWorld - ViGAPhone : because music is a world of sharing !
-
-| English | Français |
+| English TOC | Français TDM |
 |--------|----------|
 | - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](#Installation-en) <br> | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br>
+
+
+
+# EN ViGAWorld - ViGAPhone : because music is a world of sharing !
 
 
 <p id="short-presentation"></p>
