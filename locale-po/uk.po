@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-10 13:06+0100\n"
+"POT-Creation-Date: 2026-01-14 10:19+0100\n"
 "PO-Revision-Date: 2026-01-09 17:57+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1562,6 +1562,9 @@ msgstr "Помилка: іконку застосунку не знайдено\
 msgid "vue graphique au 1ier plan"
 msgstr "графічне вікно на передньому плані"
 
+msgid "==> ERREUR: La langue '%s' n'est pas trouvée, la langue 'en_US' est utilisée par défaut\n"
+msgstr "==>ПОМИЛКА: мову '%s' не знайдено, за замовчуванням використовується 'en_US'\n"
+
 msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
 msgstr "Помилка: неправильний формат даних для Reverb:<%s>\n"
 
@@ -2215,6 +2218,15 @@ msgstr "==> Помилка: параметр <%s> не розпізнано.\n"
 msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
 msgstr "Помилка: ViGAPhone потрібно запускати з термінала UTF‑8.\n"
 
+msgid "==> ERREUR: ne trouve pas le répertoire %s \n"
+msgstr "==>ПОМИЛКА: не знайдено каталог %s \n"
+
+msgid "Appuyer sur [ENTREE] pour continuer"
+msgstr "Натисніть [ENTER], щоб продовжити"
+
+msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
+msgstr "==>ПОМИЛКА: не знайдено користувацький каталог %s \n"
+
 msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
 msgstr "Помилка: ViGAPhone потрібно запускати з термінала UTF‑8."
 
@@ -2249,3 +2261,6 @@ msgstr "Завершення роботи застосунку..."
 
 msgid "A bientôt ! \n"
 msgstr "До зустрічі! \n"
+
+#~ msgid "==> ERREUR: ne trouve pas le package installé dans %s \n"
+#~ msgstr "==>ПОМИЛКА: не знайдено встановлений пакет у %s \n"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-10 13:06+0100\n"
+"POT-Creation-Date: 2026-01-14 10:19+0100\n"
 "PO-Revision-Date: 2026-01-07 20:10+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1565,6 +1565,9 @@ msgstr "Error: application icon not found\n"
 msgid "vue graphique au 1ier plan"
 msgstr "graphic view in foreground"
 
+msgid "==> ERREUR: La langue '%s' n'est pas trouvée, la langue 'en_US' est utilisée par défaut\n"
+msgstr "==> ERROR: Language '%s' not found, defaulting to 'en_US'\n"
+
 msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
 msgstr "Error, invalid data format for Reverb:<%s>\n"
 
@@ -2219,6 +2222,15 @@ msgstr "==> Error, parameter <%s> not recognized.\n"
 msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
 msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal.\n"
 
+msgid "==> ERREUR: ne trouve pas le répertoire %s \n"
+msgstr "==> ERROR: cannot find directory %s \n"
+
+msgid "Appuyer sur [ENTREE] pour continuer"
+msgstr "Press [ENTER] to continue"
+
+msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
+msgstr "==> ERROR: cannot find user directory %s \n"
+
 msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
 msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal."
 
@@ -2253,3 +2265,6 @@ msgstr "Stopping application..."
 
 msgid "A bientôt ! \n"
 msgstr "See you soon! \n"
+
+#~ msgid "==> ERREUR: ne trouve pas le package installé dans %s \n"
+#~ msgstr "==> ERROR: cannot find the installed package in %s \n"
