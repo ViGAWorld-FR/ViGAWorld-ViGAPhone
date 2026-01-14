@@ -7,7 +7,7 @@
 | - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](Installation-en) <br> - [License](#licence) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br> - [Licence](#licence)
 
 
-## Short presentation
+<p id="short-presentation"></p>
 
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone** is a realistic MIDI musical instrument synthesizer and a powerful tool for musical instrument/piano tuners and technicians.
