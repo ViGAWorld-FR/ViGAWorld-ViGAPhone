@@ -119,40 +119,40 @@ For licensing or support inquiries:
 
 <p id="Installation-en"></p>
 
-## Installation
 ## 🛠️ Linux / Windows Installation
 
 ### 🐧 Linux
-● **Hardware Requirements:** x64 platform, **AVX** support.
-● **OS Requirements:** Any distribution compatible with **X11**, **OpenGL**, using **GNOME** or equivalent.
-● **Manual Download and Installation:**
-    ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.
-    ● Download the package: `ViGAPhoneR_linux.tar.gz`.
-    ● Extract the archive.
-    ● Navigate to the `installOnLinuxUser` directory.
+
+● **Hardware Requirements:** x64 platform, **AVX** support.  
+● **OS Requirements:** Any distribution compatible with **X11**, **OpenGL**, using **GNOME** or equivalent.  
+● **Manual Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+    ● Download the package: `ViGAPhoneR_linux.tar.gz`.  
+    ● Extract the archive.  
+    ● Navigate to the `installOnLinuxUser` directory.  
     ● Run the shell script:
-        ```bash
-        ./install.sh
-        ```
-● **Installation on Arch Linux and derivatives:**
-    ● Install the AUR package: `AUR/vigaphone-bin`.
+    ```bash
+    ./install.sh
+    ```
+
+● **Installation on Arch Linux and derivatives:** ● Install the AUR package: `AUR/vigaphone-bin`.  
 
 ---
 
 ### 🪟 Windows
-● **Hardware Requirements:** x64 platform, **AVX** support.
-● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.
-● **Download and Installation:**
-    ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.
-    ● Download the installer: `ViGAPhone-setup.exe`.
-    ● Run the `ViGAPhone-setup.exe` program.
+
+● **Hardware Requirements:** x64 platform, **AVX** support.  
+● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
+● **Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+    ● Download the installer: `ViGAPhone-setup.exe`.  
+    ● Run the `ViGAPhone-setup.exe` program.  
 
 ---
 
 ### 🌐 Language Selection
-The application supports at least **English** and **French**, and can be translated into any language using the standard tool [Poedit](https://poedit.net/).
 
-● **Default Behavior:** The application uses the OS language. If the language is not supported, it defaults to English.
+The application supports at least **English** and **French**, and can be translated into any language using the standard tool [Poedit](https://poedit.net/).  
+
+● **Default Behavior:** The application uses the OS language. If the language is not supported, it defaults to English.  
 ● **Manual Configuration:** Users can also choose the language in the application settings file using the `SetLocale` variable (refer to the user manual).
 
 ----------------------------------------------------------------------------------------------------------------------
