@@ -19,11 +19,6 @@
 ---
 
 
-| English TOC | Français TDM |
-|--------|----------|
-| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Linux / Windows installation](#Installation-en) <br> | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) <br>
-
-
 
 # EN ViGAWorld - ViGAPhone : because music is a world of sharing !
 
