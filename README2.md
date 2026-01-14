@@ -4,7 +4,7 @@
 
 | English | Français |
 |--------|----------|
-| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](Installation-en) <br> - [License](#licence) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br> - [Licence](#licence)
+| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](#Installation-en) <br> | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br>
 
 
 <p id="short-presentation"></p>
@@ -111,11 +111,14 @@ For licensing or support inquiries:
 - Email: [contactnotcopythis@vigaworld.com]
 
 
+<p id="user-manual"></p>
 
 ## User manual
+
 [read the user manual in English via Google Translate)](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-en"></p>
+
 ## Installation
 ## 🛠️ Linux / Windows Installation
 
@@ -155,8 +158,7 @@ The application supports at least **English** and **French**, and can be transla
 ----------------------------------------------------------------------------------------------------------------------
 
 <p id="vigaphone-fr"></p>
-
-## Courte présentation
+<p id="courte-présentation"></p>
 
 # FR ViGAWorld - ViGAPhone : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
@@ -233,11 +235,14 @@ For licensing or support inquiries:
 
 Toute redistribution, ingénierie inverse ou modification est strictement interdite.
 
+<p id="manuel-utilisateur"></p>
 
 ## Manuel utilisateur
+
 [Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-fr"></p>
+
 ## 🛠️ Installation Linux / Windows
 
 ### 🐧 Linux
