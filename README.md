@@ -1,12 +1,18 @@
 - FR ViGAWorld - ViGAPhone : [présentation en français, voir plus loin](#vigaphone-fr)
 
+| English TOC | Français TDM |
+|--------|----------|
+| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](#Installation-en) <br> | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br>
+
+
+
 # EN ViGAWorld - ViGAPhone : because music is a world of sharing !
+
+
+<p id="short-presentation"></p>
 
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone** is a realistic MIDI musical instrument synthesizer and a powerful tool for musical instrument/piano tuners and technicians.
-
-## User manual
-[read the user manual in English via Google Translate)](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
 
 ## 🎹 Overview
 
@@ -106,16 +112,59 @@ For licensing or support inquiries:
 - Website: [https://vigaworld.com](https://vigaworld.com)
 - Email: [contactnotcopythis@vigaworld.com]
 
+
+<p id="user-manual"></p>
+
+## User manual
+
+[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
+
+<p id="Installation-en"></p>
+
+## 🛠️ Linux / Windows Installation
+
+### 🐧 Linux
+
+● **Hardware Requirements:** x64 platform, **AVX** support.  
+● **OS Requirements:** Any distribution compatible with **X11**, **OpenGL**, using **GNOME** or equivalent.  
+● **Manual Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+    ● Download the package: `ViGAPhoneR_linux.tar.gz`.  
+    ● Extract the archive.  
+    ● Navigate to the `installOnLinuxUser` directory.  
+    ● Run the shell script:
+    ```bash
+    ./install.sh
+    ```
+
+● **Installation on Arch Linux and derivatives:** ● Install the AUR package: `AUR/vigaphone-bin`.  
+
+---
+
+### 🪟 Windows
+
+● **Hardware Requirements:** x64 platform, **AVX** support.  
+● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
+● **Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+    ● Download the installer: `ViGAPhone-setup.exe`.  
+    ● Run the `ViGAPhone-setup.exe` program.  
+
+---
+
+### 🌐 Language Selection
+
+The application supports at least **English** and **French**, and can be translated into any language using the standard tool [Poedit](https://poedit.net/).  
+
+● **Default Behavior:** The application uses the OS language. If the language is not supported, it defaults to English.  
+● **Manual Configuration:** Users can also choose the language in the application settings file using the `SetLocale` variable (refer to the user manual).
+
 ----------------------------------------------------------------------------------------------------------------------
 
 <p id="vigaphone-fr"></p>
+<p id="courte-présentation"></p>
 
 # FR ViGAWorld - ViGAPhone : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone** est un synthétiseur MIDI d'instruments de musique réaliste et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
-
-## Manuel utilisateur
-[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
 
 ## 🎹  Tout sur le ViGAPhone:
 - Un synthétiseur réaliste extraordinaire pour les musiciens interprètes et créatifs, un outil révolutionnaire et indispensable pour les accordeurs de pianos et autres.
@@ -188,6 +237,49 @@ For licensing or support inquiries:
 
 Toute redistribution, ingénierie inverse ou modification est strictement interdite.
 
+<p id="manuel-utilisateur"></p>
+
+## Manuel utilisateur
+
+[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
+
+<p id="Installation-fr"></p>
+
+## 🛠️ Installation Linux / Windows
+
+### 🐧 Linux
+
+● **Prérequis matériel :** Plateforme x64, support **AVX**.  
+● **Prérequis OS :** Toute distribution compatible **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
+● **Téléchargement et installation manuelle :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+    ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.  
+    ● Dézippez l'archive.  
+    ● Allez dans le répertoire `installOnLinuxUser`.  
+    ● Lancez le script d'installation :
+    ```bash
+    ./install.sh
+    ```
+
+● **Installation sur Arch Linux et dérivés :** ● Installez le paquet via AUR : `AUR/vigaphone-bin`.  
+
+---
+
+### 🪟 Windows
+
+● **Prérequis matériel :** Plateforme x64, support **AVX**.  
+● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
+● **Téléchargement et installation :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+    ● Téléchargez l'exécutable : `ViGAPhone-setup.exe`.  
+    ● Lancez le programme `ViGAPhone-setup.exe`.  
+
+---
+
+### 🌐 Choix de la langue d'affichage
+
+L'application supporte au minimum l'**anglais** et le **français**, et peut être traduite dans toutes les langues avec l'outil standard [Poedit](https://poedit.net/).  
+
+● **Comportement par défaut :** L'application utilise la langue du système d'exploitation. Si celle-ci n'est pas supportée, elle bascule automatiquement en anglais.  
+● **Configuration manuelle :** L'utilisateur peut forcer la langue dans le fichier de configuration via la variable `SetLocale` (voir le manuel utilisateur).
 
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-245884-4" border="0" /></a>
 
