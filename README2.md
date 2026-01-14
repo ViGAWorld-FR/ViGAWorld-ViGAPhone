@@ -117,7 +117,7 @@ For licensing or support inquiries:
 
 ## User manual
 
-[read the user manual in English via Google Translate)](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
+[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-en"></p>
 
