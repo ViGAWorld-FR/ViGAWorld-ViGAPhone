@@ -246,38 +246,38 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 ## 🛠️ Installation Linux / Windows
 
 ### 🐧 Linux
-● **Prérequis matériel :** Plateforme x64, support **AVX**.
-● **Prérequis OS :** Toute distribution compatible **X11**, **OpenGL**, avec **GNOME** ou équivalent.
-● **Téléchargement et installation manuelle :**
-    ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).
-    ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.
-    ● Dézippez l'archive.
-    ● Allez dans le répertoire `installOnLinuxUser`.
+
+● **Prérequis matériel :** Plateforme x64, support **AVX**.  
+● **Prérequis OS :** Toute distribution compatible **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
+● **Téléchargement et installation manuelle :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+    ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.  
+    ● Dézippez l'archive.  
+    ● Allez dans le répertoire `installOnLinuxUser`.  
     ● Lancez le script d'installation :
-        ```bash
-        ./install.sh
-        ```
-● **Installation sur Arch Linux et dérivés :**
-    ● Installez le paquet via AUR : `AUR/vigaphone-bin`.
+    ```bash
+    ./install.sh
+    ```
+
+● **Installation sur Arch Linux et dérivés :** ● Installez le paquet via AUR : `AUR/vigaphone-bin`.  
 
 ---
 
 ### 🪟 Windows
-● **Prérequis matériel :** Plateforme x64, support **AVX**.
-● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.
-● **Téléchargement et installation :**
-    ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).
-    ● Téléchargez l'exécutable : `ViGAPhone-setup.exe`.
-    ● Lancez le programme `ViGAPhone-setup.exe` et suivez les instructions.
+
+● **Prérequis matériel :** Plateforme x64, support **AVX**.  
+● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
+● **Téléchargement et installation :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+    ● Téléchargez l'exécutable : `ViGAPhone-setup.exe`.  
+    ● Lancez le programme `ViGAPhone-setup.exe`.  
 
 ---
 
 ### 🌐 Choix de la langue d'affichage
-L'application supporte nativement l'**anglais** et le **français**. Elle peut être traduite dans d'autres langues via l'outil standard [Poedit](https://poedit.net/).
 
-● **Comportement par défaut :** L'application utilise la langue du système d'exploitation. Si celle-ci n'est pas disponible, elle bascule automatiquement en anglais.
-● **Configuration manuelle :** L'utilisateur peut forcer une langue dans le fichier de configuration via la variable `SetLocale` (pour plus de détails, consultez le manuel utilisateur).
+L'application supporte au minimum l'**anglais** et le **français**, et peut être traduite dans toutes les langues avec l'outil standard [Poedit](https://poedit.net/).  
 
+● **Comportement par défaut :** L'application utilise la langue du système d'exploitation. Si celle-ci n'est pas supportée, elle bascule automatiquement en anglais.  
+● **Configuration manuelle :** L'utilisateur peut forcer la langue dans le fichier de configuration via la variable `SetLocale` (voir le manuel utilisateur).
 
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-245884-4" border="0" /></a>
 
