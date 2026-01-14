@@ -4,11 +4,7 @@
 
 | English | Français |
 |--------|----------|
-| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](#installation) <br> - [Command-line usage](#command-line-usage) <br> - [Configuration](#configuration) <br> - [Build from source](#build-from-source) <br> - [Contributing](#contributing) <br> - [License](#license) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#installation-linux--windows) <br> - [Utilisation en ligne de commande](#utilisation-en-ligne-de-commande) <br> - [Configuration](#configuration-fr) <br> - [Compilation depuis les sources](#compilation-depuis-les-sources) <br> - [Contribuer](#contribuer) <br> - [Licence](#licence) |
-
-| English | Français |
-|--------|----------|
-| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](#Installation-en) <br> - [Command-line usage](#command-line-usage) <br> - [Configuration](#configuration) <br> - [Build from source](#build-from-source) <br> - [Contributing](#contributing) <br> - [License](#license) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br> - [Utilisation en ligne de commande](#utilisation-en-ligne-de-commande) <br> - [Configuration](#configuration-fr) <br> - [Compilation depuis les sources](#compilation-depuis-les-sources) <br> - [Contribuer](#contribuer) <br> - [Licence](#licence) |
+| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](Installation-en) <br> - [License](#licence) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br> - [Licence](#licence)
 
 
 ## Short presentation
