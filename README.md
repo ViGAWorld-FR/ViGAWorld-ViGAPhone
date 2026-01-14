@@ -2,7 +2,7 @@
 
 | English TOC | Français TDM |
 |--------|----------|
-| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation](#Installation-en) <br> | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation Linux / Windows](#Installation-fr) <br>
+| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Installation on Linux / Windows](#Installation-en) <br> | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) <br>
 
 
 
