@@ -138,7 +138,7 @@ For licensing or support inquiries:
 
 ● **Hardware Requirements:** x64 platform, **AVX** support.  
 ● **OS Requirements:** Any distribution compatible with **X11**, **OpenGL**, using **GNOME** or equivalent.  
-● **Manual Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+● **Manual Download and Installation, without admin/root rights:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
     ● Download the package: `ViGAPhoneR_linux.tar.gz`.  
     ● Extract the archive.  
     ● Navigate to the `installOnLinuxUser` directory.  
@@ -262,7 +262,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ● **Prérequis matériel :** Plateforme x64, support **AVX**.  
 ● **Prérequis OS :** Toute distribution compatible **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
-● **Téléchargement et installation manuelle :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+● **Téléchargement et installation manuelle, sans droits admin/root :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
     ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.  
     ● Dézippez l'archive.  
     ● Allez dans le répertoire `installOnLinuxUser`.  
