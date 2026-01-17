@@ -1,3 +1,21 @@
+1.0.3
+Evolution :
+linux :
+- installation : Ubuntu/DEBIAN ajout d'un package .deb
+
+Corrections:
+- gestion multilingue
+
+1.0.2
+Corrections:
+linux :
+- installation : archlinux ajout d'un package dans AUR
+
+windows :
+- si lancé dans le terminal cmd.exe ou PowerShell, se relance si possible dans WindowsTeminal
+- inno setup choix de la langue d'installation FR ou EN
+
+1.0.1
 Evolution :
 - traductions complètes
 

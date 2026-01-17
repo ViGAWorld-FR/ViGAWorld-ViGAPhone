@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 10:19+0100\n"
+"POT-Creation-Date: 2026-01-17 15:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -906,6 +906,12 @@ msgstr ""
 msgid "--- Information sur l'environnement technique"
 msgstr ""
 
+msgid "répertoire de travail : "
+msgstr ""
+
+msgid "OS locale, ViGAPhone SetLocale : "
+msgstr ""
+
 msgid "CPU, nombre de coeurs, AVX : "
 msgstr ""
 
@@ -1471,7 +1477,7 @@ msgstr ""
 msgid "vue graphique au 1ier plan"
 msgstr ""
 
-msgid "==> ERREUR: La langue '%s' n'est pas trouvée, la langue 'en_US' est utilisée par défaut\n"
+msgid "==> ERREUR: langue '%s' non trouvée, 'en_US' par défaut\n"
 msgstr ""
 
 msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
@@ -2029,6 +2035,9 @@ msgstr ""
 msgid "==> Erreur, paramètre <%s> non reconnu.\n"
 msgstr ""
 
+msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
+msgstr ""
+
 msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
 msgstr ""
 
@@ -2039,9 +2048,6 @@ msgid "Appuyer sur [ENTREE] pour continuer"
 msgstr ""
 
 msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
-msgstr ""
-
-msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
 msgstr ""
 
 msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"

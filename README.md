@@ -142,12 +142,13 @@ For licensing or support inquiries:
     ● Download the package: `ViGAPhoneR_linux.tar.gz`.  
     ● Extract the archive.  
     ● Navigate to the `installOnLinuxUser` directory.  
-    ● Run the shell script:
-    ```bash
-    ./install.sh
-    ```
+    ● Run the shell script: ```bash ./install.sh```  
 
-● **Installation on Arch Linux and derivatives:** ● Install the AUR package: `AUR/vigaphone-bin`.  
+● **Installation on Arch Linux and derivatives:** ● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
+
+● **Installation on Ubuntu/DEBIAN and derivatives:** ● download the file package: `vigaphone-bin_amd64.deb`  
+    ● Install it with apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+
 
 ---
 
@@ -156,8 +157,7 @@ For licensing or support inquiries:
 ● **Hardware Requirements:** x64 platform, **AVX** support.  
 ● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
 ● **Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
-    ● Download the installer: `ViGAPhone-setup.exe`.  
-    ● Run the `ViGAPhone-setup.exe` program.  
+    ● Download the installer and run it, without admin rights: `ViGAPhone-setup_amd64.exe`.  
 
 ---
 
@@ -266,12 +266,13 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
     ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.  
     ● Dézippez l'archive.  
     ● Allez dans le répertoire `installOnLinuxUser`.  
-    ● Lancez le script d'installation :
-    ```bash
-    ./install.sh
-    ```
+    ● Lancez le script d'installation : ```bash ./install.sh```
 
-● **Installation sur Arch Linux et dérivés :** ● Installez le paquet via AUR : `AUR/vigaphone-bin`.  
+● **Installation sur Arch Linux et dérivés :** ● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
+
+● **Installation sur Ubuntu/DEBIAN et dérivés:** ● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
+    ● L'installer avec la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+
 
 ---
 
@@ -279,9 +280,9 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ● **Prérequis matériel :** Plateforme x64, support **AVX**.  
 ● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
-● **Téléchargement et installation :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
-    ● Téléchargez l'exécutable : `ViGAPhone-setup.exe`.  
-    ● Lancez le programme `ViGAPhone-setup.exe`.  
+● **Téléchargement et installation, sans droits admin :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+    ● Téléchargez l'auto-installateur l'exécutez le : `ViGAPhone-setup_amd64.exe`.  
+
 
 ---
 

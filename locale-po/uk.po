@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 10:19+0100\n"
+"POT-Creation-Date: 2026-01-17 15:41+0100\n"
 "PO-Revision-Date: 2026-01-09 17:57+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -981,6 +981,12 @@ msgstr "--- Інформація про файл Інструмента"
 msgid "--- Information sur l'environnement technique"
 msgstr "--- Інформація про технічне середовище"
 
+msgid "répertoire de travail : "
+msgstr "робочий каталог: "
+
+msgid "OS locale, ViGAPhone SetLocale : "
+msgstr "Локаль ОС, локаль ViGAPhone (SetLocale): "
+
 msgid "CPU, nombre de coeurs, AVX : "
 msgstr "CPU, кількість ядер, AVX: "
 
@@ -1562,7 +1568,7 @@ msgstr "Помилка: іконку застосунку не знайдено\
 msgid "vue graphique au 1ier plan"
 msgstr "графічне вікно на передньому плані"
 
-msgid "==> ERREUR: La langue '%s' n'est pas trouvée, la langue 'en_US' est utilisée par défaut\n"
+msgid "==> ERREUR: langue '%s' non trouvée, 'en_US' par défaut\n"
 msgstr "==>ПОМИЛКА: мову '%s' не знайдено, за замовчуванням використовується 'en_US'\n"
 
 msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
@@ -2215,6 +2221,9 @@ msgstr "==> Помилка: частота аудіосервера не мож�
 msgid "==> Erreur, paramètre <%s> non reconnu.\n"
 msgstr "==> Помилка: параметр <%s> не розпізнано.\n"
 
+msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
+msgstr "Помилка: ViGAPhone потрібно запускати з термінала UTF‑8."
+
 msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
 msgstr "Помилка: ViGAPhone потрібно запускати з термінала UTF‑8.\n"
 
@@ -2226,9 +2235,6 @@ msgstr "Натисніть [ENTER], щоб продовжити"
 
 msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
 msgstr "==>ПОМИЛКА: не знайдено користувацький каталог %s \n"
-
-msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
-msgstr "Помилка: ViGAPhone потрібно запускати з термінала UTF‑8."
 
 msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
 msgstr "==> Увага: загальний конфігураційний файл не знайдено або він містить помилки, робота може бути нестабільною \n"

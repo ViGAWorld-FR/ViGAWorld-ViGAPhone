@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 10:19+0100\n"
+"POT-Creation-Date: 2026-01-17 15:41+0100\n"
 "PO-Revision-Date: 2026-01-07 20:10+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -984,6 +984,12 @@ msgstr "--- Instrument file information"
 msgid "--- Information sur l'environnement technique"
 msgstr "--- Technical environment information"
 
+msgid "répertoire de travail : "
+msgstr "working directory: "
+
+msgid "OS locale, ViGAPhone SetLocale : "
+msgstr "OS locale, ViGAPhone SetLocale : "
+
 msgid "CPU, nombre de coeurs, AVX : "
 msgstr "CPU, core count, AVX: "
 
@@ -1565,7 +1571,7 @@ msgstr "Error: application icon not found\n"
 msgid "vue graphique au 1ier plan"
 msgstr "graphic view in foreground"
 
-msgid "==> ERREUR: La langue '%s' n'est pas trouvée, la langue 'en_US' est utilisée par défaut\n"
+msgid "==> ERREUR: langue '%s' non trouvée, 'en_US' par défaut\n"
 msgstr "==> ERROR: Language '%s' not found, defaulting to 'en_US'\n"
 
 msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
@@ -2219,6 +2225,9 @@ msgstr "==> Error, audio server frequency cannot be lower than %dHz \n"
 msgid "==> Erreur, paramètre <%s> non reconnu.\n"
 msgstr "==> Error, parameter <%s> not recognized.\n"
 
+msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
+msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal."
+
 msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
 msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal.\n"
 
@@ -2230,9 +2239,6 @@ msgstr "Press [ENTER] to continue"
 
 msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
 msgstr "==> ERROR: cannot find user directory %s \n"
-
-msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
-msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal."
 
 msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
 msgstr "==> Warning: General configuration file not found or corrupted; performance may be degraded \n"
