@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 15:41+0100\n"
+"POT-Creation-Date: 2026-01-17 19:12+0100\n"
 "PO-Revision-Date: 2026-01-07 20:10+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1537,6 +1537,9 @@ msgstr "%s, waiting for a loud note followed by silence (sound < %.fdB), press a
 
 msgid "Capture démarrée jusqu'au silence ou appuyer sur une touche pour arrêter..."
 msgstr "Capture started until silence or press any key to stop..."
+
+msgid "%s à %6.1fHz écart %5.1fHz %5.1fCents"
+msgstr "%s at %6.1fHz offset %5.1fHz %5.1fCents"
 
 msgid "Fenêtre SpectreCapture fermée."
 msgstr "SpectreCapture window closed."
