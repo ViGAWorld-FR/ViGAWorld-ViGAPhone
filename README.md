@@ -1,4 +1,7 @@
 <p align="center">
+# ViGAPhone: New Physical‑Modeling Synth Lab, Instrument Tuner, Timbre Analyzer and more...
+</p>
+<p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
 </p>
@@ -17,7 +20,7 @@
 
 
 
-# EN ViGAWorld - ViGAPhone : because music is a world of sharing !
+# EN ViGAWorld - ViGAPhone: because music is a world of sharing!
 
 
 <p id="short-presentation"></p>
