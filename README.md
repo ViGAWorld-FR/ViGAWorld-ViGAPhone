@@ -1,6 +1,6 @@
-<p align="center">
+<div align="center">
 # ViGAPhone: New Physical‑Modeling Synth Lab, Instrument Tuner, Timbre Analyzer and more...
-</p>
+</div>
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
