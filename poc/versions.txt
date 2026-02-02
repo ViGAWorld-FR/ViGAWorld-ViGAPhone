@@ -1,3 +1,8 @@
+1.0.4
+Corrections:
+windows :
+- affichage du terminal plus rapide par la gestion d'un tampon
+
 1.0.3
 Evolution :
 linux :

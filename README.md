@@ -1,4 +1,4 @@
-# ViGAPhone: New Physical‑Modeling Synth Lab, Instrument Tuner, Timbre Analyzer and more...
+# ViGAPhone: New Physical‑Modeling Synth Lab, Timbre Analyzer, Instrument Tuner and more...
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
@@ -148,7 +148,7 @@ For licensing or support inquiries:
 ● **Installation on Arch Linux and derivatives:** ● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
 
 ● **Installation on Ubuntu/DEBIAN and derivatives:** ● download the file package: `vigaphone-bin_amd64.deb`  
-    ● Install it with apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+    ● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 
 ---
@@ -176,7 +176,7 @@ The application supports at least **English** and **French**, and can be transla
 
 # FR ViGAWorld - ViGAPhone : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
-**ViGAPhone** est un synthétiseur MIDI d'instruments de musique réaliste et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
+**ViGAPhone** est un synthétiseur MIDI d'instruments de musique réaliste, un analyseur du timbre sonore et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
 
 ## 🎹  Tout sur le ViGAPhone:
 - Un synthétiseur réaliste extraordinaire pour les musiciens interprètes et créatifs, un outil révolutionnaire et indispensable pour les accordeurs de pianos et autres.
@@ -215,9 +215,7 @@ Le contrôle de l’enveloppe sonore repose sur le modèle ADSR, qui décrit les
 
 Même les instruments complexes comme le piano sont décomposés en paramètres simples et intuitifs, note par note. Le musicien peut les explorer, les ajuster et les écouter en temps réel, grâce à une interface graphique claire et une réponse sonore immédiate, pour une approche naturelle et sans effort.
 
-L'imitation sonore d'un instrument de musique, n'est pas suffisante, il faut aussi contrôler son tempérament afin de l'inscrire pleinement dans la production musicale en soliste ou en orchestre. L’application ViGAPhone propose une grammaire simple pour définir en quelques mots un tempérament complexe permettant d'accorder un instrument.
-
-Mais imiter le son ne suffit pas : pour qu’un instrument s’intègre pleinement dans une oeuvre musciale, en solo ou en orchestre, il faut aussi maîtriser son tempérament. ViGAPhone propose une grammaire musicale simple pour définir, en quelques mots, des tempéraments complexes et accorder l’instrument selon le contexte musical.
+L'imitation sonore d'un instrument de musique n'est pas suffisante, il faut aussi contrôler son tempérament afin de l'inscrire pleinement dans la production musicale en soliste ou en orchestre. L’application ViGAPhone propose une grammaire simple pour définir en quelques mots un tempérament complexe permettant d'accorder un instrument selon le contexte musical.
 
 L’application ViGAPhone intègre un module d’assistance à l’accordage d’instruments acoustiques, prenant en compte leur inharmonicité naturelle. Grâce à une précision élevée, elle permet d’obtenir un accord parfait plus rapidement qu’un accordage entièrement réalisé à l’oreille — en particulier dans les notes extrêmes, souvent difficiles à percevoir avec fiabilité.
 
@@ -272,7 +270,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 ● **Installation sur Arch Linux et dérivés :** ● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
 
 ● **Installation sur Ubuntu/DEBIAN et dérivés:** ● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
-    ● L'installer avec la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+    ● L'installer avec le gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 
 ---
