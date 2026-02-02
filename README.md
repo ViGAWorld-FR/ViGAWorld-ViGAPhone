@@ -113,7 +113,7 @@ Creations made with ViGAPhone can be saved, archived, and shared, ensuring the p
 
 ViGAPhone is distributed as a binary-only application. No source code is provided.
 
-To use ViGAPhone, you must obtain a license from [https://vigaworld.com](https://vigaworld.com). Each license is linked to a registered user and their system. Redistribution, reverse engineering, or modification is strictly prohibited.
+Use of the ViGAPhone software in a professional context requires obtaining an individual license from [https://vigaworld.com](https://vigaworld.com). Each license is linked to a registered user and and his operating system. Redistribution, reverse engineering, or modification is strictly prohibited.
 
 ---
 
@@ -235,7 +235,7 @@ Les instruments créés avec ViGAPhone peuvent être enregistrés, archivés et 
 
 ViGAPhone est distribué uniquement sous forme binaire. Aucun accès au code source n’est fourni.
 
-Pour utiliser ViGAPhone, vous devez obtenir une licence via [https://vigaworld.com](https://vigaworld.com). Chaque licence est liée à un utilisateur enregistré et à son système.
+L’utilisation du logiciel ViGAPhone dans un cadre professionnel nécessite l’obtention d’une licence individuelle via [https://vigaworld.com](https://vigaworld.com). Chaque licence est liée à un utilisateur enregistré et à son système d'exploitation.
 
 ## 📫 Contact
 
