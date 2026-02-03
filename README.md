@@ -299,7 +299,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 ● **Prérequis matériel :** Plateforme x64, support **AVX**.  
 ● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
 ● **Téléchargement et installation, sans droits admin :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
-    ● Téléchargez l'auto-installateur l'exécutez le : `ViGAPhone-setup_amd64.exe`.  
+    ● Téléchargez et exécutez l'auto-installateur : `ViGAPhone-setup_amd64.exe`.  
 
 
 ---
