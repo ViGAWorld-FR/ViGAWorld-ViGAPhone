@@ -34,7 +34,7 @@ If you're familiar with Pianoteq (Modartt), Ivory (Synthogy), or Kontakt (Native
 
 ViGAPhone is based on physical modeling synthesis of string, percussion, or wind instruments, similar to Pianoteq, but with far more possibilities offered to the user. The first version was developed around the piano instrument, but it already includes everything needed to emulate other instruments to create entirely new ones.
 
-It is already the world’s most advanced software combining sound synthesis and elecronic tuning assistance for pianos and all other instruments.
+It is already the best software in the world combining sound synthesis, spectral analysis and reproduction of instrument timbre, and assistance with electronic tuning of the piano and any instrument.
 
 - ViGAPhone high precision any instrument and piano electronic tuner / accordeur électronique haute précision de piano et tout instrument
 
@@ -185,7 +185,26 @@ Je mets à votre disposition mon programme de synthèse réaliste: le ViGAPhone,
 
 ViGAPhone est basé sur la synthèse par modèle physique des instruments à cordes à percussion ou à vent, comme  Pianoteq, mais avec beaucoup plus de possibilités offertes à l'utilisateur. La première version a été développée autour de l'instrument Piano, mais elle possède déjà tout ce qu'il faut pour imiter d'autres instruments ou en créer de nouveaux.
 
-Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore et l'assistance à l'accordage électronique du piano et de tout instrument.
+Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore, l'analyse et la reproduction spectrale du timbre des instruments, et l'assistance à l'accordage électronique du piano et de tout instrument.
+
+- ViGAPhone : accordeur électronique haute précision de piano et tout instrument
+
+<a href="images/accorder-EN.png">
+  <img src="images/accorder-EN.png" alt="ViGAPhone tuner" width="800" height="600">
+</a>
+
+- ViGAPhone : capture et analyse de l'inharmonicité d'un piano
+
+<a href="images/inharmonicite.png">
+  <img src="images/inharmonicite.png" alt="ViGAPhone inharmonicity acquisition" width="800" height="600">
+</a>
+
+- ViGAPhone : acquisition et modélisation du timbre du piano
+
+<a href="images/captureTimbreAnalyse.png">
+  <img src="images/captureTimbreAnalyse.png" alt="ViGAPhone timbre modeling" width="800" height="600">
+</a>
+
 
 - Voici les services qu'offre le ViGAPhone :
 ## 🎵 Pour les musiciens
