@@ -135,7 +135,7 @@ For licensing or support inquiries:
 
 ## 🛠️ Linux / Windows Installation
 
-### 🐧 Linux
+### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
 ● **Hardware Requirements:** x64 platform, **AVX** support.  
 ● **OS Requirements:** Any distribution compatible with **X11**, **OpenGL**, using **GNOME** or equivalent.  
@@ -276,7 +276,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ## 🛠️ Installation Linux / Windows
 
-### 🐧 Linux
+### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
 ● **Prérequis matériel :** Plateforme x64, support **AVX**.  
 ● **Prérequis OS :** Toute distribution compatible **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
