@@ -147,7 +147,7 @@ For licensing or support inquiries:
 
 ● **Installation on Arch Linux and derivatives:** ● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
 
-● **Installation on Ubuntu/DEBIAN and derivatives:** ● download the file package: `vigaphone-bin_amd64.deb`  
+● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:** ● download the file package: `vigaphone-bin_amd64.deb`  
     ● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 
@@ -288,7 +288,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ● **Installation sur Arch Linux et dérivés :** ● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
 
-● **Installation sur Ubuntu/DEBIAN et dérivés:** ● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
+● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:** ● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
     ● L'installer avec le gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 
