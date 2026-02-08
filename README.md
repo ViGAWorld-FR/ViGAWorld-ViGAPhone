@@ -137,7 +137,7 @@ For licensing or support inquiries:
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
-● **Hardware Requirements:** x64 platform, **AVX** support.  
+● **Hardware Requirements:** x64 platform amd/intel PCs, Chromebooks etc, **AVX** support.  
 ● **OS Requirements:** Any distribution compatible with **X11**, **OpenGL**, using **GNOME** or equivalent.  
 ● **Manual Download and Installation, without admin/root rights:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
     ● Download the package: `ViGAPhoneR_linux.tar.gz`.  
@@ -278,7 +278,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
-● **Prérequis matériel :** Plateforme x64, support **AVX**.  
+● **Prérequis matériel :** Plateforme x64 amd/intel PCs, Chromebooks etc, support **AVX**.  
 ● **Prérequis OS :** Toute distribution compatible **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
 ● **Téléchargement et installation manuelle, sans droits admin/root :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
     ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.  
