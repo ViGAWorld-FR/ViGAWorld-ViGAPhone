@@ -1,3 +1,8 @@
+1.0.5
+Evolution :
+linux :
+- compilation linux basée sur debian12 libc 2.36 compatible toutes distributions et chromeOS
+
 1.0.4
 Corrections:
 windows :
