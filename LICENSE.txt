@@ -7,7 +7,7 @@ Copyright © 2025 ViGAWorld. Tous droits réservés.
 
 Ce logiciel est la propriété exclusive de ViGAWorld. Toute copie, modification, ingénierie inverse, décompilation ou redistribution est strictement interdite sans autorisation écrite préalable de son auteur, ViGAWorld, à l’exception des canaux de distribution officiellement autorisés et maintenus par ViGAWorld.
 
-L’utilisation du logiciel ViGAPhone dans un cadre professionnel nécessite l’obtention d’une licence individuelle via le site officiel https://vigaworld.com. . Chaque licence est nominative et liée à l’utilisateur enregistré et à son système d'exploitation.
+L’utilisation du logiciel ViGAPhone dans un cadre professionnel nécessite l’obtention d’une licence individuelle via le site officiel https://vigaworld.com. . Chaque licence est nominative et liée à l’utilisateur enregistré et à son système d'exploitation. L'usage ludique dans un cadre privé est gratuit.
 
 Le logiciel est fourni sous forme binaire uniquement. Aucun accès au code source n’est autorisé.
 
@@ -33,7 +33,7 @@ Copyright © 2025 ViGAWorld. All rights reserved.
 
 This software is the exclusive property of ViGAWorld. Any copying, modification, reverse engineering, decompilation, or redistribution is strictly prohibited without prior written authorization from its author, ViGAWorld, except through distribution channels officially authorized and maintained by ViGAWorld.
 
-Use of the ViGAPhone software in a professional context requires obtaining an individual license via the official website https://vigaworld.com. . Each license is personal and linked to the registered user and his operating system.
+Use of the ViGAPhone software in a professional context requires obtaining an individual license via the official website https://vigaworld.com. . Each license is personal and linked to the registered user and his operating system. Private, non‑commercial use is free of charge.
 
 The software is provided in binary form only. No access to the source code is permitted.
 
