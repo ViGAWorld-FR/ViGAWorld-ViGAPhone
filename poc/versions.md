@@ -1,0 +1,64 @@
+-- ViGAPhone Synth Lab
+
+1.0.5
+Evolution :
+linux :
+- compilation linux basée sur debian12 libc 2.36 compatible toutes distributions et chromeOS pour les Chromebooks
+
+1.0.4
+Corrections:
+windows :
+- affichage du terminal plus rapide par la gestion d'un tampon
+
+1.0.3
+Evolution :
+linux :
+- installation : Ubuntu/DEBIAN ajout d'un package .deb
+
+Corrections:
+- gestion multilingue
+
+1.0.2
+Corrections:
+linux :
+- installation : archlinux ajout d'un package dans AUR
+
+windows :
+- si lancé dans le terminal cmd.exe ou PowerShell, se relance si possible dans WindowsTeminal
+- inno setup choix de la langue d'installation FR ou EN
+
+1.0.1
+Evolution :
+- traductions complètes
+
+Corrections:
+- efface le mute après une capture
+- possible de jouer le son réel d'une note nouvellement capturée
+
+windows:
+- passe la fenêtre du terminal en pleine écran car "windows terminal" ne permet pas le redimensionnement
+
+1.0.0
+Evolution :
+- Le ViGAPhone devient multilingue, choix de langue selon OS ou option SetLocale
+- les utilisateurs sont invités à parfaire les traductions existantes ou à en créer de nouvelles
+
+Corrections:
+- lancement automatique dans "windows terminal" si installé
+
+0.9.3 corrections:
+- sauvegarde incrémentielle du fichier Instrument ajout de l'option d'écrasement ou de nouveau nom de fichier
+- fait le silence avant la capture du timbre
+linux :
+- procédure d'installation
+- exécutable cherche la libjack de pipewire-jack cachée sous Ubuntu 25.10 et Debian
+- serveur son jack, bascule sur alsa si le serveur jack est installé mais pas lancé
+windows:
+- procédure d'installation
+
+0.9.2 corrections windows:
+- le type de fichier associé au ViGAPhone est limité à .tsv au lieu de .vigaphone.tsv
+- gestion des flèches du clavier pour changer de note
+- procédure d'installation
+0.9.1 correction d'un bug windows lié à l'enregistrement du microphone
+0.9.0 first release
