@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 19:12+0100\n"
+"POT-Creation-Date: 2026-02-15 12:00+0100\n"
 "PO-Revision-Date: 2026-01-13 15:54+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -116,7 +116,7 @@ msgstr ""
 msgid "Spectre d'inharmonicité en Cents (100ièmes de 1/2 ton) de %d notes "
 msgstr ""
 
-msgid "au diapason %5.1fHz note %s     "
+msgid "au diapason %5.1fHz note %s"
 msgstr ""
 
 msgid "Note %s fréquence %.1fHz taux d'inharmonicité %.6f Cents %.2f"
@@ -125,7 +125,7 @@ msgstr ""
 msgid " mesuré à %.1fHz"
 msgstr ""
 
-msgid "Fréquence du dernier partiel(#%d) %.1fHz soit %.1f fois la fréquence de base (limitée à %dHz)       "
+msgid "Fréquence du dernier partiel(#%d) %.1fHz soit %.1f fois la fréquence de base (limitée à %dHz)"
 msgstr ""
 
 msgid ""
@@ -1129,6 +1129,12 @@ msgstr ""
 msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
 msgstr ""
 
+msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
+msgstr ""
+
+msgid " Echec de la commande."
+msgstr ""
+
 msgid "==> Attention : volume sonore trop élevé de %0.1fdB, volume général baissé de %0.1fdB à %0.1fdB \n"
 msgstr ""
 
@@ -1748,6 +1754,7 @@ msgid ""
 "R : recharge le fichier d'Instrument et restaure les valeurs d'origine \n"
 "S : sauvegarde les paramètres de l'Instrument dans un fichier ainsi que les captures sonores \n"
 "X : change la connexion à un client MIDI \n"
+"@ : manuel utilisateur sur internet traduit par Google Translate \n"
 "? : affiche la liste des commandes disponibles \n"
 msgstr ""
 
