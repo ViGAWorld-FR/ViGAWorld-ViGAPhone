@@ -1,4 +1,4 @@
-# ViGAPhone: New Physical‑Modeling Synth Lab, Timbre Analyzer, Instrument Tuner and more...
+# ViGAPhone Synth Lab: New Physical‑Modeling, Timbre Analyzer, Instrument Tuner and more...
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
@@ -174,7 +174,7 @@ The application supports at least **English** and **French**, and can be transla
 <p id="vigaphone-fr"></p>
 <p id="courte-présentation"></p>
 
-# FR ViGAWorld - ViGAPhone : parce que la musique est un monde de partage !
+# FR ViGAWorld - ViGAPhone Synth Lab : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone** est un synthétiseur MIDI d'instruments de musique réaliste, un analyseur du timbre sonore et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
 
