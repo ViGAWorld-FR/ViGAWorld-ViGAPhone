@@ -10,16 +10,8 @@
 | :--- | :--- |
 | - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Linux / Windows installation](#Installation-en) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) |
 
-<p align="center"> <span style="font-size: xx-large; font-weight: bold;"> 🎧 Audio demonstration </span> <br> <span style="font-size: large;"> Click to listen: </span> </p>
-
  🎧 **Audio demonstration** Click to listen:  
 [9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3)
-
-<p>
-  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio-demo.html" target="_blank">
-    🎧 Open the audio demo in a new window
-  </a>
-</p>
 
 </div>
 
