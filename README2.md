@@ -10,9 +10,8 @@
 | :--- | :--- |
 | - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Linux / Windows installation](#Installation-en) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) |
 
-- Demonstration : 9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!:
-<audio controls> <source src="audio/MichelPolnareff_LoveMe.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
-🎧 [Listen to the audio demo: 9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](audio/MichelPolnareff_LoveMe.mp3)
+🎧 **Audio demonstration** Click to listen:
+🎧 [Listen to the audio demo: 9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3)
 
 </div>
 
