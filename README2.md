@@ -13,6 +13,12 @@
 🎧 **Audio demonstration** Click to listen:  
 [9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3)
 
+<p>
+  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio-demo.html" target="_blank">
+    🎧 Open the audio demo in a new window
+  </a>
+</p>
+
 </div>
 
 <br clear="all" />
