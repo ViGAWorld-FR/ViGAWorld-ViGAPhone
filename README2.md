@@ -12,6 +12,7 @@
 
 - Demonstration : 9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!:
 <audio controls> <source src="audio/MichelPolnareff_LoveMe.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+🎧 [Listen to the audio demo: 9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](audio/MichelPolnareff_LoveMe.mp3)
 
 </div>
 
