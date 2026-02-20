@@ -1,0 +1,2290 @@
+# English translations for ViGAPhone package.
+# Copyright (C) 2026 THE ViGAPhone'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ViGAPhone package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ViGAPhone\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-19 20:41+0100\n"
+"PO-Revision-Date: 2026-01-07 20:10+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid ""
+"Choisir une forme d'onde :\n"
+"0 abandonne\n"
+"1 sinusoïde\n"
+"2 triangle\n"
+"3 carré\n"
+"4 dent de scie\n"
+"5 sinusoïde avec 3 harmoniques, pente à -6dB\n"
+"6 sinusoïde avec 10 harmoniques, pente à -6dB\n"
+"7 triangle avec 3 harmoniques, pente à -6dB\n"
+"8 Onde définie pour l'Instrument\n"
+"9 la sinusoide du Chef \n"
+"?"
+msgstr ""
+"Choose a waveform:\n"
+"0 cancel\n"
+"1 sine\n"
+"2 triangle\n"
+"3 square\n"
+"4 sawtooth\n"
+"5 sine with 3 harmonics, -6dB slope\n"
+"6 sine with 10 harmonics, -6dB slope\n"
+"7 triangle with 3 harmonics, -6dB slope\n"
+"8 Waveform defined for the Instrument\n"
+"9 the Master sine \n"
+"?"
+
+msgid "Erreur, choix hors limites"
+msgstr "Error, choice out of range"
+
+msgid "==> ERREUR : L'Instrument n'a pas d'onde définie dans son paramètrage."
+msgstr "==> ERROR: Instrument has no waveform defined in its parameters."
+
+msgid ""
+"\n"
+"Conseil : \n"
+"1) choisir la note à accorder à l'aide des touches pmPM, s pour une sélection automatique \n"
+"2) accorder la note à l'unisson 1 corde à la fois, soit à l'oreille en la jouant avec la touche ' ',\n"
+" soit avec les fréquences indiquées et le comparateur d'unisson fréquentiel \n"
+"3) utiliser la vue graphique pour une visualisation plus précise \n"
+"Pour plus d'information sur la technique d'accordage lire la documentation technique "
+msgstr ""
+"\n"
+"Tip: \n"
+"1) choose the note to tune using pmPM keys, s for automatic selection \n"
+"2) tune the note to unison one string at a time, either by ear by playing it with the ' ' key,\n"
+" or using the indicated frequencies and the frequency unison comparator \n"
+"3) use the graphic view for a more precise visualization \n"
+"For more information on tuning techniques, read the technical documentation "
+
+msgid "Touche de commande h : liste des notes et partiels en résonance avec la note courante "
+msgstr "Command key h: list of notes and partials in resonance with the current note "
+
+msgid "Note "
+msgstr "Note "
+
+msgid "Fréq détectée : \t   %7.2fHz %c \tUnisson : "
+msgstr "Detected Freq: \t   %7.2fHz %c \tUnison: "
+
+msgid "signal bruité!"
+msgstr "noisy signal!"
+
+#
+msgid "Mesures :       \t"
+msgstr "Measurements:  \t"
+
+msgid ""
+"\n"
+"Conseil : \n"
+"1) régler le niveau d'enregistrement du microphone pour que le son joué le plus fort soit proche du 0dB, \n"
+"2) faire le silence et régler la variable AccordNivBruit à l'aide des touches pmPM pour que le niveau 'max'\n"
+" du bruit du silence soit juste inférieur à AccordNivBruit, normalement inférieur à -50dB\n"
+" dans de bonnes conditions environnementales."
+msgstr ""
+"\n"
+"Tip: \n"
+"1) adjust the microphone recording level so that the loudest sound played is close to 0dB, \n"
+"2) keep silent and adjust the AccordNivBruit variable using pmPM keys so that the 'max' level\n"
+" of background noise is just below AccordNivBruit, normally below -50dB\n"
+" in good environmental conditions."
+
+msgid "Spectre de %d notes "
+msgstr "Spectrum of %d notes "
+
+msgid "au diapason %s %5.1fHz "
+msgstr "at pitch %s %5.1fHz "
+
+msgid "pas de son?"
+msgstr "no sound?"
+
+msgid "capture gelée "
+msgstr "capture frozen "
+
+msgid "(sélect. auto) "
+msgstr "(auto select) "
+
+msgid "Note identifiée : %s %c[K"
+msgstr "Note identified: %s %c[K"
+
+msgid "Paramètre AccordNivBruit%5.fdB ;"
+msgstr "AccordNivBruit parameter %5.fdB ;"
+
+msgid " niveaux sonores : max%5.fdB moyen%5.fdB     "
+msgstr " sound levels: max%5.fdB average%5.fdB     "
+
+msgid ""
+"\n"
+"Conseil : Edition de l'inharmonicité, touches de contrôle :\n"
+"  mMpP : change la valeur \n"
+"  + -  : agrandit réduit le maximum affiché \n"
+"  [flèches] : change la note courante\n"
+"  B    : bascule sur la vue d'édition des partiels\n"
+msgstr ""
+"\n"
+"Tip: Inharmonicity editing, control keys:\n"
+"  mMpP: change the value \n"
+"  + - : increase/decrease displayed maximum \n"
+"  [arrows]: change current note\n"
+"  B   : switch to partials editing view\n"
+
+msgid "  c    : capture le timbre de la note (le microphone et AccordNivBruit doivent avoir été réglés)\n"
+msgstr "  c   : capture the note timbre (microphone and AccordNivBruit must be set)\n"
+
+msgid ""
+"  A    : abandonne la capture et restaure le timbre de la note \n"
+"  v n  : valide la capture, n: valide et lance la capture de la note suivante\n"
+msgstr ""
+"  A   : abort capture and restore note timbre \n"
+"  v n : validate capture, n: validate and start next note capture\n"
+
+msgid "Spectre d'inharmonicité en Cents (100ièmes de 1/2 ton) de %d notes "
+msgstr "Inharmonicity spectrum in Cents (1/100th of semitone) of %d notes "
+
+msgid "au diapason %5.1fHz note %s"
+msgstr "at pitch %5.1fHz note %s"
+
+msgid "Note %s fréquence %.1fHz taux d'inharmonicité %.6f Cents %.2f"
+msgstr "Note %s frequency %.1fHz inharmonicity rate %.6f Cents %.2f"
+
+msgid " mesuré à %.1fHz"
+msgstr " measured at %.1fHz"
+
+msgid "Fréquence du dernier partiel(#%d) %.1fHz soit %.1f fois la fréquence de base (limitée à %dHz)"
+msgstr "Frequency of last partial (#%d) %.1fHz i.e. %.1f times base frequency (limited to %dHz)"
+
+msgid ""
+"\n"
+"Conseil : Edition des partiels touches de contrôle:\n"
+"  mMpP : change la valeur,    jk   : change de partiel\n"
+"  + -  : ajoute supprime le dernier partiel\n"
+"  [flèches] : change la note courante\n"
+"  B    : bascule sur la vue d'édition de l'inharmonicité\n"
+msgstr ""
+"\n"
+"Tip: Partials edition, control keys:\n"
+"  mMpP: change value,    jk: change partial\n"
+"  + - : add/remove last partial\n"
+"  [arrows]: change current note\n"
+"  B   : switch to inharmonicity editing view\n"
+
+msgid "Spectre des %d partiels "
+msgstr "Spectrum of %d partials "
+
+msgid "Note %s partiel %d fréquence %.1fHz amplitude %.1fdB          \n"
+msgstr "Note %s partial %d frequency %.1fHz amplitude %.1fdB          \n"
+
+msgid "Inharmonicité %.6f         "
+msgstr "Inharmonicity %.6f         "
+
+msgid "règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
+msgstr "tuning rule <%s> has invalid syntax or out‑of‑range value \n"
+
+msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s> Note relative#%d\n"
+msgstr "==> Error: note %s bad syntax in tuning rule <%s> Relative note #%d\n"
+
+msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s>\n"
+msgstr "==> Error: note %s bad syntax in tuning rule <%s>\n"
+
+msgid "second passage\n"
+msgstr "second pass\n"
+
+msgid "Erreur, il n'y a pas eu de calcul d'accordage\n"
+msgstr "Error, no tuning calculation was performed\n"
+
+msgid "MIDI#\tnote nom\trègle d'accord\tfréquences des partiels 1 à 4\n"
+msgstr "MIDI#\tnote name\ttuning rule\tpartial frequencies 1 to 4\n"
+
+msgid "==>Erreur: accordage impossible, le diapason de l'Instrument n'est pas défini correctement\n"
+msgstr "==>Error: tuning impossible, the Instrument pitch (diapason) is not correctly defined\n"
+
+msgid "==> Erreur: accordage en échec\n"
+msgstr "==> Error: tuning failed\n"
+
+msgid "==>Erreur d'accordage, la note %s n'a pas été accordée, vérifier les règles d'accord\n"
+msgstr "==>Tuning error, note %s was not tuned, please check the tuning rules\n"
+
+msgid "Choisir un fichier Tempérament contenant les règles d'accordage:"
+msgstr "Choose a Temperament file containing tuning rules:"
+
+msgid "  0 : abandonne, [ENTREE] rafraîchit la liste\n"
+msgstr "  0 : cancel, [ENTER] refreshes list\n"
+
+msgid "choix invalide"
+msgstr "invalid choice"
+
+msgid "Erreur, impossible d'ouvrir le fichier <%s>\n"
+msgstr "Error, cannot open file <%s>\n"
+
+msgid "==> Erreur de lecture du fichier ou mauvaise syntaxe %s \n"
+msgstr "==> Error reading file or bad syntax %s \n"
+
+msgid "Choisir une action:"
+msgstr "Choose action:"
+
+msgid ""
+"  0 : abandonne\n"
+"  r : affiche le résultat de l'accordage\n"
+"  c : choisis un nouveau jeu de règles d'accordage\n"
+"  v : valide l'accordage et l'applique à l'Instrument\n"
+"?"
+msgstr ""
+"  0 : cancel\n"
+"  r : display tuning result\n"
+"  c : choose new tuning rules set\n"
+"  v : validate tuning and apply to Instrument\n"
+"?"
+
+msgid "Nouvel accordage effectué\n"
+msgstr "New tuning performed\n"
+
+msgid "Note %s fréquence %7.1fHz non trouvée "
+msgstr "Note %s frequency %7.1fHz not found "
+
+msgid ""
+"\n"
+"Note %s mauvaise fréquence du partiel 1, fréquence cherchée %.2fHz non trouvée,\n"
+" vérifier la fréquence estimée et régler l'amplitude du partiel 1\n"
+msgstr ""
+"\n"
+"Note %s bad partial 1 frequency, target %.2fHz not found,\n"
+" check estimated frequency and adjust partial 1 amplitude\n"
+
+msgid "Note %s fréquence trouvée %7.1fHz nb partiels %3d taux d'inharmonicité "
+msgstr "Note %s frequency found %7.1fHz nb partials %3d inharmonicity rate "
+
+msgid "======0"
+msgstr "======0"
+
+msgid ", mauvaise qualité !"
+msgstr ", poor quality!"
+
+msgid "==> Erreur, la note est active et ne peut être restructurée."
+msgstr "==> Error, the note is active and cannot be restructured."
+
+msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
+msgstr " ==> Analysis failed for note %s, frequencies found: Peak-1 %.2fHz, Peak-0dB %.2fHz probable P1 %.2fHz"
+
+msgid "Nb échantillons="
+msgstr "Nb samples="
+
+msgid " ; taux="
+msgstr " ; rate="
+
+msgid "/s ; durée="
+msgstr "/s ; duration="
+
+msgid "Fichier WAV avec silence absolu, sauvegarde ViGAPhone\n"
+msgstr "WAV file with absolute silence, ViGAPhone backup\n"
+
+msgid "Recherche des notes :"
+msgstr "Searching notes:"
+
+msgid "%3d  Note trouvée de %s à %s durée=%.1f sec"
+msgstr "%3d  Note found from %s to %s duration=%.1f sec"
+
+msgid ", son saturé jusqu'à %s "
+msgstr ", sound clipped up to %s "
+
+msgid "Note rejetée de "
+msgstr "Note rejected from "
+
+msgid " à "
+msgstr " to "
+
+msgid " secondes durée="
+msgstr " seconds duration="
+
+msgid "Nombre de notes trouvées : "
+msgstr "Number of notes found: "
+
+msgid ", %d avec du son saturé"
+msgstr ", %d with clipped sound"
+
+msgid "Entrer le nom du fichier au format WAV mono float et contenant une série de notes jouées séparées par un silence \n"
+msgstr "Enter filename in WAV mono float format containing a series of played notes separated by silence \n"
+
+msgid "- La note courante=%s détermine la première note de la série enregistrée dans le fichier \n"
+msgstr "- Current note=%s determines the first note of the recorded series in the file \n"
+
+msgid "- Le paramètre général AccordNivBruit=%.1fdB détermine le niveau de silence séparant les notes, si le nombre de notes trouvées n'est pas bon c'est que le son est trop bruité et il faut augmenter ce niveau, il est aussi possible avec Audacity de séparer les notes par des 'blancs' \n"
+msgstr "- General parameter AccordNivBruit=%.1fdB determines the silence level between notes; if the count is wrong, the sound is too noisy—increase this level. You can also use Audacity to insert 'silence' between notes. \n"
+
+msgid "- activer le mode débogage pour avoir le détail de l'analyse"
+msgstr "- enable debug mode to see analysis details"
+
+msgid "Lecture du fichier..."
+msgstr "Reading file..."
+
+msgid "Abandon de la commande"
+msgstr "Command aborted"
+
+msgid "Fichier chargé en mémoire, analyse..."
+msgstr "File loaded in memory, analyzing..."
+
+msgid ""
+"\n"
+"==> ATTENTION: le nombre de notes à charger à partir de la note courante en première position ne correspond pas au clavier de l'Instrument\n"
+"Il est possible de limiter le nombre de notes à capturer avec l'option : 1+%d\n"
+msgstr ""
+"\n"
+"==> WARNING: the number of notes to load starting from the current note does not match the Instrument keyboard\n"
+"You can limit the number of notes to capture with option: 1+%d\n"
+
+msgid "Si le nombre de notes trouvées est inférieur au nombre attendu, augmenter le paramètre AccordNivBruit qui sépare les notes."
+msgstr "If the number of notes found is lower than expected, increase the AccordNivBruit parameter that separates the notes."
+
+msgid "- option:W=charge seulement le WAV et la fréquence de chaque note, les autres paramètres devront être modifiés manuellement"
+msgstr "- option:W=loads only the WAV and frequency of each note, other parameters must be modified manually"
+
+msgid "- option:numéro de la note à capturer en premier et à charger dans la note courante(<numéro[+<nombre>]),la fréquence doit correspondre"
+msgstr "- option:number of the note to capture first and load into current note (<number[+<count>]), frequency must match"
+
+msgid "Appuyer sur ENTREE pour continuer l'analyse du timbre, 'a' pour abandonner"
+msgstr "Press ENTER to continue timbre analysis, 'a' to abort"
+
+msgid "Les %d notes seront chargées à partir de la note : %s ?"
+msgstr "The %d notes will be loaded starting from note: %s ?"
+
+msgid ""
+"==> ATTENTION: le nombre de notes à charger à partir de la note courante dépasse la limite de l'Instrument\n"
+"Abandon de la commande"
+msgstr ""
+"==> WARNING: number of notes to load starting from the current note exceeds Instrument limit\n"
+"Command aborted"
+
+msgid "Capture du timbre de chaque note trouvée..."
+msgstr "Capturing the timbre of each note found..."
+
+msgid "Analyse de la note %3d=%s %7.1fHz "
+msgstr "Analyzing note %3d=%s %7.1fHz "
+
+msgid "Fin de l'analyse: %d notes chargées"
+msgstr "Analysis finished: %d notes loaded"
+
+msgid " dont %d de mauvaise qualité à vérifier"
+msgstr " including %d of poor quality to check"
+
+msgid "En cas d'échec:"
+msgstr "In case of failure:"
+
+msgid "- activer le mode débogage et recommencer l'analyse pour avoir plus d'informations"
+msgstr "- enable debug mode and restart analysis for more information"
+
+msgid ""
+"- modifier la fréquence de la note si trop éloignée de la réalité ou si capture d'une fréquence parasite, \n"
+"- vérifier le spectre capturé de la note fautive,\n"
+"- vérifier les paramètres comme la note courante qui doit correspondre à la première note dans le fichier WAV"
+msgstr ""
+"- modify the note frequency if too far from reality or if a parasitic frequency was captured, \n"
+"- check the captured spectrum of the faulty note,\n"
+"- verify parameters such as the current note, which must match the first note in the WAV file"
+
+msgid "Les fréquences théoriques des notes ont été modifiées selon les valeurs réelles."
+msgstr "Theoretical note frequencies have been modified based on real values."
+
+msgid "Il faut harmoniser l'Instrument et le sauvegarder dans un nouveau fichier Instrument:"
+msgstr "The Instrument must be harmonized and saved into a new Instrument file:"
+
+msgid "- ajuster le taux d'inharmonicité et réguler sa progression"
+msgstr "- adjust inharmonicity rate and regulate its progression"
+
+msgid "- supprimer les derniers partiels non significatifs et éventuellement ajuster les amplitudes"
+msgstr "- remove non-significant last partials and potentially adjust amplitudes"
+
+msgid "- accorder l'Instrument."
+msgstr "- tune the Instrument."
+
+msgid "==> ATTENTION, le nombre de notes trouvées=%d est différent du nombre de notes de l'Instrument=%d \n"
+msgstr "==> WARNING, the number of notes found=%d differs from the Instrument's note count=%d \n"
+
+msgid "L'Instrument est près à être joué, il faut l'accorder"
+msgstr "The Instrument is ready to be played, it must be tuned"
+
+msgid ""
+"\n"
+"Note %s frequence %.1fHz: liste des %d couples (fréquence, amplitude) capturés\n"
+msgstr ""
+"\n"
+"Note %s frequency %.1fHz: list of %d captured (frequency, amplitude) pairs\n"
+
+msgid "Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f \n"
+msgstr "Frequency: %.2fHz, Amplitude: %.1fdB freq/freqP1 %.3f \n"
+
+msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
+msgstr "Automatic tuning according to the rules defined in the Instrument file"
+
+msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
+msgstr "==> Warning: note frequencies have been defined in the Instrument file, they take priority over rules; corresponding notes will not be tuned"
+
+msgid "==> ERREUR : JACK perte de %d événements MIDI taille buffer %d dépassée \n"
+msgstr "==> ERROR: JACK lost %d MIDI events, buffer size %d exceeded \n"
+
+msgid "==> Aucun port d'entrée jack AUDIO trouvé.\n"
+msgstr "==> No JACK AUDIO input port found.\n"
+
+msgid "- Liste des clients JACK fournissant une entrée AUDIO :\n"
+msgstr "- List of JACK clients providing an AUDIO input:\n"
+
+msgid "JACK <%s> est déconnecté\n"
+msgstr "JACK <%s> is disconnected\n"
+
+msgid "JACK le périphérique est déjà connecté via ALSA, abandon de la connexion automatique JACK\n"
+msgstr "JACK: device already connected via ALSA, aborting JACK auto-connection\n"
+
+msgid "JACK le port est déjà connecté\n"
+msgstr "JACK: port is already connected\n"
+
+msgid "==> Echec de connexion JACK MIDI-IN de <%s> à <%s> \n"
+msgstr "==> JACK MIDI-IN connection failure from <%s> to <%s> \n"
+
+msgid "Connexion réussie JACK MIDI-IN à <%s> \n"
+msgstr "Successful JACK MIDI-IN connection to <%s> \n"
+
+msgid "==> Aucun port de sortie jack MIDI trouvé.\n"
+msgstr "==> No JACK MIDI output port found.\n"
+
+msgid "- Liste des clients JACK fournissant une sortie MIDI :\n"
+msgstr "- List of JACK clients providing a MIDI output:\n"
+
+msgid "Erreur : Aucun port trouvé"
+msgstr "Error: No port found"
+
+msgid "JACK nouveau port MIDI OUT : %s \n"
+msgstr "JACK new MIDI OUT port: %s \n"
+
+msgid ""
+"==>ERREUR ALSA : échec de l'ouverture du périphérique de capture \n"
+" "
+msgstr ""
+"==>ALSA ERROR: failed to open capture device \n"
+" "
+
+msgid "- Liste des clients ALSA fournissant une sortie MIDI :\n"
+msgstr "- List of ALSA clients providing a MIDI output:\n"
+
+msgid "ALSA <%s> est déconnecté\n"
+msgstr "ALSA <%s> is disconnected\n"
+
+msgid "ALSA le périphérique est déjà connecté via JACK, abandon de la connexion automatique ALSA\n"
+msgstr "ALSA: device already connected via JACK, aborting ALSA auto-connection\n"
+
+msgid "ALSA le port est déjà connecté\n"
+msgstr "ALSA: port is already connected\n"
+
+msgid "==> Echec de connexion ALSA MIDI-IN à <%s> \n"
+msgstr "==> ALSA MIDI-IN connection failure to <%s> \n"
+
+msgid "Connexion réussie ALSA MIDI à <"
+msgstr "Successful ALSA MIDI connection to <"
+
+msgid "ALSA nouveau port MIDI OUT : %s \n"
+msgstr "ALSA new MIDI OUT port: %s \n"
+
+msgid "==> ALSA:connexion extérieure du client MIDI : "
+msgstr "==> ALSA: external MIDI client connection: "
+
+msgid "==> ALSA: déconnexion du client MIDI '%s' \n"
+msgstr "==> ALSA: MIDI device disconnected '%s' \n"
+
+msgid "ALSA: branchement d'un périphérique MIDI \n"
+msgstr "ALSA: MIDI device connected \n"
+
+msgid "Client ALSA MIDI arrêté"
+msgstr "ALSA MIDI client stopped"
+
+msgid "Client ALSA AUDIO arrêté"
+msgstr "ALSA AUDIO client stopped"
+
+msgid "Client JACK MIDI arrêté"
+msgstr "JACK MIDI client stopped"
+
+msgid "Client JACK PCM arrêté"
+msgstr "JACK PCM client stopped"
+
+msgid "Erreur efd\n"
+msgstr "efd error\n"
+
+msgid "==> Erreur : Le serveur JACK est introuvable ou n'est pas lancé, bascule sur ALSA."
+msgstr "==> Error: The JACK server is not found or not running, switching to ALSA."
+
+msgid "Nouvelle instance de l'application <%s>, connexion MIDI automatique désactivée\n"
+msgstr "New instance of application <%s>, automatic MIDI connection disabled\n"
+
+msgid "==> Impossible de créer le port de sortie gauche\n"
+msgstr "==> Unable to create left output port\n"
+
+msgid "==> Impossible de créer le port de sortie droit\n"
+msgstr "==> Unable to create right output port\n"
+
+msgid "Failed to set Engine-jack-PCM thread priority: %s \n"
+msgstr "Failed to set Engine-jack-PCM thread priority: %s \n"
+
+msgid "- Connexion JACK AUDIO PCM-OUT stéréo par défaut de <%s[L|R]> :\n"
+msgstr "- Default JACK AUDIO PCM-OUT stereo connection of <%s[L|R]> :\n"
+
+msgid "==> Aucun port d'entrée jack AUDIO PCM stéréo trouvé pour jouer le son.\n"
+msgstr "==> No stereo JACK AUDIO PCM input port found to play sound.\n"
+
+msgid "==> Echec de connexion JACK AUDIO Left de <%s> à <%s> \n"
+msgstr "==> JACK AUDIO Left connection failure from <%s> to <%s> \n"
+
+msgid "Connexion réussie JACK AUDIO Left à <%s> \n"
+msgstr "Successful JACK AUDIO Left connection to <%s> \n"
+
+msgid "==> Echec de connexion JACK AUDIO Right de <%s> à <%s> \n"
+msgstr "==> JACK AUDIO Right connection failure from <%s> to <%s> \n"
+
+msgid "Connexion réussie JACK AUDIO Right à <%s> \n"
+msgstr "Successful JACK AUDIO Right connection to <%s> \n"
+
+msgid ""
+"==> Echec de connexion de JACK AUDIO PCM stéréo, faire la connexion manuelle ou \n"
+" préciser les ports en paramètres de lancement de l'application en fonction de la liste suivante des ports actifs... \n"
+msgstr ""
+"==> JACK AUDIO PCM stereo connection failed, please make a manual connection or \n"
+" specify ports in the application launch parameters based on the following list of active ports... \n"
+
+msgid "==> Client Audio PCM basculé sur ALSA, JACK PCM est supprimé\n"
+msgstr "==> Audio PCM client switched to ALSA, JACK PCM is removed\n"
+
+msgid "Client JACK AUDIO arrêté"
+msgstr "JACK AUDIO client stopped"
+
+msgid "--- Client JACK PCM-OUT démarré et actif..."
+msgstr "--- JACK PCM-OUT client started and active..."
+
+msgid "==> Cannot open ALSA PCM device: %s \n"
+msgstr "==> Cannot open ALSA PCM device: %s \n"
+
+msgid "==> Attention : sample rate %d impossible le plus proche est %d \n"
+msgstr "==> Warning: sample rate %d impossible, closest is %d \n"
+
+msgid "==> ALSA Erreur taille periode %d impossible, le plus proche est %d \n"
+msgstr "==> ALSA Error: period size %d impossible, closest is %d \n"
+
+msgid "==> ALSA Erreur buffer taille du Tampon=%d impossible, le plus proche est %d \n"
+msgstr "==> ALSA Error: buffer size=%d impossible, closest is %d \n"
+
+msgid "--- Client ALSA PCM-OUT démarré et actif..."
+msgstr "--- ALSA PCM-OUT client started and active..."
+
+msgid "Failed to set alsaPCM thread priority: %s \n"
+msgstr "Failed to set alsaPCM thread priority: %s \n"
+
+msgid "==> Erreur : Le serveur JACK MIDI est introuvable ou n'est pas lancé."
+msgstr "==> Error: JACK MIDI server not found or not running."
+
+msgid "Nouvelle instance <%s>, connexion MIDI automatique désactivée\n"
+msgstr "New instance <%s>, automatic MIDI connection disabled\n"
+
+msgid "--- Client JACK MIDI-IN démarré et actif..."
+msgstr "--- JACK MIDI-IN client started and active..."
+
+msgid "Faire la connexion manuelle ou préciser les ports en paramètres de lancement de l'application en fonction de la liste suivante des ports actifs..."
+msgstr "Make manual connection or specify ports in application launch parameters according to the following list of active ports..."
+
+msgid "==> Impossible d'activer le client JACK\n"
+msgstr "==> Unable to activate JACK client\n"
+
+msgid "==> Erreur lors de l'ouverture du séquenceur ALSA.\n"
+msgstr "==> Error while opening ALSA sequencer.\n"
+
+msgid "==> Erreur lors de la création du port d'entrée MIDI ALSA.\n"
+msgstr "==> Error while creating ALSA MIDI input port.\n"
+
+msgid "--- Client ALSA MIDI-IN démarré et actif..."
+msgstr "--- ALSA MIDI-IN client started and active..."
+
+msgid "==> Echec de connexion ALSA MIDI, port MIDI <%s> non trouvé\n"
+msgstr "==> ALSA MIDI connection failure, MIDI port <%s> not found\n"
+
+msgid "==> Erreur lors de la connexion au port MIDI.\n"
+msgstr "==> Error while connecting to MIDI port.\n"
+
+msgid "--- En attente des événements MIDI..."
+msgstr "--- Waiting for MIDI events..."
+
+msgid "==> Attention:aucun client MIDI connecté\n"
+msgstr "==> Warning: no MIDI client connected\n"
+
+msgid "Erreur ouverture sortie son 'default' "
+msgstr "Error opening sound output 'default' "
+
+msgid "Erreur ouverture entrée: "
+msgstr "Error opening input: "
+
+msgid ""
+"Appuyer sur [ENTREE] pour lancer la mesure ou corriger la connexion ALSA manuellement avec qpwgraph\n"
+"?"
+msgstr ""
+"Press [ENTER] to start measurement or fix ALSA connection manually with qpwgraph\n"
+"?"
+
+msgid "Envoi d'une impulsion et attente de son retour...\n"
+msgstr "Sending an impulse and waiting for its return...\n"
+
+#
+msgid "Erreur lecture entrée: "
+msgstr "Input read error: "
+
+msgid "Latence sortie son + chaîne système = %.3f millisecondes\n"
+msgstr "Output sound latency + system chain = %.3f milliseconds\n"
+
+msgid "Latence non mesurée\n"
+msgstr "Latency not measured\n"
+
+msgid "Mesure de la latence audio + chaîne système..."
+msgstr "Measuring audio latency + system chain..."
+
+msgid ""
+"Pour mesurer la latence physique, préciser le nom du port d'enregistrement au lancement de l'application\n"
+" et mettre un câble pour boucler la sortie audio avec l'entrée audio."
+msgstr ""
+"To measure physical latency, specify the recording port name at application launch\n"
+" and use a cable to loop the audio output to the audio input."
+
+msgid "==> Erreur : Le serveur JACK est introuvable ou n'est pas lancé."
+msgstr "==> Error: JACK server not found or not running."
+
+msgid "Impossible d'enregistrer le port JACK."
+msgstr "Unable to register JACK port."
+
+msgid "Échec de l'activation du client JACK."
+msgstr "Failed to activate JACK client."
+
+msgid "Attention, il y a plusieurs ports JACK *:monitor_FL, le retenu est : <%s>\n"
+msgstr "Warning, multiple JACK ports *:monitor_FL found, selected one is: <%s>\n"
+
+msgid "Impossible de connecter le port d'écoute avec '"
+msgstr "Unable to connect monitoring port with '"
+
+msgid ""
+"Faire la connexion manuelle avec qpwgraph puis appuyer sur [ENTREE] pour lancer la mesure\n"
+"?"
+msgstr ""
+"Make the connection manually with qpwgraph then press [ENTER] to start measurement\n"
+"?"
+
+msgid ""
+"Appuyer sur [ENTREE] pour lancer la mesure ou corriger la connexion JACK manuellement avec qpwgraph\n"
+"?"
+msgstr ""
+"Press [ENTER] to start measurement or fix JACK connection manually with qpwgraph\n"
+"?"
+
+msgid "Envoi d'une impulsion et attente de son retour sur le port JACK <%s>...\n"
+msgstr "Sending an impulse and waiting for its return on JACK port <%s>...\n"
+
+msgid "Rappel sur la configuration de la sortie son:\n"
+msgstr "Reminder on sound output configuration:\n"
+
+# , c-format
+msgid "Latence audio + chaîne système = %.1f millisecondes\n"
+msgstr "Audio latency + system chain = %.1f milliseconds\n"
+
+msgid "Impulsion non détectée, latence non mesurée.\n"
+msgstr "Impulse not detected, latency not measured.\n"
+
+msgid "Erreur snd_pcm_set_params ALSA: "
+msgstr "ALSA snd_pcm_set_params error: "
+
+msgid "Erreur : Impossible d'obtenir IMMDeviceEnumerator\n"
+msgstr "Error: Unable to obtain IMMDeviceEnumerator\n"
+
+msgid "Erreur : Impossible d'obtenir le périphérique audio par défaut\n"
+msgstr "Error: Unable to get default audio device\n"
+
+msgid "Erreur : Impossible d'activer IAudioClient\n"
+msgstr "Error: Unable to activate IAudioClient\n"
+
+msgid "Erreur : Impossible d'obtenir le format audio\n"
+msgstr "Error: Unable to get audio format\n"
+
+msgid "==>ERREUR, format audio float32 non pris en charge par Windows...\n"
+msgstr "==>ERROR, float32 audio format not supported by Windows...\n"
+
+msgid "==>ERREUR, format audio %d canaux non pris en charge, seulement stereo possible...\n"
+msgstr "==>ERROR, %d‑channel audio format not supported, only stereo is possible...\n"
+
+msgid "==> Attention : WASAPI le mode exclusif est utilisé par une autre application, passe en mode partagé\n"
+msgstr "==> Warning: WASAPI exclusive mode is used by another application, switching to shared mode\n"
+
+msgid "==> Attention : WASAPI le mode exclusif n'est pas possible pour cette durée de buffer %.3fms, passe en mode partagé\n"
+msgstr "==> Warning: WASAPI exclusive mode is not possible for this buffer duration %.3fms, switching to shared mode\n"
+
+msgid "==> Attention : WASAPI le mode exclusif ne supporte pas le format float32, passe en mode partagé\n"
+msgstr "==> Warning: WASAPI exclusive mode does not support float32 format, switching to shared mode\n"
+
+msgid "==> Attention (%lX): WASAPI mode exclusif échoué, passe en mode partagé\n"
+msgstr "==> Warning (%lX): WASAPI exclusive mode failed, switching to shared mode\n"
+
+msgid "==> Erreur : WASAPI mode partagé échoué, passe en mode non low latency\n"
+msgstr "==> Error: WASAPI shared mode failed, switching to non–low‑latency mode\n"
+
+msgid ""
+"\n"
+"==> Echec de l'initialisation de WASAPI\n"
+msgstr ""
+"\n"
+"==> WASAPI initialization failed\n"
+
+msgid "Erreur : Impossible d'initialiser le client audio %ld \n"
+msgstr "Error: Unable to initialize audio client %ld \n"
+
+msgid "Erreur : Impossible de créer l'événement audio\n"
+msgstr "Error: Unable to create audio event\n"
+
+msgid "Erreur : Impossible d'associer l'événement audio\n"
+msgstr "Error: Unable to bind audio event\n"
+
+msgid "Erreur : Impossible d'obtenir IAudioRenderClient\n"
+msgstr "Error: Unable to obtain IAudioRenderClient\n"
+
+msgid "Erreur : Impossible d'obtenir la taille du tampon\n"
+msgstr "Error: Unable to get buffer size\n"
+
+msgid "Erreur : Impossible de démarrer la lecture audio\n"
+msgstr "Error: Unable to start audio playback\n"
+
+msgid "Erreur : Impossible d'initialiser COM\n"
+msgstr "Error: Unable to initialize COM\n"
+
+msgid "Erreur : WaitForSingleObject a échoué (code erreur : %lu)\n"
+msgstr "Error: WaitForSingleObject failed (error code: %lu)\n"
+
+msgid "==> Erreur, handle invalide, pas de PCM possible \n"
+msgstr "==> Error, invalid handle, PCM output not possible \n"
+
+msgid "Alerte : Événement inattendu capturé\n"
+msgstr "Alert: Unexpected event captured\n"
+
+msgid "Erreur : Impossible d'obtenir le padding audio\n"
+msgstr "Error: Unable to get audio padding\n"
+
+msgid "Erreur : Impossible de libérer le tampon\n"
+msgstr "Error: Unable to release buffer\n"
+
+msgid "Erreur : Impossible d'obtenir le tampon audio\n"
+msgstr "Error: Unable to get audio buffer\n"
+
+msgid "Erreur : Impossible de créer le thread audio\n"
+msgstr "Error: Unable to create audio thread\n"
+
+msgid "Erreur MIDI !\n"
+msgstr "MIDI Error!\n"
+
+msgid "Attends le démarrage du serveur audio PCM"
+msgstr "Waiting for Audio PCM server to start"
+
+msgid "==> ERREUR : client Audio PCM en échec non démarré.\n"
+msgstr "==> ERROR: Audio PCM client failed to start.\n"
+
+msgid "--- Client Audio PCM démarré et actif...\n"
+msgstr "--- Audio PCM client started and active...\n"
+
+msgid "Aucun périphérique MIDI-OUT disponible.\n"
+msgstr "No MIDI-OUT device available.\n"
+
+msgid "Périphérique %d : \"%s\"\n"
+msgstr "Device %d: \"%s\"\n"
+
+msgid "Erreur, périphérique <%s> non trouvé, ouverture de <%s> \n"
+msgstr "Error, device <%s> not found, opening <%s> \n"
+
+msgid "Le périphérique MIDI est déjà connecté\n"
+msgstr "MIDI device is already connected\n"
+
+msgid "Erreur : Impossible d'ouvrir le périphérique MIDI (Code d'erreur : %d).\n"
+msgstr "Error: Unable to open MIDI device (Error code: %d).\n"
+
+msgid "--- Connecté au périphérique WinMM MIDI <%s> \n"
+msgstr "--- Connected to WinMM MIDI device <%s> \n"
+
+msgid "--- Client WINMM MIDI démarré et actif\n"
+msgstr "--- WINMM MIDI client started and active\n"
+
+msgid "Client WINMM MIDI arrêté\n"
+msgstr "WINMM MIDI client stopped\n"
+
+msgid "Client Audio PCM arrêté\n"
+msgstr "Audio PCM client stopped\n"
+
+msgid "Erreur : Impossible d'ouvrir le périphérique MIDI <%s> (Code d'erreur : %X).\n"
+msgstr "Error: Unable to open MIDI device <%s> (Error code: %X).\n"
+
+msgid "Connecté au périphérique WinMM MIDI <%s> \n"
+msgstr "Connected to WinMM MIDI device <%s> \n"
+
+msgid "==> Echec de connexion WINMM à <%s> \n"
+msgstr "==> WINMM connection failure to <%s> \n"
+
+msgid "Erreur, thread non promu temps réel\n"
+msgstr "Error, thread not promoted to real-time\n"
+
+msgid "WINMM nouveau port MIDI OUT : %s \n"
+msgstr "WINMM new MIDI OUT port: %s \n"
+
+msgid "Erreur"
+msgstr "Error"
+
+msgid "==>ERREUR, format audio %d canaux non pris en charge, seulement mono/stereo possible...\n"
+msgstr "==>ERROR, %d channels audio format not supported, only mono/stereo possible...\n"
+
+msgid "Erreur Stop: "
+msgstr "Stop error: "
+
+msgid "En attente de l'arrêt de la note..."
+msgstr "Waiting for note to stop..."
+
+msgid "La note ne s'arrête pas, arrêt immédiat forcé"
+msgstr "The note does not stop, immediate stop forced"
+
+msgid "En attente de l'arrêt de toutes les notes"
+msgstr "Waiting for all notes to stop"
+
+msgid "Les notes ne s'arrêtent pas, arrêt immédiat forcé"
+msgstr "Notes do not stop, immediate stop forced"
+
+msgid "Compare les partiels du dernier accord joué de "
+msgstr "Compares the partials of the last chord played of "
+
+msgid " notes et marque les battements engendrés par les fréquences proches...\n"
+msgstr " notes and marks the beats generated by close frequencies...\n"
+
+msgid "Ne prend en compte que les partiels de volume >"
+msgstr "Only considers partials with volume >"
+
+msgid "Par défaut, les battements affichés ont une fréquence < "
+msgstr "By default, displayed beats have a frequency < "
+
+msgid "Hz et un volume de battement > "
+msgstr "Hz and a beat volume > "
+
+msgid ""
+"dB,\n"
+" entrer les 2 nouvelles valeurs fréquence amplitude, ou appuyer sur [ENTREE] pour afficher le résultat.\n"
+"?"
+msgstr ""
+"dB,\n"
+" enter the 2 new frequency and amplitude values, or press [ENTER] to display the result.\n"
+"?"
+
+msgid "Battement < %dHz et volume de battement > %ddB\n"
+msgstr "Beat < %dHz and beat volume > %ddB\n"
+
+msgid "Fréquence:%9.2fHz Note1 %-9s\n"
+msgstr "Frequency:%9.2fHz Note1 %-9s\n"
+
+msgid "Fréquence:%9.2fHz Note1 %-9s Partiel:%02d Volume:%3.0fdB"
+msgstr "Frequency:%9.2fHz Note1 %-9s Partial:%02d Volume:%3.0fdB"
+
+msgid "Fréquence:%9.2fHz Note2 %-9s\n"
+msgstr "Frequency:%9.2fHz Note2 %-9s\n"
+
+msgid "Fréquence:%9.2fHz Note2 %-9s Partiel:%02d Volume:%3.0fdB"
+msgstr "Frequency:%9.2fHz Note2 %-9s Partial:%02d Volume:%3.0fdB"
+
+msgid "Fréquence:%9.2fHz Note3 %-9s\n"
+msgstr "Frequency:%9.2fHz Note3 %-9s\n"
+
+msgid "Fréquence:%9.2fHz Note3 %-9s Partiel:%02d Volume:%3.0fdB"
+msgstr "Frequency:%9.2fHz Note3 %-9s Partial:%02d Volume:%3.0fdB"
+
+msgid "Fréquence: %fHz Note%1d %[^V]Volume:%f"
+msgstr "Frequency: %fHz Note%1d %[^V]Volume:%f"
+
+msgid "Résultat : %d partiels vibrent avec un battement important\n"
+msgstr "Result: %d partials vibrate with significant beating\n"
+
+msgid "Note : %s liste des notes et partiels en résonnance, limité à %.fdB \n"
+msgstr "Note: %s list of notes and partials in resonance, limited to %.fdB \n"
+
+msgid "Note %s:P%d freq %.1fHz amplitude %.1fdB liste des notes partiels proches: \n"
+msgstr "Note %s:P%d freq %.1fHz amplitude %.1fdB list of nearby partial notes: \n"
+
+msgid "Liste détaillée des partiels : "
+msgstr "Detailed list of partials: "
+
+msgid "voix partiel fréquence amplitude inharmonicité => graphique <="
+msgstr "voice partial frequency amplitude inharmonicity => graphic <="
+
+msgid "%02d %02d %9.2fHz %7.2fdB dérive %9.2fHz =>%-32s<= \n"
+msgstr "%02d %02d %9.2fHz %7.2fdB drift %9.2fHz =>%-32s<= \n"
+
+msgid "Liste des partiels de la note : "
+msgstr "List of note partials: "
+
+msgid "%s fréquence=%.2f inharmonicité=%0.9f Nb_voix=%d Nb_partiels=%d \n"
+msgstr "%s frequency=%.2f inharmonicity=%0.9f Nb_voices=%d Nb_partials=%d \n"
+
+msgid "Liste des fréquences des voix : "
+msgstr "List of voice frequencies: "
+
+msgid "Coefficient de normalisation sonore : "
+msgstr "Sound normalization coefficient: "
+
+msgid "puissance sonore des ondes : %.1fdB, "
+msgstr "sound power of waves: %.1fdB, "
+
+msgid "coefficient correcteur=%.1fdB\n"
+msgstr "correction coefficient=%.1fdB\n"
+
+msgid "pas de normalisation"
+msgstr "no normalization"
+
+msgid "Forme d'onde : "
+msgstr "Waveform: "
+
+msgid "produit par le fichier"
+msgstr "produced by file"
+
+msgid "produit par calcul d'une sinusoïde"
+msgstr "produced by sine calculation"
+
+msgid "Bruit de Attack : "
+msgstr "Attack Noise: "
+
+msgid " durée %.3fms \n"
+msgstr " duration %.3fms \n"
+
+msgid "Pas de fichier sonore pour le bruit de Attack"
+msgstr "No sound file for Attack noise"
+
+msgid "Bruit de Release : "
+msgstr "Release Noise: "
+
+msgid "Pas de fichier sonore pour le bruit de Release"
+msgstr "No sound file for Release noise"
+
+msgid "Amplitudes réelles des partiels : "
+msgstr "Real partial amplitudes: "
+
+msgid "Amplitudes calculées des partiels : "
+msgstr "Calculated partial amplitudes: "
+
+msgid "voix %2d : "
+msgstr "voice %2d: "
+
+msgid "La licence est valable : "
+msgstr "License is valid for: "
+
+msgid " jours"
+msgstr " days"
+
+msgid "--- Information sur le fichier Instrument"
+msgstr "--- Instrument file information"
+
+msgid "--- Information sur l'environnement technique"
+msgstr "--- Technical environment information"
+
+msgid "répertoire de travail : "
+msgstr "working directory: "
+
+msgid "OS locale, ViGAPhone SetLocale : "
+msgstr "OS locale, ViGAPhone SetLocale : "
+
+msgid "CPU, nombre de coeurs, AVX : "
+msgstr "CPU, core count, AVX: "
+
+msgid "Nombre de threads actifs créés = "
+msgstr "Number of active threads created = "
+
+msgid "Améliorations sonores : "
+msgstr "Sound enhancements: "
+
+msgid "Stéréo "
+msgstr "Stereo "
+
+msgid "inactive"
+msgstr "inactive"
+
+msgid "active"
+msgstr "active"
+
+msgid ", Résonance sympathique "
+msgstr ", Sympathetic resonance "
+
+msgid ", Réverbération "
+msgstr ", Reverb "
+
+msgid "Modèle de Réverbération courant : "
+msgstr "Current Reverb model: "
+
+msgid " avec "
+msgstr " with "
+
+msgid " réverbérations"
+msgstr " reverbs"
+
+msgid "actif"
+msgstr "active"
+
+msgid "inactif"
+msgstr "inactive"
+
+msgid "Audio PCM configuration : "
+msgstr "Audio PCM configuration: "
+
+msgid "Serveur Audio PCM : "
+msgstr "Audio PCM Server: "
+
+msgid "Pas de Serveur Audio PCM actif"
+msgstr "No active Audio PCM Server"
+
+msgid "Client Audio PCM : "
+msgstr "Audio PCM Client: "
+
+msgid " connecté au port par défaut"
+msgstr " connected to default port"
+
+msgid "Client Audio JACK MIDI : "
+msgstr "JACK MIDI Audio Client: "
+
+msgid "liste des connexions"
+msgstr "list of connections"
+
+msgid "Client Audio ALSA MIDI : "
+msgstr "ALSA MIDI Audio Client: "
+
+msgid "WASAPI partagé "
+msgstr "Shared WASAPI "
+
+msgid "WASAPI exclusif "
+msgstr "Exclusive WASAPI "
+
+msgid "Serveur Audio WINMM MIDI : "
+msgstr "WINMM MIDI Audio Server: "
+
+msgid "actif, connecté à : "
+msgstr "active, connected to: "
+
+msgid "inconnu"
+msgstr "unknown"
+
+msgid "Droite"
+msgstr "Right"
+
+msgid "Logarithmique"
+msgstr "Logarithmic"
+
+msgid "Exponentielle"
+msgstr "Exponential"
+
+msgid "Utilisateur définie"
+msgstr "User defined"
+
+msgid "Courbe de vélocité : "
+msgstr "Velocity curve: "
+
+msgid ", minimum à "
+msgstr ", minimum at "
+
+msgid "Volume général : "
+msgstr "Master Volume: "
+
+msgid "Mode spécial : "
+msgstr "Special mode: "
+
+msgid "Accordeur actif\n"
+msgstr "Tuner active\n"
+
+msgid "==> Erreur, la note est active et ne peut être restructurée.\n"
+msgstr "==> Error, the note is active and cannot be restructured.\n"
+
+msgid "Erreur, choix hors limites\n"
+msgstr "Error, choice out of range\n"
+
+msgid "Paramètre Général à modifier : "
+msgstr "General Parameter to modify: "
+
+msgid "Il manque le paramètrage de la réverbération\n"
+msgstr "Reverb settings are missing\n"
+
+msgid "==>Erreur, paramètre non modifiable \n"
+msgstr "==>Error, parameter not modifiable \n"
+
+msgid "Paramètre à modifier = %s : note <%s>"
+msgstr "Parameter to modify = %s: note <%s>"
+
+msgid " = %d (déviation = %.2fHz) "
+msgstr " = %d (deviation = %.2fHz) "
+
+msgid "==>Erreur, l'inharmonicité est trop forte, la fréquence du dernier partiel est hors limites\n"
+msgstr "==>Error, inharmonicity too high, last partial frequency is out of range\n"
+
+msgid "==>ERREUR : il faut d'abord donner une valeur à SustainTimeT60\n"
+msgstr "==>ERROR: you must first assign a value to SustainTimeT60\n"
+
+msgid "==>ERREUR : il faut d'abord donner une valeur à DecayTime et SustainTimeT60\n"
+msgstr "==>ERROR: you must first assign values to DecayTime and SustainTimeT60\n"
+
+msgid ""
+"\n"
+"Ce paramètre ne peut être modifié sans une capture sonore de la note."
+msgstr ""
+"\n"
+"This parameter cannot be modified without a sound capture of the note."
+
+msgid "Paramètre non modifiable, il faut utiliser un tableur pour éditer le fichier Instrument"
+msgstr "Parameter not modifiable, you must use a spreadsheet to edit the Instrument file"
+
+msgid "Choisir un paramètre général à modifier, puis touches de contrôle:"
+msgstr "Choose a general parameter to modify, then control keys:"
+
+msgid " mMpP      : modifie la valeur numérique ou binaire "
+msgstr " mMpP      : modifies numerical or binary value "
+
+msgid " jk        : passe au paramètre précédent ou suivant "
+msgstr " jk        : switches to previous or next parameter "
+
+msgid " [flèches] : change la note courante "
+msgstr " [arrows]  : changes the current note "
+
+msgid " ' ' ou b  : joue la note courante "
+msgstr " ' ' or b  : plays current note "
+
+msgid " 0 ou q    : quitte le mode d'édition "
+msgstr " 0 or q    : exits edition mode "
+
+msgid "Choisir un paramètre à modifier pour la note courante, puis touches de contrôle:"
+msgstr "Choose a parameter to modify for current note, then control keys:"
+
+msgid " 0 ou q    : quitte le mode d'édition"
+msgstr " 0 or q    : exits edition mode"
+
+msgid "choix invalide\n"
+msgstr "invalid choice\n"
+
+msgid "Affichage des informations est arrêté"
+msgstr "Information display is stopped"
+
+msgid "Affichage des informations est démarré"
+msgstr "Information display is started"
+
+msgid "Choisir une action à réaliser:\n"
+msgstr "Choose an action to perform:\n"
+
+msgid "Le volume sonore est normalisé, certains réglages peuvent sembler être inopérants\n"
+msgstr "Sound volume is normalized; some settings may appear ineffective\n"
+
+msgid "==>Erreur, l'Instrument n'a pas de note diapason, l'accordage n'est pas possible. \n"
+msgstr "==>Error, Instrument has no pitch note, tuning is not possible. \n"
+
+msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
+msgstr "master volume raised from %.1fdB to %.1fdB \n"
+
+msgid "\t\tNote <%s> %.1fHz \n"
+msgstr "\t\tNote <%s> %.1fHz \n"
+
+msgid ""
+"\n"
+"Erreur, il faut d'abord jouer une première note \n"
+msgstr ""
+"\n"
+"Error, you must first play an initial note \n"
+
+msgid ""
+"\n"
+"Erreur, il faut d'abord jouer un accord de 2 ou 3 notes \n"
+msgstr ""
+"\n"
+"Error, you must first play a chord of 2 or 3 notes \n"
+
+msgid "Erreur, serveur son non géré\n"
+msgstr "Error, unsupported sound server\n"
+
+msgid "fonction non disponible sous windows"
+msgstr "function not available under Windows"
+
+msgid "Le son de la capture est maintenant joué à la place du son synthétisé \n"
+msgstr "Captured sound is now played instead of synthesized sound \n"
+
+msgid "Le son synthétisé est maintenant joué à la place du son de la capture \n"
+msgstr "Synthesized sound is now played instead of captured sound \n"
+
+msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
+msgstr "==>ERROR: no captured sound exists for note %s \n"
+
+msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
+msgstr "Open the User Manual in the default web browser."
+
+msgid " Echec de la commande."
+msgstr " Command aborted."
+
+msgid "==> Attention : volume sonore trop élevé de %0.1fdB, volume général baissé de %0.1fdB à %0.1fdB \n"
+msgstr "==> Warning: sound volume too high by %0.1fdB, master volume reduced from %0.1fdB to %0.1fdB \n"
+
+msgid "==> Attention : volume sonore correction automatique hors limite = %0.1fdB\n"
+msgstr "==> Warning: automatic volume correction out of bounds = %0.1fdB\n"
+
+msgid ""
+"\n"
+"arrêt de l'application pour préserver le système audio"
+msgstr ""
+"\n"
+"stopping application to preserve the audio system"
+
+msgid "  note %s:P%-3d fréquence %6.1fHz amplitude %6.1fdB écart : %6.1fHz %4.1fCents \n"
+msgstr "  note %s:P%-3d frequency %6.1fHz amplitude %6.1fdB offset: %6.1fHz %4.1fCents \n"
+
+msgid "note %s:P%d amplitude %6.1fdB à %6.2fHz \n"
+msgstr "note %s:P%d amplitude %6.1fdB at %6.2fHz \n"
+
+msgid "==> ERREUR: impossible de retirer la note %s, abandon de la commande \n"
+msgstr "==> ERROR: unable to remove note %s, aborting command \n"
+
+msgid "Capture démarrée jusqu'au niveau sonore de %.fdB ou un appui sur une touche..."
+msgstr "Capture started until sound level reaches %.fdB or key press..."
+
+msgid "==> Erreur fichier General, erreur de format ou de valeur, ligne %u <%s>\n"
+msgstr "==> General file error, invalid format or value, line %u <%s>\n"
+
+msgid "==> Erreur fichier General, le paramètre VelociteMinimum doit être en dB et < 0dB \n"
+msgstr "==> General file error: parameter VelociteMinimum must be in dB and < 0dB \n"
+
+msgid "==> Erreur fichier General, le paramètre VelociteMinimum doit être défini après le paramètre VelociteCourbe \n"
+msgstr "==> General file error: parameter VelociteMinimum must be defined after VelociteCourbe \n"
+
+msgid "==> Erreur fichier General, le paramètre VelociteGamma doit être >=1 et <= 5 \n"
+msgstr "==> General file error: parameter VelociteGamma must be >=1 and <=5 \n"
+
+msgid "Suite à un défaut de déclaration, la Reverb <%s> n'est pas chargée\n"
+msgstr "Due to a declaration error, Reverb <%s> was not loaded\n"
+
+msgid "==> Erreur fichier General, le paramètre VolumeGeneral doit être en dB et < 0dB \n"
+msgstr "==> General file error: parameter VolumeGeneral must be in dB and < 0dB \n"
+
+msgid "==> Erreur fichier General, le paramètre FreqAffichage doit être >=10 et <= 60 \n"
+msgstr "==> General file error: parameter FreqAffichage must be >=10 and <=60 \n"
+
+msgid "==> Erreur fichier General, le paramètre GraphiqueCouleurFondTexte doit être de 6 nombres flotants (%d trouvés) entre 0 et 1 \n"
+msgstr "==> General file error: parameter GraphiqueCouleurFondTexte must contain 6 floating numbers (%d found) between 0 and 1 \n"
+
+msgid "==> Erreur fichier General, ligne %d non reconnue : <%s>\n"
+msgstr "==>Error: General file, unrecognized line %d: <%s>\n"
+
+msgid "erreur, fichier WAV non trouvé ==>%s<== \n"
+msgstr "error, WAV file not found ==>%s<== \n"
+
+msgid "erreur, fichier WAV trop court ==>%s<== \n"
+msgstr "error, WAV file too short ==>%s<== \n"
+
+msgid "erreur, fichier non RIFF/WAVE ==>%s<== \n"
+msgstr "error, non RIFF/WAVE file ==>%s<== \n"
+
+msgid "Erreur, chunk fmt manquant ==>%s<== \n"
+msgstr "Error, missing fmt chunk ==>%s<== \n"
+
+msgid "Format audio non supporté: audioFormat=%d, channels=%d, bitsPerSample=%d\n"
+msgstr "Audio format not supported: audioFormat=%d, channels=%d, bitsPerSample=%d\n"
+
+msgid "Erreur lecture chunk\n"
+msgstr "Chunk read error\n"
+
+msgid "Erreur, saut de chunk impossible dans le fichier WAV ==>%s<== \n"
+msgstr "Error, cannot skip chunk in WAV file ==>%s<== \n"
+
+msgid "erreur de lecture des données audio\n"
+msgstr "error reading audio data\n"
+
+msgid "erreur, note %s fichier non trouvé ==>%s<== \n"
+msgstr "error, note %s file not found ==>%s<== \n"
+
+msgid "==> Erreur, impossible d'ouvrir en écriture le fichier : <%s> \n"
+msgstr "==> Error, cannot open file for writing: <%s> \n"
+
+msgid "Fichier enregistré : <%s>\n"
+msgstr "File saved: <%s>\n"
+
+msgid "Répertoire d'enregistrement des sons capturés : <%s>\n"
+msgstr "Directory for captured sounds: <%s>\n"
+
+msgid "==> Attention : nom de colonne inconnu <%s> \n"
+msgstr "==> Warning: unknown column name <%s> \n"
+
+msgid "Erreur : ligne des noms des colonnes déjà analysée \n"
+msgstr "Error: column name line already processed \n"
+
+msgid "==> ATTENTON : nombre de colonnes = %d, pour un maximum de %d attendues !\n"
+msgstr "==> WARNING: number of columns = %d, maximum expected is %d!\n"
+
+msgid "==> ERREUR : ligne %d, la note doit avoir un nom l'identifiant\n"
+msgstr "==> ERROR: line %d, note must have an identifying name\n"
+
+msgid "==> ERREUR : ligne %d, la note doit avoir un numéro l'identifiant\n"
+msgstr "==> ERROR: line %d, note must have an identifying number\n"
+
+msgid "==> Erreur de valeur=%s, le StereoYSource doit être dans [0..10] mètres \n"
+msgstr "==> Value error=%s, StereoYSource must be within [0..10] meters \n"
+
+msgid "==> Attention note %s : niveau de puissance en dB (ne pas écrire dB dans les cases) du filtre harmonique interdit =%.2fdB , doit être  <0 et 0 = pas de filtre, forcé à 0 \n"
+msgstr "==> Warning note %s: harmonic filter power level in dB (do not write 'dB' in fields) is invalid =%.2fdB, must be <0; 0 = no filter, forced to 0 \n"
+
+msgid "Attention, note %s avec %d fréquences déclarées et nombre de voix incohérent <%d> corrigé à <%d> \n"
+msgstr "Warning, note %s with %d declared frequencies and inconsistent voice count <%d> corrected to <%d> \n"
+
+msgid "Attention, note %s avec un nombre d'haromiques fixé incompatible avec des harmoniques listés\n"
+msgstr "Warning, note %s has a fixed harmonic count incompatible with listed harmonics\n"
+
+msgid "Erreur, note %s les harmoniques sont mal définis : <%s>\n"
+msgstr "Error, note %s has incorrectly defined harmonics: <%s>\n"
+
+msgid "==> Attention note %s : trop d'harmoniques inaudibles, nbh * fréquence note= %d * %7.1fHz > %dHz, nombre réduit à %d \n"
+msgstr "==> Warning note %s: too many inaudible harmonics, nbh * note frequency = %d * %7.1fHz > %dHz, count reduced to %d \n"
+
+msgid "Attention, note %s avec 0 voix/corde \n"
+msgstr "Warning, note %s has 0 voices/strings \n"
+
+msgid "Attention, note %s avec nombre de voix/corde hors limites \n"
+msgstr "Warning, note %s has out‑of‑range voices per string \n"
+
+msgid "==> Erreur : note %s, nombre d'harmoniques=%d, note avec 0 ou trop d'harmoniques \n"
+msgstr "==> Error: note %s, number of harmonics=%d, note has 0 or too many harmonics \n"
+
+msgid "==> ERREUR : ligne %d, le numéro de note MIDI doit être dans la plage [1:%d]\n"
+msgstr "==> ERROR: line %d, MIDI note number must be in range [1:%d]\n"
+
+msgid ""
+"ligne %d erreur MIDINoteNum déjà définie \n"
+"%s\n"
+msgstr ""
+"line %d error: MIDINoteNum already defined \n"
+"%s\n"
+
+msgid "Attention, note %s avec fichier Attack WAV mal renseigné\n"
+msgstr "Warning, note %s has an incorrectly specified Attack WAV file\n"
+
+msgid "Attention, note %s avec fichier Attack WAV volume non renseigné ou à 0\n"
+msgstr "Warning, note %s has Attack WAV volume missing or set to 0\n"
+
+msgid "Attention, note %s : la durée de l'attaque ne peut pas être < à 0, elle est forcée au quart d'onde \n"
+msgstr "Warning, note %s: attack duration cannot be < 0, forced to quarter‑wave duration \n"
+
+msgid "Attention, note MIDI %s avec fichier Release WAV mal renseigné\n"
+msgstr "Warning, MIDI note %s has an incorrectly specified Release WAV file\n"
+
+msgid "Attention, note %s avec fichier Release WAV volume non renseigné ou à 0\n"
+msgstr "Warning, note %s has Release WAV volume missing or set to 0\n"
+
+msgid "==> ATTENTION, le paramètre instrType n'est pas reconnu : <%s> \n"
+msgstr "==> WARNING, parameter instrType not recognized: <%s> \n"
+
+msgid "==> Erreur, le paramètre PedaleSoftVolume doit être en dB et < 0dB \n"
+msgstr "==> Error: parameter PedaleSoftVolume must be in dB and < 0dB \n"
+
+msgid "==> Erreur, le paramètre PedaleUnaCorda doit être 0 ou 1 \n"
+msgstr "==> Error, parameter PedaleUnaCorda must be 0 or 1 \n"
+
+msgid "==> Erreur, le paramètre PedaleSoftVolume doit être défini avant PedaleUnaCorda \n"
+msgstr "==> Error: parameter PedaleSoftVolume must be defined before PedaleUnaCorda \n"
+
+msgid "Erreur : PitchbendRange %.1f hors limite \n"
+msgstr "Error: PitchbendRange %.1f out of range \n"
+
+msgid "==> Erreur, le paramètre NiveauCouplageMecanique doit être en dB et < 0dB \n"
+msgstr "==> Error: parameter NiveauCouplageMecanique must be in dB and < 0dB \n"
+
+msgid "==> Erreur de format ou de valeur ligne %u \n"
+msgstr "==> Format or value error at line %u \n"
+
+msgid "==> Erreur, le paramètre VelociteMinimum doit être en dB et < 0dB \n"
+msgstr "==> Error: parameter VelociteMinimum must be in dB and < 0dB \n"
+
+msgid "====> Erreur, ligne %d le paramètre n'est pas reconnu : %s \n"
+msgstr "====> Error, line %d parameter not recognized: %s \n"
+
+msgid "Choisir un fichier Instrument dans le répertoire courant:"
+msgstr "Choose an Instrument file in the current directory:"
+
+msgid "  0 : abandonne, '.' accéde au répertoire de base et '..' au parent, [ENTREE] rafraîchit la liste\n"
+msgstr "  0: cancel, '.' goes to base directory, '..' to parent, [ENTER] refreshes list\n"
+
+msgid "Erreur, le nom du fichier donné n'existe pas"
+msgstr "Error, the given filename does not exist"
+
+msgid "erreur, fichier Instrument non trouvé ==>%s<== \n"
+msgstr "error, Instrument file not found ==>%s<== \n"
+
+msgid "Erreur, système non arrêté avant le chargement de la nouvelle configuration \n"
+msgstr "Error, system not stopped before loading new configuration \n"
+
+msgid "==>ERREUR : ligne %d non reconnue \n"
+msgstr "==>ERROR: line %d not recognized \n"
+
+msgid "ERREUR : Le fichier <%s> n'est pas reconnu comme Instrument \n"
+msgstr "ERROR: File <%s> is not recognized as an Instrument \n"
+
+msgid "==>Erreur, il manque la définition du Diapason normalement à 440Hz@M69\n"
+msgstr "==>Error, missing Pitch definition (usually 440Hz@M69)\n"
+
+msgid "Diapason par défaut appliqué selon la note <%s> : fréquence=%.2fHz\n"
+msgstr "Default pitch applied according to note <%s>: frequency=%.2fHz\n"
+
+msgid "Attention, TH_IR_freq_ampl_dB est vide \n"
+msgstr "Warning, TH_IR_freq_ampl_dB is empty \n"
+
+msgid "Attention, TH_IR_freq_ampl_dB erreur de format, il manque un séparateur ' ' \n"
+msgstr "Warning, TH_IR_freq_ampl_dB format error, missing ' ' separator \n"
+
+msgid "==> Erreur, la note %s est rejetée, ligne %d "
+msgstr "==> Error, note %s is rejected, line %d "
+
+msgid "==>Erreur, l'Instrument est de type piano, il manque la définition du paramètre NiveauCouplageMecanique il est forcé à -30dB. \n"
+msgstr "==>Error, Instrument is a piano type, missing MechanicalCouplingLevel parameter; forced to -30dB. \n"
+
+msgid ""
+"\n"
+"Suite à%s un abandon, le fichier Instrument n'a pas été chargé.\n"
+msgstr ""
+"\n"
+"Following%s an abort, the Instrument file was not loaded.\n"
+
+msgid "Sauvegarde du fichier Instrument: %s\n"
+msgstr "Saving Instrument file: %s\n"
+
+msgid ""
+"Appuyer sur [ENTREE] pour faire une sauvegarde incrémentielle avec '+'\n"
+" ou saisir X pour écrire sur le fichier Instrument actuel\n"
+" ou saisir un nouveau nom de fichier Instrument sans le sufix '%s'\n"
+"?"
+msgstr ""
+"Press [ENTER] to make an incremental backup with '+'\n"
+" or enter X to overwrite current Instrument file\n"
+" or enter a new Instrument filename without the '%s' suffix\n"
+"?"
+
+msgid "nom de fichier incorrect <%s>\n"
+msgstr "incorrect filename <%s>\n"
+
+msgid "--- Sauvegarde de l'Instrument dans le fichier : <%s> \n"
+msgstr "--- Saving Instrument to file: <%s> \n"
+
+msgid "Sauvegarde réussie"
+msgstr "Save successful"
+
+msgid ":Spectre Capture de la note "
+msgstr ":Capture Spectrum of note "
+
+msgid "accorder "
+msgstr "tune "
+
+msgid ":P1 à "
+msgstr ":P1 at "
+
+msgid ">>> JOUE LE SON REEL <<< "
+msgstr ">>> PLAYING REAL SOUND <<< "
+
+msgid "Touches de commande : r=rafraîchit, q=quitte, ?=affiche l'aide sur la console"
+msgstr "Command keys: r=refresh, q=quit, ?=show help on console"
+
+msgid ", t=choix du spectre, f=échelle dB/réelle, g=gèle la capture, %=envoie les commandes à la console"
+msgstr ", t=spectrum choice, f=dB/linear scale, g=freeze capture, %=send commands to console"
+
+msgid "Spectre temporel: Amplitude/temps(s) pour la Note attendue : "
+msgstr "Time spectrum: Amplitude/time(s) for expected Note: "
+
+msgid ", fréquence : théorique "
+msgstr ", frequency: theoretical "
+
+msgid "réelle %.2fHz, écart : %.2fHz (%.1f cents) "
+msgstr "real %.2fHz, offset: %.2fHz (%.1f cents) "
+
+msgid "capture gelée"
+msgstr "capture frozen"
+
+msgid ", Max à "
+msgstr ", Max at "
+
+msgid ", analyse à : "
+msgstr ", analysis at: "
+
+msgid " ms durée "
+msgstr " ms duration "
+
+msgid ", la note n'a pas été capturée"
+msgstr ", note was not captured"
+
+msgid "Spectre fréquentiel: Amplitude/fréquence(Hz) + amplitudes des "
+msgstr "Frequency spectrum: Amplitude/frequency(Hz) + amplitudes of "
+
+msgid " Partiels/pics, "
+msgstr " Partials/peaks, "
+
+msgid "Comparateur d'unisson fréquentiel:"
+msgstr "Frequency unison comparator:"
+
+msgid " règle d'accord:"
+msgstr " tuning rule:"
+
+msgid ", pour la Note attendue : "
+msgstr ", for expected Note: "
+
+msgid "réelle "
+msgstr "real "
+
+msgid ", écart : "
+msgstr ", offset: "
+
+msgid "paramètre: "
+msgstr "parameter: "
+
+msgid "%s, commande de capture : c : capture, A : abandon, v n : valide, n: valide + note suivante "
+msgstr "%s, capture command: c: capture, A: abort, v n: validate, n: validate + next note "
+
+msgid "%s, en attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
+msgstr "%s, waiting for a loud note followed by silence (sound < %.fdB), press any key to stop..."
+
+msgid "Capture démarrée jusqu'au silence ou appuyer sur une touche pour arrêter..."
+msgstr "Capture started until silence or press any key to stop..."
+
+msgid "%s à %6.1fHz écart %5.1fHz %5.1fCents"
+msgstr "%s at %6.1fHz offset %5.1fHz %5.1fCents"
+
+msgid "Fenêtre SpectreCapture fermée."
+msgstr "SpectreCapture window closed."
+
+msgid "Ouvre la fenêtre SpectreCapture..."
+msgstr "Opening SpectreCapture window..."
+
+msgid "La fenêtre SpectreCapture est déjà ouverte."
+msgstr "SpectreCapture window is already open."
+
+msgid "==> ERREUR: impossible d'initialiser FreeType\n"
+msgstr "==> ERROR: unable to initialize FreeType\n"
+
+msgid "==> ERREUR: impossible de trouver une fonte équivalente à <%s> \n"
+msgstr "==> ERROR: unable to find a font equivalent to <%s> \n"
+
+msgid "Fonte chargée par défaut : %s : %s \n"
+msgstr "Default font loaded: %s : %s \n"
+
+msgid "==> ERREUR:échec du chargement de la fonte <%s>\n"
+msgstr "==> ERROR: failed to load font <%s>\n"
+
+msgid "==> Erreur:la fonte <%s> n'existe pas \n"
+msgstr "==> Error: font <%s> does not exist \n"
+
+msgid "==> Erreur:la fonte <%s> taille %d n'existe pas \n"
+msgstr "==> Error: font <%s> size %d does not exist \n"
+
+msgid "Erreur icône de l'application non trouvée\n"
+msgstr "Error: application icon not found\n"
+
+msgid "vue graphique au 1ier plan"
+msgstr "graphic view in foreground"
+
+msgid "==> ERREUR: langue '%s' non trouvée, 'en_US' par défaut\n"
+msgstr "==> ERROR: Language '%s' not found, defaulting to 'en_US'\n"
+
+msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
+msgstr "Error, invalid data format for Reverb:<%s>\n"
+
+msgid "==> Erreur:Reverb pas assez d'éléments ou mauvais format.\n"
+msgstr "==> Error: Reverb has insufficient elements or invalid format.\n"
+
+msgid "==>Erreur Reverb: délai hors limites, ligne <%s>\n"
+msgstr "==>Error Reverb: delay out of range, line <%s>\n"
+
+msgid "==>Erreur Reverb: l'amplitude est en dB <0, ligne <%s>\n"
+msgstr "==>Error Reverb: amplitude is in dB <0, line <%s>\n"
+
+msgid "==>Erreur Reverb: délai trop important forcé à 0, ligne <%s>\n"
+msgstr "==>Error Reverb: delay too large, forced to 0, line <%s>\n"
+
+msgid "==>Erreur Reverb: mauvaise syntaxe, ligne <%s>\n"
+msgstr "==>Error Reverb: bad syntax, line <%s>\n"
+
+msgid "==> Erreur:Reverb mauvaise syntaxe.\n"
+msgstr "==>Error: Reverb bad syntax.\n"
+
+msgid "==>Erreur Reverb: délai feedback trop important forcé à 0, ligne <%s>\n"
+msgstr "==>Error Reverb: feedback delay too large, forced to 0, line <%s>\n"
+
+msgid ""
+"==> Erreur: VelociteCourbeUDef, il y a %d paires *&* au lieu de 127 \n"
+"<%s>\n"
+msgstr ""
+"==> Error: VelociteCourbeUDef, %d *&* pairs found instead of 127 \n"
+"<%s>\n"
+
+msgid "==> Erreur: VelociteCourbeUDef, index %d hors limites [1:127] \n"
+msgstr "==> Error: VelociteCourbeUDef, index %d out of range [1:127] \n"
+
+msgid "==> Erreur: VelociteCourbeUDef, valeur %.3f hors limites [1:127] \n"
+msgstr "==> Error: VelociteCourbeUDef, value %.3f out of range [1:127] \n"
+
+msgid "défaut d'allocation mémoire voix_ondes"
+msgstr "memory allocation failure for voix_ondes"
+
+msgid "==> Erreur : clé de clavier MIDI hors limite %d \n"
+msgstr "==> Error: MIDI keyboard key out of range %d \n"
+
+msgid "==> ERREUR : init_note %s (int)pNote->voix_ondesSize %d pNote->listePartielsAmplitudesSize %d \n"
+msgstr "==> ERROR: init_note %s (int)pNote->voix_ondesSize %d pNote->listePartielsAmplitudesSize %d \n"
+
+msgid "==>Erreur, le paramètre StereoLargeurEcoute=%fm est trop grand \n"
+msgstr "==>Error, parameter StereoLargeurEcoute=%fm is too large \n"
+
+msgid "==>Erreur, le paramètre StereoYSource=%fm est hors limites doit être entre 0m et 10.m \n"
+msgstr "==>Error, parameter StereoYSource=%fm is out of range; must be between 0m and 10m \n"
+
+msgid ": L'application est trop ancienne, merci de faire une mise à jour et de renouveler votre licence d'utilisation"
+msgstr ": Application is too old, please update and renew your user license"
+
+msgid ""
+"\n"
+"==> ERREUR%s \n"
+msgstr ""
+"\n"
+"==> ERROR%s \n"
+
+msgid ""
+"\n"
+"==> ATTENTION%s, il vous reste %d jours d'utilisation \n"
+msgstr ""
+"\n"
+"==> WARNING%s, you have %d days of usage remaining \n"
+
+msgid "Voici le texte contenant la signature de l'ordinateur à copier/coller sur le site web pour obtenir une licence:\n"
+msgstr "Here is the computer signature text to copy/paste on the website to obtain a license:\n"
+
+msgid "==> ERREUR égalité KO \n"
+msgstr "==> ERROR equality check failed \n"
+
+msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
+msgstr "Auto-connection impossible, switch to manual if needed.\n"
+
+msgid "Choisir le client MIDI à connecter :\n"
+msgstr "Choose MIDI client to connect:\n"
+
+msgid "La liste est vide, connecter un périphérique MIDI puis appuyer sur [ENTREE] pour rafraîchir la liste\n"
+msgstr "The list is empty, connect a MIDI device then press [ENTER] to refresh the list\n"
+
+msgid "connexion auto JACK\n"
+msgstr "JACK auto-connection\n"
+
+msgid "connexion auto ALSA\n"
+msgstr "ALSA auto-connection\n"
+
+msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
+msgstr "Choose MIDI client to connect or disconnect:\n"
+
+msgid "Session MIDI sauvegardée dans le fichier '%s'\n"
+msgstr "MIDI session saved to file '%s'\n"
+
+msgid "====> Attention : volume général modifié de %0.1fdB à %0.1fdB \n"
+msgstr "====> Warning: master volume modified from %0.1fdB to %0.1fdB \n"
+
+msgid "%s ATTENTION note non définie \n"
+msgstr "%s WARNING undefined note \n"
+
+msgid " hors limites [-1:1]"
+msgstr " out of range [-1:1]"
+
+msgid "Fichier Instrument : "
+msgstr "Instrument File: "
+
+msgid "Nom court, Version Date : "
+msgstr "Short Name, Version Date: "
+
+msgid "Description : "
+msgstr "Description: "
+
+msgid "Auteur du paramétrage : "
+msgstr "Parameter settings author: "
+
+msgid "Vélocité minimum : "
+msgstr "Minimum velocity: "
+
+msgid "Instrument spécial : "
+msgstr "Special Instrument: "
+
+msgid "Clavier : "
+msgstr "Keyboard: "
+
+msgid " touches"
+msgstr " keys"
+
+msgid " dont "
+msgstr " including "
+
+msgid " basses"
+msgstr " bass"
+
+msgid " touches spéciales/pédales"
+msgstr " special keys/pedals"
+
+msgid "==>Erreur de format numérique pour la valeur <"
+msgstr "==>Numeric format error for value <"
+
+msgid "--- Information sur l'application\n"
+msgstr "--- Application information\n"
+
+msgid "Conçu par "
+msgstr "Designed by "
+
+msgid " en date du "
+msgstr " dated "
+
+msgid " ; compilée le "
+msgstr " ; compiled on "
+
+msgid "Erreur lors de la récupération des dimensions de l'écran : %lu\n"
+msgstr "Error retrieving screen dimensions: %lu\n"
+
+msgid "Pas de redimensionnement nécessaire. Dimensions actuelles : %d colonnes, %d lignes.\n"
+msgstr "No resizing necessary. Current dimensions: %d columns, %d rows.\n"
+
+msgid "Erreur lors de la modification du tampon d'écran : %lu\n"
+msgstr "Error modifying screen buffer: %lu\n"
+
+msgid "Erreur lors de la modification de l'écran : %lu\n"
+msgstr "Error modifying screen: %lu\n"
+
+msgid "L'écran doit être redimensionné à %d colonnes et %d lignes.\n"
+msgstr "The screen must be resized to %d columns and %d rows.\n"
+
+msgid "Erreur lors de la modification de la taille de l'écran"
+msgstr "Error while resizing the screen"
+
+msgid "L'écran doit être redimensionné à %d colonnes et %d lignes sous Linux.\n"
+msgstr "Screen must be resized to %d columns and %d rows under Linux.\n"
+
+msgid ""
+"==> ATTENTION: Pour afficher correctement les informations, il faut agrandir l'écran,\n"
+" taille actuelle:(%d,%d) taille minimum souhaitée (%d,%d).\n"
+msgstr ""
+"==> WARNING: To display information correctly, the screen must be enlarged,\n"
+" current size:(%d,%d) minimum desired size (%d,%d).\n"
+
+msgid "Sortie audio:SampleRate=%d échantillons par seconde sur %d canaux, ServeurAudioTampon=%d=%0.3fms ServeurAudioPeriode=%d=%0.3fms\n"
+msgstr "Audio output:SampleRate=%d samples per second on %d channels, AudioServerBuffer=%d=%0.3fms AudioServerPeriod=%d=%0.3fms\n"
+
+msgid "Capture audio:SampleRate=%d échantillons par seconde sur %d canaux, ServeurAudioPeriode=%d=%0.3fms \n"
+msgstr "Audio capture:SampleRate=%d samples per second on %d channels, AudioServerPeriod=%d=%0.3fms \n"
+
+msgid "Mode spécial Accordeur désactivé\n"
+msgstr "Special Tuner mode disabled\n"
+
+msgid "> Erreur"
+msgstr "Error"
+
+msgid ""
+"Bienvenue dans le ViGAPhone Synth Lab World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
+"Parce que la musique est un monde de partage !"
+msgstr ""
+"Welcome to the ViGAPhone Synth Lab World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
+"Because music is a world of sharing!"
+
+msgid "==> Merci de lire le fichier LICENSE.txt avant usage pour la licence d'utilisation."
+msgstr "==> Please read the LICENSE.txt file before use for the license terms."
+
+msgid "'?' affiche la liste des commandes disponibles. \n"
+msgstr "'?' displays the list of available commands. \n"
+
+msgid "Ajouter l'option -h pour avoir la liste des paramètres de lancement\n"
+msgstr "Pass -h to see all startup options\n"
+
+msgid ""
+"Options de lancement du programme :\n"
+"<ce programme> [<Options>] [<nom du fichier de l'Instrument>] \n"
+"Options: \n"
+"-f <nom du fichier de l'Instrument> : nom du fichier de l'Instrument ou nom d'un répertoire contenant des instruments\n"
+"-ServeurAudio JACK | ALSA | WASAPI| WASAPIEX : Choix du serveur son pour linux=JACK ou ALSA, pour windows=WASAPI en mode partagé ou WASAPIEX en mode exclusif mais dans ce cas la carte son doit supporter le format float32 \n"
+"-ServeurAudioPeriode <valeur> : nombre d'échantillons sonores dans 1 periode de traitement, 512 par défaut, influe sur le délai de latence. JACK n'utilise pas de tampon ciculaire et offre la meilleure latence avec le plus de risque de pets en cas de retard, ALSA comme WASAPI utilise un tampon circulaire de 2 à 4 périodes,  ayant plus de latence mais étant moins sujet à produrie des pets. \n"
+"-ServeurAudioFreq <valeur> : fréquence d'échantillonnage souhaitée, 48000 par défaut, pour test avec ALSA seulement car normalement c'est le système d'exploitation qui définit cela en fonction des contraintes matérielles\n"
+"-ServeurAudioNbThreadsPCM : nombre de threads affectés au moteur audio, par défaut = nombre de coeurs de la CPU \n"
+"-ServeurMIDI JACK+ALSA | JACK | ALSA : Choix du serveur MIDI JACK ou ALSA ou les deux JACK+ALSA \n"
+"-AlsaMIDIOut <nom du connecteur ALSA clavier ou source MIDI> : exemples 'MIDI Out:out' 'VMPK Output:out' \n"
+"-JackWaveInL <nom du connecteur de sortie son gauche> : exemples 'Built-in Audio Analog Stereo:playback_FL' 'cinnamon:input_FL' \n"
+"-JackWaveInR <nom du connecteur de sortie son droit> : exemples 'Built-in Audio Analog Stereo:playback_FR' 'Built-in Audio Analog Stereo:playback_FR' \n"
+"-JackMIDIOut <nom du connecteur JACK clavier ou source MIDI> : exemples 'Mamba:out' 'Midi-Bridge:CASIO USB-MIDI 1:(capture_0)' 'CASIO USB-MIDI MIDI 1' \n"
+"-WinMIDIOut <nom du périphérique MIDI windows> : \"ViGAPhoneLoop\" \n"
+"-MIDIXAUTO : connexion automatique au client MIDI qui se branche, actif par défaut \n"
+"-OndeVolumeMinimum <valeur> : volume minimum pour extinction d'une onde valeur en dB <=0 : optimise les performances, éteint les ondes dont le volume sonore est inférieur à ce seuil, n‘est actif que quand le nombre d’ondes est supérieur au seuil, valeur par exemple : -60dB \n"
+"-OndeVolumeMinimumNbSeuil <valeur> : optimise les performances, seuil de nombre d’ondes actives autorisant d’éteindre les plus faibles valeur par exemple : 11000\n"
+"-StereoLargeurEcoute <valeur> : largeur en mètres de la séparation des points d'écoute gauche et droit, par défaut 0,20m \n"
+"-StereoAffaiblissement <valeur> : valeur maximale de l'affaiblissement selon l'angle de la source par rapport aux points d'écoute et à leur écart, par défaut -6dB/m \n"
+"-Tada <volume> : joue une musique d'accueil au démarrage, volume entre 0 et 10, 0=ne joue pas la musique, 10 par défaut \n"
+"-IMIDI : affiche les événements MIDI \n"
+"-D : affiche des informations de débogage\n"
+"-DMIDI : affiche les données brutes des événements MIDI non traités \n"
+"-h pour avoir la liste des paramètres de lancement\n"
+"\n"
+"Le programme démarre en mode interactif: \n"
+"Taper '?' affiche la liste des commandes disponibles. \n"
+"Arrêter le programme par la touche 'Q' ou plus brutalement par 'CTRL C' \n"
+msgstr ""
+"Program launch options:\n"
+"<this program> [<Options>] [<Instrument filename>] \n"
+"Options: \n"
+"-f <Instrument filename>: name of Instrument file or directory containing instruments\n"
+"-ServeurAudio JACK | ALSA | WASAPI| WASAPIEX: Sound server choice for linux=JACK or ALSA, for windows=WASAPI shared or WASAPIEX exclusive (sound card must support float32 in exclusive mode) \n"
+"-ServeurAudioPeriode <value>: number of audio samples per processing period, default 512, affects latency. JACK uses no circular buffer and offers best latency but higher risk of glitches; ALSA and WASAPI use 2-4 periods buffer, having more latency but less prone to glitches. \n"
+"-ServeurAudioFreq <value>: desired sample rate, default 48000, for ALSA testing only as OS usually defines this based on hardware\n"
+"-ServeurAudioNbThreadsPCM: number of threads for audio engine, default = CPU core count \n"
+"-ServeurMIDI JACK+ALSA | JACK | ALSA: MIDI server choice (JACK, ALSA or both) \n"
+"-AlsaMIDIOut <ALSA connector name>: e.g., 'MIDI Out:out' 'VMPK Output:out' \n"
+"-JackWaveInL <left output connector>: e.g., 'Built-in Audio Analog Stereo:playback_FL' \n"
+"-JackWaveInR <right output connector>: e.g., 'Built-in Audio Analog Stereo:playback_FR' \n"
+"-JackMIDIOut <JACK MIDI connector>: e.g., 'Mamba:out' 'Midi-Bridge:CASIO USB-MIDI 1' \n"
+"-WinMIDIOut <Windows MIDI device>: \"ViGAPhoneLoop\" \n"
+"-MIDIXAUTO: auto-connect to MIDI clients, active by default \n"
+"-OndeVolumeMinimum <value>: min volume for wave extinction in dB <=0: optimizes performance by killing waves below threshold, only active if wave count exceeds threshold (e.g., -60dB) \n"
+"-OndeVolumeMinimumNbSeuil <value>: performance optimization, threshold for active waves before killing weakest (e.g., 11000)\n"
+"-StereoLargeurEcoute <value>: width in meters between L/R listening points, default 0.20m \n"
+"-StereoAffaiblissement <value>: max attenuation based on source angle and distance, default -6dB/m \n"
+"-Tada <volume>: startup music volume (0-10, 0=off, default 10) \n"
+"-IMIDI: display MIDI events \n"
+"-D: display debug information\n"
+"-DMIDI: display raw unprocessed MIDI data \n"
+"-h: show launch parameters\n"
+"\n"
+"Program starts in interactive mode: \n"
+"Type '?' for available commands. \n"
+"Stop program with 'Q' key or 'CTRL C' \n"
+
+msgid ""
+" \n"
+"--- Liste des commandes disponibles sur la dernière note jouée: \n"
+"[flèches] : change la note courante, gauche = précédente, droite = suivante, bas = octave inférieure, haut = octave supérieure ; si les flèches ne marchent pas utiliser les commandes mMpP \n"
+"[espace] : rejoue/arrête la ou les 3 dernières notes \n"
+"b : rejoue et maintient la ou les 3 dernières notes, les touches restent baissées\n"
+"n : mémorise la note courante pour former un accord \n"
+"H : affiche les fréquences et amplitudes des partiels et quelques informations sur la note \n"
+"h : compare les partiels du dernier accord joué et affiche les concordances et les dissonances \n"
+"h + assitant accordeur graphique : liste des notes et partiels en résonance avec la note courante \n"
+"m M : diminue le paramètre un peu ou FORTEMENT \n"
+"N : choisit un paramètre de note à modifier \n"
+"p P : augmente le paramètre un peu ou FORTEMENT \n"
+"r : rafraîchit la vue ou le paramètre en cours de modification \n"
+"s : joue le son capturé au lieu du son synthétisé On/Off \n"
+" \n"
+"--- Liste des commandes générales: \n"
+"% : ouvre la fenêtre graphique, affiche en temps réel les spectres sonores temporels et fréquentiels\n"
+"a : arrête toutes les notes (all notes off), efface l'accord mémorisé \n"
+"A : menu spécial Accordeur\n"
+"d : affiche les informations de débogage On/Off \n"
+"D : menu spécial Divers et Debogage\n"
+"F : charge un nouveau fichier d'Instrument \n"
+"G : choisit un paramètre global à modifier \n"
+"I : affiche les informations sur le programme et le fichier d'Instrument \n"
+"q : quitte la commande en cours \n"
+"Q : quitte le programme \n"
+"r : rafraichit l'écran \n"
+"R : recharge le fichier d'Instrument et restaure les valeurs d'origine \n"
+"S : sauvegarde les paramètres de l'Instrument dans un fichier ainsi que les captures sonores \n"
+"X : change la connexion à un client MIDI \n"
+"@ : manuel utilisateur sur internet traduit par Google Translate \n"
+"? : affiche la liste des commandes disponibles \n"
+msgstr ""
+" \n"
+"--- List of available commands for the last played note: \n"
+"[arrow keys]: change current note: left = previous, right = next, down = lower octave, up = upper octave; if arrows don't work, use mMpP commands \n"
+"[space]: replay/stop the last note or last 3 notes \n"
+"b: replay and sustain the last note(s), keys remain pressed\n"
+"n: store current note to build a chord \n"
+"H: display partials' frequencies and amplitudes and note information \n"
+"h: compare partials of the last played chord and show consonances and dissonances \n"
+"h + graphic tuner assistant: list of notes and partials in resonance with the current note \n"
+"m M: decrease parameter slightly or STRONGLY \n"
+"N: select a note parameter to modify \n"
+"p P: increase parameter slightly or STRONGLY \n"
+"r: refresh the view or the parameter being modified \n"
+"s: play captured sound instead of synthesized sound On/Off \n"
+" \n"
+"--- General commands: \n"
+"%: open graphic window, display real-time time and frequency spectra\n"
+"a: stop all notes (all notes off), clear stored chord \n"
+"A: special Tuner menu\n"
+"d: display debugging info On/Off \n"
+"D: special Misc and Debug menu\n"
+"F: load a new Instrument file \n"
+"G: select a global parameter to modify \n"
+"I: display program and Instrument file information \n"
+"q: quit current command \n"
+"Q: quit program \n"
+"r: refresh screen \n"
+"R: reload Instrument file and restore original values \n"
+"S: save Instrument parameters and sound captures to file \n"
+"X: change MIDI client connection \n"
+"@ : online user manual translated by Google Translate \n"
+"?: display list of available commands \n"
+
+msgid ""
+"\n"
+"--- Liste des commandes dans la vue graphique: \n"
+"g : gèle la capture sonore pour l'analyse du timbre \n"
+"f : choisit l'échelle dB/réelle \n"
+"jJkK mMpP : déplacement et zoom \n"
+"q : quitte et ferme la fenêtre \n"
+"Q : quitte le programme \n"
+"r : recompose la vue  \n"
+"t : choisit le spectre \n"
+"z : zoom on/off \n"
+"% : envoie les commandes jkmMpP à la console, agit sur le paramètre à modifier \n"
+"[flèches] [espace] a b s : identiques console\n"
+"[début/home] : positionne le spectre au début\n"
+"? : affiche sur la console la liste des commandes disponibles pour la vue graphique\n"
+msgstr ""
+"\n"
+"--- List of commands in graphic view: \n"
+"g: freeze sound capture for timbre analysis \n"
+"f: select dB/linear scale \n"
+"jJkK mMpP: move and zoom \n"
+"q: quit and close window \n"
+"Q: quit program \n"
+"r: reset view \n"
+"t: select spectrum type \n"
+"z: zoom on/off \n"
+"%: send jkmMpP commands to console, affects parameter being modified \n"
+"[arrows] [space] a b s: same as console\n"
+"[home]: position spectrum at start\n"
+"?: display list of commands for graphic view on console\n"
+
+msgid "MIDInoteNum"
+msgstr "MIDInoteNum"
+
+msgid "note nom"
+msgstr "note name"
+
+msgid "note num"
+msgstr "note number"
+
+msgid "fréquence P1"
+msgstr "P1 frequency"
+
+msgid "règle accord"
+msgstr "tuning rule"
+
+msgid "nb voix"
+msgstr "voices count"
+
+msgid "avecEtouffoir"
+msgstr "with damper"
+
+msgid "position de frappe >= 2"
+msgstr "strike position >= 2"
+
+msgid "déviation accord voix +-Hz"
+msgstr "voice tuning deviation +-Hz"
+
+msgid "nb partiels"
+msgstr "partials count"
+
+msgid "dureté du marteau"
+msgstr "hammer hardness"
+
+msgid "fréq coupure filtre marteau passe bas"
+msgstr "hammer low‑pass cutoff freq"
+
+msgid "fréq coupure filtre TH passe bas"
+msgstr "TH low‑pass cutoff freq"
+
+msgid "puissance filtre TH passe bas en dB"
+msgstr "TH low‑pass filter level dB"
+
+msgid "volumeAjuste dB"
+msgstr "adjusted volume dB"
+
+msgid "stereoXSource"
+msgstr "stereoXSource"
+
+msgid "stereoYSource"
+msgstr "stereoYSource"
+
+msgid "ondeWAVfile"
+msgstr "waveWAVfile"
+
+msgid "AttackWAVfile"
+msgstr "AttackWAVfile"
+
+msgid "AttackWAVvolume dB"
+msgstr "AttackWAV volume dB"
+
+msgid "AttackTime"
+msgstr "AttackTime"
+
+msgid "DecayTime"
+msgstr "DecayTime"
+
+msgid "SustainVolume dB"
+msgstr "Sustain volume dB"
+
+msgid "SustainTimeT60"
+msgstr "Sustain T60 time"
+
+msgid "ReleaseTimeT60"
+msgstr "Release T60 time"
+
+msgid "ReleaseWAVfile"
+msgstr "ReleaseWAVfile"
+
+msgid "ReleaseWAVvolume dB"
+msgstr "ReleaseWAV volume dB"
+
+msgid "fréq coupure filtre amortissement fréquentiel"
+msgstr "spectral damping cutoff freq"
+
+msgid "puissance filtre amortissement fréquentiel en dB"
+msgstr "spectral damping level dB"
+
+msgid "inharmonicité coef B"
+msgstr "inharmonicity B coef"
+
+msgid "inharmonicité fréq P1"
+msgstr "inharmonicity P1 freq"
+
+msgid "liste amplitudes réelles des partiels dB"
+msgstr "real partial amplitudes dB"
+
+msgid "abandonne"
+msgstr "cancel"
+
+msgid "volume sonore général"
+msgstr "master volume"
+
+msgid "stéréo On/Off"
+msgstr "stereo On/Off"
+
+msgid "résonance sympathique On/Off"
+msgstr "sympathetic resonance On/Off"
+
+msgid "réverbération On/Off"
+msgstr "reverb On/Off"
+
+msgid "réverbération liste et sélection"
+msgstr "reverb list and selection"
+
+msgid "Instrument en cours: normalise le volume des notes On/Off"
+msgstr "Current instrument: normalize note volume On/Off"
+
+msgid "Instrument en cours: diapason"
+msgstr "Current instrument: pitch standard (A440)"
+
+msgid "Instrument en cours: Niveau de Couplage Mécanique pour la résonance sympathique"
+msgstr "Current instrument: Mechanical Coupling Level for sympathetic resonance"
+
+msgid "clavier MIDI: courbe de vélocité D E L U"
+msgstr "MIDI keyboard: velocity curve D E L U"
+
+msgid "clavier MIDI: puissance gamma"
+msgstr "MIDI keyboard: gamma power"
+
+msgid "clavier MIDI: volume sonore de la vélocité minimum"
+msgstr "MIDI keyboard: minimum velocity volume"
+
+msgid "réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie, enveloppe ADSR sans DS, vélocitée max, Reverb Off, sur toutes les notes, On/Off"
+msgstr "temporarily reduce sound effects: mono voice, damper, infinite duration, ADSR envelope without DS, max velocity, Reverb Off, on all notes, On/Off"
+
+msgid "réduit temporairement le nombre de voix à 1 sur toutes les notes On/Off"
+msgstr "temporarily reduce polyphony to 1 voice for all notes On/Off"
+
+msgid "bascule temporairement les notes sur les captures sonores pour jouer les sons réels enregistrés On/Off"
+msgstr "temporarily switch notes to audio samples to play recorded real sounds On/Off"
+
+msgid "MIDI: affiche les événements reçus On/Off"
+msgstr "MIDI: display received events On/Off"
+
+msgid "MIDI: affiche les événements reçus non traités On/Off"
+msgstr "MIDI: display unhandled received events On/Off"
+
+msgid "verrouille SustainTime dans la modification de DecayTime et SustainVolume On/Off"
+msgstr "lock SustainTime when modifying DecayTime and SustainVolume On/Off"
+
+msgid "ou entrée vide : abandonne"
+msgstr "or empty input: cancel"
+
+msgid "affiche le spectrogramme pour régler le microphone et le niveau de bruit"
+msgstr "display spectrogram to adjust microphone and noise level"
+
+msgid "assistant console pour accorder l'Instrument réel: mesure la fréquence de la note jouée et joue son unisson"
+msgstr "console assistant to tune real instrument: measures played note frequency and plays its unison"
+
+msgid "assistant graphique pour accorder l'Instrument réel: ajoute des informations de consonnances"
+msgstr "graphic assistant to tune real instrument: adds consonance information"
+
+msgid "affiche/modifie/capture l'inharmonicité des notes, capture le timbre de la note de l'Instrument"
+msgstr "display/modify/capture note inharmonicity, capture instrument note timbre"
+
+msgid ""
+"affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument\n"
+"\t(la capture des notes peut aussi se faire dans la vue graphique en mode transmission de commandes)"
+msgstr ""
+"displays/edits/captures the partials of the played note, captures the tone of the instrument note\n"
+"\t(note capture can also be performed in the graphical view when command transmission mode is active)"
+
+msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
+msgstr "capture instrument note timbre from WAV file, must start from current note"
+
+msgid "ouvre la fenêtre graphique: signal audio + spectre fréquence/amplitude des partiels"
+msgstr "open graphic window: audio signal + partials frequency/amplitude spectrum"
+
+msgid "enregistre les fichiers WAV des notes capturées"
+msgstr "save WAV files of captured notes"
+
+msgid "accorde l'Instrument selon ses règles d'accordage "
+msgstr "tune the instrument according to its tuning rules "
+
+msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
+msgstr "choose instrument temperament, a set of automatic tuning rules"
+
+msgid "affiche les règles et fréquences des notes de l'Instrument"
+msgstr "display instrument note rules and frequencies"
+
+msgid "affiche la distribution des notes actives sur les threads Engine-PCM"
+msgstr "display active note distribution across Engine-PCM threads"
+
+msgid "affiche la signature de l'ordinateur pour obtenir une licence d'utilisation"
+msgstr "display computer signature to obtain a license"
+
+msgid "test:choisit la forme de l'onde de base"
+msgstr "test: choose basic waveform"
+
+msgid ""
+"\n"
+"Il n'y a pas de note en cours, arrêt de la commande d'édition.\n"
+msgstr ""
+"\n"
+"There is no active note, stopping edit command.\n"
+
+msgid "nbNotes|nbOndes|=>    VU-mètre    <= dernière note jouée....volume  3pédales|xrun   threads/cpu charge      délais de calcul"
+msgstr "nbNotes|nbWaves|=>    VU-meter    <= last note played.......volume   3pedals|xrun   threads/cpu load        calc latency"
+
+msgid "%c[41mAttention : %s charge système %.0f%c "
+msgstr "%c[41mWarning: %s system load %.0f%c "
+
+msgid "==> ATTENTION : le fichier <%s> a été supprimé ou déplacé\n"
+msgstr "==> WARNING: file <%s> was deleted or moved\n"
+
+msgid "==> ATTENTION : le fichier <%s> a été restauré\n"
+msgstr "==> WARNING: file <%s> was restored\n"
+
+msgid "Fichier Instrument mis à jour, ok je le recharge...\n"
+msgstr "Instrument file updated, reloading...\n"
+
+msgid "JACK connexion d'un périphérique MIDI\n"
+msgstr "JACK: MIDI device connected\n"
+
+msgid "JACK déconnexion d'un périphérique MIDI\n"
+msgstr "JACK: MIDI device disconnected\n"
+
+msgid "ALSA connexion d'un périphérique MIDI\n"
+msgstr "ALSA: MIDI device connected\n"
+
+msgid "ALSA déconnexion d'un périphérique MIDI\n"
+msgstr "ALSA: MIDI device disconnected\n"
+
+msgid "WINMM connexion d'un périphérique MIDI\n"
+msgstr "WINMM: MIDI device connected\n"
+
+msgid "WINMM déconnexion d'un périphérique MIDI\n"
+msgstr "WINMM: MIDI device disconnected\n"
+
+msgid ""
+"\n"
+"\n"
+"Temps d'utilisation sans licence dépassé, limité à "
+msgstr ""
+"\n"
+"\n"
+"Unlicensed usage time exceeded, limited to "
+
+msgid ""
+" minutes. Fermeture de l'application. \n"
+"Merci de l'avoir essayée, prenez une licence pour une utilisation illimitée.\n"
+msgstr ""
+" minutes. Closing application. \n"
+"Thank you for trying it; please obtain a license for unlimited use.\n"
+
+msgid ""
+"\n"
+"Erreur : SetConsoleOutputCP(CP_UTF8) a échoué (code erreur : %lu)\n"
+msgstr ""
+"\n"
+"Error: SetConsoleOutputCP(CP_UTF8) failed (error code: %lu)\n"
+
+msgid ""
+"\n"
+"==> ATTENTION : Arrêt forcé demandé plusieurs fois, sortie agressive..\n"
+msgstr ""
+"\n"
+"==> WARNING: Forced stop requested multiple times, aggressive exit..\n"
+
+msgid "==> ATTENTION : Arrêt forcé demandé, pour quitter proprement l'application, utiliser la commande 'Q'."
+msgstr "==> WARNING: Forced stop requested; use 'Q' to exit the application cleanly."
+
+msgid "==> Erreur, le paramètre de serveur audio n'est pas reconnu : <%s> \n"
+msgstr "==> Error, audio server parameter not recognized: <%s> \n"
+
+msgid "==> Erreur, le paramètre de source MIDI n'est pas reconnu : <%s> \n"
+msgstr "==> Error, MIDI source parameter not recognized: <%s> \n"
+
+msgid "==> Erreur, la fréquence du serveur audio ne peut être inférieure à %dHz \n"
+msgstr "==> Error, audio server frequency cannot be lower than %dHz \n"
+
+msgid "==> Erreur, paramètre <%s> non reconnu.\n"
+msgstr "==> Error, parameter <%s> not recognized.\n"
+
+msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
+msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal."
+
+msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
+msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal.\n"
+
+msgid "==> ERREUR: ne trouve pas le répertoire %s \n"
+msgstr "==> ERROR: cannot find directory %s \n"
+
+msgid "Appuyer sur [ENTREE] pour continuer"
+msgstr "Press [ENTER] to continue"
+
+msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
+msgstr "==> ERROR: cannot find user directory %s \n"
+
+msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
+msgstr "==> Warning: General configuration file not found or corrupted; performance may be degraded \n"
+
+msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
+msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+msgid "Lancement des moteurs Audio PCM et MIDI..."
+msgstr "Launching Audio PCM and MIDI engines..."
+
+msgid "Paramétrage de l'Instrument..."
+msgstr "Instrument setup..."
+
+msgid "==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
+msgstr "==> Error, the filename passed as parameter does not exist.\n"
+
+msgid ""
+"\n"
+"==> ATTENTION : La licence d'utilisation n'est pas valide ou n'est pas trouvée.\n"
+"L'usage de l'application est limité à %d minutes.\n"
+"Rendez-vous sur le site web du ViGAWorld/ViGAPhone pour vous enregistrez comme utilisateur et obtenir une licence.\n"
+msgstr ""
+"\n"
+"==> WARNING: User license is invalid or missing.\n"
+"Usage is limited to %d minutes.\n"
+"Please visit ViGAWorld/ViGAPhone website to register and obtain a license.\n"
+
+msgid "Arrêt de l'application..."
+msgstr "Stopping application..."
+
+msgid "A bientôt ! \n"
+msgstr "See you soon! \n"
+
+#~ msgid "%s canal %2d volume de %d dB réglé à %d dB \n"
+#~ msgstr "%s channel %2d volume from %d dB set to %d dB \n"
+
+#~ msgid "==> ERREUR: ne trouve pas le package installé dans %s \n"
+#~ msgstr "==> ERROR: cannot find the installed package in %s \n"

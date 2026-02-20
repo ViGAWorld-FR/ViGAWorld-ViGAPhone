@@ -1,4 +1,13 @@
-## ViGAPhone Synth Lab
+## ViGAPhone Synth Lab, versions
+1.1.0
+Evolution :
+- General MIDI 2 : ajout de fonctions prises en charge, et gestions partielle des canaux
+- syntaxe règles d'accordage, ajout d'une variante utilisant le rapport de partiel, par exemple 4:2
+
+Corrections:
+linux:
+- contournement d'un bug d'affichage du terminal KDE Konsole
+
 
 1.0.5
 Evolution :
