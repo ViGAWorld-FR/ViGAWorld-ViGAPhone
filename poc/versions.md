@@ -2,7 +2,9 @@
 1.1.0
 Evolution :
 - General MIDI 2 : ajout de fonctions prises en charge, et gestions partielle des canaux
-- syntaxe règles d'accordage, ajout d'une variante utilisant le rapport de partiel, par exemple 4:2
+- syntaxe règles d'accordage, ajout d'une variante utilisant le rapport de partiel, par exemple N12P4:2
+- ajout de la commande @ pour l'accès au manuel en ligne selon la langue de l'utilisateur
+- amélioration visuelle du comparateur d'unisson avec indicateur de réussite
 
 Corrections:
 linux:
