@@ -1,7 +1,7 @@
 ## ViGAPhone Synth Lab, versions
 1.1.1
 Evolution :
-- ajout de l'option Diapason, et Diapason Duo pour accorder avec la technique de l'équilibrage des battements
+- ajout de l'option "Fréquence d'accord", et "Duo Fréquence d'accord" pour accorder avec la technique de l'équilibrage des battements
 
 
 1.1.0
