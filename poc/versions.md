@@ -1,4 +1,9 @@
 ## ViGAPhone Synth Lab, versions
+1.1.1
+Evolution :
+- ajout de l'option Diapason, et Diapason Duo pour accorder avec la technique de l'équilibrage des battements
+
+
 1.1.0
 Evolution :
 - General MIDI 2 : ajout de fonctions prises en charge, et gestions partielle des canaux

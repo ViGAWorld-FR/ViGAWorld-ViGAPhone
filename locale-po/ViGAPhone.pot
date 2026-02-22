@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 00:12+0100\n"
+"POT-Creation-Date: 2026-02-22 13:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1922,6 +1922,15 @@ msgid "MIDI: affiche les événements reçus non traités On/Off"
 msgstr ""
 
 msgid "verrouille SustainTime dans la modification de DecayTime et SustainVolume On/Off"
+msgstr ""
+
+msgid "Diapason: joue la note par une onde sinusoïdale On/Off"
+msgstr ""
+
+msgid "Duo Diapason battement: joue la note muette centrée sur deux ondes sinusoïdales proches créant le même battement"
+msgstr ""
+
+msgid "Duo Diapason durée: durée de chaque onde en alternance "
 msgstr ""
 
 msgid "ou entrée vide : abandonne"
