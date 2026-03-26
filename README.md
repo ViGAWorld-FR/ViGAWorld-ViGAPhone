@@ -1,4 +1,4 @@
-# ViGAPhone Synth Lab: New Physical‑Modeling Synthesizer, Timbre Analyzer, Instrument Tuner and more...
+# ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer MIDI-MPE application and VST3 plugin, Timbre Analyzer, Instrument Tuner and more...
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
@@ -11,7 +11,7 @@
 | - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Linux / Windows installation](#Installation-en) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) |
 
  🎧 **Audio demonstration** Click to listen:  
-[9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3)
+[9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.flac)
 
 </div>
 
@@ -21,13 +21,13 @@
 
 
 
-# EN ViGAWorld - ViGAPhone: because music is a world of sharing!
+# EN ViGAWorld - ViGAPhone Synth Lab: because music is a world of sharing!
 
 
 <p id="short-presentation"></p>
 
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
-**ViGAPhone** is a realistic MIDI musical instrument synthesizer and a powerful tool for musical instrument/piano tuners and technicians.
+**ViGAPhone Synth Lab** The ViGAPhone Synth Lab offers a versatile suite of musical services. It features an extraordinary, realistic and living physical modeling synthesizer for performing and creative musicians, complete with specialized tools for designing and building entirely new instruments. Additionally, it provides a dedicated set of professional diagnostic and tuning tools for piano technicians and other specialists.
 
 ## 🎹 Overview
 
@@ -62,7 +62,7 @@ It is already the best software in the world combining sound synthesis, spectral
 
 ## 🎵 Features for Musicians
 
-- Realistic, rich, deep, and expressive sound with touch-sensitive timbre, offering everything needed to enjoy performing or composing
+- Realistic, living, rich, deep, and expressive sound with touch-sensitive timbre, offering everything needed to enjoy performing or composing, whether in "standalone" mode via a MIDI keyboard or as a VST3 "plugin" within your music production workflow
 - Emulate any existing instrument,  such as replicating a specific acoustic piano
 - Create entirely new instruments with original sounds
 - Fully customizable instrument and synthesis engine
@@ -103,6 +103,7 @@ Creations made with ViGAPhone can be saved, archived, and shared, ensuring the p
 
 ### Some key features:
 - MIDI plug n play
+- VST3 plugin
 - High-resolution MIDI velocity is fully supported, offering greater precision and nuance in the musician’s performance. Note-off velocity is also handled, allowing for expressive control over associated sound effects and release dynamics
 - A keyboard-driven text interface: streamlined and highly efficient, ideal for professionals
 - A graphical interface for real-time sound analysis, timbre reproduction, and ultra-precise piano or any instrument tuning
@@ -179,7 +180,11 @@ The application supports at least **English** and **French**, and can be transla
 
 # FR ViGAWorld - ViGAPhone Synth Lab : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
-**ViGAPhone** est un synthétiseur MIDI d'instruments de musique réaliste, un analyseur du timbre sonore et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
+**ViGAPhone Synth Lab** 
+Le ViGAPhone Synth Lab est une collection d'instruments et d'outils dédiée au monde musical, un ensemble de services combinant : 
+un synthétiseur par modèles physiques d'un réalisme vivant pour les interprètes, un laboratoire de conception pour créer de nouveaux instruments, ainsi qu'une suite d'expertises techniques destinée aux techniciens du piano et de tous les instruments.
+
+est un ensemble de services dans le domaine musical : un synthétiseur MIDI d'instruments de musique réaliste, un analyseur du timbre sonore et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
 
 ## 🎹  Tout sur le ViGAPhone:
 - Un synthétiseur réaliste extraordinaire pour les musiciens interprètes et créatifs, un outil révolutionnaire et indispensable pour les accordeurs de pianos et autres.
@@ -209,9 +214,9 @@ Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore, l'a
 </a>
 
 
-- Voici les services qu'offre le ViGAPhone :
+- Voici les services qu'offre le ViGAPhone Synth Lab :
 ## 🎵 Pour les musiciens
-- jouer avec un son réaliste, riche, profond, unique, un timbre sensible au toucher, tout ce qu'il faut pour prendre plaisir à jouer ou à composer
+- jouer avec un son réaliste, riche, profond, unique, un timbre sensible au toucher, tout ce qu'il faut pour prendre plaisir à jouer ou à composer en "standalone" à partir d'un clavier MIDI ou en "plugin" VST3 dans une chaîne de production musicale
 - imiter n'importe quel instrument existant, comme de copier un piano acoustique particulier
 - créer de nouveaux instruments avec des nouveaux sons
 - avoir un instrument entièrement paramétrable
@@ -245,6 +250,7 @@ Les instruments créés avec ViGAPhone peuvent être enregistrés, archivés et 
 
 ### Quelques points clés:
 - MIDI plug n play.
+- plugin VST3
 - La vélocité MIDI haute résolution est gérée pour une meilleure précision du jeu du musicien, ainsi que la vélocité du noteOff pour gérer les effets sonores associés.
 - la vélocité MIDI haute résolution est prise en charge, offrant une précision accrue dans le jeu et une meilleure restitution des nuances d’interprétation. La vélocité du note-off est également gérée, permettant de contrôler finement les effets sonores liés à la fin de note, comme les résonances, les relâchements ou les transitions expressives.
 - Une interface texte entièrement commandée au clavier, sans fioritures et parfaitement efficace, idéale pour les professionnels.

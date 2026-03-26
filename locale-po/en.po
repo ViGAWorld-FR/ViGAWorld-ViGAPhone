@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 14:56+0100\n"
+"POT-Creation-Date: 2026-03-26 08:06+0100\n"
 "PO-Revision-Date: 2026-01-07 20:10+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -186,8 +186,8 @@ msgstr "Note %s partial %d frequency %.1fHz amplitude %.1fdB          \n"
 msgid "Inharmonicité %.6f         "
 msgstr "Inharmonicity %.6f         "
 
-msgid "règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
-msgstr "tuning rule <%s> has invalid syntax or out‑of‑range value \n"
+msgid ": règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
+msgstr " tuning rule <%s> has invalid syntax or out‑of‑range value \n"
 
 msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s> Note relative#%d\n"
 msgstr "==> Error: note %s bad syntax in tuning rule <%s> Relative note #%d\n"
@@ -201,8 +201,8 @@ msgstr "second pass\n"
 msgid "Erreur, il n'y a pas eu de calcul d'accordage\n"
 msgstr "Error, no tuning calculation was performed\n"
 
-msgid "MIDI#\tnote nom\trègle d'accord\tfréquences des partiels 1 à 4\n"
-msgstr "MIDI#\tnote name\ttuning rule\tpartial frequencies 1 to 4\n"
+msgid "MIDI#\tnote nom\trègle d'accord\tfréquences des partiels 1 à %d\n"
+msgstr "MIDI#\tnote name\ttuning rule\tpartial frequencies 1 to %d\n"
 
 msgid "==>Erreur: accordage impossible, le diapason de l'Instrument n'est pas défini correctement\n"
 msgstr "==>Error: tuning impossible, the Instrument pitch (diapason) is not correctly defined\n"
@@ -213,6 +213,12 @@ msgstr "==> Error: tuning failed\n"
 msgid "==>Erreur d'accordage, la note %s n'a pas été accordée, vérifier les règles d'accord\n"
 msgstr "==>Tuning error, note %s was not tuned, please check the tuning rules\n"
 
+msgid "Erreur, impossible d'ouvrir le fichier <%s>\n"
+msgstr "Error, cannot open file <%s>\n"
+
+msgid "==> Erreur de lecture du fichier ou mauvaise syntaxe %s \n"
+msgstr "==> Error reading file or bad syntax %s \n"
+
 msgid "Choisir un fichier Tempérament contenant les règles d'accordage:"
 msgstr "Choose a Temperament file containing tuning rules:"
 
@@ -221,12 +227,6 @@ msgstr "  0 : cancel, [ENTER] refreshes list\n"
 
 msgid "choix invalide"
 msgstr "invalid choice"
-
-msgid "Erreur, impossible d'ouvrir le fichier <%s>\n"
-msgstr "Error, cannot open file <%s>\n"
-
-msgid "==> Erreur de lecture du fichier ou mauvaise syntaxe %s \n"
-msgstr "==> Error reading file or bad syntax %s \n"
 
 msgid "Choisir une action:"
 msgstr "Choose action:"
@@ -349,8 +349,8 @@ msgstr "- option:W=loads only the WAV and frequency of each note, other paramete
 msgid "- option:numéro de la note à capturer en premier et à charger dans la note courante(<numéro[+<nombre>]),la fréquence doit correspondre"
 msgstr "- option:number of the note to capture first and load into current note (<number[+<count>]), frequency must match"
 
-msgid "Appuyer sur ENTREE pour continuer l'analyse du timbre, 'a' pour abandonner"
-msgstr "Press ENTER to continue timbre analysis, 'a' to abort"
+msgid "Appuyer sur ENTREE pour continuer l'analyse du timbre, 'q' pour quitter"
+msgstr "Press ENTER to continue timbre analysis, 'q' to quit"
 
 msgid "Les %d notes seront chargées à partir de la note : %s ?"
 msgstr "The %d notes will be loaded starting from note: %s ?"
@@ -698,6 +698,21 @@ msgstr "Impulse not detected, latency not measured.\n"
 msgid "Erreur snd_pcm_set_params ALSA: "
 msgstr "ALSA snd_pcm_set_params error: "
 
+msgid "connexion auto JACK\n"
+msgstr "JACK auto-connection\n"
+
+msgid "connexion auto ALSA\n"
+msgstr "ALSA auto-connection\n"
+
+msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
+msgstr "Auto-connection impossible, switch to manual if needed.\n"
+
+msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
+msgstr "Choose MIDI client to connect or disconnect:\n"
+
+msgid "La liste est vide, connecter un périphérique MIDI puis appuyer sur [ENTREE] pour rafraîchir la liste\n"
+msgstr "The list is empty, connect a MIDI device then press [ENTER] to refresh the list\n"
+
 msgid "Erreur : Impossible d'obtenir IMMDeviceEnumerator\n"
 msgstr "Error: Unable to obtain IMMDeviceEnumerator\n"
 
@@ -843,6 +858,9 @@ msgstr "==>ERROR, %d channels audio format not supported, only mono/stereo possi
 msgid "Erreur Stop: "
 msgstr "Stop error: "
 
+msgid "Choisir le client MIDI à connecter :\n"
+msgstr "Choose MIDI client to connect:\n"
+
 msgid "En attente de l'arrêt de la note..."
 msgstr "Waiting for note to stop..."
 
@@ -987,7 +1005,10 @@ msgstr "--- Instrument file information"
 msgid "--- Information sur l'environnement technique"
 msgstr "--- Technical environment information"
 
-msgid "répertoire de travail : "
+msgid "répertoire de base : "
+msgstr "working directory: "
+
+msgid "répertoire courant : "
 msgstr "working directory: "
 
 msgid "OS locale, ViGAPhone SetLocale : "
@@ -1002,8 +1023,8 @@ msgstr "Number of active threads created = "
 msgid "Améliorations sonores : "
 msgstr "Sound enhancements: "
 
-msgid "Stéréo "
-msgstr "Stereo "
+msgid "Stéréo Spatialisation "
+msgstr "Stereo Spatialization "
 
 msgid "inactive"
 msgstr "inactive"
@@ -1388,8 +1409,8 @@ msgstr "==> Error, parameter PedaleUnaCorda must be 0 or 1 \n"
 msgid "==> Erreur, le paramètre PedaleSoftVolume doit être défini avant PedaleUnaCorda \n"
 msgstr "==> Error: parameter PedaleSoftVolume must be defined before PedaleUnaCorda \n"
 
-msgid "Erreur : PitchbendRange %.1f hors limite \n"
-msgstr "Error: PitchbendRange %.1f out of range \n"
+msgid "==> Erreur, le paramètre NormaliseNoteVolume doit être 0 ou 1 \n"
+msgstr "==> Error, parameter NormaliseNoteVolume must be 0 or 1 \n"
 
 msgid "==> Erreur, le paramètre NiveauCouplageMecanique doit être en dB et < 0dB \n"
 msgstr "==> Error: parameter NiveauCouplageMecanique must be in dB and < 0dB \n"
@@ -1454,12 +1475,12 @@ msgstr "Saving Instrument file: %s\n"
 
 msgid ""
 "Appuyer sur [ENTREE] pour faire une sauvegarde incrémentielle avec '+'\n"
-" ou saisir X pour écrire sur le fichier Instrument actuel\n"
+" ou saisir = pour écrire sur le fichier Instrument actuel\n"
 " ou saisir un nouveau nom de fichier Instrument sans le sufix '%s'\n"
 "?"
 msgstr ""
 "Press [ENTER] to make an incremental backup with '+'\n"
-" or enter X to overwrite current Instrument file\n"
+" or enter = to overwrite current Instrument file\n"
 " or enter a new Instrument filename without the '%s' suffix\n"
 "?"
 
@@ -1484,19 +1505,19 @@ msgstr ":P1 at "
 msgid ">>> JOUE LE SON REEL <<< "
 msgstr ">>> PLAYING REAL SOUND <<< "
 
-msgid "Touches de commande : r=rafraîchit, q=quitte, ?=affiche l'aide sur la console"
+msgid "Touches de commande: r=rafraîchit, q=quitte, ?=affiche l'aide sur la console"
 msgstr "Command keys: r=refresh, q=quit, ?=show help on console"
 
 msgid ", t=choix du spectre, f=échelle dB/réelle, g=gèle la capture, %=envoie les commandes à la console"
 msgstr ", t=spectrum choice, f=dB/linear scale, g=freeze capture, %=send commands to console"
 
-msgid "Spectre temporel: Amplitude/temps(s) pour la Note attendue : "
+msgid "Spectre temporel: Amplitude/temps(s) pour la Note attendue: "
 msgstr "Time spectrum: Amplitude/time(s) for expected Note: "
 
-msgid ", fréquence : théorique "
+msgid ", fréquence: théorique "
 msgstr ", frequency: theoretical "
 
-msgid "réelle %.2fHz, écart : %.2fHz (%.1f cents) "
+msgid "réelle %.2fHz, écart: %.2fHz (%.1f cents) "
 msgstr "real %.2fHz, offset: %.2fHz (%.1f cents) "
 
 msgid "capture gelée"
@@ -1505,8 +1526,8 @@ msgstr "capture frozen"
 msgid ", Max à "
 msgstr ", Max at "
 
-msgid ", analyse à : "
-msgstr ", analysis at: "
+msgid ", analyse à "
+msgstr ", analysis at "
 
 msgid " ms durée "
 msgstr " ms duration "
@@ -1523,22 +1544,22 @@ msgstr " Partials/peaks, "
 msgid "Comparateur d'unisson fréquentiel:"
 msgstr "Frequency unison comparator:"
 
-msgid " règle d'accord:"
-msgstr " tuning rule:"
+msgid " règle d'accord: "
+msgstr " tuning rule: "
 
-msgid ", pour la Note attendue : "
+msgid ", pour la Note attendue: "
 msgstr ", for expected Note: "
 
 msgid "réelle "
 msgstr "real "
 
-msgid ", écart : "
+msgid ", écart: "
 msgstr ", offset: "
 
 msgid "paramètre: "
 msgstr "parameter: "
 
-msgid "%s, commande de capture : c : capture, A : abandon, v n : valide, n: valide + note suivante "
+msgid "%s, commande de capture: c: capture, A: abandon, v n: valide, n: valide + note suivante "
 msgstr "%s, capture command: c: capture, A: abort, v n: validate, n: validate + next note "
 
 msgid "%s, en attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
@@ -1626,17 +1647,17 @@ msgstr "==> Error: VelociteCourbeUDef, value %.3f out of range [1:127] \n"
 msgid "défaut d'allocation mémoire voix_ondes"
 msgstr "memory allocation failure for voix_ondes"
 
+msgid "==>Erreur, le paramètre StereoEspaceInteraural=%fm est trop grand \n"
+msgstr "==>Error, parameter StereoLargeurEcoute=%fm is too large \n"
+
+msgid "==>Erreur, le paramètre StereoYSource=%fm est hors limites doit être entre 0m et 10.m \n"
+msgstr "==>Error, parameter StereoYSource=%fm is out of range; must be between 0m and 10m \n"
+
 msgid "==> Erreur : clé de clavier MIDI hors limite %d \n"
 msgstr "==> Error: MIDI keyboard key out of range %d \n"
 
 msgid "==> ERREUR : init_note %s (int)pNote->voix_ondesSize %d pNote->listePartielsAmplitudesSize %d \n"
 msgstr "==> ERROR: init_note %s (int)pNote->voix_ondesSize %d pNote->listePartielsAmplitudesSize %d \n"
-
-msgid "==>Erreur, le paramètre StereoLargeurEcoute=%fm est trop grand \n"
-msgstr "==>Error, parameter StereoLargeurEcoute=%fm is too large \n"
-
-msgid "==>Erreur, le paramètre StereoYSource=%fm est hors limites doit être entre 0m et 10.m \n"
-msgstr "==>Error, parameter StereoYSource=%fm is out of range; must be between 0m and 10m \n"
 
 msgid ": L'application est trop ancienne, merci de faire une mise à jour et de renouveler votre licence d'utilisation"
 msgstr ": Application is too old, please update and renew your user license"
@@ -1661,35 +1682,14 @@ msgstr "Here is the computer signature text to copy/paste on the website to obta
 msgid "==> ERREUR égalité KO \n"
 msgstr "==> ERROR equality check failed \n"
 
-msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
-msgstr "Auto-connection impossible, switch to manual if needed.\n"
-
-msgid "Choisir le client MIDI à connecter :\n"
-msgstr "Choose MIDI client to connect:\n"
-
-msgid "La liste est vide, connecter un périphérique MIDI puis appuyer sur [ENTREE] pour rafraîchir la liste\n"
-msgstr "The list is empty, connect a MIDI device then press [ENTER] to refresh the list\n"
-
-msgid "connexion auto JACK\n"
-msgstr "JACK auto-connection\n"
-
-msgid "connexion auto ALSA\n"
-msgstr "ALSA auto-connection\n"
-
-msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
-msgstr "Choose MIDI client to connect or disconnect:\n"
-
 msgid "Session MIDI sauvegardée dans le fichier '%s'\n"
 msgstr "MIDI session saved to file '%s'\n"
 
-msgid "====> Attention : volume général modifié de %0.1fdB à %0.1fdB \n"
+msgid "====> Attention: volume général modifié de %0.1fdB à %0.1fdB \n"
 msgstr "====> Warning: master volume modified from %0.1fdB to %0.1fdB \n"
 
 msgid "%s ATTENTION note non définie \n"
 msgstr "%s WARNING undefined note \n"
-
-msgid " hors limites [-1:1]"
-msgstr " out of range [-1:1]"
 
 msgid "Fichier Instrument : "
 msgstr "Instrument File: "
@@ -1767,8 +1767,8 @@ msgstr ""
 "==> WARNING: To display information correctly, the screen must be enlarged,\n"
 " current size:(%d,%d) minimum desired size (%d,%d).\n"
 
-msgid "Sortie audio:SampleRate=%d échantillons par seconde sur %d canaux, ServeurAudioTampon=%d=%0.3fms ServeurAudioPeriode=%d=%0.3fms\n"
-msgstr "Audio output:SampleRate=%d samples per second on %d channels, AudioServerBuffer=%d=%0.3fms AudioServerPeriod=%d=%0.3fms\n"
+msgid "Sortie audio:SampleRate=%.f échantillons par seconde sur %d canaux, ServeurAudioTampon=%d=%0.3fms ServeurAudioPeriode=%d=%0.3fms\n"
+msgstr "Audio output:SampleRate=%f samples per second on %d channels, AudioServerBuffer=%d=%0.3fms AudioServerPeriod=%d=%0.3fms\n"
 
 msgid "Capture audio:SampleRate=%d échantillons par seconde sur %d canaux, ServeurAudioPeriode=%d=%0.3fms \n"
 msgstr "Audio capture:SampleRate=%d samples per second on %d channels, AudioServerPeriod=%d=%0.3fms \n"
@@ -1778,6 +1778,9 @@ msgstr "Special Tuner mode disabled\n"
 
 msgid "> Erreur"
 msgstr "Error"
+
+msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
+msgstr "==> ERROR: cannot find user directory %s \n"
 
 msgid ""
 "Bienvenue dans le ViGAPhone Synth Lab World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
@@ -1813,7 +1816,7 @@ msgid ""
 "-MIDIXAUTO : connexion automatique au client MIDI qui se branche, actif par défaut \n"
 "-OndeVolumeMinimum <valeur> : volume minimum pour extinction d'une onde valeur en dB <=0 : optimise les performances, éteint les ondes dont le volume sonore est inférieur à ce seuil, n‘est actif que quand le nombre d’ondes est supérieur au seuil, valeur par exemple : -60dB \n"
 "-OndeVolumeMinimumNbSeuil <valeur> : optimise les performances, seuil de nombre d’ondes actives autorisant d’éteindre les plus faibles valeur par exemple : 11000\n"
-"-StereoLargeurEcoute <valeur> : largeur en mètres de la séparation des points d'écoute gauche et droit, par défaut 0,20m \n"
+"-StereoEspaceInteraural <valeur> : largeur en mètres de la séparation des points d'écoute gauche et droit, par défaut 0,20m \n"
 "-StereoAffaiblissement <valeur> : valeur maximale de l'affaiblissement selon l'angle de la source par rapport aux points d'écoute et à leur écart, par défaut -6dB/m \n"
 "-Tada <volume> : joue une musique d'accueil au démarrage, volume entre 0 et 10, 0=ne joue pas la musique, 10 par défaut \n"
 "-IMIDI : affiche les événements MIDI \n"
@@ -2054,8 +2057,11 @@ msgstr "cancel"
 msgid "volume sonore général"
 msgstr "master volume"
 
-msgid "stéréo On/Off"
-msgstr "stereo On/Off"
+msgid "Stéréo Spatialisation On/Off"
+msgstr "Stereo Spatialization On/Off"
+
+msgid "Stéréo Distance Interaurale"
+msgstr "Stereo Interaural Distance"
 
 msgid "résonance sympathique On/Off"
 msgstr "sympathetic resonance On/Off"
@@ -2066,25 +2072,52 @@ msgstr "reverb On/Off"
 msgid "réverbération liste et sélection"
 msgstr "reverb list and selection"
 
-msgid "Instrument en cours: normalise le volume des notes On/Off"
-msgstr "Current instrument: normalize note volume On/Off"
-
-msgid "Instrument en cours: diapason"
+msgid "Instrument: diapason"
 msgstr "Current instrument: pitch standard (A440)"
 
-msgid "Instrument en cours: Niveau de Couplage Mécanique pour la résonance sympathique"
+msgid "Instrument: Niveau de Couplage Mécanique pour la résonance sympathique"
 msgstr "Current instrument: Mechanical Coupling Level for sympathetic resonance"
 
-msgid "clavier MIDI: courbe de vélocité D E L U"
+msgid "Instrument: duretée de marteau"
+msgstr "Instrument: hammer stiffness"
+
+msgid "MIDI clavier: courbe de vélocité D E L U"
 msgstr "MIDI keyboard: velocity curve D E L U"
 
-msgid "clavier MIDI: puissance gamma"
+msgid "MIDI clavier: puissance gamma"
 msgstr "MIDI keyboard: gamma power"
 
-msgid "clavier MIDI: volume sonore de la vélocité minimum"
-msgstr "MIDI keyboard: minimum velocity volume"
+msgid "MIDI clavier: gère la vélocité noteOff"
+msgstr "MIDI keyboard: Supports note-off velocity"
 
-msgid "réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie, enveloppe ADSR sans DS, vélocitée max, Reverb Off, sur toutes les notes, On/Off"
+msgid "MIDI clavier: plage dynamique de vélocité = volume sonore de la vélocité minimum"
+msgstr "MIDI keyboard: Velocity Dynamic Range"
+
+msgid "MIDI: 'Pitch bend Range' tous canaux"
+msgstr "MIDI: dPitch bend Range' all channels"
+
+msgid "MIDI: Transposition tous canaux"
+msgstr "MIDI Transposition"
+
+msgid "MIDI: joue le canal 10 réservé aux percusions On/Off"
+msgstr "MIDI: Play channel 10 Drums On/Off"
+
+msgid "MIDI: joue seulement le canal"
+msgstr "MIDI: Channel Select"
+
+msgid "MIDI: 'Pan' balance G/D tous canaux"
+msgstr "MIDI: All channels 'Pan' balance L/R"
+
+msgid "MIDI: Polyphonic Expression (MPE) membres LowerZone members"
+msgstr "MIDI: Polyphonic Expression (MPE) LowerZone members"
+
+msgid "MIDI: affiche les événements reçus On/Off"
+msgstr "MIDI: display received events On/Off"
+
+msgid "MIDI: affiche les événements reçus non traités On/Off"
+msgstr "MIDI: display unhandled received events On/Off"
+
+msgid "réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie, enveloppe ADSR sans DS, vélocité max, Reverb Off, sur toutes les notes, On/Off"
 msgstr "temporarily reduce sound effects: mono voice, damper, infinite duration, ADSR envelope without DS, max velocity, Reverb Off, on all notes, On/Off"
 
 msgid "réduit temporairement le nombre de voix à 1 sur toutes les notes On/Off"
@@ -2093,23 +2126,17 @@ msgstr "temporarily reduce polyphony to 1 voice for all notes On/Off"
 msgid "bascule temporairement les notes sur les captures sonores pour jouer les sons réels enregistrés On/Off"
 msgstr "temporarily switch notes to audio samples to play recorded real sounds On/Off"
 
-msgid "MIDI: affiche les événements reçus On/Off"
-msgstr "MIDI: display received events On/Off"
-
-msgid "MIDI: affiche les événements reçus non traités On/Off"
-msgstr "MIDI: display unhandled received events On/Off"
-
 msgid "verrouille SustainTime dans la modification de DecayTime et SustainVolume On/Off"
 msgstr "lock SustainTime when modifying DecayTime and SustainVolume On/Off"
 
-msgid "Fréquence d'accord: joue la note par une onde sinusoïdale On/Off"
-msgstr "Tuning frequency: plays the note using a sine wave On/Off"
+msgid "Accordeur: Fréquence d'accord: joue la note par une onde sinusoïdale On/Off"
+msgstr "Tuner: Tuning frequency: plays the note using a sine wave On/Off"
 
-msgid "Duo Fréquence d'accord battement: joue la note muette centrée sur deux ondes sinusoïdales proches créant le même battement"
-msgstr "Duo tuning frequency beat: plays the muted note centered between two close sine waves producing the same beat"
+msgid "Accordeur: Duo Fréquence d'accord battement: joue la note muette centrée sur deux ondes sinusoïdales proches créant le même battement"
+msgstr "Tuner: Duo tuning frequency beat: plays the muted note centered between two close sine waves producing the same beat"
 
-msgid "Duo Fréquence d'accord durée: durée de chaque onde en alternance "
-msgstr "Duo tuning frequency duration: duration of each alternating wave"
+msgid "Accordeur: Duo Fréquence d'accord durée: durée de chaque onde en alternance "
+msgstr "Tuner: Duo tuning frequency duration: duration of each alternating wave"
 
 msgid "ou entrée vide : abandonne"
 msgstr "or empty input: cancel"
@@ -2156,6 +2183,9 @@ msgstr "display active note distribution across Engine-PCM threads"
 
 msgid "affiche la signature de l'ordinateur pour obtenir une licence d'utilisation"
 msgstr "display computer signature to obtain a license"
+
+msgid "MIDI: affiche l'état des canaux"
+msgstr "MIDI: display channels state"
 
 msgid "test:choisit la forme de l'onde de base"
 msgstr "test: choose basic waveform"
@@ -2257,9 +2287,6 @@ msgstr "==> ERROR: cannot find directory %s \n"
 msgid "Appuyer sur [ENTREE] pour continuer"
 msgstr "Press [ENTER] to continue"
 
-msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
-msgstr "==> ERROR: cannot find user directory %s \n"
-
 msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
 msgstr "==> Warning: General configuration file not found or corrupted; performance may be degraded \n"
 
@@ -2277,7 +2304,7 @@ msgstr "==> Error, the filename passed as parameter does not exist.\n"
 
 msgid ""
 "\n"
-"==> ATTENTION : La licence d'utilisation n'est pas valide ou n'est pas trouvée.\n"
+"==> ATTENTION: La licence d'utilisation n'est pas valide ou n'est pas trouvée.\n"
 "L'usage de l'application est limité à %d minutes.\n"
 "Rendez-vous sur le site web du ViGAWorld/ViGAPhone pour vous enregistrez comme utilisateur et obtenir une licence.\n"
 msgstr ""
@@ -2291,6 +2318,27 @@ msgstr "Stopping application..."
 
 msgid "A bientôt ! \n"
 msgstr "See you soon! \n"
+
+#~ msgid "MIDI clavier: vélocité noteOff gérée"
+#~ msgstr "MIDI keyboard: velocity curve D E L U"
+
+#~ msgid "MIDI: Polyphonic Expression (MPE) membres LowerZone"
+#~ msgstr "MIDI: Polyphonic Expression (MPE) LowerZone members"
+
+#~ msgid "Erreur : PitchbendRange %.1f hors limite \n"
+#~ msgstr "Error: PitchbendRange %.1f out of range \n"
+
+#~ msgid " hors limites [-1:1]"
+#~ msgstr " out of range [-1:1]"
+
+#~ msgid "Instrument: normalise le volume des notes On/Off"
+#~ msgstr "Current instrument: normalize note volume On/Off"
+
+#~ msgid "Spatialisation stéréo "
+#~ msgstr "Stereo Spatialization "
+
+#~ msgid "Stéréo "
+#~ msgstr "Stereo "
 
 #~ msgid "%s canal %2d volume de %d dB réglé à %d dB \n"
 #~ msgstr "%s channel %2d volume from %d dB set to %d dB \n"

@@ -1,10 +1,18 @@
 ## ViGAPhone Synth Lab, versions
-1.1.1
+#1.2.0
+Evolution :
+- ajout d'une interface plugin vst3 MIDI
+- exposition de nombreux paramètres généraux et MIDI dans l'interface vst3 et dans l'application
+- accordage automatique après modification du diapason
+- exposition du paramètre Instrument Dureté de marteau, s'applique à toutes les notes en temps réel
+- révision de l'effet Dureté de marteau
+
+#1.1.1
 Evolution :
 - ajout de l'option "Fréquence d'accord", et "Duo Fréquence d'accord" pour accorder avec la technique de l'équilibrage des battements
 
 
-1.1.0
+#1.1.0
 Evolution :
 - General MIDI 2 : ajout de fonctions prises en charge, et gestions partielle des canaux
 - syntaxe règles d'accordage, ajout d'une variante utilisant le rapport de partiel, par exemple N12P4:2
@@ -16,12 +24,12 @@ linux:
 - contournement d'un bug d'affichage du terminal KDE Konsole
 
 
-1.0.5
+#1.0.5
 Evolution :
 linux :
 - compilation linux basée sur debian12 libc 2.36 compatible toutes distributions et chromeOS pour les Chromebooks
 
-1.0.4
+#1.0.4
 Corrections:
 windows :
 - affichage du terminal plus rapide par la gestion d'un tampon
