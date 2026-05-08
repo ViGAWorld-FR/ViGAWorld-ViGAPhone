@@ -1,20 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# French translations for ViGAPhone package.
+# Copyright (C) 2026 THE ViGAPhone'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the ViGAPhone package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Automatically generated, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ViGAPhone\n"
+"Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-26 08:06+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2026-05-08 19:24+0200\n"
+"PO-Revision-Date: 2026-04-12 07:20+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Source-Language: fr\n"
 
 msgid ""
 "Choisir une forme d'onde :\n"
@@ -64,11 +65,16 @@ msgstr ""
 
 msgid ""
 "\n"
-"Conseil : \n"
-"1) régler le niveau d'enregistrement du microphone pour que le son joué le plus fort soit proche du 0dB, \n"
-"2) faire le silence et régler la variable AccordNivBruit à l'aide des touches pmPM pour que le niveau 'max'\n"
+"Conseil : Régler le microphone et le paramètre AccordNivBruit \n"
+"1) régler le niveau d'enregistrement du microphone pour que le son joué le plus fort soit toujours < 0dB, \n"
+"2) faire le silence et régler le paramètre AccordNivBruit pour que le niveau 'max'\n"
 " du bruit du silence soit juste inférieur à AccordNivBruit, normalement inférieur à -50dB\n"
-" dans de bonnes conditions environnementales."
+" dans de bonnes conditions environnementales.\n"
+"Touches de commande :\n"
+"  c    : copie le niveau de bruit mesuré dans le paramètre AccordNivBruit et ajoute une marge de sécurité\n"
+"         (attention au bruit de la touche de clavier qui fait remonter le niveau de bruit) \n"
+"  mpMP : ajuste manuellement le paramètre AccordNivBruit \n"
+" "
 msgstr ""
 
 msgid "Spectre de %d notes "
@@ -86,10 +92,10 @@ msgstr ""
 msgid "(sélect. auto) "
 msgstr ""
 
-msgid "Note identifiée : %s %c[K"
+msgid "Note identifiée : %s [K"
 msgstr ""
 
-msgid "Paramètre AccordNivBruit%5.fdB ;"
+msgid "Paramètre"
 msgstr ""
 
 msgid " niveaux sonores : max%5.fdB moyen%5.fdB     "
@@ -97,28 +103,35 @@ msgstr ""
 
 msgid ""
 "\n"
-"Conseil : Edition de l'inharmonicité, touches de contrôle :\n"
-"  mMpP : change la valeur \n"
+"Conseil : Edition de l'inharmonicité et capture du timbre\n"
+" ==> le microphone et le paramètre AccordNivBruit doivent avoir été réglés \n"
+" Touches de commande :\n"
+"  mMpP : change la valeur     jJkK : déplace la note courante \n"
 "  + -  : agrandit réduit le maximum affiché \n"
 "  [flèches] : change la note courante\n"
 "  B    : bascule sur la vue d'édition des partiels\n"
 msgstr ""
 
-msgid "  c    : capture le timbre de la note (le microphone et AccordNivBruit doivent avoir été réglés)\n"
+msgid ""
+"  c    : capture le timbre de la note \n"
+"[92m  n    : capture automatiquement la note courante et les suivantes \n"
+"[0m"
 msgstr ""
 
 msgid ""
 "  A    : abandonne la capture et restaure le timbre de la note \n"
-"  v n  : valide la capture, n: valide et lance la capture de la note suivante\n"
+"  v    : valide la capture \n"
+"[92m  V    : valide tout et sauvegarde les fichiers Instrument et WAV\n"
+"[0m"
 msgstr ""
 
-msgid "Spectre d'inharmonicité en Cents (100ièmes de 1/2 ton) de %d notes "
+msgid "Spectre d'inharmonicité en cents (100ièmes de 1/2 ton) de %d notes "
 msgstr ""
 
 msgid "au diapason %5.1fHz note %s"
 msgstr ""
 
-msgid "Note %s fréquence %.1fHz taux d'inharmonicité %.6f Cents %.2f"
+msgid "Note %s fréquence %.1fHz taux d'inharmonicité %.6f cents %.2f"
 msgstr ""
 
 msgid " mesuré à %.1fHz"
@@ -129,8 +142,9 @@ msgstr ""
 
 msgid ""
 "\n"
-"Conseil : Edition des partiels touches de contrôle:\n"
-"  mMpP : change la valeur,    jk   : change de partiel\n"
+"Conseil : Edition des partiels touches de commande:\n"
+"    ==> le microphone et AccordNivBruit doivent avoir été réglés \n"
+"mMpP : change la valeur,    jk   : change de partiel\n"
 "  + -  : ajoute supprime le dernier partiel\n"
 "  [flèches] : change la note courante\n"
 "  B    : bascule sur la vue d'édition de l'inharmonicité\n"
@@ -225,6 +239,12 @@ msgstr ""
 msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
 msgstr ""
 
+msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
+msgstr ""
+
+msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
+msgstr ""
+
 msgid "Nb échantillons="
 msgstr ""
 
@@ -232,9 +252,6 @@ msgid " ; taux="
 msgstr ""
 
 msgid "/s ; durée="
-msgstr ""
-
-msgid "Fichier WAV avec silence absolu, sauvegarde ViGAPhone\n"
 msgstr ""
 
 msgid "Recherche des notes :"
@@ -267,7 +284,7 @@ msgstr ""
 msgid "- La note courante=%s détermine la première note de la série enregistrée dans le fichier \n"
 msgstr ""
 
-msgid "- Le paramètre général AccordNivBruit=%.1fdB détermine le niveau de silence séparant les notes, si le nombre de notes trouvées n'est pas bon c'est que le son est trop bruité et il faut augmenter ce niveau, il est aussi possible avec Audacity de séparer les notes par des 'blancs' \n"
+msgid "- Le paramètre général AccordNivBruit=%s détermine le niveau de silence séparant les notes, si le nombre de notes trouvées n'est pas bon c'est que le son est trop bruité et il faut augmenter ce niveau, il est aussi possible avec Audacity de séparer les notes par des 'blancs' \n"
 msgstr ""
 
 msgid "- activer le mode débogage pour avoir le détail de l'analyse"
@@ -329,7 +346,10 @@ msgstr ""
 msgid ""
 "- modifier la fréquence de la note si trop éloignée de la réalité ou si capture d'une fréquence parasite, \n"
 "- vérifier le spectre capturé de la note fautive,\n"
-"- vérifier les paramètres comme la note courante qui doit correspondre à la première note dans le fichier WAV"
+"- vérifier les paramètres comme la note courante qui doit correspondre à la première note dans le fichier WAV, "
+msgstr ""
+
+msgid "- contrôler l'ensemble dans la vue Inharmonicité."
 msgstr ""
 
 msgid "Les fréquences théoriques des notes ont été modifiées selon les valeurs réelles."
@@ -350,7 +370,7 @@ msgstr ""
 msgid "==> ATTENTION, le nombre de notes trouvées=%d est différent du nombre de notes de l'Instrument=%d \n"
 msgstr ""
 
-msgid "L'Instrument est près à être joué, il faut l'accorder"
+msgid "L'Instrument est près à être joué."
 msgstr ""
 
 msgid ""
@@ -361,10 +381,34 @@ msgstr ""
 msgid "Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f \n"
 msgstr ""
 
-msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
+msgid "[92m==> Avant, il faut régler le microphone et le paramètre AccordNivBruit[0m"
 msgstr ""
 
-msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
+msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
+msgstr ""
+
+msgid ""
+"\n"
+"==> Attention : volume sonore trop élevé de %0.1fdB, volume général baissé de %0.1fdB à %0.1fdB \n"
+msgstr ""
+
+msgid ""
+"\n"
+"==> Attention : volume sonore correction automatique hors limite = %0.1fdB\n"
+msgstr ""
+
+msgid ""
+"\n"
+"arrêt de l'application pour préserver le système audio"
+msgstr ""
+
+msgid "  note %s:P%-3d fréquence %6.1fHz amplitude %6.1fdB écart : %6.1fHz %4.1fcents \n"
+msgstr ""
+
+msgid "note %s:P%d amplitude %6.1fdB à %6.2fHz \n"
+msgstr ""
+
+msgid "==> ERREUR: impossible de retirer la note %s, abandon de la commande \n"
 msgstr ""
 
 msgid "==> ERREUR : JACK perte de %d événements MIDI taille buffer %d dépassée \n"
@@ -444,10 +488,7 @@ msgstr ""
 msgid "Client ALSA AUDIO arrêté"
 msgstr ""
 
-msgid "Client JACK MIDI arrêté"
-msgstr ""
-
-msgid "Client JACK PCM arrêté"
+msgid "Client JACK arrêté"
 msgstr ""
 
 msgid "Erreur efd\n"
@@ -723,7 +764,7 @@ msgstr ""
 msgid "Erreur MIDI !\n"
 msgstr ""
 
-msgid "Attends le démarrage du serveur audio PCM"
+msgid "Attends le démarrage du serveur audio PCM\n"
 msgstr ""
 
 msgid "==> ERREUR : client Audio PCM en échec non démarré.\n"
@@ -939,7 +980,7 @@ msgstr ""
 msgid "CPU, nombre de coeurs, AVX : "
 msgstr ""
 
-msgid "Nombre de threads actifs créés = "
+msgid "Nombre de threads Audio actifs créés = "
 msgstr ""
 
 msgid "Améliorations sonores : "
@@ -1079,7 +1120,7 @@ msgstr ""
 msgid "Paramètre non modifiable, il faut utiliser un tableur pour éditer le fichier Instrument"
 msgstr ""
 
-msgid "Choisir un paramètre général à modifier, puis touches de contrôle:"
+msgid "Choisir un paramètre général à modifier, puis touches de commande:"
 msgstr ""
 
 msgid " mMpP      : modifie la valeur numérique ou binaire "
@@ -1097,7 +1138,7 @@ msgstr ""
 msgid " 0 ou q    : quitte le mode d'édition "
 msgstr ""
 
-msgid "Choisir un paramètre à modifier pour la note courante, puis touches de contrôle:"
+msgid "Choisir un paramètre à modifier pour la note courante, puis touches de commande:"
 msgstr ""
 
 msgid " 0 ou q    : quitte le mode d'édition"
@@ -1121,10 +1162,16 @@ msgstr ""
 msgid "==>Erreur, l'Instrument n'a pas de note diapason, l'accordage n'est pas possible. \n"
 msgstr ""
 
-msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
+msgid "\t\tNote <%s> %.1fHz \n"
 msgstr ""
 
-msgid "\t\tNote <%s> %.1fHz \n"
+msgid "Le son de la capture est maintenant joué à la place du son synthétisé \n"
+msgstr ""
+
+msgid "Le son synthétisé est maintenant joué à la place du son de la capture \n"
+msgstr ""
+
+msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
 msgstr ""
 
 msgid ""
@@ -1143,39 +1190,10 @@ msgstr ""
 msgid "fonction non disponible sous windows"
 msgstr ""
 
-msgid "Le son de la capture est maintenant joué à la place du son synthétisé \n"
-msgstr ""
-
-msgid "Le son synthétisé est maintenant joué à la place du son de la capture \n"
-msgstr ""
-
-msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
-msgstr ""
-
 msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
 msgstr ""
 
 msgid " Echec de la commande."
-msgstr ""
-
-msgid "==> Attention : volume sonore trop élevé de %0.1fdB, volume général baissé de %0.1fdB à %0.1fdB \n"
-msgstr ""
-
-msgid "==> Attention : volume sonore correction automatique hors limite = %0.1fdB\n"
-msgstr ""
-
-msgid ""
-"\n"
-"arrêt de l'application pour préserver le système audio"
-msgstr ""
-
-msgid "  note %s:P%-3d fréquence %6.1fHz amplitude %6.1fdB écart : %6.1fHz %4.1fCents \n"
-msgstr ""
-
-msgid "note %s:P%d amplitude %6.1fdB à %6.2fHz \n"
-msgstr ""
-
-msgid "==> ERREUR: impossible de retirer la note %s, abandon de la commande \n"
 msgstr ""
 
 msgid "Capture démarrée jusqu'au niveau sonore de %.fdB ou un appui sur une touche..."
@@ -1199,7 +1217,10 @@ msgstr ""
 msgid "==> Erreur fichier General, le paramètre VolumeGeneral doit être en dB et < 0dB \n"
 msgstr ""
 
-msgid "==> Erreur fichier General, le paramètre FreqAffichage doit être >=10 et <= 60 \n"
+msgid "==> Erreur fichier General, le paramètre ConsoleFreqAffichage doit être >=10 et <= 60 \n"
+msgstr ""
+
+msgid "==> Erreur fichier General, le paramètre GraphiqueFreqAffichage doit être >=10 et <= 60 \n"
 msgstr ""
 
 msgid "==> Erreur fichier General, le paramètre GraphiqueCouleurFondTexte doit être de 6 nombres flotants (%d trouvés) entre 0 et 1 \n"
@@ -1235,13 +1256,13 @@ msgstr ""
 msgid "erreur, note %s fichier non trouvé ==>%s<== \n"
 msgstr ""
 
-msgid "==> Erreur, impossible d'ouvrir en écriture le fichier : <%s> \n"
+msgid "==> Erreur, impossible d'ouvrir en écriture le fichier WAV : <%s> \n"
 msgstr ""
 
-msgid "Fichier enregistré : <%s>\n"
+msgid "Fichier WAV non modifiable <%s> "
 msgstr ""
 
-msgid "Répertoire d'enregistrement des sons capturés : <%s>\n"
+msgid "Fichier WAV enregistré : <%s>\n"
 msgstr ""
 
 msgid "==> Attention : nom de colonne inconnu <%s> \n"
@@ -1342,13 +1363,10 @@ msgstr ""
 msgid "  0 : abandonne, '.' accéde au répertoire de base et '..' au parent, [ENTREE] rafraîchit la liste\n"
 msgstr ""
 
-msgid "Erreur, le nom du fichier donné n'existe pas"
+msgid " fichier non trouvé"
 msgstr ""
 
 msgid "erreur, fichier Instrument non trouvé ==>%s<== \n"
-msgstr ""
-
-msgid "Erreur, système non arrêté avant le chargement de la nouvelle configuration \n"
 msgstr ""
 
 msgid "==>ERREUR : ligne %d non reconnue \n"
@@ -1380,50 +1398,77 @@ msgid ""
 "Suite à%s un abandon, le fichier Instrument n'a pas été chargé.\n"
 msgstr ""
 
-msgid "Sauvegarde du fichier Instrument: %s\n"
+msgid "Le fichier Instrument est protégé, impossible de le modifier.\n"
 msgstr ""
 
-msgid ""
-"Appuyer sur [ENTREE] pour faire une sauvegarde incrémentielle avec '+'\n"
-" ou saisir = pour écrire sur le fichier Instrument actuel\n"
-" ou saisir un nouveau nom de fichier Instrument sans le sufix '%s'\n"
-"?"
+msgid "Sauvegarde de l'Instrument dans le fichier : %s \n"
 msgstr ""
 
-msgid "nom de fichier incorrect <%s>\n"
-msgstr ""
-
-msgid "--- Sauvegarde de l'Instrument dans le fichier : <%s> \n"
+msgid "fichier Instrument identique à l'ancien\n"
 msgstr ""
 
 msgid "Sauvegarde réussie"
 msgstr ""
 
-msgid ":Spectre Capture de la note "
+msgid "Sauvegarde du fichier Instrument: %s\n"
 msgstr ""
 
-msgid "accorder "
+msgid ""
+"Appuyer sur [ENTREE] pour écrire sur le fichier Instrument actuel\n"
+" ou saisir '+' pour faire une sauvegarde incrémentielle\n"
+" ou saisir un nouveau nom de fichier Instrument\n"
+"? "
 msgstr ""
 
-msgid ":P1 à "
+msgid "nom de fichier incorrect <%s>\n"
+msgstr ""
+
+msgid "Choisir un fichier wav à charger dans l'Instrument:"
+msgstr ""
+
+msgid "Saisir les nouvelles valeurs:"
+msgstr ""
+
+msgid "Nom court"
+msgstr ""
+
+msgid "Version Date"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Diapason"
+msgstr ""
+
+msgid "Auteur du paramétrage"
+msgstr ""
+
+msgid "nom du fichier"
+msgstr ""
+
+msgid "fichier Instrument renomé en <%s>\n"
+msgstr ""
+
+msgid "impossible de renomer le fichier Instrument protégé"
+msgstr ""
+
+msgid "Choisir un modèle d'Instrument:"
+msgstr ""
+
+msgid "==> ERREUR: impossible d'initialiser FreeType\n"
+msgstr ""
+
+msgid "==> ERREUR: impossible de trouver une fonte équivalente à <%s> \n"
+msgstr ""
+
+msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr ""
 
 msgid ">>> JOUE LE SON REEL <<< "
 msgstr ""
 
-msgid "Touches de commande: r=rafraîchit, q=quitte, ?=affiche l'aide sur la console"
-msgstr ""
-
-msgid ", t=choix du spectre, f=échelle dB/réelle, g=gèle la capture, %=envoie les commandes à la console"
-msgstr ""
-
-msgid "Spectre temporel: Amplitude/temps(s) pour la Note attendue: "
-msgstr ""
-
-msgid ", fréquence: théorique "
-msgstr ""
-
-msgid "réelle %.2fHz, écart: %.2fHz (%.1f cents) "
+msgid "Spectre temporel: Amplitude/temps(s) "
 msgstr ""
 
 msgid "capture gelée"
@@ -1438,79 +1483,83 @@ msgstr ""
 msgid " ms durée "
 msgstr ""
 
-msgid ", la note n'a pas été capturée"
+msgid "Spectre fréquentiel: Amplitude/fréquence(Hz)"
 msgstr ""
 
-msgid "Spectre fréquentiel: Amplitude/fréquence(Hz) + amplitudes des "
-msgstr ""
-
-msgid " Partiels/pics, "
-msgstr ""
-
-msgid "Comparateur d'unisson fréquentiel:"
-msgstr ""
-
-msgid " règle d'accord: "
-msgstr ""
-
-msgid ", pour la Note attendue: "
-msgstr ""
-
-msgid "réelle "
-msgstr ""
-
-msgid ", écart: "
+msgid "Comparateur d'unisson fréquentiel"
 msgstr ""
 
 msgid "paramètre: "
 msgstr ""
 
-msgid "%s, commande de capture: c: capture, A: abandon, v n: valide, n: valide + note suivante "
+msgid "Commandes de capture: c: capture, A: abandon, v: valide, n: captures automatiques "
 msgstr ""
 
-msgid "%s, en attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
+msgid "En attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
 msgstr ""
 
-msgid "Capture démarrée jusqu'au silence ou appuyer sur une touche pour arrêter..."
+msgid " règle d'accord: "
 msgstr ""
 
-msgid "%s à %6.1fHz écart %5.1fHz %5.1fCents"
+msgid ":Note "
 msgstr ""
 
-msgid "Fenêtre SpectreCapture fermée."
+msgid "accorder "
 msgstr ""
 
-msgid "Ouvre la fenêtre SpectreCapture..."
+msgid "Vue Graphique"
 msgstr ""
 
-msgid "La fenêtre SpectreCapture est déjà ouverte."
+msgid "Console"
 msgstr ""
 
-msgid "==> ERREUR: impossible d'initialiser FreeType\n"
+msgid "Réel"
 msgstr ""
 
-msgid "==> ERREUR: impossible de trouver une fonte équivalente à <%s> \n"
+msgid "Synth"
 msgstr ""
 
-msgid "Fonte chargée par défaut : %s : %s \n"
+msgid ": fichier non trouvé fonte <%s>\n"
 msgstr ""
 
-msgid "==> ERREUR:échec du chargement de la fonte <%s>\n"
+msgid "Zoom"
 msgstr ""
 
-msgid "==> Erreur:la fonte <%s> n'existe pas \n"
+msgid "Joue"
 msgstr ""
 
-msgid "==> Erreur:la fonte <%s> taille %d n'existe pas \n"
+msgid "Gèle"
+msgstr ""
+
+msgid "Modifie"
+msgstr ""
+
+msgid "Titre:"
 msgstr ""
 
 msgid "Erreur icône de l'application non trouvée\n"
 msgstr ""
 
-msgid "vue graphique au 1ier plan"
+msgid "==> ERREUR: fichier langue PO <%s> non trouvé, langue 'en_US' par défaut\n"
 msgstr ""
 
-msgid "==> ERREUR: langue '%s' non trouvée, 'en_US' par défaut\n"
+msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
+msgstr ""
+
+msgid ""
+"\n"
+"==> ATTENTION: La licence d'utilisation n'est pas valide ou n'est pas trouvée.\n"
+"L'usage de l'application est limité à %d minutes.\n"
+"Rendez-vous sur le site web du ViGAWorld/ViGAPhone pour vous enregistrez comme utilisateur et obtenir une licence.\n"
+msgstr ""
+
+msgid "Lancement des moteurs Audio PCM et MIDI..."
+msgstr ""
+
+msgid "Arrêt de l'application..."
+msgstr ""
+
+msgid "A bientôt ! \n"
 msgstr ""
 
 msgid "Erreur, mauvais format de données pour Reverb:<%s>\n"
@@ -1582,25 +1631,28 @@ msgstr ""
 msgid "==> ERREUR égalité KO \n"
 msgstr ""
 
-msgid "Session MIDI sauvegardée dans le fichier '%s'\n"
-msgstr ""
-
 msgid "====> Attention: volume général modifié de %0.1fdB à %0.1fdB \n"
 msgstr ""
 
 msgid "%s ATTENTION note non définie \n"
 msgstr ""
 
-msgid "Fichier Instrument : "
+msgid "Nom court : "
 msgstr ""
 
-msgid "Nom court, Version Date : "
+msgid "Version Date : "
 msgstr ""
 
 msgid "Description : "
 msgstr ""
 
+msgid "Diapason : "
+msgstr ""
+
 msgid "Auteur du paramétrage : "
+msgstr ""
+
+msgid "Fichier Instrument : "
 msgstr ""
 
 msgid "Vélocité minimum : "
@@ -1639,49 +1691,23 @@ msgstr ""
 msgid " ; compilée le "
 msgstr ""
 
-msgid "Erreur lors de la récupération des dimensions de l'écran : %lu\n"
+msgid "Sortie audio:Fréquence=%.f échantillons par seconde sur %d canaux, Tampon=%d=%0.3fms Periode=%d=%0.3fms\n"
 msgstr ""
 
-msgid "Pas de redimensionnement nécessaire. Dimensions actuelles : %d colonnes, %d lignes.\n"
-msgstr ""
-
-msgid "Erreur lors de la modification du tampon d'écran : %lu\n"
-msgstr ""
-
-msgid "Erreur lors de la modification de l'écran : %lu\n"
-msgstr ""
-
-msgid "L'écran doit être redimensionné à %d colonnes et %d lignes.\n"
-msgstr ""
-
-msgid "Erreur lors de la modification de la taille de l'écran"
-msgstr ""
-
-msgid "L'écran doit être redimensionné à %d colonnes et %d lignes sous Linux.\n"
-msgstr ""
-
-msgid ""
-"==> ATTENTION: Pour afficher correctement les informations, il faut agrandir l'écran,\n"
-" taille actuelle:(%d,%d) taille minimum souhaitée (%d,%d).\n"
-msgstr ""
-
-msgid "Sortie audio:SampleRate=%.f échantillons par seconde sur %d canaux, ServeurAudioTampon=%d=%0.3fms ServeurAudioPeriode=%d=%0.3fms\n"
-msgstr ""
-
-msgid "Capture audio:SampleRate=%d échantillons par seconde sur %d canaux, ServeurAudioPeriode=%d=%0.3fms \n"
+msgid "Capture audio:Fréquence=%d échantillons par seconde sur %d canaux, Tampon=%d=%0.3fms Periode=%d=%0.3fms \n"
 msgstr ""
 
 msgid "Mode spécial Accordeur désactivé\n"
 msgstr ""
 
-msgid "> Erreur"
-msgstr ""
-
 msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
 msgstr ""
 
+msgid "Bienvenue dans le ViGAPhone Synth Lab World ! "
+msgstr ""
+
 msgid ""
-"Bienvenue dans le ViGAPhone Synth Lab World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
+" \n"
 "Parce que la musique est un monde de partage !"
 msgstr ""
 
@@ -1702,7 +1728,7 @@ msgid ""
 "-ServeurAudio JACK | ALSA | WASAPI| WASAPIEX : Choix du serveur son pour linux=JACK ou ALSA, pour windows=WASAPI en mode partagé ou WASAPIEX en mode exclusif mais dans ce cas la carte son doit supporter le format float32 \n"
 "-ServeurAudioPeriode <valeur> : nombre d'échantillons sonores dans 1 periode de traitement, 512 par défaut, influe sur le délai de latence. JACK n'utilise pas de tampon ciculaire et offre la meilleure latence avec le plus de risque de pets en cas de retard, ALSA comme WASAPI utilise un tampon circulaire de 2 à 4 périodes,  ayant plus de latence mais étant moins sujet à produrie des pets. \n"
 "-ServeurAudioFreq <valeur> : fréquence d'échantillonnage souhaitée, 48000 par défaut, pour test avec ALSA seulement car normalement c'est le système d'exploitation qui définit cela en fonction des contraintes matérielles\n"
-"-ServeurAudioNbThreadsPCM : nombre de threads affectés au moteur audio, par défaut = nombre de coeurs de la CPU \n"
+"-ServeurAudioNbThreadsPCM <valeur> : nombre de threads affectés au moteur audio, par défaut = nombre de coeurs de la CPU \n"
 "-ServeurMIDI JACK+ALSA | JACK | ALSA : Choix du serveur MIDI JACK ou ALSA ou les deux JACK+ALSA \n"
 "-AlsaMIDIOut <nom du connecteur ALSA clavier ou source MIDI> : exemples 'MIDI Out:out' 'VMPK Output:out' \n"
 "-JackWaveInL <nom du connecteur de sortie son gauche> : exemples 'Built-in Audio Analog Stereo:playback_FL' 'cinnamon:input_FL' \n"
@@ -1742,16 +1768,18 @@ msgid ""
 "s : joue le son capturé au lieu du son synthétisé On/Off \n"
 " \n"
 "--- Liste des commandes générales: \n"
-"% : ouvre la fenêtre graphique, affiche en temps réel les spectres sonores temporels et fréquentiels\n"
 "a : arrête toutes les notes (all notes off), efface l'accord mémorisé \n"
 "A : menu spécial Accordeur\n"
+"c : crée un nouvel Instrument à partir d'un modèle vierge \n"
+"C : bascule entre la vue console et la vue graphique \n"
 "d : affiche les informations de débogage On/Off \n"
 "D : menu spécial Divers et Debogage\n"
 "F : charge un nouveau fichier d'Instrument \n"
 "G : choisit un paramètre global à modifier \n"
+"i : modifie la description de l'Instrument \n"
 "I : affiche les informations sur le programme et le fichier d'Instrument \n"
 "q : quitte la commande en cours \n"
-"Q : quitte le programme \n"
+"Q : quitte l'Application \n"
 "r : rafraichit l'écran \n"
 "R : recharge le fichier d'Instrument et restaure les valeurs d'origine \n"
 "S : sauvegarde les paramètres de l'Instrument dans un fichier ainsi que les captures sonores \n"
@@ -1763,12 +1791,11 @@ msgstr ""
 msgid ""
 "\n"
 "--- Liste des commandes dans la vue graphique: \n"
-"g : gèle la capture sonore pour l'analyse du timbre \n"
+"C : bascule entre la vue console et la vue graphique \n"
 "f : choisit l'échelle dB/réelle \n"
+"g : gèle la capture sonore pour l'analyse du timbre \n"
 "jJkK mMpP : déplacement et zoom \n"
-"q : quitte et ferme la fenêtre \n"
-"Q : quitte le programme \n"
-"r : recompose la vue  \n"
+"r : recompose la vue \n"
 "t : choisit le spectre \n"
 "z : zoom on/off \n"
 "% : envoie les commandes jkmMpP à la console, agit sur le paramètre à modifier \n"
@@ -1894,7 +1921,7 @@ msgstr ""
 msgid "réverbération liste et sélection"
 msgstr ""
 
-msgid "Instrument: diapason"
+msgid "Instrument: diapason note fréquence"
 msgstr ""
 
 msgid "Instrument: Niveau de Couplage Mécanique pour la résonance sympathique"
@@ -1966,27 +1993,18 @@ msgstr ""
 msgid "affiche le spectrogramme pour régler le microphone et le niveau de bruit"
 msgstr ""
 
-msgid "assistant console pour accorder l'Instrument réel: mesure la fréquence de la note jouée et joue son unisson"
+msgid ""
+"affiche/modifie/capture l'inharmonicité et le timbre des notes de l'Instrument \n"
+"      (la capture des notes peut aussi se faire dans la vue graphique en mode transmission de commandes)"
 msgstr ""
 
 msgid "assistant graphique pour accorder l'Instrument réel: ajoute des informations de consonnances"
 msgstr ""
 
-msgid "affiche/modifie/capture l'inharmonicité des notes, capture le timbre de la note de l'Instrument"
-msgstr ""
-
-msgid ""
-"affiche/modifie/capture les partiels de la note jouée, capture le timbre de la note de l'Instrument\n"
-"\t(la capture des notes peut aussi se faire dans la vue graphique en mode transmission de commandes)"
+msgid "affiche/modifie les partiels de la note courante de l'Instrument"
 msgstr ""
 
 msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
-msgstr ""
-
-msgid "ouvre la fenêtre graphique: signal audio + spectre fréquence/amplitude des partiels"
-msgstr ""
-
-msgid "enregistre les fichiers WAV des notes capturées"
 msgstr ""
 
 msgid "accorde l'Instrument selon ses règles d'accordage "
@@ -2010,9 +2028,50 @@ msgstr ""
 msgid "test:choisit la forme de l'onde de base"
 msgstr ""
 
+msgid "Charge un Instrument"
+msgstr ""
+
+msgid "Crée un nouvel Instrument"
+msgstr ""
+
+msgid "Edite la description de l'Instrument"
+msgstr ""
+
+msgid "vue Spectrum: régle le microphone"
+msgstr ""
+
+msgid "vue Inharmonicité: capture le timbre instrumental"
+msgstr ""
+
+msgid "vue Accorde l'Instrument"
+msgstr ""
+
+msgid "vue Edite les Partiels de la note"
+msgstr ""
+
+msgid "Sauvegarder les modifications"
+msgstr ""
+
+msgid "Aide: manuel utilisateur en ligne"
+msgstr ""
+
+msgid "Plein écran"
+msgstr ""
+
+msgid "Fermer l'application"
+msgstr ""
+
 msgid ""
 "\n"
 "Il n'y a pas de note en cours, arrêt de la commande d'édition.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"==> ATTENTION : Arrêt forcé demandé plusieurs fois, sortie agressive..\n"
+msgstr ""
+
+msgid "==> ATTENTION : Arrêt forcé demandé, pour quitter proprement l'application, utiliser la commande 'Q'."
 msgstr ""
 
 msgid "nbNotes|nbOndes|=>    VU-mètre    <= dernière note jouée....volume  3pédales|xrun   threads/cpu charge      délais de calcul"
@@ -2048,6 +2107,14 @@ msgstr ""
 msgid "WINMM déconnexion d'un périphérique MIDI\n"
 msgstr ""
 
+msgid "Paramétrage de l'Instrument..."
+msgstr ""
+
+msgid ""
+"==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
+"<%s>\n"
+msgstr ""
+
 msgid ""
 "\n"
 "\n"
@@ -2057,19 +2124,6 @@ msgstr ""
 msgid ""
 " minutes. Fermeture de l'application. \n"
 "Merci de l'avoir essayée, prenez une licence pour une utilisation illimitée.\n"
-msgstr ""
-
-msgid ""
-"\n"
-"Erreur : SetConsoleOutputCP(CP_UTF8) a échoué (code erreur : %lu)\n"
-msgstr ""
-
-msgid ""
-"\n"
-"==> ATTENTION : Arrêt forcé demandé plusieurs fois, sortie agressive..\n"
-msgstr ""
-
-msgid "==> ATTENTION : Arrêt forcé demandé, pour quitter proprement l'application, utiliser la commande 'Q'."
 msgstr ""
 
 msgid "==> Erreur, le paramètre de serveur audio n'est pas reconnu : <%s> \n"
@@ -2084,42 +2138,8 @@ msgstr ""
 msgid "==> Erreur, paramètre <%s> non reconnu.\n"
 msgstr ""
 
-msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
-msgstr ""
-
-msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
-msgstr ""
-
 msgid "==> ERREUR: ne trouve pas le répertoire %s \n"
 msgstr ""
 
-msgid "Appuyer sur [ENTREE] pour continuer"
-msgstr ""
-
-msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
-msgstr ""
-
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
-msgstr ""
-
-msgid "Lancement des moteurs Audio PCM et MIDI..."
-msgstr ""
-
-msgid "Paramétrage de l'Instrument..."
-msgstr ""
-
-msgid "==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
-msgstr ""
-
-msgid ""
-"\n"
-"==> ATTENTION: La licence d'utilisation n'est pas valide ou n'est pas trouvée.\n"
-"L'usage de l'application est limité à %d minutes.\n"
-"Rendez-vous sur le site web du ViGAWorld/ViGAPhone pour vous enregistrez comme utilisateur et obtenir une licence.\n"
-msgstr ""
-
-msgid "Arrêt de l'application..."
-msgstr ""
-
-msgid "A bientôt ! \n"
 msgstr ""
