@@ -1,4 +1,17 @@
 ## ViGAPhone Synth Lab, versions
+1.3.0
+Evolution :
+- nouveau moteur graphique qui passe en openGL3
+- nouvelles IHM vue graphique et console intégrée, l'appli n'a plus besoin d'un terminal externe pour être lancée et s'exécuter
+
+Interface graphique: 
+- contrôlée par la souris ou une surface tactile
+- zoom continu sur le spectrogramme
+- jeu de commandes graphiques == boutons et menus de commandes 
+
+- nombreuses améliorations et simplifications d'utilisation
+
+
 1.2.0
 Evolution :
 - ajout d'une interface plugin vst3 MIDI
