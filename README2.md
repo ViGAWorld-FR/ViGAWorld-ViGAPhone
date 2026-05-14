@@ -1,5 +1,5 @@
 # ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer MIDI-MPE application and VST3 plugin, Timbre Analyzer, Instrument Tuner and more...
-(App for Android/Windows/Linux)
+(App for Android🤖/Windows🪟/Linux🐧)
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
@@ -139,7 +139,7 @@ For licensing or support inquiries:
 
 ## 🛠️ Android / Linux / Windows Installation
 
-### 🐧 Android
+### 🤖 Android
 
 ● **OS Requirements:** Any Android since version 11.  
 
@@ -292,7 +292,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ## 🛠️ Installation Linux / Windows
 
-### 🐧 Android
+### 🤖 Android
 
 ● **Prérequis OS :** Toute distribution Android depuis la version 11.  
 
