@@ -139,7 +139,7 @@ For licensing or support inquiries:
 
 ## 🛠️ Android / Linux / Windows Installation
 
-### 🤖 Android
+### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
 
 ● **OS Requirements:** Any Android since version 11.  
 
@@ -292,7 +292,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ## 🛠️ Installation Linux / Windows
 
-### 🤖 Android
+### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
 
 ● **Prérequis OS :** Toute distribution Android depuis la version 11.  
 
