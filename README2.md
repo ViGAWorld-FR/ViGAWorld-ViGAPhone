@@ -143,7 +143,7 @@ For licensing or support inquiries:
 
 ● **OS Requirements:** Any Android since version 11.  
 
-Install the App named "Piano Tuner & Voicing ETD Pro" from the Google Play Store.
+Install the App **Piano Tuner & Voicing ETD Pro** from the Google Play Store.
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
@@ -296,7 +296,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ● **Prérequis OS :** Toute distribution Android depuis la version 11.  
 
-Installez l'App nomée "Piano Tuner & Voicing ETD Pro" depuis le Google Play Store.
+Installez l'App **Piano Tuner & Voicing ETD Pro** depuis le Google Play Store.
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
