@@ -1,14 +1,15 @@
 # ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer MIDI-MPE application and VST3 plugin, Timbre Analyzer, Instrument Tuner and more...
+App for Android<img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" />/Windows🪟/Linux🐧
+[Android: Join the Test Campaign group and provide feedback](https://groups.google.com/u/2/g/piano-tuner--voicing-etd-pro---tests)
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
 </p>
-
 <div align="center">
 
 | English TOC | Français TDM |
 | :--- | :--- |
-| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [Linux / Windows installation](#Installation-en) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation sur Linux / Windows](#Installation-fr) |
+| - [Short presentation](#short-presentation) <br> - [User manual](#user-manual) <br> - [App installation](#Installation-en) | - [Courte présentation](#courte-présentation) <br> - [Manuel utilisateur](#manuel-utilisateur) <br> - [Installation de l'App](#Installation-fr) |
 
  🎧 **Audio demonstration** Click to listen:  
 [9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3)
@@ -137,7 +138,14 @@ For licensing or support inquiries:
 
 <p id="Installation-en"></p>
 
-## 🛠️ Linux / Windows Installation
+## 🛠️ Android / Linux / Windows Installation
+
+### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
+
+● **OS Requirements:** Any Android since version 11.  
+
+Install the App **Piano Tuner & Voicing ETD Pro** from the Google Play Store.
+
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
@@ -284,6 +292,13 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 <p id="Installation-fr"></p>
 
 ## 🛠️ Installation Linux / Windows
+
+### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
+
+● **Prérequis OS :** Toute distribution Android depuis la version 11.  
+
+Installez l'App **Piano Tuner & Voicing ETD Pro** depuis le Google Play Store.
+
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
