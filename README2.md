@@ -1,5 +1,6 @@
 # ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer MIDI-MPE application and VST3 plugin, Timbre Analyzer, Instrument Tuner and more...
-(App for Android<img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" />/Windows🪟/Linux🐧)
+App for Android<img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" />/Windows🪟/Linux🐧
+[Android: Join the Test Campaign group and provide feedback](https://groups.google.com/u/2/g/piano-tuner--voicing-etd-pro---tests)
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
