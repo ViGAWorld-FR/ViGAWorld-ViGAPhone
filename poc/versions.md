@@ -1,4 +1,11 @@
 ## ViGAPhone Synth Lab, versions
+1.3.1
+Evolution :
+- ouverture de la campagne de tests sur Android
+
+Corrections:
+- bug dans la capture du timbre d'une note
+
 1.3.0
 Evolution :
 - nouveau moteur graphique qui passe en openGL3
