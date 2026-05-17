@@ -1,4 +1,12 @@
 ## ViGAPhone Synth Lab, versions
+1.3.2
+- quand la vue inharmonicité est active, la vue graphique permet une modification du taux d'inharmonicité à la souris par alignement visuels sur les pics de fréquences, après avoir activé le bouton affichant le taux d'inharmonicité.
+- ajout de boutons pour les commandes des vues, évite l'usage du clavier
+
+Android:
+- le niveau de version minimum passe de 11 à 10
+
+
 1.3.1
 Evolution :
 - ouverture de la campagne de tests sur Android
