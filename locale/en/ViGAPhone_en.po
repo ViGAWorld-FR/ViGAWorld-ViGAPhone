@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-15 23:29+0200\n"
+"POT-Creation-Date: 2026-05-17 14:27+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1296,11 +1296,11 @@ msgstr "Error, unsupported sound server\n"
 msgid "fonction non disponible sous windows"
 msgstr "function not available under Windows"
 
-msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
-msgstr "Open the User Manual in the default web browser."
-
 msgid " Echec de la commande."
 msgstr " Command aborted."
+
+msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
+msgstr "Open the User Manual in the default web browser."
 
 msgid "Capture démarrée jusqu'au niveau sonore de %.fdB ou un appui sur une touche..."
 msgstr "Capture started until sound level reaches %.fdB or key press..."
@@ -1632,6 +1632,30 @@ msgstr "Real"
 
 msgid "Synth"
 msgstr "Synth"
+
+msgid "Fixe le Niveau de Bruit"
+msgstr "Set Noise Level"
+
+msgid "Capture le timbre"
+msgstr "capture timbre"
+
+msgid "Capture automatique"
+msgstr "Automatic capture"
+
+msgid "Restaure le timbre"
+msgstr "Restore timbre"
+
+msgid "Valide tout et sauvegarde"
+msgstr "Validate all and save"
+
+msgid "Valeur"
+msgstr "Value"
+
+msgid "Liste des notes en résonance"
+msgstr "List of resonant notes"
+
+msgid "Partiel"
+msgstr "Partial"
 
 msgid ": fichier non trouvé fonte <%s>\n"
 msgstr ": font file not found <%s> \n"
@@ -2243,8 +2267,8 @@ msgstr "Edit Instrument description"
 msgid "vue Spectrum: régle le microphone"
 msgstr "Spectrum view: adjust microphone"
 
-msgid "vue Inharmonicité: capture le timbre instrumental"
-msgstr "Inharmonicity view: capture instrumental timbre"
+msgid "vue Inharmonicité: capture le timbre"
+msgstr "Inharmonicity view: capture timbre"
 
 msgid "vue Accorde l'Instrument"
 msgstr "Tune Instrument view"
@@ -2252,8 +2276,11 @@ msgstr "Tune Instrument view"
 msgid "vue Edite les Partiels de la note"
 msgstr "Edit Note Partials view"
 
-msgid "Sauvegarder les modifications"
+msgid "Sauvegardes les modifications"
 msgstr "Save changes"
+
+msgid "Vérifie la version de l'App"
+msgstr "Check application version"
 
 msgid "Aide: manuel utilisateur en ligne"
 msgstr "Help: online user manual"

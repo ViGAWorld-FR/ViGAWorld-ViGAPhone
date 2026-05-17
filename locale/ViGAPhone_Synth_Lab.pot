@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-16 08:46+0200\n"
+"POT-Creation-Date: 2026-05-17 14:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1192,10 +1192,10 @@ msgstr ""
 msgid "fonction non disponible sous windows"
 msgstr ""
 
-msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
+msgid " Echec de la commande."
 msgstr ""
 
-msgid " Echec de la commande."
+msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
 msgstr ""
 
 msgid "Capture démarrée jusqu'au niveau sonore de %.fdB ou un appui sur une touche..."
@@ -1519,6 +1519,30 @@ msgid "Réel"
 msgstr ""
 
 msgid "Synth"
+msgstr ""
+
+msgid "Fixe le Niveau de Bruit"
+msgstr ""
+
+msgid "Capture le timbre"
+msgstr ""
+
+msgid "Capture automatique"
+msgstr ""
+
+msgid "Restaure le timbre"
+msgstr ""
+
+msgid "Valide tout et sauvegarde"
+msgstr ""
+
+msgid "Valeur"
+msgstr ""
+
+msgid "Liste des notes en résonance"
+msgstr ""
+
+msgid "Partiel"
 msgstr ""
 
 msgid ": fichier non trouvé fonte <%s>\n"
@@ -2042,7 +2066,7 @@ msgstr ""
 msgid "vue Spectrum: régle le microphone"
 msgstr ""
 
-msgid "vue Inharmonicité: capture le timbre instrumental"
+msgid "vue Inharmonicité: capture le timbre"
 msgstr ""
 
 msgid "vue Accorde l'Instrument"
@@ -2051,7 +2075,10 @@ msgstr ""
 msgid "vue Edite les Partiels de la note"
 msgstr ""
 
-msgid "Sauvegarder les modifications"
+msgid "Sauvegardes les modifications"
+msgstr ""
+
+msgid "Vérifie la version de l'App"
 msgstr ""
 
 msgid "Aide: manuel utilisateur en ligne"
