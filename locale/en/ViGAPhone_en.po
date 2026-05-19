@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-17 14:27+0200\n"
+"POT-Creation-Date: 2026-05-19 14:37+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -129,6 +129,9 @@ msgstr "Note identified: %s [K"
 
 msgid "Paramètre"
 msgstr "Parameter"
+
+msgid "Niveau de Bruit"
+msgstr "Noise Level"
 
 msgid " niveaux sonores : max%5.fdB moyen%5.fdB     "
 msgstr " sound levels: max%5.fdB average%5.fdB     "
@@ -1582,8 +1585,8 @@ msgstr "Default font loaded: %s : %s \n"
 msgid ">>> JOUE LE SON REEL <<< "
 msgstr ">>> PLAYING REAL SOUND <<< "
 
-msgid "Spectre temporel: Amplitude/temps(s) "
-msgstr "Time spectrum: Amplitude/time(s) "
+msgid "Spectre temporel(s)"
+msgstr "Time spectrum(s) "
 
 msgid "capture gelée"
 msgstr "capture frozen"
@@ -1597,17 +1600,14 @@ msgstr ", analysis at "
 msgid " ms durée "
 msgstr " ms duration "
 
-msgid "Spectre fréquentiel: Amplitude/fréquence(Hz)"
-msgstr "Frequency spectrum: Amplitude/frequency(Hz)"
+msgid "Spectre fréquentiel(Hz)"
+msgstr "Frequency spectrum(Hz)"
 
-msgid "Comparateur d'unisson fréquentiel"
-msgstr "Frequency unison comparator"
+msgid "Comparateur d'unisson"
+msgstr "Unison comparator"
 
 msgid "paramètre: "
 msgstr "parameter: "
-
-msgid "Commandes de capture: c: capture, A: abandon, v: valide, n: captures automatiques "
-msgstr "Capture commands: c: capture, A: abort, v: validate, n: automatic captures "
 
 msgid "En attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
 msgstr "Waiting for a loud note followed by silence (sound < %.fdB), press any key to stop..."
@@ -1633,20 +1633,20 @@ msgstr "Real"
 msgid "Synth"
 msgstr "Synth"
 
-msgid "Fixe le Niveau de Bruit"
-msgstr "Set Noise Level"
+msgid "Fixe le Niveau de Bruit du Microphone"
+msgstr "Set Microphone Noise Level"
 
-msgid "Capture le timbre"
-msgstr "capture timbre"
+msgid "Capture"
+msgstr "Capture"
 
-msgid "Capture automatique"
-msgstr "Automatic capture"
+msgid "Automatique"
+msgstr "Automatic"
 
-msgid "Restaure le timbre"
-msgstr "Restore timbre"
+msgid "Restaure"
+msgstr "Restore"
 
-msgid "Valide tout et sauvegarde"
-msgstr "Validate all and save"
+msgid "Valide et sauve"
+msgstr "Validate and save"
 
 msgid "Valeur"
 msgstr "Value"
@@ -1666,14 +1666,11 @@ msgstr "Zoom"
 msgid "Joue"
 msgstr "Play"
 
-msgid "Gèle"
-msgstr "Freeze"
-
 msgid "Modifie"
 msgstr "Modify"
 
-msgid "Titre:"
-msgstr "Title:"
+msgid "Gèle"
+msgstr "Freeze"
 
 msgid "Erreur icône de l'application non trouvée\n"
 msgstr "Error: application icon not found\n"
@@ -2255,15 +2252,6 @@ msgstr "MIDI: display channels state"
 msgid "test:choisit la forme de l'onde de base"
 msgstr "test: choose basic waveform"
 
-msgid "Charge un Instrument"
-msgstr "Load an Instrument"
-
-msgid "Crée un nouvel Instrument"
-msgstr "Create a new Instrument"
-
-msgid "Edite la description de l'Instrument"
-msgstr "Edit Instrument description"
-
 msgid "vue Spectrum: régle le microphone"
 msgstr "Spectrum view: adjust microphone"
 
@@ -2275,6 +2263,15 @@ msgstr "Tune Instrument view"
 
 msgid "vue Edite les Partiels de la note"
 msgstr "Edit Note Partials view"
+
+msgid "Charge un Instrument"
+msgstr "Load an Instrument"
+
+msgid "Crée un nouvel Instrument"
+msgstr "Create a new Instrument"
+
+msgid "Edite la description de l'Instrument"
+msgstr "Edit Instrument description"
 
 msgid "Sauvegardes les modifications"
 msgstr "Save changes"
@@ -2384,6 +2381,15 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+#~ msgid "Titre:"
+#~ msgstr "Title:"
+
+#~ msgid "Commandes de capture: c: capture, A: abandon, v: valide, n: captures automatiques "
+#~ msgstr "Capture commands: c: capture, A: abort, v: validate, n: automatic captures "
+
+#~ msgid "Capture le timbre"
+#~ msgstr "capture timbre"
 
 #~ msgid "Appuyer sur [ENTREE] pour continuer"
 #~ msgstr "Press [ENTER] to continue"

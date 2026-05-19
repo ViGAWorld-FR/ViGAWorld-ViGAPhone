@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-17 14:27+0200\n"
+"POT-Creation-Date: 2026-05-19 14:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,6 +95,9 @@ msgid "Note identifiée : %s [K"
 msgstr ""
 
 msgid "Paramètre"
+msgstr ""
+
+msgid "Niveau de Bruit"
 msgstr ""
 
 msgid " niveaux sonores : max%5.fdB moyen%5.fdB     "
@@ -1470,7 +1473,7 @@ msgstr ""
 msgid ">>> JOUE LE SON REEL <<< "
 msgstr ""
 
-msgid "Spectre temporel: Amplitude/temps(s) "
+msgid "Spectre temporel(s)"
 msgstr ""
 
 msgid "capture gelée"
@@ -1485,16 +1488,13 @@ msgstr ""
 msgid " ms durée "
 msgstr ""
 
-msgid "Spectre fréquentiel: Amplitude/fréquence(Hz)"
+msgid "Spectre fréquentiel(Hz)"
 msgstr ""
 
-msgid "Comparateur d'unisson fréquentiel"
+msgid "Comparateur d'unisson"
 msgstr ""
 
 msgid "paramètre: "
-msgstr ""
-
-msgid "Commandes de capture: c: capture, A: abandon, v: valide, n: captures automatiques "
 msgstr ""
 
 msgid "En attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
@@ -1521,19 +1521,19 @@ msgstr ""
 msgid "Synth"
 msgstr ""
 
-msgid "Fixe le Niveau de Bruit"
+msgid "Fixe le Niveau de Bruit du Microphone"
 msgstr ""
 
-msgid "Capture le timbre"
+msgid "Capture"
 msgstr ""
 
-msgid "Capture automatique"
+msgid "Automatique"
 msgstr ""
 
-msgid "Restaure le timbre"
+msgid "Restaure"
 msgstr ""
 
-msgid "Valide tout et sauvegarde"
+msgid "Valide et sauve"
 msgstr ""
 
 msgid "Valeur"
@@ -1554,13 +1554,10 @@ msgstr ""
 msgid "Joue"
 msgstr ""
 
-msgid "Gèle"
-msgstr ""
-
 msgid "Modifie"
 msgstr ""
 
-msgid "Titre:"
+msgid "Gèle"
 msgstr ""
 
 msgid "Erreur icône de l'application non trouvée\n"
@@ -2054,15 +2051,6 @@ msgstr ""
 msgid "test:choisit la forme de l'onde de base"
 msgstr ""
 
-msgid "Charge un Instrument"
-msgstr ""
-
-msgid "Crée un nouvel Instrument"
-msgstr ""
-
-msgid "Edite la description de l'Instrument"
-msgstr ""
-
 msgid "vue Spectrum: régle le microphone"
 msgstr ""
 
@@ -2073,6 +2061,15 @@ msgid "vue Accorde l'Instrument"
 msgstr ""
 
 msgid "vue Edite les Partiels de la note"
+msgstr ""
+
+msgid "Charge un Instrument"
+msgstr ""
+
+msgid "Crée un nouvel Instrument"
+msgstr ""
+
+msgid "Edite la description de l'Instrument"
 msgstr ""
 
 msgid "Sauvegardes les modifications"

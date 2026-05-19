@@ -1,5 +1,16 @@
 ## ViGAPhone Synth Lab, versions
+1.3.3
+Évolution:
+- démarre sur la vue graphique qui devient la vue principale
+- ajoute un bouton ANOff = all notes off
+- édition des partiels, ajout des boutons - et +
+
+Android:
+- vue Accordage : correction de l'affichage des notes résonantes 
+
+
 1.3.2
+Evolution :
 - quand la vue inharmonicité est active, la vue graphique permet une modification du taux d'inharmonicité à la souris par alignement visuels sur les pics de fréquences, après avoir activé le bouton affichant le taux d'inharmonicité.
 - ajout de boutons pour les commandes des vues, évite l'usage du clavier
 
