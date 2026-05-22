@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 14:39+0200\n"
+"POT-Creation-Date: 2026-05-22 14:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -241,6 +241,15 @@ msgstr ""
 msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
 msgstr ""
 
+msgid "En attente du son de \"une seule corde\", appuyer sur une touche pour arrêter..."
+msgstr ""
+
+msgid "Abandon de la capture du timbre"
+msgstr ""
+
+msgid "Echec de la capture du timbre, vérifier que la fréquence est compatible avec la note"
+msgstr ""
+
 msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
 msgstr ""
 
@@ -383,7 +392,10 @@ msgstr ""
 msgid "Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f \n"
 msgstr ""
 
-msgid "[92m==> Avant, il faut régler le microphone et le paramètre AccordNivBruit[0m"
+msgid "Prérequis: "
+msgstr ""
+
+msgid "Régler le Niveau de Bruit du microphone"
 msgstr ""
 
 msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
@@ -1470,22 +1482,16 @@ msgstr ""
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr ""
 
-msgid ">>> JOUE LE SON REEL <<< "
+msgid "Spectre temporel(s)"
 msgstr ""
 
-msgid "Spectre temporel(s)"
+msgid ">>> JOUE LE SON REEL <<< "
 msgstr ""
 
 msgid "capture gelée"
 msgstr ""
 
-msgid ", Max à "
-msgstr ""
-
-msgid ", analyse à "
-msgstr ""
-
-msgid " ms durée "
+msgid "Fixer le Niveau de Bruit"
 msgstr ""
 
 msgid "Spectre fréquentiel(Hz)"
@@ -1497,19 +1503,13 @@ msgstr ""
 msgid "paramètre: "
 msgstr ""
 
-msgid "En attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
-msgstr ""
-
-msgid " règle d'accord: "
-msgstr ""
-
 msgid ":Note "
 msgstr ""
 
-msgid "accorder "
+msgid "Accorder "
 msgstr ""
 
-msgid "Vue Graphique"
+msgid "Graphique"
 msgstr ""
 
 msgid "Console"
@@ -2072,7 +2072,7 @@ msgstr ""
 msgid "Edite la description de l'Instrument"
 msgstr ""
 
-msgid "Sauvegardes les modifications"
+msgid "Sauvegarde les modifications"
 msgstr ""
 
 msgid "Vérifie la version de l'App"
@@ -2090,14 +2090,6 @@ msgstr ""
 msgid ""
 "\n"
 "Il n'y a pas de note en cours, arrêt de la commande d'édition.\n"
-msgstr ""
-
-msgid ""
-"\n"
-"==> ATTENTION : Arrêt forcé demandé plusieurs fois, sortie agressive..\n"
-msgstr ""
-
-msgid "==> ATTENTION : Arrêt forcé demandé, pour quitter proprement l'application, utiliser la commande 'Q'."
 msgstr ""
 
 msgid "nbNotes|nbOndes|=>    VU-mètre    <= dernière note jouée....volume  3pédales|xrun   threads/cpu charge      délais de calcul"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 14:37+0200\n"
+"POT-Creation-Date: 2026-05-22 14:11+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -304,6 +304,15 @@ msgstr "==> Error, the note is active and cannot be restructured."
 msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
 msgstr " ==> Analysis failed for note %s, frequencies found: Peak-1 %.2fHz, Peak-0dB %.2fHz probable P1 %.2fHz"
 
+msgid "En attente du son de \"une seule corde\", appuyer sur une touche pour arrêter..."
+msgstr "Waiting for the sound of \"a single string\", press any key to stop..."
+
+msgid "Abandon de la capture du timbre"
+msgstr "Aborting timbre capture"
+
+msgid "Echec de la capture du timbre, vérifier que la fréquence est compatible avec la note"
+msgstr "Timbre capture failed, check that the frequency is compatible with the note"
+
 msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
 msgstr "Automatic tuning according to the rules defined in the Instrument file"
 
@@ -456,8 +465,11 @@ msgstr ""
 msgid "Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f \n"
 msgstr "Frequency: %.2fHz, Amplitude: %.1fdB freq/freqP1 %.3f \n"
 
-msgid "[92m==> Avant, il faut régler le microphone et le paramètre AccordNivBruit[0m"
-msgstr "[92m==> First, you must adjust the microphone and the AccordNivBruit parameter[0m"
+msgid "Prérequis: "
+msgstr "Requirement:"
+
+msgid "Régler le Niveau de Bruit du microphone"
+msgstr "Set Microphone Noise Level"
 
 msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
 msgstr "master volume raised from %.1fdB to %.1fdB \n"
@@ -1582,23 +1594,17 @@ msgstr "==> ERROR: unable to find a font equivalent to <%s> \n"
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr "Default font loaded: %s : %s \n"
 
-msgid ">>> JOUE LE SON REEL <<< "
-msgstr ">>> PLAYING REAL SOUND <<< "
-
 msgid "Spectre temporel(s)"
 msgstr "Time spectrum(s) "
+
+msgid ">>> JOUE LE SON REEL <<< "
+msgstr ">>> PLAYING REAL SOUND <<< "
 
 msgid "capture gelée"
 msgstr "capture frozen"
 
-msgid ", Max à "
-msgstr ", Max at "
-
-msgid ", analyse à "
-msgstr ", analysis at "
-
-msgid " ms durée "
-msgstr " ms duration "
+msgid "Fixer le Niveau de Bruit"
+msgstr "Set Noise Level"
 
 msgid "Spectre fréquentiel(Hz)"
 msgstr "Frequency spectrum(Hz)"
@@ -1609,20 +1615,14 @@ msgstr "Unison comparator"
 msgid "paramètre: "
 msgstr "parameter: "
 
-msgid "En attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
-msgstr "Waiting for a loud note followed by silence (sound < %.fdB), press any key to stop..."
-
-msgid " règle d'accord: "
-msgstr " tuning rule: "
-
 msgid ":Note "
 msgstr ":Note "
 
-msgid "accorder "
-msgstr "tune "
+msgid "Accorder "
+msgstr "Tune "
 
-msgid "Vue Graphique"
-msgstr "Graphic View"
+msgid "Graphique"
+msgstr "Graphic"
 
 msgid "Console"
 msgstr "Console"
@@ -2273,7 +2273,7 @@ msgstr "Create a new Instrument"
 msgid "Edite la description de l'Instrument"
 msgstr "Edit Instrument description"
 
-msgid "Sauvegardes les modifications"
+msgid "Sauvegarde les modifications"
 msgstr "Save changes"
 
 msgid "Vérifie la version de l'App"
@@ -2294,16 +2294,6 @@ msgid ""
 msgstr ""
 "\n"
 "There is no active note, stopping edit command.\n"
-
-msgid ""
-"\n"
-"==> ATTENTION : Arrêt forcé demandé plusieurs fois, sortie agressive..\n"
-msgstr ""
-"\n"
-"==> WARNING: Forced stop requested multiple times, aggressive exit..\n"
-
-msgid "==> ATTENTION : Arrêt forcé demandé, pour quitter proprement l'application, utiliser la commande 'Q'."
-msgstr "==> WARNING: Forced stop requested; use 'Q' to exit the application cleanly."
 
 msgid "nbNotes|nbOndes|=>    VU-mètre    <= dernière note jouée....volume  3pédales|xrun   threads/cpu charge      délais de calcul"
 msgstr "nbNotes|nbWaves|=>    VU-meter    <= last note played.......volume   3pedals|xrun   threads/cpu load        calc latency"
@@ -2382,193 +2372,15 @@ msgstr "==> ERROR: cannot find directory %s \n"
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
 
-#~ msgid "Titre:"
-#~ msgstr "Title:"
-
-#~ msgid "Commandes de capture: c: capture, A: abandon, v: valide, n: captures automatiques "
-#~ msgstr "Capture commands: c: capture, A: abort, v: validate, n: automatic captures "
-
-#~ msgid "Capture le timbre"
-#~ msgstr "capture timbre"
-
-#~ msgid "Appuyer sur [ENTREE] pour continuer"
-#~ msgstr "Press [ENTER] to continue"
-
-#~ msgid " [92m==> Avant, il faut régler le microphone et le paramètre AccordNivBruit [0m"
-#~ msgstr " [92m==> First, you must adjust the microphone and the AccordNivBruit parameter [0m"
-
-#~ msgid ""
-#~ "  c    : capture le timbre de la note \n"
-#~ " [92m  n    : capture automatiquement la note courante et les suivantes \n"
-#~ " [0m"
-#~ msgstr ""
-#~ "  c    : capture note timbre \n"
-#~ " [92m  n    : automatically capture current and following notes \n"
-#~ " [0m"
-
-#~ msgid ""
-#~ "  A    : abandonne la capture et restaure le timbre de la note \n"
-#~ "  v    : valide la capture \n"
-#~ " [92m  V    : valide tout et sauvegarde les fichiers Instrument et WAV\n"
-#~ " [0m"
-#~ msgstr ""
-#~ "  A    : abort capture and restore note timbre \n"
-#~ "  v    : validate capture \n"
-#~ " [92m  V    : validate all and save Instrument and WAV files\n"
-#~ " [0m"
-
-#~ msgid "Fichier WAV avec silence absolu, sauvegarde ViGAPhone\n"
-#~ msgstr "WAV file with absolute silence, ViGAPhone backup\n"
-
-#~ msgid "Répertoire d'enregistrement des sons capturés : <%s>\n"
-#~ msgstr "Directory for captured sounds: <%s>\n"
-
-#~ msgid ", fréquence: théorique "
-#~ msgstr ", frequency: theoretical "
-
-#~ msgid "réelle %.2fHz, écart: %.2fHz (%.1f cents) "
-#~ msgstr "real %.2fHz, offset: %.2fHz (%.1f cents) "
-
-#~ msgid ", la note n'a pas été capturée"
-#~ msgstr ", note was not captured"
-
-#~ msgid ":P1 à "
-#~ msgstr ":P1 at "
-
-#~ msgid "assistant console pour accorder l'Instrument réel: mesure la fréquence de la note jouée et joue son unisson"
-#~ msgstr "console assistant to tune real instrument: measures played note frequency and plays its unison"
-
-#~ msgid "enregistre les fichiers WAV des notes capturées"
-#~ msgstr "save WAV files of captured notes"
+#~ msgid "En attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
+#~ msgstr "Waiting for a loud note followed by silence (sound < %.fdB), press any key to stop..."
 
 #~ msgid ""
 #~ "\n"
-#~ "Conseil : \n"
-#~ "1) régler le niveau d'enregistrement du microphone pour que le son joué le plus fort soit proche du 0dB, \n"
-#~ "2) faire le silence et régler la variable AccordNivBruit à l'aide des touches pmPM pour que le niveau 'max'\n"
-#~ " du bruit du silence soit juste inférieur à AccordNivBruit, normalement inférieur à -50dB\n"
-#~ " dans de bonnes conditions environnementales."
+#~ "==> ATTENTION : Arrêt forcé demandé plusieurs fois, sortie agressive..\n"
 #~ msgstr ""
 #~ "\n"
-#~ "Tip: \n"
-#~ "1) adjust the microphone recording level so that the loudest sound played is close to 0dB, \n"
-#~ "2) keep silent and adjust the AccordNivBruit variable using pmPM keys so that the 'max' level\n"
-#~ " of background noise is just below AccordNivBruit, normally below -50dB\n"
-#~ " in good environmental conditions."
+#~ "==> WARNING: Forced stop requested multiple times, aggressive exit..\n"
 
-#~ msgid "Paramètre AccordNivBruit%5.fdB ;"
-#~ msgstr "AccordNivBruit parameter %5.fdB ;"
-
-#~ msgid "  c    : capture le timbre de la note (le microphone et AccordNivBruit doivent avoir été réglés)\n"
-#~ msgstr "  c   : capture the note timbre (microphone and AccordNivBruit must be set)\n"
-
-#~ msgid "Client JACK MIDI arrêté"
-#~ msgstr "JACK MIDI client stopped"
-
-#~ msgid "Erreur, le nom du fichier donné n'existe pas"
-#~ msgstr "Error, the given filename does not exist"
-
-#~ msgid "Erreur, système non arrêté avant le chargement de la nouvelle configuration \n"
-#~ msgstr "Error, system not stopped before loading new configuration \n"
-
-#~ msgid "vue graphique au 1ier plan"
-#~ msgstr "graphic view in foreground"
-
-#~ msgid "%s à %6.1fHz ~ %5.1fHz %5.1fcents"
-#~ msgstr "%s at %6.1fHz offset %5.1fHz %5.1fcents"
-
-#~ msgid "Touches de commande: q=quitte, ?=affiche l'aide sur la console"
-#~ msgstr "Command keys: q=quit, ?=show help on console"
-
-#~ msgid "Fenêtre SpectreCapture fermée."
-#~ msgstr "SpectreCapture window closed."
-
-#~ msgid "Ouvre la fenêtre SpectreCapture..."
-#~ msgstr "Opening SpectreCapture window..."
-
-#~ msgid "La fenêtre SpectreCapture est déjà ouverte."
-#~ msgstr "SpectreCapture window is already open."
-
-#~ msgid "Session MIDI sauvegardée dans le fichier '%s'\n"
-#~ msgstr "MIDI session saved to file '%s'\n"
-
-#~ msgid "Erreur lors de la récupération des dimensions de l'écran : %lu\n"
-#~ msgstr "Error retrieving screen dimensions: %lu\n"
-
-#~ msgid "Pas de redimensionnement nécessaire. Dimensions actuelles : %d colonnes, %d lignes.\n"
-#~ msgstr "No resizing necessary. Current dimensions: %d columns, %d rows.\n"
-
-#~ msgid "Erreur lors de la modification du tampon d'écran : %lu\n"
-#~ msgstr "Error modifying screen buffer: %lu\n"
-
-#~ msgid "Erreur lors de la modification de l'écran : %lu\n"
-#~ msgstr "Error modifying screen: %lu\n"
-
-#~ msgid "L'écran doit être redimensionné à %d colonnes et %d lignes.\n"
-#~ msgstr "The screen must be resized to %d columns and %d rows.\n"
-
-#~ msgid "Erreur lors de la modification de la taille de l'écran"
-#~ msgstr "Error while resizing the screen"
-
-#~ msgid "L'écran doit être redimensionné à %d colonnes et %d lignes sous Linux.\n"
-#~ msgstr "Screen must be resized to %d columns and %d rows under Linux.\n"
-
-#~ msgid ""
-#~ "==> ATTENTION: Pour afficher correctement les informations, il faut agrandir l'écran,\n"
-#~ " taille actuelle:(%d,%d) taille minimum souhaitée (%d,%d).\n"
-#~ msgstr ""
-#~ "==> WARNING: To display information correctly, the screen must be enlarged,\n"
-#~ " current size:(%d,%d) minimum desired size (%d,%d).\n"
-
-#~ msgid "> Erreur"
-#~ msgstr "Error"
-
-#~ msgid "ouvre la fenêtre graphique: signal audio + spectre fréquence/amplitude des partiels"
-#~ msgstr "open graphic window: audio signal + partials frequency/amplitude spectrum"
-
-#~ msgid "Accorder 'l'instrument"
-#~ msgstr "Tune the Instrument"
-
-#~ msgid ""
-#~ "\n"
-#~ "Erreur : SetConsoleOutputCP(CP_UTF8) a échoué (code erreur : %lu)\n"
-#~ msgstr ""
-#~ "\n"
-#~ "Error: SetConsoleOutputCP(CP_UTF8) failed (error code: %lu)\n"
-
-#~ msgid "Erreur : ViGAPhone doit être lancé depuis un terminal UTF8."
-#~ msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal."
-
-#~ msgid "Erreur : ViGAPhone doit etre lance depuis un terminal UTF8.\n"
-#~ msgstr "Error: ViGAPhone must be launched from a UTF‑8 terminal.\n"
-
-#~ msgid "Edite Note"
-#~ msgstr "Edit Note"
-
-#~ msgid ""
-#~ "Bienvenue dans le ViGAPhone Synth Lab World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
-#~ "Parce que la musique est un monde de partage !"
-#~ msgstr ""
-#~ "Welcome to the ViGAPhone Synth Lab World ! 🎶 🎹 🪗 🎻 🎺 🥁 \n"
-#~ "Because music is a world of sharing!"
-
-#~ msgid " Partiels/pics, "
-#~ msgstr " Partials/peaks, "
-
-#~ msgid ", pour la Note attendue: "
-#~ msgstr ", for expected Note: "
-
-#~ msgid "réelle "
-#~ msgstr "real "
-
-#~ msgid ", écart: "
-#~ msgstr ", offset: "
-
-#~ msgid ", t=choix du spectre, f=échelle dB/réelle, g=gèle la capture, %=envoie les commandes à la console"
-#~ msgstr ", t=spectrum choice, f=dB/linear scale, g=freeze capture, %=send commands to console"
-
-#~ msgid ":Spectre Capture de la note "
-#~ msgstr ":Capture Spectrum of note "
-
-#~ msgid "Capture démarrée jusqu'au silence ou appuyer sur une touche pour arrêter..."
-#~ msgstr "Capture started until silence or press any key to stop..."
+#~ msgid "==> ATTENTION : Arrêt forcé demandé, pour quitter proprement l'application, utiliser la commande 'Q'."
+#~ msgstr "==> WARNING: Forced stop requested; use 'Q' to exit the application cleanly."

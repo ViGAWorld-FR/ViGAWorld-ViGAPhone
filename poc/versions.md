@@ -1,4 +1,9 @@
 ## ViGAPhone Synth Lab, versions
+1.3.4
+Évolution
+- simplification du process d'accordage pour les accordeurs pro
+- amélioration de l'interface graphique, notamment pour les petits écrans des téléphones Android
+
 1.3.3
 Évolution:
 - démarre sur la vue graphique qui devient la vue principale
