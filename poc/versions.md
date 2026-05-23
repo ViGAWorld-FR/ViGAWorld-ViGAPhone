@@ -1,8 +1,23 @@
 ## ViGAPhone Synth Lab, versions
+1.3.5
+Évolution
+- vue Spectrum, pour la note reconnue les pics de fréquences détectés sont réduits pour correspondre aux partiels de la note ce qui facilite l'harmonisation de l'instrument
+- touches page up, page down, gérées dans la vue Console
+
+-- EN
+What's new:
+- Spectrum view: For the recognized note, detected frequency peaks are scaled to match the note's partials, making instrument voicing easier.
+- Page Up and Page Down keys are now supported in the Console view.
+
 1.3.4
 Évolution
 - simplification du process d'accordage pour les accordeurs pro
 - amélioration de l'interface graphique, notamment pour les petits écrans des téléphones Android
+
+--------- EN
+Evolution
+- Simplified tuning workflow designed for pro piano tuners
+- UI improvements, featuring better optimization for smaller Android displays
 
 1.3.3
 Évolution:
