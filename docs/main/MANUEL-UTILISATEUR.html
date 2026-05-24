@@ -7,7 +7,7 @@
 	<meta name="author" content="TualatriX"/>
 	<meta name="created" content="2008-02-15T12:08:28"/>
 	<meta name="changedby" content="Vincent GACOUGNOLLE"/>
-	<meta name="changed" content="2026-05-24T12:26:20.543775953"/>
+	<meta name="changed" content="2026-05-24T12:35:45.363816599"/>
 	<meta name="Info 1" content=""/>
 	<meta name="Info 2" content=""/>
 	<meta name="Info 3" content=""/>
@@ -1351,7 +1351,7 @@ exemple : 1&amp;2 2&amp;2,2 3&amp;3,3 ...
 		</td>
 		<td width="682" style="background: transparent; border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"><p align="left" style="font-weight: normal; font-style: normal; text-decoration: none">
 			<font color="#000000"><font face="Liberation Serif, serif"><font size="3" style="font-size: 12pt"><span style="text-decoration: none">en
-			dB &lt;=0&nbsp;: Niveau de Bruit, pour l'accordeur niveau sonore
+			dB &lt;=0&nbsp;: 'Niveau de Bruit', pour l'accordeur niveau sonore
 			minimum juste au-dessus du bruit ambiant, le son d'amplitude
 			inférieure à ce niveau ne sera pas analysé</span></font></font></font></p>
 		</td>
@@ -2248,8 +2248,8 @@ un travail minutieux et demande beaucoup plus de temps.</font></p>
 : réglage du microphone</font></h2>
 <p style="margin-bottom: 0cm; font-weight: normal"><font face="Arial, sans-serif">Afficher
 la vue spectrogramme qui affiche aussi le niveau maximum du son capté
-par le microphone, et permet de définir le paramètre `Niveau de
-Bruit` quand le spectrogramme n'affiche plus d'activité sonore soit
+par le microphone, et permet de définir le paramètre 'Niveau de
+Bruit' quand le spectrogramme n'affiche plus d'activité sonore soit
 environ -60dB dans le meilleur des cas à -30dB dans un environnement
 très bruyant comme une chambre donnant sur une rue passante.</font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
@@ -2266,9 +2266,9 @@ Parfois ce réglage n'est pas disponible.</font></p>
 
 </p>
 <p style="margin-bottom: 0cm; font-weight: normal"><font face="Arial, sans-serif">Dans
-la vue spectrogramme, régler le paramètre AccordNivBruit pour être
-juste au dessus du niveau de bruit du silence et ne plus voir le
-spectre fréquenciel. Attention aux ordinateurs ayant des
+la vue spectrogramme, régler le paramètre 'Niveau de Bruit' pour
+être juste au dessus du niveau de bruit du silence et ne plus voir
+le spectre fréquenciel. Attention aux ordinateurs ayant des
 ventilateurs bruyants, dans ce cas éloigner l'ordinateur de
 l'instrument et utiliser un microphone externe.</font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
@@ -2357,24 +2357,26 @@ frapper la mono-corde, il est aussi possible d'utiliser un onglet.</font></p>
 <p style="margin-bottom: 0cm"><font face="Arial, sans-serif">La
 mesure démarre automatiquement quand une note est jouée forte et
 s'arrête automatique quand le niveau sonore passe sous le seuil
-défini par AccordNivBruit ou si une touche est appuyée sur le
-clavier de l'ordinateur ou si la durée limite de 30s est atteinte.
-Pour les notes basses il faut un minimum de 5 secondes
-d'enregistrement si l'enveloppe doit être définie par la suite sans
-avoir atteint le niveau de référence à -60dB, ce délai devrait
-être suffisant pour contenir les temps d'attaque (Attack), de
-décroissance rapide (Decay) et de décroissance naturelle ou de
-maintien (Sustain).</font></p>
+défini par <span style="font-weight: normal">'</span><span style="font-weight: normal">Niveau
+de Bruit</span><span style="font-weight: normal">'</span> ou si une
+touche est appuyée sur le clavier de l'ordinateur ou si la durée
+limite de 30s est atteinte. Pour les notes basses il faut un minimum
+de 5 secondes d'enregistrement si l'enveloppe doit être définie par
+la suite sans avoir atteint le niveau de référence à -60dB, ce
+délai devrait être suffisant pour contenir les temps d'attaque
+(Attack), de décroissance rapide (Decay) et de décroissance
+naturelle ou de maintien (Sustain).</font></p>
 <p style="margin-bottom: 0cm"><br/>
 
 </p>
 <p style="margin-bottom: 0cm"><font face="Arial, sans-serif">Remarque
-: le seuil défini par AccordNivBruit est un niveau absolu lié au
-réglage de la sensibilité du microphone, par exemple s'il est
-définit à -60dB est que le niveau maximum de la note jouée est à
--12dB alors le résultat graphique en dB normalisé à 0dB montrera
-une fin du signal sonore au niveau de -48dB dans le cas d'un arrêt
-automatique sur détection d'un silence.</font></p>
+: le seuil défini par <span style="font-weight: normal">'</span><span style="font-weight: normal">Niveau
+de Bruit</span><span style="font-weight: normal">'</span> est un
+niveau absolu lié au réglage de la sensibilité du microphone, par
+exemple s'il est définit à -60dB est que le niveau maximum de la
+note jouée est à -12dB alors le résultat graphique en dB normalisé
+à 0dB montrera une fin du signal sonore au niveau de -48dB dans le
+cas d'un arrêt automatique sur détection d'un silence.</font></p>
 <p style="margin-bottom: 0cm"><br/>
 
 </p>
@@ -2419,12 +2421,12 @@ d'accordage.</font></p>
 la note courante sur la première note enregistrée, et lancer la
 commande du menu spécial Accordeur &quot;capture le timbre des notes
 de l'Instrument à partir d'un fichier WAV&quot;, si l'application
-détecte moins de notes qu'attendu régler le paramètre
-AccordNivBruit en remontant le niveau de silence séparant les notes.
-Dans le cas de la reprise d'un travail d'analyse et de paramétrage,
-il faut utiliser l'option W pour charger le son WAV de chaque note
-sans l'analyse automatique qui effacerait les précédents
-paramétrages.</font></p>
+détecte moins de notes qu'attendu régler le paramètre <span style="font-weight: normal">'</span><span style="font-weight: normal">Niveau
+de Bruit</span><span style="font-weight: normal">'</span> en
+remontant le niveau de silence séparant les notes. Dans le cas de la
+reprise d'un travail d'analyse et de paramétrage, il faut utiliser
+l'option W pour charger le son WAV de chaque note sans l'analyse
+automatique qui effacerait les précédents paramétrages.</font></p>
 <p style="margin-bottom: 0cm"><br/>
 
 </p>
