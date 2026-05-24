@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-23 15:40+0200\n"
+"POT-Creation-Date: 2026-05-24 13:08+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -473,6 +473,9 @@ msgstr "Set Microphone Noise Level"
 
 msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
 msgstr "master volume raised from %.1fdB to %.1fdB \n"
+
+msgid "--- Client AAudio PCM-OUT démarré et actif..."
+msgstr "--- AAudio PCM-OUT client started and active..."
 
 msgid ""
 "\n"
