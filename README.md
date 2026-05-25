@@ -142,7 +142,7 @@ For licensing or support inquiries:
 
 ### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
 
-● **OS Requirements:** Any Android since version 11.  
+● **OS Requirements:** Any Android since version 10.  
 
 Install the App **Piano Tuner & Voicing ETD Pro** from the Google Play Store.
 
@@ -150,7 +150,7 @@ Install the App **Piano Tuner & Voicing ETD Pro** from the Google Play Store.
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
 ● **Hardware Requirements:** x64 platform amd/intel PCs, Chromebooks etc, **AVX** support.  
-● **OS Requirements:** Any distribution compatible with **X11**, **OpenGL**, using **GNOME** or equivalent.  
+● **OS Requirements:** Any distribution compatible with **libc6 >= 2.36** (Debian12 minimum) **X11**, **OpenGL**, using **GNOME** or equivalent.  
 ● **Manual Download and Installation, without admin/root rights:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
     ● Download the package: `ViGAPhoneR_linux.tar.gz`.  
     ● Extract the archive.  
@@ -295,7 +295,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
 
-● **Prérequis OS :** Toute distribution Android depuis la version 11.  
+● **Prérequis OS :** Toute distribution Android depuis la version 10.  
 
 Installez l'App **Piano Tuner & Voicing ETD Pro** depuis le Google Play Store.
 
@@ -303,7 +303,7 @@ Installez l'App **Piano Tuner & Voicing ETD Pro** depuis le Google Play Store.
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
 ● **Prérequis matériel :** Plateforme x64 amd/intel PCs, Chromebooks etc, support **AVX**.  
-● **Prérequis OS :** Toute distribution compatible **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
+● **Prérequis OS :** Toute distribution compatible avec **libc6 >= 2.36** (Debian12 minimum) **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
 ● **Téléchargement et installation manuelle, sans droits admin/root :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
     ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.  
     ● Dézippez l'archive.  
