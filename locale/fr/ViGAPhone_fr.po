@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-24 13:08+0200\n"
+"POT-Creation-Date: 2026-05-27 10:03+0200\n"
 "PO-Revision-Date: 2026-04-12 07:20+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1434,11 +1434,14 @@ msgstr ""
 msgid "Sauvegarde du fichier Instrument: %s\n"
 msgstr ""
 
+msgid "Saisir un nouveau nom de fichier Instrument\n"
+msgstr ""
+
 msgid ""
 "Appuyer sur [ENTREE] pour écrire sur le fichier Instrument actuel\n"
 " ou saisir '+' pour faire une sauvegarde incrémentielle\n"
 " ou saisir un nouveau nom de fichier Instrument\n"
-"? "
+" "
 msgstr ""
 
 msgid "nom de fichier incorrect <%s>\n"
@@ -1484,6 +1487,9 @@ msgid "==> ERREUR: impossible de trouver une fonte équivalente à <%s> \n"
 msgstr ""
 
 msgid "Fonte chargée par défaut : %s : %s \n"
+msgstr ""
+
+msgid "Volume général %.1fdB"
 msgstr ""
 
 msgid "Spectre temporel(s)"
@@ -1562,6 +1568,9 @@ msgid "Modifie"
 msgstr ""
 
 msgid "Gèle"
+msgstr ""
+
+msgid "Auto Sel. Note"
 msgstr ""
 
 msgid "Erreur icône de l'application non trouvée\n"

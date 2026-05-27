@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-24 13:08+0200\n"
+"POT-Creation-Date: 2026-05-27 10:03+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1541,11 +1541,14 @@ msgstr "Save successful"
 msgid "Sauvegarde du fichier Instrument: %s\n"
 msgstr "Saving Instrument file: %s\n"
 
+msgid "Saisir un nouveau nom de fichier Instrument\n"
+msgstr "Enter a new Instrument filename\n"
+
 msgid ""
 "Appuyer sur [ENTREE] pour écrire sur le fichier Instrument actuel\n"
 " ou saisir '+' pour faire une sauvegarde incrémentielle\n"
 " ou saisir un nouveau nom de fichier Instrument\n"
-"? "
+" "
 msgstr ""
 "Press [ENTER] to overwrite current Instrument file\n"
 " or enter '+' to make an incremental backup\n"
@@ -1596,6 +1599,9 @@ msgstr "==> ERROR: unable to find a font equivalent to <%s> \n"
 
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr "Default font loaded: %s : %s \n"
+
+msgid "Volume général %.1fdB"
+msgstr "Master volume %.1fdB"
 
 msgid "Spectre temporel(s)"
 msgstr "Time spectrum(s) "
@@ -1674,6 +1680,9 @@ msgstr "Modify"
 
 msgid "Gèle"
 msgstr "Freeze"
+
+msgid "Auto Sel. Note"
+msgstr "Auto Sel. Note"
 
 msgid "Erreur icône de l'application non trouvée\n"
 msgstr "Error: application icon not found\n"
@@ -2374,6 +2383,9 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+#~ msgid "Volume Sonore Général %.1fdB"
+#~ msgstr "master volume"
 
 #~ msgid "En attente d'une note forte terminée par un silence(son < %.fdB), appuyer sur une touche pour arrêter..."
 #~ msgstr "Waiting for a loud note followed by silence (sound < %.fdB), press any key to stop..."

@@ -1,4 +1,9 @@
 ## ViGAPhone Synth Lab, versions
+1.3.6
+- quelques améliorations mineures
+-- EN
+- a few minor improvements
+
 1.3.5
 Évolution
 - vue Spectrum, pour la note reconnue les pics de fréquences détectés sont réduits pour correspondre aux partiels de la note ce qui facilite l'harmonisation de l'instrument
