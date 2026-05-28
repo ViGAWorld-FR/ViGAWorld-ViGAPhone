@@ -1,4 +1,21 @@
 ## ViGAPhone Synth Lab, versions
+1.3.7
+Amélioration:
+- quelques améliorations mineures
+
+Android:
+- meilleure gestion du microphone, libération immédiate en cas de bascule sur une autre application
+- bouton menu du choix du microphone
+
+---- EN
+Improvements:
+- A few minor improvements
+
+Android:
+- Improved microphone management, immediately releasing the audio device when switching to another application.
+- Added a menu button for microphone selection.
+
+
 1.3.6
 - quelques améliorations mineures
 -- EN
