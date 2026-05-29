@@ -1,4 +1,13 @@
 ## ViGAPhone Synth Lab, versions
+1.3.8
+- gestion de l'échappement d'une commande ou d'une saisie de texte en cours
+- quelques améliorations mineures
+
+---- EN
+- Handling Escape/Back key to cancel active commands or text inputs.
+- a few minor improvements
+
+
 1.3.7
 Amélioration:
 - quelques améliorations mineures
