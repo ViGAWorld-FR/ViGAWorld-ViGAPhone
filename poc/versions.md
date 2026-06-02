@@ -1,4 +1,11 @@
 ## ViGAPhone Synth Lab, versions
+1.3.9
+- quelques corrections mineures
+
+-- EN
+- a few minor corrections
+
+
 1.3.8
 - gestion de l'échappement d'une commande ou d'une saisie de texte en cours
 - quelques améliorations mineures
