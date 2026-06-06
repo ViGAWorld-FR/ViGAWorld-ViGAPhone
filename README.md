@@ -1,6 +1,5 @@
 # ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer MIDI-MPE application and VST3 plugin, Timbre Analyzer, Instrument Tuner and more...
 App for Android<img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" />/Windows🪟/Linux🐧
-[Android: Join the Test Campaign group and provide feedback](https://groups.google.com/u/2/g/piano-tuner--voicing-etd-pro---tests)
 <p align="center">
   <img src="images/ViGAPhone-logo_128.png" width="128" align="left" />
   <img src="images/ViGAPhone-logo_128.png" width="128" align="right" />
@@ -138,13 +137,13 @@ For licensing or support inquiries:
 
 <p id="Installation-en"></p>
 
-## 🛠️ Android / Linux / Windows Installation
+## 🛠️ Installation
 
-### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
+### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android / ChromeOS
 
 ● **OS Requirements:** Any Android since version 10.  
 
-Install the App **Piano Tuner & Voicing ETD Pro** from the Google Play Store.
+Install the App [**Piano Tuner & Voicing ETD Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) from the Google Play Store.
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
@@ -291,13 +290,13 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 <p id="Installation-fr"></p>
 
-## 🛠️ Installation Linux / Windows
+## 🛠️ Installation
 
-### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android
+### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android / ChromeOS
 
 ● **Prérequis OS :** Toute distribution Android depuis la version 10.  
 
-Installez l'App **Piano Tuner & Voicing ETD Pro** depuis le Google Play Store.
+Installez l'App [**Piano Tuner & Voicing ETD Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) depuis le Google Play Store.
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)

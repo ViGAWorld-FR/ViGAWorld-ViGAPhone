@@ -1,4 +1,17 @@
 ## ViGAPhone Synth Lab, versions
+1.4.0
+- quelques corrections mineures
+
+Android:
+- interface MIDI activée
+
+-- EN
+- a few minor corrections
+
+Android:
+- MIDI interface enabled
+
+
 1.3.9
 - quelques corrections mineures
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-02 17:28+0200\n"
+"POT-Creation-Date: 2026-06-06 21:06+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -474,8 +474,38 @@ msgstr "Set Microphone Noise Level"
 msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
 msgstr "master volume raised from %.1fdB to %.1fdB \n"
 
+msgid "périphérique déconnecté"
+msgstr "device disconnected"
+
+msgid "périphérique connecté"
+msgstr "device connected"
+
 msgid "--- Client AAudio PCM-OUT démarré et actif..."
 msgstr "--- AAudio PCM-OUT client started and active..."
+
+msgid "--- Service AMidi MIDI-IN démarré et actif..."
+msgstr "--- Service AMidi MIDI-IN started and active..."
+
+msgid "--- En attente des événements MIDI..."
+msgstr "--- Waiting for MIDI events..."
+
+msgid "Aucun périphérique MIDI-OUT disponible.\n"
+msgstr "No MIDI-OUT device available.\n"
+
+msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
+msgstr "Choose MIDI client to connect or disconnect:\n"
+
+msgid "La liste est vide, connecter un périphérique MIDI"
+msgstr "The list is empty, connect a MIDI device"
+
+msgid "client connecté"
+msgstr "connected client"
+
+msgid "client déconnecté"
+msgstr "disconnected client"
+
+msgid "liste des connexions"
+msgstr "list of connections"
 
 msgid ""
 "\n"
@@ -689,9 +719,6 @@ msgstr "==> ALSA MIDI connection failure, MIDI port <%s> not found\n"
 msgid "==> Erreur lors de la connexion au port MIDI.\n"
 msgstr "==> Error while connecting to MIDI port.\n"
 
-msgid "--- En attente des événements MIDI..."
-msgstr "--- Waiting for MIDI events..."
-
 msgid "==> Attention:aucun client MIDI connecté\n"
 msgstr "==> Warning: no MIDI client connected\n"
 
@@ -784,9 +811,6 @@ msgstr "ALSA auto-connection\n"
 
 msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
 msgstr "Auto-connection impossible, switch to manual if needed.\n"
-
-msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
-msgstr "Choose MIDI client to connect or disconnect:\n"
 
 msgid "La liste est vide, connecter un périphérique MIDI puis appuyer sur [ENTREE] pour rafraîchir la liste\n"
 msgstr "The list is empty, connect a MIDI device then press [ENTER] to refresh the list\n"
@@ -884,9 +908,6 @@ msgstr "==> ERROR: Audio PCM client failed to start.\n"
 
 msgid "--- Client Audio PCM démarré et actif...\n"
 msgstr "--- Audio PCM client started and active...\n"
-
-msgid "Aucun périphérique MIDI-OUT disponible.\n"
-msgstr "No MIDI-OUT device available.\n"
 
 msgid "Périphérique %d : \"%s\"\n"
 msgstr "Device %d: \"%s\"\n"
@@ -1151,9 +1172,6 @@ msgstr " connected to default port"
 
 msgid "Client Audio JACK MIDI : "
 msgstr "JACK MIDI Audio Client: "
-
-msgid "liste des connexions"
-msgstr "list of connections"
 
 msgid "Client Audio ALSA MIDI : "
 msgstr "ALSA MIDI Audio Client: "
@@ -1949,6 +1967,7 @@ msgid ""
 "--- Liste des commandes disponibles sur la dernière note jouée: \n"
 "[flèches] : change la note courante, gauche = précédente, droite = suivante, bas = octave inférieure, haut = octave supérieure ; si les flèches ne marchent pas utiliser les commandes mMpP \n"
 "[espace] : rejoue/arrête la ou les 3 dernières notes \n"
+"[échap] : quitte la commande en cours \n"
 "b : rejoue et maintient la ou les 3 dernières notes, les touches restent baissées\n"
 "n : mémorise la note courante pour former un accord \n"
 "H : affiche les fréquences et amplitudes des partiels et quelques informations sur la note \n"
@@ -1984,6 +2003,7 @@ msgstr ""
 "--- List of available commands for the last note played: \n"
 "[arrows] : change current note: left = previous, right = next, down = lower octave, up = upper octave; if arrows don't work use mMpP commands \n"
 "[space] : replay/stop the last note(s) \n"
+"[Esc] : quit current command \n"
 "b : replay and sustain the last note(s), keys remain pressed\n"
 "n : memorize current note to build a chord \n"
 "H : displays partials' frequencies and amplitudes and note info \n"

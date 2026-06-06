@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-02 17:28+0200\n"
+"POT-Creation-Date: 2026-06-06 21:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -401,7 +401,37 @@ msgstr ""
 msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
 msgstr ""
 
+msgid "périphérique déconnecté"
+msgstr ""
+
+msgid "périphérique connecté"
+msgstr ""
+
 msgid "--- Client AAudio PCM-OUT démarré et actif..."
+msgstr ""
+
+msgid "--- Service AMidi MIDI-IN démarré et actif..."
+msgstr ""
+
+msgid "--- En attente des événements MIDI..."
+msgstr ""
+
+msgid "Aucun périphérique MIDI-OUT disponible.\n"
+msgstr ""
+
+msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
+msgstr ""
+
+msgid "La liste est vide, connecter un périphérique MIDI"
+msgstr ""
+
+msgid "client connecté"
+msgstr ""
+
+msgid "client déconnecté"
+msgstr ""
+
+msgid "liste des connexions"
 msgstr ""
 
 msgid ""
@@ -606,9 +636,6 @@ msgstr ""
 msgid "==> Erreur lors de la connexion au port MIDI.\n"
 msgstr ""
 
-msgid "--- En attente des événements MIDI..."
-msgstr ""
-
 msgid "==> Attention:aucun client MIDI connecté\n"
 msgstr ""
 
@@ -690,9 +717,6 @@ msgid "connexion auto ALSA\n"
 msgstr ""
 
 msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
-msgstr ""
-
-msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
 msgstr ""
 
 msgid "La liste est vide, connecter un périphérique MIDI puis appuyer sur [ENTREE] pour rafraîchir la liste\n"
@@ -788,9 +812,6 @@ msgid "==> ERREUR : client Audio PCM en échec non démarré.\n"
 msgstr ""
 
 msgid "--- Client Audio PCM démarré et actif...\n"
-msgstr ""
-
-msgid "Aucun périphérique MIDI-OUT disponible.\n"
 msgstr ""
 
 msgid "Périphérique %d : \"%s\"\n"
@@ -1052,9 +1073,6 @@ msgid " connecté au port par défaut"
 msgstr ""
 
 msgid "Client Audio JACK MIDI : "
-msgstr ""
-
-msgid "liste des connexions"
 msgstr ""
 
 msgid "Client Audio ALSA MIDI : "
@@ -1797,6 +1815,7 @@ msgid ""
 "--- Liste des commandes disponibles sur la dernière note jouée: \n"
 "[flèches] : change la note courante, gauche = précédente, droite = suivante, bas = octave inférieure, haut = octave supérieure ; si les flèches ne marchent pas utiliser les commandes mMpP \n"
 "[espace] : rejoue/arrête la ou les 3 dernières notes \n"
+"[échap] : quitte la commande en cours \n"
 "b : rejoue et maintient la ou les 3 dernières notes, les touches restent baissées\n"
 "n : mémorise la note courante pour former un accord \n"
 "H : affiche les fréquences et amplitudes des partiels et quelques informations sur la note \n"
