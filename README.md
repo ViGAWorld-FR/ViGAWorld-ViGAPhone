@@ -143,7 +143,7 @@ For licensing or support inquiries:
 
 ● **OS Requirements:** Any Android since version 10.  
 
-Install the App [**Piano Tuner ETD+MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) from the Google Play Store.
+Install the App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) from the Google Play Store.
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
@@ -296,7 +296,7 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ● **Prérequis OS :** Toute distribution Android depuis la version 10.  
 
-Installez l'App [**Piano Tuner ETD+MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) depuis le Google Play Store.
+Installez l'App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) depuis le Google Play Store.
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
