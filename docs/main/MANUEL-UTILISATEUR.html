@@ -7,7 +7,7 @@
 	<meta name="author" content="TualatriX"/>
 	<meta name="created" content="2008-02-15T12:08:28"/>
 	<meta name="changedby" content="Vincent GACOUGNOLLE"/>
-	<meta name="changed" content="2026-06-10T10:20:33.408325675"/>
+	<meta name="changed" content="2026-06-15T09:49:03.791960624"/>
 	<meta name="Info 1" content=""/>
 	<meta name="Info 2" content=""/>
 	<meta name="Info 3" content=""/>
@@ -1160,7 +1160,7 @@ automatiquement à la note suivante</span><span style="font-weight: normal">,
 </span><span style="font-weight: normal">cela devrait prendre moins
 de 5mn. <br/>
 →</span><span style="font-weight: normal"> </span><i><b>Menu
-: Vue </b></i><i><b>I</b></i><i><b>nharmonicité<br/>
+: </b></i><i><b>v</b></i><i><b>ue </b></i><i><b>I</b></i><i><b>nharmonicité<br/>
 </b></i><span style="font-style: normal"><span style="font-weight: normal">Remarque:
 </span></span><span style="font-style: normal"><span style="font-weight: normal">p</span></span><span style="font-weight: normal">our
 les notes aiguës non étouffées présentant d'importantes
@@ -1176,7 +1176,7 @@ fréquences avec les partiels de la note.</span></font></p>
 <p><font face="Arial, sans-serif"><b>3) </b><b>Accorder le piano</b>,
 en utilisant à la fois les yeux et les oreilles. <br/>
 → <i><b>Menu
-: Vue </b></i><i><b>A</b></i><i><b>ccorde l'</b></i><i><b>I</b></i><i><b>nstrument</b></i></font></p>
+: </b></i><i><b>v</b></i><i><b>ue </b></i><i><b>Assistant d'accordage</b></i></font></p>
 <h1 class="western"><a name="__RefHeading___Toc90745_3142432121"></a><font face="Arial, sans-serif">5Fichiers
 de Configuration, Paramétrage, Application et Instruments</font></h1>
 <h2 class="western"><a name="__RefHeading___Toc85060_3142432121"></a><font face="Arial, sans-serif">5.1Fichier
@@ -2251,6 +2251,8 @@ supporter cette tension supplémentaire, notamment dans les cordes
 aiguës réputées être en limite de rupture et très cassantes.</font></font></p>
 <h1 class="western"><a name="__RefHeading___Toc98410_3142432121"></a><font face="Arial, sans-serif">6Capturer
 le timbre d'un instrument réel</font></h1>
+<p><font face="Arial, sans-serif">La capture du timbre d'un
+instrument réel se fait dans la vue Inharmonicité.</font></p>
 <p><font face="Arial, sans-serif">Si l'objectif est uniquement
 l'accordage de l'instrument réel, alors il suffit de capturer les
 notes les unes après les autres et de conserver les valeurs mesurées
@@ -2347,10 +2349,10 @@ parasites générés par les cordes non étouffées.</font></p>
 le timbre d'un instrument note après note</font></h2>
 <p style="margin-bottom: 0cm"><font face="Arial, sans-serif">A partir
 de la vue console Inharmonicité et optionnellement de la vue
-graphique en mode transmission de commandes, utiliser la commande de
-capture du timbre d'une note. La vue graphique permet de gérer la
-capture par note et de voir instantanément et graphiquement le
-résultat de l'analyse qui peut être corrigé graphiquement.</font></p>
+graphique, utiliser la commande de capture du timbre d'une note. La
+vue graphique permet de gérer la capture par note et de voir
+instantanément et graphiquement le résultat de l'analyse qui peut
+être corrigé graphiquement.</font></p>
 <p style="margin-bottom: 0cm"><br/>
 
 </p>
@@ -2389,6 +2391,11 @@ naturelle ou de maintien (Sustain).</font></p>
 <p style="margin-bottom: 0cm"><br/>
 
 </p>
+<p style="margin-bottom: 0cm"><font face="Arial, sans-serif">Si une
+capture a déjà été faite pour la note courante, elle est protégée
+contre une nouvelle capture accidentelle tant que la capture n'a pas
+été validée ou abandonnée. Une capture non validée est affichée
+en rouge dans la vue console inharmonicité.</font></p>
 <p style="margin-bottom: 0cm"><font face="Arial, sans-serif">Remarque
 : le seuil défini par <span style="font-weight: normal">'</span><span style="font-weight: normal">Niveau
 de Bruit</span><span style="font-weight: normal">&quot;</span> est un
@@ -2402,19 +2409,24 @@ cas d'un arrêt automatique sur détection d'un silence.</font></p>
 </p>
 <p style="margin-bottom: 0cm"><font face="Arial, sans-serif">Une fois
 toutes les notes capturées et avant de poursuivre par la
-modification des paramètres composant le timbre, utiliser la
-commande &quot;sauvegarde les paramètres de l'Instrument&quot; ce
-qui créera un nouveau fichier Instrument et créera un fichier WAV
-contenant toutes les captures sonores. </font>
-</p>
+modification des paramètres composant le timbre, appuyer sur le
+bouton &quot;Valide et sauve&quot; ce qui va accorder l'Instrument
+selon les règles automatiques et effacer les fréquences
+particulières de chaque note capturée donnant un Instrument
+immédiatement utilisable pour jouer ou pour accorder l'instrument
+réel ; le bouton déclenche ensuite la commande &quot;sauvegarde les
+paramètres de l'Instrument&quot;, un nouveau fichier Instrument est
+créé ainsi qu'un fichier WAV contenant toutes les captures sonores
+utiles pour une analyse ultérieure.</font></p>
 <p style="margin-bottom: 0cm"><br/>
 
 </p>
-<p style="margin-bottom: 0cm"><font face="Arial, sans-serif">Si une
-capture a déjà été faite pour la note courante, elle est protégée
-contre une nouvelle capture accidentelle tant que la capture n'a pas
-été validée ou abandonnée. Une capture non validée est affichée
-en rouge dans la vue console inharmonicité.</font></p>
+<p style="margin-bottom: 0cm"><font face="Arial, sans-serif">Pour
+parfaire l'ensemble, il faut ajuster le nombre de cordes par note, et
+la présence ou non d'un étouffoir.</font></p>
+<p style="margin-bottom: 0cm"><br/>
+
+</p>
 <h2 class="western"><a name="__RefHeading___Toc295567_3142432121"></a>
 <font face="Arial, sans-serif">6.4Contrôler les résonances
 sympathiques</font></h2>

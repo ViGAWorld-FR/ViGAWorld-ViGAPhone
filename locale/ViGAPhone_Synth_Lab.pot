@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-06 21:06+0200\n"
+"POT-Creation-Date: 2026-06-15 09:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -251,6 +251,12 @@ msgid "Echec de la capture du timbre, vérifier que la fréquence est compatible
 msgstr ""
 
 msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
+msgstr ""
+
+msgid "==> Attention: diapason défini à "
+msgstr ""
+
+msgid "note altérée à "
 msgstr ""
 
 msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
@@ -1615,6 +1621,14 @@ msgstr ""
 msgid "Lancement des moteurs Audio PCM et MIDI..."
 msgstr ""
 
+msgid "Paramétrage de l'Instrument..."
+msgstr ""
+
+msgid ""
+"==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
+"<%s>\n"
+msgstr ""
+
 msgid "Arrêt de l'application..."
 msgstr ""
 
@@ -1835,7 +1849,7 @@ msgid ""
 "d : affiche les informations de débogage On/Off \n"
 "D : menu spécial Divers et Debogage\n"
 "F : charge un nouveau fichier d'Instrument \n"
-"G : choisit un paramètre global à modifier \n"
+"G : choisit un paramètre général à modifier \n"
 "i : modifie la description de l'Instrument \n"
 "I : affiche les informations sur le programme et le fichier d'Instrument \n"
 "q : quitte la commande en cours \n"
@@ -2070,6 +2084,9 @@ msgstr ""
 msgid "accorde l'Instrument selon ses règles d'accordage "
 msgstr ""
 
+msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences fixées"
+msgstr ""
+
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
 msgstr ""
 
@@ -2094,10 +2111,10 @@ msgstr ""
 msgid "vue Inharmonicité: capture le timbre"
 msgstr ""
 
-msgid "vue Accorde l'Instrument"
+msgid "vue Assistant d'accordage"
 msgstr ""
 
-msgid "vue Edite les Partiels de la note"
+msgid "vue Modifie les partiels de la note"
 msgstr ""
 
 msgid "Charge un Instrument"
@@ -2106,7 +2123,13 @@ msgstr ""
 msgid "Crée un nouvel Instrument"
 msgstr ""
 
-msgid "Edite la description de l'Instrument"
+msgid "Modifie la description de l'Instrument"
+msgstr ""
+
+msgid "Modifie les paramètres de la note courante"
+msgstr ""
+
+msgid "Modifie les paramètres généraux"
 msgstr ""
 
 msgid "Sauvegarde les modifications"
@@ -2121,7 +2144,7 @@ msgstr ""
 msgid "Plein écran"
 msgstr ""
 
-msgid "Fermer l'application"
+msgid "Quitte l'application"
 msgstr ""
 
 msgid ""
@@ -2160,14 +2183,6 @@ msgid "WINMM connexion d'un périphérique MIDI\n"
 msgstr ""
 
 msgid "WINMM déconnexion d'un périphérique MIDI\n"
-msgstr ""
-
-msgid "Paramétrage de l'Instrument..."
-msgstr ""
-
-msgid ""
-"==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
-"<%s>\n"
 msgstr ""
 
 msgid ""

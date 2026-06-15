@@ -1,4 +1,15 @@
 ## ViGAPhone Synth Lab, versions
+1.4.1
+- sélection automatique du spectre sur simple passage de la souris
+- vue graphique, ajout de la possibilité d'altérer la fréquence d'une note calculée par l'accordage automatique
+- quelques corrections mineures
+
+-- EN
+- automatic spectrum selection simply by hovering the mouse
+- graphical view: added the ability to alter the frequency of a note calculated by automatic tuning
+- a few minor corrections
+
+
 1.4.0
 - quelques corrections mineures
 

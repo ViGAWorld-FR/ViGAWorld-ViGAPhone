@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-06 21:06+0200\n"
+"POT-Creation-Date: 2026-06-15 09:30+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -315,6 +315,12 @@ msgstr "Timbre capture failed, check that the frequency is compatible with the n
 
 msgid "Accordage automatique selon les règles définies dans le fichier Instrument"
 msgstr "Automatic tuning according to the rules defined in the Instrument file"
+
+msgid "==> Attention: diapason défini à "
+msgstr "==> Warning: tuning fork defined at"
+
+msgid "note altérée à "
+msgstr "altered note at "
 
 msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
 msgstr "==> Warning: note frequencies have been defined in the Instrument file, they take priority over rules; corresponding notes will not be tuned"
@@ -1731,6 +1737,16 @@ msgstr ""
 msgid "Lancement des moteurs Audio PCM et MIDI..."
 msgstr "Launching Audio PCM and MIDI engines..."
 
+msgid "Paramétrage de l'Instrument..."
+msgstr "Instrument setup..."
+
+msgid ""
+"==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
+"<%s>\n"
+msgstr ""
+"==> Error, the filename passed as parameter does not exist.\n"
+"<%s>\n"
+
 msgid "Arrêt de l'application..."
 msgstr "Stopping application..."
 
@@ -1987,7 +2003,7 @@ msgid ""
 "d : affiche les informations de débogage On/Off \n"
 "D : menu spécial Divers et Debogage\n"
 "F : charge un nouveau fichier d'Instrument \n"
-"G : choisit un paramètre global à modifier \n"
+"G : choisit un paramètre général à modifier \n"
 "i : modifie la description de l'Instrument \n"
 "I : affiche les informations sur le programme et le fichier d'Instrument \n"
 "q : quitte la commande en cours \n"
@@ -2023,7 +2039,7 @@ msgstr ""
 "d : display debug information On/Off \n"
 "D : special Misc and Debug menu\n"
 "F : load a new Instrument file \n"
-"G : choose a global parameter to modify \n"
+"G : choose a general parameter to modify \n"
 "i : modify Instrument description \n"
 "I : display program and Instrument file info \n"
 "q : quit current command \n"
@@ -2272,6 +2288,9 @@ msgstr "capture instrument note timbre from WAV file, must start from current no
 msgid "accorde l'Instrument selon ses règles d'accordage "
 msgstr "tune the instrument according to its tuning rules "
 
+msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences fixées"
+msgstr "tune the instrument according to its tuning rules,  clear the fixed frequencies"
+
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
 msgstr "choose instrument temperament, a set of automatic tuning rules"
 
@@ -2296,11 +2315,11 @@ msgstr "Spectrum view: adjust microphone"
 msgid "vue Inharmonicité: capture le timbre"
 msgstr "Inharmonicity view: capture timbre"
 
-msgid "vue Accorde l'Instrument"
-msgstr "Tune Instrument view"
+msgid "vue Assistant d'accordage"
+msgstr "Tuning assistant view"
 
-msgid "vue Edite les Partiels de la note"
-msgstr "Edit Note Partials view"
+msgid "vue Modifie les partiels de la note"
+msgstr "Edit note partials view"
 
 msgid "Charge un Instrument"
 msgstr "Load an Instrument"
@@ -2308,8 +2327,14 @@ msgstr "Load an Instrument"
 msgid "Crée un nouvel Instrument"
 msgstr "Create a new Instrument"
 
-msgid "Edite la description de l'Instrument"
+msgid "Modifie la description de l'Instrument"
 msgstr "Edit Instrument description"
+
+msgid "Modifie les paramètres de la note courante"
+msgstr "Current note settings"
+
+msgid "Modifie les paramètres généraux"
+msgstr "General settings"
 
 msgid "Sauvegarde les modifications"
 msgstr "Save changes"
@@ -2323,8 +2348,8 @@ msgstr "Help: online user manual"
 msgid "Plein écran"
 msgstr "Full screen"
 
-msgid "Fermer l'application"
-msgstr "Close application"
+msgid "Quitte l'application"
+msgstr "Quit application"
 
 msgid ""
 "\n"
@@ -2366,16 +2391,6 @@ msgstr "WINMM: MIDI device connected\n"
 msgid "WINMM déconnexion d'un périphérique MIDI\n"
 msgstr "WINMM: MIDI device disconnected\n"
 
-msgid "Paramétrage de l'Instrument..."
-msgstr "Instrument setup..."
-
-msgid ""
-"==> Erreur, le nom du fichier passé en paramètre n'existe pas.\n"
-"<%s>\n"
-msgstr ""
-"==> Error, the filename passed as parameter does not exist.\n"
-"<%s>\n"
-
 msgid ""
 "\n"
 "\n"
@@ -2409,6 +2424,9 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+#~ msgid "vue Accorde l'instrument"
+#~ msgstr "Tune instrument view"
 
 #~ msgid "Volume Sonore Général %.1fdB"
 #~ msgstr "master volume"
