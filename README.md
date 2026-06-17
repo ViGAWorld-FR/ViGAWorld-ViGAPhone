@@ -141,25 +141,31 @@ For licensing or support inquiries:
 
 ### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android / ChromeOS
 
-● **OS Requirements:** Any Android since version 10.  
+● **OS Requirements:** Any Android OS since version 10.  
 
-Install the App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) from the Google Play Store.
+From the Google Play Store install the App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app)
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
 ● **Hardware Requirements:** x64 platform amd/intel PCs, Chromebooks etc, **AVX** support.  
 ● **OS Requirements:** Any distribution compatible with **libc6 >= 2.36** (Debian12 minimum) **X11**, **OpenGL**, using **GNOME** or equivalent.  
-● **Manual Download and Installation, without admin/root rights:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
-    ● Download the package: `ViGAPhoneR_linux.tar.gz`.  
-    ● Extract the archive.  
-    ● Navigate to the `installOnLinuxUser` directory.  
-    ● Run the shell script: ```bash ./install.sh```  
 
-● **Installation on Arch Linux and derivatives:** ● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
+● **Installation on Arch Linux and derivatives:** 
+	● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
 
-● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:** ● download the file package: `vigaphone-bin_amd64.deb`  
-    ● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:** 
+	● Go to the [GitHub Releases page	.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)   
+	● download the file package: `vigaphone-bin_amd64.deb`  
+	● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+
+● **Manual Download and Installation, without admin/root rights:** 
+	● Go to the [GitHub Releases page.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)   
+	● Download the package: `ViGAPhoneR_linux_amd64.tar.gz`  
+	● Extract the archive.  
+	● Navigate to the `installOnLinuxUser` directory.  
+	● Run the shell script: ```bash ./install.sh```  
+
 
 
 ---
@@ -168,8 +174,9 @@ Install the App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/sto
 
 ● **Hardware Requirements:** x64 platform, **AVX** support.  
 ● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
+
 ● **Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
-    ● Download the installer and run it, without admin rights: `ViGAPhone-setup_amd64.exe`.  
+	● Download the installer and run it, without admin rights: `ViGAPhone-setup_amd64.exe`.  
 
 ---
 
@@ -294,26 +301,30 @@ Toute redistribution, ingénierie inverse ou modification est strictement interd
 
 ### <img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> Android / ChromeOS
 
-● **Prérequis OS :** Toute distribution Android depuis la version 10.  
+● **Prérequis OS :** Toute distribution Android OS depuis la version 10.  
 
-Installez l'App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app) depuis le Google Play Store.
+Depuis le Google Play Store installez l'App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app).
 
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
 ● **Prérequis matériel :** Plateforme x64 amd/intel PCs, Chromebooks etc, support **AVX**.  
 ● **Prérequis OS :** Toute distribution compatible avec **libc6 >= 2.36** (Debian12 minimum) **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
-● **Téléchargement et installation manuelle, sans droits admin/root :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
-    ● Téléchargez l'archive : `ViGAPhoneR_linux.tar.gz`.  
-    ● Dézippez l'archive.  
-    ● Allez dans le répertoire `installOnLinuxUser`.  
-    ● Lancez le script d'installation : ```bash ./install.sh```
 
-● **Installation sur Arch Linux et dérivés :** ● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
+● **Installation sur Arch Linux et dérivés :**  
+	● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
 
-● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:** ● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
-    ● L'installer avec le gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:** 
+	● Allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+	● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
+	● L'installer avec le gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
+● **Téléchargement et installation manuelle, sans droits admin/root :** 
+	● Allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+	● Téléchargez l'archive : `ViGAPhoneR_linux_amd64.tar.gz`  
+	● Dézippez l'archive.  
+	● Allez dans le répertoire `installOnLinuxUser`  
+	● Lancez le script d'installation : ```bash ./install.sh```
 
 ---
 
@@ -321,9 +332,10 @@ Installez l'App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/sto
 
 ● **Prérequis matériel :** Plateforme x64, support **AVX**.  
 ● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
-● **Téléchargement et installation, sans droits admin :** ● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
-    ● Téléchargez et exécutez l'auto-installateur : `ViGAPhone-setup_amd64.exe`.  
 
+● **Téléchargement et installation, sans droits admin :** 
+	● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+	● Téléchargez et exécutez l'auto-installateur : `ViGAPhone-setup_amd64.exe`.  
 
 ---
 

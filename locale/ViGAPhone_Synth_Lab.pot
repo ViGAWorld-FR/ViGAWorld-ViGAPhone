@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-15 09:30+0200\n"
+"POT-Creation-Date: 2026-06-17 13:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,6 +74,9 @@ msgid ""
 "         (attention au bruit de la touche de clavier qui fait remonter le niveau de bruit) \n"
 "  mpMP : ajuste manuellement le paramètre Niveau de Bruit \n"
 " "
+msgstr ""
+
+msgid "Instrument"
 msgstr ""
 
 msgid "Spectre de %d notes "
@@ -1554,7 +1557,7 @@ msgstr ""
 msgid "Synth"
 msgstr ""
 
-msgid "Fixe le Niveau de Bruit du Microphone"
+msgid "max "
 msgstr ""
 
 msgid "Capture"
@@ -1597,6 +1600,9 @@ msgid "Gèle"
 msgstr ""
 
 msgid "Auto Sel. Note"
+msgstr ""
+
+msgid "Fixe le Niveau de Bruit du Microphone"
 msgstr ""
 
 msgid "Choix du Microphone"
