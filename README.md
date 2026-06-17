@@ -151,16 +151,16 @@ From the Google Play Store install the App [**Piano Tuner ETD MIDI Synth Pro**](
 ● **Hardware Requirements:** x64 platform amd/intel PCs, Chromebooks etc, **AVX** support.  
 ● **OS Requirements:** Any distribution compatible with **libc6 >= 2.36** (Debian12 minimum) **X11**, **OpenGL**, using **GNOME** or equivalent.  
 
-● **Installation on Arch Linux and derivatives:** 
+● **Installation on Arch Linux and derivatives:**  
 	● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
 
-● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:** 
-	● Go to the [GitHub Releases page	.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)   
+● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:**  
+	● Go to the [GitHub Releases page	.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● download the file package: `vigaphone-bin_amd64.deb`  
 	● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
-● **Manual Download and Installation, without admin/root rights:** 
-	● Go to the [GitHub Releases page.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)   
+● **Manual Download and Installation, without admin/root rights:**  
+	● Go to the [GitHub Releases page.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● Download the package: `ViGAPhoneR_linux_amd64.tar.gz`  
 	● Extract the archive.  
 	● Navigate to the `installOnLinuxUser` directory.  
@@ -314,12 +314,12 @@ Depuis le Google Play Store installez l'App [**Piano Tuner ETD MIDI Synth Pro**]
 ● **Installation sur Arch Linux et dérivés :**  
 	● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
 
-● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:** 
+● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:**  
 	● Allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
 	● L'installer avec le gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
-● **Téléchargement et installation manuelle, sans droits admin/root :** 
+● **Téléchargement et installation manuelle, sans droits admin/root :**  
 	● Allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● Téléchargez l'archive : `ViGAPhoneR_linux_amd64.tar.gz`  
 	● Dézippez l'archive.  
@@ -333,7 +333,7 @@ Depuis le Google Play Store installez l'App [**Piano Tuner ETD MIDI Synth Pro**]
 ● **Prérequis matériel :** Plateforme x64, support **AVX**.  
 ● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
 
-● **Téléchargement et installation, sans droits admin :** 
+● **Téléchargement et installation, sans droits admin :**  
 	● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
 	● Téléchargez et exécutez l'auto-installateur : `ViGAPhone-setup_amd64.exe`.  
 
