@@ -1,4 +1,21 @@
 ## ViGAPhone Synth Lab, versions
+1.5.0
+- amélioration de l'outil d'analyse sonore et spectrale
+- activation de la détection de note et du changement automatique pendant l'accordage
+- vue Assistant d'accordage: 
+	- la sélection automatique de la note courante est activée par défaut
+	- ajout d'un bouton pour le désactiver
+- quelques corrections mineures
+
+-- EN
+- improvement of the sound and spectral analysis tool
+- activation of note detection and automatic change during tuning
+- Tuning assistant view: 
+	- automatic selection of the current note is activated by default 
+	- added a button to deactivate it
+- some minor fixes
+
+
 1.4.1
 - sélection automatique du spectre sur simple passage de la souris
 - vue graphique, ajout de la possibilité d'altérer la fréquence d'une note calculée par l'accordage automatique

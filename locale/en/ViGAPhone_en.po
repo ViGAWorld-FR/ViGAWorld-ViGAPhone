@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-17 13:33+0200\n"
+"POT-Creation-Date: 2026-06-24 08:56+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -71,19 +71,6 @@ msgstr ""
 msgid "Touche de commande h : liste des notes et partiels en résonance avec la note courante "
 msgstr "Command key h: list of notes and partials in resonance with the current note "
 
-msgid "Note "
-msgstr "Note "
-
-msgid "Fréq détectée : \t   %7.2fHz %c \tUnisson : "
-msgstr "Detected Freq: \t   %7.2fHz %c \tUnison: "
-
-msgid "signal bruité!"
-msgstr "noisy signal!"
-
-#
-msgid "Mesures :       \t"
-msgstr "Measurements:  \t"
-
 msgid ""
 "\n"
 "Conseil : Régler le microphone et le paramètre Niveau de Bruit \n"
@@ -94,6 +81,7 @@ msgid ""
 "Touches de commande :\n"
 "  c    : copie le niveau de bruit mesuré dans le paramètre Niveau de Bruit et ajoute une marge de sécurité\n"
 "         (attention au bruit de la touche de clavier qui fait remonter le niveau de bruit) \n"
+"  n    : nouvelle mesure du niveau de bruit \n"
 "  mpMP : ajuste manuellement le paramètre Niveau de Bruit \n"
 " "
 msgstr ""
@@ -106,6 +94,7 @@ msgstr ""
 "Control keys:\n"
 "  c    : copy the measured noise level into the Noise Level parameter and add a safety margin\n"
 "         (be careful with keyboard key noise which raises the noise level) \n"
+"  n    : new noise level measurement \n"
 "  mpMP : manually adjust the Noise Level parameter \n"
 " "
 
@@ -1633,13 +1622,16 @@ msgstr "Master volume %.1fdB"
 msgid "Spectre temporel(s)"
 msgstr "Time spectrum(s) "
 
+msgid "max"
+msgstr "max"
+
 msgid ">>> JOUE LE SON REEL <<< "
 msgstr ">>> PLAYING REAL SOUND <<< "
 
 msgid "capture gelée"
 msgstr "capture frozen"
 
-msgid "Fixer le Niveau de Bruit"
+msgid "Fixe le Niveau de Bruit"
 msgstr "Set Noise Level"
 
 msgid "Spectre fréquentiel(Hz)"
@@ -1713,9 +1705,6 @@ msgstr "Freeze"
 
 msgid "Auto Sel. Note"
 msgstr "Auto Sel. Note"
-
-msgid "Fixe le Niveau de Bruit du Microphone"
-msgstr "Set Microphone Noise Level"
 
 msgid "Choix du Microphone"
 msgstr "Select Microphone"
@@ -1795,9 +1784,6 @@ msgstr "==> Error: VelociteCourbeUDef, index %d out of range [1:127] \n"
 
 msgid "==> Erreur: VelociteCourbeUDef, valeur %.3f hors limites [1:127] \n"
 msgstr "==> Error: VelociteCourbeUDef, value %.3f out of range [1:127] \n"
-
-msgid "défaut d'allocation mémoire voix_ondes"
-msgstr "memory allocation failure for voix_ondes"
 
 msgid "==>Erreur, le paramètre StereoEspaceInteraural=%fm est trop grand \n"
 msgstr "==>Error, parameter StereoLargeurEcoute=%fm is too large \n"
@@ -2430,6 +2416,25 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+#~ msgid "Note "
+#~ msgstr "Note "
+
+#~ msgid "Fréq détectée : \t   %7.2fHz %c \tUnisson : "
+#~ msgstr "Detected Freq: \t   %7.2fHz %c \tUnison: "
+
+#~ msgid "signal bruité!"
+#~ msgstr "noisy signal!"
+
+#
+#~ msgid "Mesures :       \t"
+#~ msgstr "Measurements:  \t"
+
+#~ msgid "défaut d'allocation mémoire voix_ondes"
+#~ msgstr "memory allocation failure for voix_ondes"
+
+#~ msgid "Fixe le Niveau de Bruit du Microphone"
+#~ msgstr "Set Microphone Noise Level"
 
 #~ msgid "vue Accorde l'instrument"
 #~ msgstr "Tune instrument view"
