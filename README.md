@@ -111,12 +111,6 @@ Creations made with ViGAPhone can be saved, archived, and shared, ensuring the p
 - runing on Linux with jack/alsa as on Windows10 and more
 - The audio engine is exceptionally powerful—arguably the most efficient in the world. It can run on computers that are 15 years old and handle tens of thousands of waves in real time without overloading the system. It performs pure additive synthesis using sine waves, or blends them with complex computed or sampled waveforms, offering infinite creative possibilities and an extreme sonic richness.
 
-
-### For piano technicians:
-## 🚀 Discover Piano Rebuilding Tool: Piano Scaling & Bass String Design Calculator
-If you are interested in piano rebuilding, check out my other project:  
-**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
-
 ---
 
 ## 🔐 Licensing
@@ -192,6 +186,14 @@ The application supports at least **English** and **French**, and can be transla
 
 ● **Default Behavior:** The application uses the OS language. If the language is not supported, it defaults to English.  
 ● **Manual Configuration:** Users can also choose the language in the application settings file using the `SetLocale` variable (refer to the user manual).
+
+---
+
+### For piano technicians:
+## 🚀 Discover Piano Rebuilding Tool: Piano Scaling & Bass String Design Calculator
+If you are interested in piano rebuilding, check out my other project:  
+**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
+
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -279,11 +281,6 @@ Les instruments créés avec ViGAPhone peuvent être enregistrés, archivés et 
 - fonctionne sur Linux jack/alsa ou sur Windows10 et plus.
 - Le moteur audio est extrêmement performant, sans doute le plus performant au monde. Il peut fonctionner sur des ordinateurs de 15 ans d'âge et gérer plusieurs dizaines de milliers d'ondes en temps réel sans saturer le système. Il fait de la synthèse additive pure avec des ondes sinusoïdales, ou mixer avec des ondes complexes calculées ou échantillonnées offrant une infinité de possibilités et une richesse sonore extrême.
 
-### Pour les techniciens piano :
-## 🚀 Découvrez mon outil de restauration de pianos : calculateur de plan de cordes et de conception des cordes de basse
-Si la restauration de pianos vous intéresse, découvrez mon autre projet :
-**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
-
 ## 🔐 Licence
 
 ViGAPhone est distribué uniquement sous forme binaire. Aucun accès au code source n’est fourni.
@@ -358,4 +355,10 @@ L'application supporte au minimum l'**anglais** et le **français**, et peut êt
 ● **Configuration manuelle :** L'utilisateur peut forcer la langue dans le fichier de configuration via la variable `SetLocale` (voir le manuel utilisateur).
 
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-245884-4" border="0" /></a>
+---
+
+### Pour les techniciens piano :
+## 🚀 Découvrez mon outil de restauration de pianos : calculateur de plan de cordes et de conception des cordes de basse
+Si la restauration de pianos vous intéresse, découvrez mon autre projet :
+**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
 
