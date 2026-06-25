@@ -355,11 +355,15 @@ L'application supporte au minimum l'**anglais** et le **français**, et peut êt
 ● **Comportement par défaut :** L'application utilise la langue du système d'exploitation. Si celle-ci n'est pas supportée, elle bascule automatiquement en anglais.  
 ● **Configuration manuelle :** L'utilisateur peut forcer la langue dans le fichier de configuration via la variable `SetLocale` (voir le manuel utilisateur).
 
-<a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-245884-4" border="0" /></a>
 ---
 
 ### Pour les techniciens piano :
 ## 🚀 Découvrez mon outil de restauration de pianos : calculateur de plan de cordes et de conception des cordes de basse
 Si la restauration de pianos vous intéresse, découvrez mon autre projet :
 **[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
+
+---
+
+
+<a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-245884-4" border="0" /></a>
 
