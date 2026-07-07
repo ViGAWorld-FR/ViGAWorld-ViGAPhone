@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 18:27+0200\n"
+"POT-Creation-Date: 2026-07-07 12:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,6 +233,9 @@ msgstr ""
 msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
 msgstr ""
 
+msgid "Il y a sur la note une capture en cours à valider ou annuler "
+msgstr ""
+
 msgid "En attente du son de \"une seule corde\", appuyer sur une touche pour arrêter..."
 msgstr ""
 
@@ -380,6 +383,9 @@ msgid "==> ATTENTION, le nombre de notes trouvées=%d est différent du nombre d
 msgstr ""
 
 msgid "L'Instrument est près à être joué."
+msgstr ""
+
+msgid "Pas de capture pour cette note"
 msgstr ""
 
 msgid ""
@@ -1139,7 +1145,7 @@ msgstr ""
 msgid " = %d (déviation = %.2fHz) "
 msgstr ""
 
-msgid "==>Erreur, l'inharmonicité est trop forte, la fréquence du dernier partiel est hors limites\n"
+msgid "==>Erreur, l'inharmonicité est trop forte ou la fréquence du dernier partiel est hors limites\n"
 msgstr ""
 
 msgid "==>ERREUR : il faut d'abord donner une valeur à SustainTimeT60\n"
@@ -1208,6 +1214,9 @@ msgid "Le son synthétisé est maintenant joué à la place du son de la capture
 msgstr ""
 
 msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
+msgstr ""
+
+msgid "==>Erreur, l'inharmonicité est trop forte ou la fréquence du dernier partiel est hors limites"
 msgstr ""
 
 msgid ""

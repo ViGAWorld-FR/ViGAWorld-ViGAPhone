@@ -1,4 +1,24 @@
 ## ViGAPhone Synth Lab, versions
+1.5.3
+- quelques améliorations mineures
+
+-- EN
+- a few minor improvements
+
+1.5.2
+- vue Assistant d'accordage : correction de la valeur de la fréquence affichée qui pouvait ne pas correspondre au pic de fréquence du graphique
+
+-- EN
+- Tuning Assistant view: fixed the displayed frequency value, which might not have matched the frequency peak on the graph.
+
+
+1.5.1
+- quelques améliorations mineures
+
+-- EN
+ - a few minor improvements
+
+
 1.5.0
 - amélioration de l'outil d'analyse sonore et spectrale
 - activation de la détection de note et du changement automatique pendant l'accordage

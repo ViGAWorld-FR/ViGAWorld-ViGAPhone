@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-30 18:27+0200\n"
+"POT-Creation-Date: 2026-07-07 12:41+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -296,6 +296,9 @@ msgstr "==> Error, the note is active and cannot be restructured."
 msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
 msgstr " ==> Analysis failed for note %s, frequencies found: Peak-1 %.2fHz, Peak-0dB %.2fHz probable P1 %.2fHz"
 
+msgid "Il y a sur la note une capture en cours à valider ou annuler "
+msgstr "There is a capture in progress on the note that needs to be confirmed or cancelled "
+
 msgid "En attente du son de \"une seule corde\", appuyer sur une touche pour arrêter..."
 msgstr "Waiting for the sound of \"a single string\", press any key to stop..."
 
@@ -452,6 +455,9 @@ msgstr "==> WARNING, the number of notes found=%d differs from the Instrument's 
 
 msgid "L'Instrument est près à être joué."
 msgstr "The Instrument is ready to be played."
+
+msgid "Pas de capture pour cette note"
+msgstr "No capture for this note"
 
 msgid ""
 "\n"
@@ -1237,8 +1243,8 @@ msgstr "Parameter to modify = %s: note <%s>"
 msgid " = %d (déviation = %.2fHz) "
 msgstr " = %d (deviation = %.2fHz) "
 
-msgid "==>Erreur, l'inharmonicité est trop forte, la fréquence du dernier partiel est hors limites\n"
-msgstr "==>Error, inharmonicity too high, last partial frequency is out of range\n"
+msgid "==>Erreur, l'inharmonicité est trop forte ou la fréquence du dernier partiel est hors limites\n"
+msgstr "==>Error, inharmonicity too high or last partial frequency is out of range\n"
 
 msgid "==>ERREUR : il faut d'abord donner une valeur à SustainTimeT60\n"
 msgstr "==>ERROR: you must first assign a value to SustainTimeT60\n"
@@ -1309,6 +1315,9 @@ msgstr "Synthesized sound is now played instead of captured sound \n"
 
 msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
 msgstr "==>ERROR: no captured sound exists for note %s \n"
+
+msgid "==>Erreur, l'inharmonicité est trop forte ou la fréquence du dernier partiel est hors limites"
+msgstr "==>Error, inharmonicity too high or last partial frequency is out of range"
 
 msgid ""
 "\n"
@@ -2416,6 +2425,9 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+#~ msgid "==>Erreur, l'inharmonicité est trop forte, la fréquence du dernier partiel est hors limites\n"
+#~ msgstr "==>Error, inharmonicity too high, last partial frequency is out of range\n"
 
 #~ msgid "Note "
 #~ msgstr "Note "
