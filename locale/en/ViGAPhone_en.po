@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-07 12:41+0200\n"
+"POT-Creation-Date: 2026-07-08 18:52+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -964,6 +964,12 @@ msgstr "Stop error: "
 msgid "Choisir le client MIDI à connecter :\n"
 msgstr "Choose MIDI client to connect:\n"
 
+msgid "==> Erreur : langues non trouvées."
+msgstr "==> Error: Language not found."
+
+msgid "Choisir une Langue"
+msgstr "Choose a Language"
+
 msgid "En attente de l'arrêt de la note..."
 msgstr "Waiting for note to stop..."
 
@@ -1228,11 +1234,11 @@ msgstr "==> Error, the note is active and cannot be restructured.\n"
 msgid "Erreur, choix hors limites\n"
 msgstr "Error, choice out of range\n"
 
-msgid "Paramètre Général à modifier : "
-msgstr "General Parameter to modify: "
-
 msgid "Il manque le paramètrage de la réverbération\n"
 msgstr "Reverb settings are missing\n"
+
+msgid "Paramètre Général à modifier : "
+msgstr "General Parameter to modify: "
 
 msgid "==>Erreur, paramètre non modifiable \n"
 msgstr "==>Error, parameter not modifiable \n"
@@ -1898,6 +1904,9 @@ msgstr "Audio capture:Rate=%d samples per second on %d channels, Buffer=%d=%0.3f
 msgid "Mode spécial Accordeur désactivé\n"
 msgstr "Special Tuner mode disabled\n"
 
+msgid "Impossible d'ouvrir le navigateur web sur la page du projet"
+msgstr "Unable to open the web browser to the project page"
+
 msgid "==> ERREUR: ne trouve pas le répertoire utilisateur %s \n"
 msgstr "==> ERROR: cannot find user directory %s \n"
 
@@ -2180,23 +2189,23 @@ msgstr "real partial amplitudes dB"
 msgid "abandonne"
 msgstr "cancel"
 
-msgid "volume sonore général"
-msgstr "master volume"
+msgid "Audio: volume sonore général"
+msgstr "Audio: master volume"
 
-msgid "Stéréo Spatialisation On/Off"
-msgstr "Stereo Spatialization On/Off"
+msgid "Audio: Stéréo Spatialisation On/Off"
+msgstr "Audio: Stereo Spatialization On/Off"
 
-msgid "Stéréo Distance Interaurale"
+msgid "Audio: Stéréo Distance Interaurale"
 msgstr "Stereo Interaural Distance"
 
-msgid "résonance sympathique On/Off"
-msgstr "sympathetic resonance On/Off"
+msgid "Audio: résonance sympathique On/Off"
+msgstr "Audio: sympathetic resonance On/Off"
 
-msgid "réverbération On/Off"
-msgstr "reverb On/Off"
+msgid "Audio: réverbération On/Off"
+msgstr "Audio: reverb On/Off"
 
-msgid "réverbération liste et sélection"
-msgstr "reverb list and selection"
+msgid "Audio: réverbération liste et sélection"
+msgstr "Audio: reverb list and selection"
 
 msgid "Instrument: diapason note fréquence"
 msgstr "Current instrument: pitch note frequency"
@@ -2223,7 +2232,7 @@ msgid "MIDI: 'Pitch bend Range' tous canaux"
 msgstr "MIDI: dPitch bend Range' all channels"
 
 msgid "MIDI: Transposition tous canaux"
-msgstr "MIDI Transposition"
+msgstr "MIDI: Transposition"
 
 msgid "MIDI: joue le canal 10 réservé aux percusions On/Off"
 msgstr "MIDI: Play channel 10 Drums On/Off"
@@ -2263,6 +2272,9 @@ msgstr "Tuner: Duo tuning frequency beat: plays the muted note centered between 
 
 msgid "Accordeur: Duo Fréquence d'accord durée: durée de chaque onde en alternance "
 msgstr "Tuner: Duo tuning frequency duration: duration of each alternating wave "
+
+msgid "Environnement: Choisit une Langue"
+msgstr "Environment: Choose a Language"
 
 msgid "ou entrée vide : abandonne"
 msgstr "or empty input: cancel"
