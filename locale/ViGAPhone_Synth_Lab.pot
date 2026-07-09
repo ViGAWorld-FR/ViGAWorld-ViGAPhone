@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-08 18:52+0200\n"
+"POT-Creation-Date: 2026-07-09 12:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1133,6 +1133,12 @@ msgstr ""
 msgid "==> Erreur, la note est active et ne peut être restructurée.\n"
 msgstr ""
 
+msgid "La nouvelle règle d'accordage est propagée aux notes suivantes:\n"
+msgstr ""
+
+msgid "Modification annulée"
+msgstr ""
+
 msgid "Erreur, choix hors limites\n"
 msgstr ""
 
@@ -1520,6 +1526,9 @@ msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr ""
 
 msgid "Volume général %.1fdB"
+msgstr ""
+
+msgid "Sauvegardé"
 msgstr ""
 
 msgid "Spectre temporel(s)"
