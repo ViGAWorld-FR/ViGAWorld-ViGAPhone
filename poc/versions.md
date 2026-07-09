@@ -1,4 +1,16 @@
 ## ViGAPhone Synth Lab, versions
+1.6.0
+- assistant d'accordage : pour les notes à plusieurs voix, affiche la fréquence de la voix la plus forte et celle de la voix la plus proche, permet d'accorder plus facilement sans étouffoir
+- assistant d'accordage : la règle d'accordage est modifiable pour la note courante et se propage à toutes les notes qui en dépendent
+- le paramètre général "Langue" est modifiable dans l'application via la commande Console G
+- quelques améliorations mineures
+
+-- EN
+- Tuning assistant: For multi-string notes, it displays the frequencies of both the loudest string and the closest string, making it easier to tune without a mute.
+- Tuning assistant: The tuning rule can be modified for the current note and automatically applies to all dependent notes.
+- The general "Language" setting can now be changed within the app using the Console G command.
+- a few minor improvements
+
 1.5.3
 - quelques améliorations mineures
 
