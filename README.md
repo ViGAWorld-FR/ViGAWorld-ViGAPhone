@@ -108,7 +108,7 @@ Creations made with ViGAPhone can be saved, archived, and shared, ensuring the p
 - A keyboard-driven text interface: streamlined and highly efficient, ideal for professionals
 - A graphical interface for real-time sound analysis, timbre reproduction, and ultra-precise piano or any instrument tuning
 - An extremely compact executable size—where design quality and code efficiency truly matter
-- runing on Linux with jack/alsa as on Windows10 and more
+- Runing on Linux with Jack/ALSA as well as on Windows 10 and higher
 - The audio engine is exceptionally powerful—arguably the most efficient in the world. It can run on computers that are 15 years old and handle tens of thousands of waves in real time without overloading the system. It performs pure additive synthesis using sine waves, or blends them with complex computed or sampled waveforms, offering infinite creative possibilities and an extreme sonic richness.
 
 ---
@@ -117,7 +117,7 @@ Creations made with ViGAPhone can be saved, archived, and shared, ensuring the p
 
 ViGAPhone is distributed as a binary-only application. No source code is provided.
 
-Use of the ViGAPhone software in a professional context requires obtaining an individual license from [https://vigaworld.com](https://vigaworld.com). Each license is linked to a registered user and and his operating system. Redistribution, reverse engineering, or modification is strictly prohibited.
+Use of the ViGAPhone software in a professional context requires obtaining an individual license from [https://vigaworld.com](https://vigaworld.com). Each license is linked to a registered user and his operating system. Redistribution, reverse engineering, or modification is strictly prohibited.
 
 ---
 
@@ -205,9 +205,8 @@ If you are interested in piano rebuilding, check out my other project:
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone Synth Lab** 
 Le ViGAPhone Synth Lab est une collection d'instruments et d'outils dédiée au monde musical, un ensemble de services combinant : 
-un synthétiseur par modèles physiques d'un réalisme vivant pour les interprètes, un laboratoire de conception pour créer de nouveaux instruments, ainsi qu'une suite d'expertises techniques destinée aux techniciens du piano et de tous les instruments.
+un synthétiseur MIDI par modèles physiques d'un réalisme vivant pour les interprètes, un laboratoire de conception pour créer de nouveaux instruments, ainsi qu'une suite d'expertises techniques destinée aux techniciens du piano et de tous les instruments.
 
-est un ensemble de services dans le domaine musical : un synthétiseur MIDI d'instruments de musique réaliste, un analyseur du timbre sonore et un outil pour les accordeurs réparateurs de pianos et autres instruments de musique.
 
 ## 🎹  Tout sur le ViGAPhone:
 - Un synthétiseur réaliste extraordinaire pour les musiciens interprètes et créatifs, un outil révolutionnaire et indispensable pour les accordeurs de pianos et autres.
@@ -243,15 +242,15 @@ Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore, l'a
 - imiter n'importe quel instrument existant, comme de copier un piano acoustique particulier
 - créer de nouveaux instruments avec des nouveaux sons
 - avoir un instrument entièrement paramétrable
-- échanger et partager les fichiers de paramétrages dont la taille fait quelques kilos octets pour contenir l'équivalent de l'ADN d'un piano de concert par exemple
+- échanger et partager les fichiers de paramétrages dont la taille fait quelques kilo-octets pour contenir l'équivalent de l'ADN d'un piano de concert par exemple
 - trouver et conserver les meilleures façons d'accorder son instrument réel en fonction du style de musique jouée,
-- demander à un accordeur professionnel de réaliser un accord particulier avec un résulat constant quel que soit l'accordeur, idéal pour les salles de concert ou les musiciens itinérants
+- demander à un accordeur professionnel de réaliser un accord particulier avec un résultat constant quel que soit l'accordeur, idéal pour les salles de concert ou les musiciens itinérants
 
 ## 🛠️ Pour les accordeurs professionnels ou occasionnels, pour les facteurs d'instruments musicaux
 - un outil pédagogique pour apprendre à accorder un piano, contrôler le résultat, valider les capacités d'un apprenti
-- former l'oreille à différentier les partiels et leurs rangs
+- former l'oreille à différencier les partiels et leurs rangs
 - s'entraîner à l'accordage sans risque pour l'instrument réel
-- définir la méthode d'accordage en quelques lignes grâce à une grammaire simple établissant les relations entre les notes appelée tempérament
+- définir la méthode d'accordage en quelques lignes grâce à une grammaire simple établissant les relations entre les notes, aussi appelée tempérament
 - accorder le piano et tout instrument de musique visuellement ou à l'oreille
 - reprendre les caractéristiques d'un piano acoustique, étudier ou chercher la meilleure façon d'accorder ce piano particulier avec son inharmonicité spécifique, proposer différents accordages instantanément et les tester en réel avec d'autres instruments avant de réaliser celui retenu par le musicien ; utiliser le résultat pour accorder rapidement et facilement l'instrument, simplement grâce à l'unisson parfait avec le son produit par le ViGAPhone
 - étudier l'analyse spectrale et la répartition des partiels pour trouver les vibrations parasites ou les défauts d'harmonisation
@@ -273,13 +272,12 @@ Les instruments créés avec ViGAPhone peuvent être enregistrés, archivés et 
 
 ### Quelques points clés:
 - MIDI plug n play.
-- plugin VST3
-- La vélocité MIDI haute résolution est gérée pour une meilleure précision du jeu du musicien, ainsi que la vélocité du noteOff pour gérer les effets sonores associés.
+- plugin VST3.
 - la vélocité MIDI haute résolution est prise en charge, offrant une précision accrue dans le jeu et une meilleure restitution des nuances d’interprétation. La vélocité du note-off est également gérée, permettant de contrôler finement les effets sonores liés à la fin de note, comme les résonances, les relâchements ou les transitions expressives.
 - Une interface texte entièrement commandée au clavier, sans fioritures et parfaitement efficace, idéale pour les professionnels.
 - Une interface graphique pour l'analyse sonore en temps réel, la reproduction du timbre d'un instrument ou l'accordage d'un piano avec une précision inégalée. A vos claviers!
 - Une taille de fichier exécutable du programme extrêmement réduite, ici c'est la qualité de la conception et du code qui pèse lourd.
-- fonctionne sur Linux jack/alsa ou sur Windows10 et plus.
+- fonctionne sur Linux Jack/ALSA ou sur Windows10 et plus.
 - Le moteur audio est extrêmement performant, sans doute le plus performant au monde. Il peut fonctionner sur des ordinateurs de 15 ans d'âge et gérer plusieurs dizaines de milliers d'ondes en temps réel sans saturer le système. Il fait de la synthèse additive pure avec des ondes sinusoïdales, ou mixer avec des ondes complexes calculées ou échantillonnées offrant une infinité de possibilités et une richesse sonore extrême.
 
 ## 🔐 Licence
@@ -288,15 +286,14 @@ ViGAPhone est distribué uniquement sous forme binaire. Aucun accès au code sou
 
 L’utilisation du logiciel ViGAPhone dans un cadre professionnel nécessite l’obtention d’une licence individuelle via [https://vigaworld.com](https://vigaworld.com). Chaque licence est liée à un utilisateur enregistré et à son système d'exploitation.
 
+Toute redistribution, ingénierie inverse ou modification est strictement interdite.
+
 ## 📫 Contact
 
 For licensing or support inquiries:
 
 - Website: [https://vigaworld.com](https://vigaworld.com)
 - Email: [contactnotcopythis@vigaworld.com]
-
-
-Toute redistribution, ingénierie inverse ou modification est strictement interdite.
 
 <p id="manuel-utilisateur"></p>
 
