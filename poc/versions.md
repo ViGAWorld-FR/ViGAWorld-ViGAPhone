@@ -5,7 +5,7 @@
 - Nouveau modèle de tempérament par défaut plus agréable à l'oreille pour tout type de piano, qu'il soit grand ou petit et qu'il ait une faible ou une forte inharmonicité.
 - Quelques améliorations mineures.
 
-### 🇬🇧 English
+### English
 - New default temperament model, more pleasing to the ear for all piano types, whether large or small, and with weak or strong inharmonicity.
 - A few minor improvements.
 
@@ -17,7 +17,7 @@
 - Le paramètre général "Langue" est modifiable dans l'application via la commande Console G.
 - Quelques améliorations mineures.
 
-### 🇬🇧 English
+### English
 - Tuning assistant: For multi-string notes, it displays the frequencies of both the loudest string and the closest string, making it easier to tune without a mute.
 - Tuning assistant: The tuning rule can be modified for the current note and automatically applies to all dependent notes.
 - The general "Language" setting can now be changed within the app using the Console G command.
