@@ -1,7 +1,7 @@
 # ViGAPhone Synth Lab — What's new? / Quoi de neuf ?
 
 ## 1.6.1
-### 🇫🇷 Français
+### Français
 - Nouveau modèle de tempérament par défaut plus agréable à l'oreille pour tout type de piano, qu'il soit grand ou petit et qu'il ait une faible ou une forte inharmonicité.
 - Quelques améliorations mineures.
 
@@ -11,7 +11,7 @@
 
 
 ## 1.6.0
-### 🇫🇷 Français
+### Français
 - Assistant d'accordage : pour les notes à plusieurs voix, affiche la fréquence de la voix la plus forte et celle de la voix la plus proche, permet d'accorder plus facilement sans étouffoir.
 - Assistant d'accordage : la règle d'accordage est modifiable pour la note courante et se propage à toutes les notes qui en dépendent.
 - Le paramètre général "Langue" est modifiable dans l'application via la commande Console G.
