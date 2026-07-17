@@ -1,5 +1,12 @@
 # ViGAPhone Synth Lab — What's new? / Quoi de neuf ?
 
+## 1.6.2
+### Français
+- Correction de bogue de la capture qui plante.
+
+### English
+- Fixed bug causing the capture to crash.
+
 ## 1.6.1
 ### Français
 - Nouveau modèle de tempérament par défaut plus agréable à l'oreille pour tout type de piano, qu'il soit grand ou petit et qu'il ait une faible ou une forte inharmonicité.
