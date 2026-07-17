@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-14 22:18+0200\n"
+"POT-Creation-Date: 2026-07-17 15:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1534,7 +1534,19 @@ msgstr ""
 msgid "Sauvegardé"
 msgstr ""
 
-msgid "Spectre temporel(s)"
+msgid "Courbe d'accordage de Railsback"
+msgstr ""
+
+msgid "Notes consonantes"
+msgstr ""
+
+msgid "Courbe d'inharmonicité"
+msgstr ""
+
+msgid "Courbe de progression des battements d'accords"
+msgstr ""
+
+msgid "Spectre temporel"
 msgstr ""
 
 msgid "max"
@@ -1549,7 +1561,7 @@ msgstr ""
 msgid "Fixe le Niveau de Bruit"
 msgstr ""
 
-msgid "Spectre fréquentiel(Hz)"
+msgid "Spectre fréquentiel"
 msgstr ""
 
 msgid "Comparateur d'unisson"
@@ -1562,12 +1574,6 @@ msgid ":Note "
 msgstr ""
 
 msgid "Accorder "
-msgstr ""
-
-msgid "Graphique"
-msgstr ""
-
-msgid "Console"
 msgstr ""
 
 msgid "Réel"
@@ -1594,10 +1600,13 @@ msgstr ""
 msgid "Valeur"
 msgstr ""
 
-msgid "Liste des notes en résonance"
+msgid "Partiel"
 msgstr ""
 
-msgid "Partiel"
+msgid "Graphique"
+msgstr ""
+
+msgid "Console"
 msgstr ""
 
 msgid "choix par défaut"

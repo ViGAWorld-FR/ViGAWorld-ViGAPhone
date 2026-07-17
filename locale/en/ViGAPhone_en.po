@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-14 22:18+0200\n"
+"POT-Creation-Date: 2026-07-17 15:58+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1646,8 +1646,20 @@ msgstr "Master volume %.1fdB"
 msgid "Sauvegardé"
 msgstr "Save successful"
 
-msgid "Spectre temporel(s)"
-msgstr "Time spectrum(s) "
+msgid "Courbe d'accordage de Railsback"
+msgstr "Railsback tuning curve"
+
+msgid "Notes consonantes"
+msgstr "Consonant notes"
+
+msgid "Courbe d'inharmonicité"
+msgstr "Inharmonicity curve"
+
+msgid "Courbe de progression des battements d'accords"
+msgstr "Chord beat progression curve"
+
+msgid "Spectre temporel"
+msgstr "Time spectrum"
 
 msgid "max"
 msgstr "max"
@@ -1661,8 +1673,8 @@ msgstr "capture frozen"
 msgid "Fixe le Niveau de Bruit"
 msgstr "Set Noise Level"
 
-msgid "Spectre fréquentiel(Hz)"
-msgstr "Frequency spectrum(Hz)"
+msgid "Spectre fréquentiel"
+msgstr "Frequency spectrum"
 
 msgid "Comparateur d'unisson"
 msgstr "Unison comparator"
@@ -1675,12 +1687,6 @@ msgstr ":Note "
 
 msgid "Accorder "
 msgstr "Tune "
-
-msgid "Graphique"
-msgstr "Graphic"
-
-msgid "Console"
-msgstr "Console"
 
 msgid "Réel"
 msgstr "Real"
@@ -1706,11 +1712,14 @@ msgstr "Validate and save"
 msgid "Valeur"
 msgstr "Value"
 
-msgid "Liste des notes en résonance"
-msgstr "List of resonant notes"
-
 msgid "Partiel"
 msgstr "Partial"
+
+msgid "Graphique"
+msgstr "Graphic"
+
+msgid "Console"
+msgstr "Console"
 
 msgid "choix par défaut"
 msgstr "default choice"
