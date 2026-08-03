@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 20:17+0200\n"
+"POT-Creation-Date: 2026-07-29 12:31+0200\n"
 "PO-Revision-Date: 2026-04-12 07:20+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"  A    : abandonne la capture et restaure le timbre de la note \n"
+"  X    : abandonne la capture et restaure le timbre de la note \n"
 "  v    : valide la capture \n"
 "[92m  V    : valide tout et sauvegarde les fichiers Instrument et WAV\n"
 "[0m"
@@ -1529,19 +1529,34 @@ msgstr ""
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr ""
 
+msgid "Courbe d'accordage"
+msgstr ""
+
+msgid "Étirement des octaves (Railsback)"
+msgstr ""
+
+msgid "Partiel"
+msgstr ""
+
+msgid "Notes consonantes par résonance sympathique"
+msgstr ""
+
+msgid "Inharmonicité"
+msgstr ""
+
+msgid "Progression des battements d'accords"
+msgstr ""
+
 msgid "Volume général %.1fdB"
 msgstr ""
 
 msgid "Sauvegardé"
 msgstr ""
 
-msgid "Courbe d'accordage"
+msgid "Spectre temporel"
 msgstr ""
 
-msgid "Spectre temporel(s)"
-msgstr ""
-
-msgid "max"
+msgid "max "
 msgstr ""
 
 msgid ">>> JOUE LE SON REEL <<< "
@@ -1553,16 +1568,16 @@ msgstr ""
 msgid "Fixe le Niveau de Bruit"
 msgstr ""
 
-msgid "Spectre fréquentiel(Hz)"
+msgid "max"
+msgstr ""
+
+msgid "Spectre fréquentiel"
 msgstr ""
 
 msgid "Comparateur d'unisson"
 msgstr ""
 
 msgid "paramètre: "
-msgstr ""
-
-msgid ":Note "
 msgstr ""
 
 msgid "Accorder "
@@ -1572,9 +1587,6 @@ msgid "Réel"
 msgstr ""
 
 msgid "Synth"
-msgstr ""
-
-msgid "max "
 msgstr ""
 
 msgid "Capture"
@@ -1592,10 +1604,7 @@ msgstr ""
 msgid "Valeur"
 msgstr ""
 
-msgid "Liste des notes en résonance"
-msgstr ""
-
-msgid "Partiel"
+msgid "Notes consonantes"
 msgstr ""
 
 msgid "Graphique"
@@ -1901,6 +1910,8 @@ msgid ""
 "% : envoie les commandes jkmMpP à la console, agit sur le paramètre à modifier \n"
 "[flèches] [espace] a b s : identiques console\n"
 "[début/home] : positionne le spectre au début\n"
+"> : zone graphique du haut sélectionnée, affiche la courbe suivante\n"
+"< : zone graphique du haut sélectionnée, affiche la courbe précédente\n"
 "? : affiche sur la console la liste des commandes disponibles pour la vue graphique\n"
 msgstr ""
 
@@ -2096,18 +2107,22 @@ msgstr ""
 msgid "affiche le spectrogramme pour régler le microphone et le niveau de bruit"
 msgstr ""
 
-msgid ""
-"affiche/modifie/capture l'inharmonicité et le timbre des notes de l'Instrument \n"
-"      (la capture des notes peut aussi se faire dans la vue graphique en mode transmission de commandes)"
+msgid "affiche/modifie/capture l'inharmonicité et le timbre des notes de l'Instrument"
 msgstr ""
 
-msgid "assistant graphique pour accorder l'Instrument réel: ajoute des informations de consonnances"
+msgid "assistant pour accorder l'Instrument réel: ajoute des informations de consonnances"
 msgstr ""
 
 msgid "affiche/modifie les partiels de la note courante de l'Instrument"
 msgstr ""
 
+msgid "affiche/modifie le tempérament de l'Instrument"
+msgstr ""
+
 msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
+msgstr ""
+
+msgid "affiche les règles d'accordage et les fréquences des notes de l'Instrument"
 msgstr ""
 
 msgid "accorde l'Instrument selon ses règles d'accordage "
@@ -2117,9 +2132,6 @@ msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface le
 msgstr ""
 
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
-msgstr ""
-
-msgid "affiche les règles et fréquences des notes de l'Instrument"
 msgstr ""
 
 msgid "affiche la distribution des notes actives sur les threads Engine-PCM"
@@ -2134,16 +2146,19 @@ msgstr ""
 msgid "test:choisit la forme de l'onde de base"
 msgstr ""
 
-msgid "vue Spectrum: régle le microphone"
+msgid "Spectrum: régle le microphone"
 msgstr ""
 
-msgid "vue Inharmonicité: capture le timbre"
+msgid "Inharmonicité: capture le timbre"
 msgstr ""
 
-msgid "vue Assistant d'accordage"
+msgid "Assistant d'accordage"
 msgstr ""
 
-msgid "vue Modifie les partiels de la note"
+msgid "Modifie les partiels de la note"
+msgstr ""
+
+msgid "Modifie le tempérament de l'Instrument"
 msgstr ""
 
 msgid "Charge un Instrument"

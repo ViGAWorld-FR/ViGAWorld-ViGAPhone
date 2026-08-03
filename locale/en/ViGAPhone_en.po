@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-17 20:17+0200\n"
+"POT-Creation-Date: 2026-07-29 12:31+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -157,12 +157,12 @@ msgstr ""
 "[0m"
 
 msgid ""
-"  A    : abandonne la capture et restaure le timbre de la note \n"
+"  X    : abandonne la capture et restaure le timbre de la note \n"
 "  v    : valide la capture \n"
 "[92m  V    : valide tout et sauvegarde les fichiers Instrument et WAV\n"
 "[0m"
 msgstr ""
-"  A    : abort capture and restore note timbre \n"
+"  X    : abort capture and restore note timbre \n"
 "  v    : validate capture \n"
 "[92m  V    : validate all and save Instrument and WAV files\n"
 "[0m"
@@ -1640,20 +1640,35 @@ msgstr "==> ERROR: unable to find a font equivalent to <%s> \n"
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr "Default font loaded: %s : %s \n"
 
+msgid "Courbe d'accordage"
+msgstr "Tuning curve"
+
+msgid "Étirement des octaves (Railsback)"
+msgstr "Octave stretching (Railsback)"
+
+msgid "Partiel"
+msgstr "Partial"
+
+msgid "Notes consonantes par résonance sympathique"
+msgstr "Consonant notes via sympathetic resonance"
+
+msgid "Inharmonicité"
+msgstr "inharmonicity"
+
+msgid "Progression des battements d'accords"
+msgstr "Chord beat progression"
+
 msgid "Volume général %.1fdB"
 msgstr "Master volume %.1fdB"
 
 msgid "Sauvegardé"
 msgstr "Save successful"
 
-msgid "Courbe d'accordage"
-msgstr "Tuning curve"
+msgid "Spectre temporel"
+msgstr "Time spectrum"
 
-msgid "Spectre temporel(s)"
-msgstr "Time spectrum(s) "
-
-msgid "max"
-msgstr "max"
+msgid "max "
+msgstr "max "
 
 msgid ">>> JOUE LE SON REEL <<< "
 msgstr ">>> PLAYING REAL SOUND <<< "
@@ -1664,17 +1679,17 @@ msgstr "capture frozen"
 msgid "Fixe le Niveau de Bruit"
 msgstr "Set Noise Level"
 
-msgid "Spectre fréquentiel(Hz)"
-msgstr "Frequency spectrum(Hz)"
+msgid "max"
+msgstr "max"
+
+msgid "Spectre fréquentiel"
+msgstr "Frequency spectrum"
 
 msgid "Comparateur d'unisson"
 msgstr "Unison comparator"
 
 msgid "paramètre: "
 msgstr "parameter: "
-
-msgid ":Note "
-msgstr ":Note "
 
 msgid "Accorder "
 msgstr "Tune "
@@ -1684,9 +1699,6 @@ msgstr "Real"
 
 msgid "Synth"
 msgstr "Synth"
-
-msgid "max "
-msgstr "max "
 
 msgid "Capture"
 msgstr "Capture"
@@ -1703,11 +1715,8 @@ msgstr "Validate and save"
 msgid "Valeur"
 msgstr "Value"
 
-msgid "Liste des notes en résonance"
-msgstr "List of resonant notes"
-
-msgid "Partiel"
-msgstr "Partial"
+msgid "Notes consonantes"
+msgstr "Consonant notes"
 
 msgid "Graphique"
 msgstr "Graphic"
@@ -2089,6 +2098,8 @@ msgid ""
 "% : envoie les commandes jkmMpP à la console, agit sur le paramètre à modifier \n"
 "[flèches] [espace] a b s : identiques console\n"
 "[début/home] : positionne le spectre au début\n"
+"> : zone graphique du haut sélectionnée, affiche la courbe suivante\n"
+"< : zone graphique du haut sélectionnée, affiche la courbe précédente\n"
 "? : affiche sur la console la liste des commandes disponibles pour la vue graphique\n"
 msgstr ""
 "\n"
@@ -2103,6 +2114,8 @@ msgstr ""
 "% : send jkmMpP commands to console, affects parameter being modified \n"
 "[arrows] [space] a b s : same as console\n"
 "[home] : position spectrum at start\n"
+"> : Upper graph area selected, displays the next curve\n"
+"< : Upper graph area selected, displays the previous curve\n"
 "? : display list of available commands for graphic view on console\n"
 
 msgid "MIDInoteNum"
@@ -2297,21 +2310,23 @@ msgstr "or empty input: cancel"
 msgid "affiche le spectrogramme pour régler le microphone et le niveau de bruit"
 msgstr "display spectrogram to adjust microphone and noise level"
 
-msgid ""
-"affiche/modifie/capture l'inharmonicité et le timbre des notes de l'Instrument \n"
-"      (la capture des notes peut aussi se faire dans la vue graphique en mode transmission de commandes)"
-msgstr ""
-"display/modify/capture inharmonicity and timbre of Instrument notes \n"
-"      (note capture can also be done in graphic view via command transmission mode)"
+msgid "affiche/modifie/capture l'inharmonicité et le timbre des notes de l'Instrument"
+msgstr "display/edit/capture inharmonicity and timbre of the Instrument"
 
-msgid "assistant graphique pour accorder l'Instrument réel: ajoute des informations de consonnances"
+msgid "assistant pour accorder l'Instrument réel: ajoute des informations de consonnances"
 msgstr "graphic assistant to tune real instrument: adds consonance information"
 
 msgid "affiche/modifie les partiels de la note courante de l'Instrument"
 msgstr "display/modify partials of the current Instrument note"
 
+msgid "affiche/modifie le tempérament de l'Instrument"
+msgstr "display/edit Instrument's temperament"
+
 msgid "capture le timbre des notes de l'Instrument à partir d'un fichier WAV, doit commencer par la note courante"
 msgstr "capture instrument note timbre from WAV file, must start from current note"
+
+msgid "affiche les règles d'accordage et les fréquences des notes de l'Instrument"
+msgstr "display Instrument note tuning rules and frequencies"
 
 msgid "accorde l'Instrument selon ses règles d'accordage "
 msgstr "tune the instrument according to its tuning rules "
@@ -2321,9 +2336,6 @@ msgstr "tune the instrument according to its tuning rules,  clear the fixed freq
 
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
 msgstr "choose instrument temperament, a set of automatic tuning rules"
-
-msgid "affiche les règles et fréquences des notes de l'Instrument"
-msgstr "display instrument note rules and frequencies"
 
 msgid "affiche la distribution des notes actives sur les threads Engine-PCM"
 msgstr "display active note distribution across Engine-PCM threads"
@@ -2337,17 +2349,20 @@ msgstr "MIDI: display channels state"
 msgid "test:choisit la forme de l'onde de base"
 msgstr "test: choose basic waveform"
 
-msgid "vue Spectrum: régle le microphone"
-msgstr "Spectrum view: adjust microphone"
+msgid "Spectrum: régle le microphone"
+msgstr "Spectrum: adjust microphone"
 
-msgid "vue Inharmonicité: capture le timbre"
-msgstr "Inharmonicity view: capture timbre"
+msgid "Inharmonicité: capture le timbre"
+msgstr "Inharmonicity: capture timbre"
 
-msgid "vue Assistant d'accordage"
-msgstr "Tuning assistant view"
+msgid "Assistant d'accordage"
+msgstr "Tuning assistant"
 
-msgid "vue Modifie les partiels de la note"
-msgstr "Edit note partials view"
+msgid "Modifie les partiels de la note"
+msgstr "Edit note partials"
+
+msgid "Modifie le tempérament de l'Instrument"
+msgstr "Edit Instrument's temperament"
 
 msgid "Charge un Instrument"
 msgstr "Load an Instrument"
