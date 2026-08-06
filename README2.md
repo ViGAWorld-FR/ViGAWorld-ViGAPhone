@@ -4,31 +4,29 @@
   App for Android<img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> / Windows🪟 / Linux🐧
 </p>
 
-<p align="center">
-  <img src="images/ViGAPhone-logo_128.png" width="128" />
-</p>
-
 <table align="center">
-  <thead>
-    <tr>
-      <th align="left">English TOC</th>
-      <th align="left">Français TDM</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="left">
-        • <a href="#short-presentation">Short presentation</a><br>
-        • <a href="#user-manual">User manual</a><br>
-        • <a href="#Installation-en">App installation</a>
-      </td>
-      <td align="left">
-        • <a href="#courte-présentation">Courte présentation</a><br>
-        • <a href="#manuel-utilisateur">Manuel utilisateur</a><br>
-        • <a href="#Installation-fr">Installation de l'App</a>
-      </td>
-    </tr>
-  </tbody>
+  <tr>
+    <td rowspan="2" align="center" valign="middle">
+      <img src="images/ViGAPhone-logo_128.png" width="128" />
+    </td>
+    <th align="left">English TOC</th>
+    <th align="left">Français TDM</th>
+    <td rowspan="2" align="center" valign="middle">
+      <img src="images/ViGAPhone-logo_128.png" width="128" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      • <a href="#short-presentation">Short presentation</a><br>
+      • <a href="#user-manual">User manual</a><br>
+      • <a href="#Installation-en">App installation</a>
+    </td>
+    <td align="left">
+      • <a href="#courte-présentation">Courte présentation</a><br>
+      • <a href="#manuel-utilisateur">Manuel utilisateur</a><br>
+      • <a href="#Installation-fr">Installation de l'App</a>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
