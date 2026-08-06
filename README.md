@@ -380,6 +380,5 @@ Si la restauration de pianos vous intéresse, découvrez mon autre projet :
 
 ---
 
-
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-245884-4" border="0" /></a>
 
