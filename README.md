@@ -31,7 +31,7 @@
 
 <p align="center">
   🎧 <b>Audio demonstration</b> Click to listen:<br>
-  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
+  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/docs/main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
 </p>
 
 <br clear="all" />
@@ -152,7 +152,7 @@ For licensing or support inquiries:
 
 ## User manual
 
-[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
+[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/docs/main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-en"></p>
 
@@ -211,7 +211,7 @@ The application supports at least **English** and **French**, and can be transla
 ### For piano technicians:
 ## 🚀 Discover Piano Rebuilding Tool: Piano Scaling & Bass String Design Calculator
 If you are interested in piano rebuilding, check out my other project:  
-**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
+**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/docs/main/README.md)**
 
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -318,7 +318,7 @@ For licensing or support inquiries:
 
 ## Manuel utilisateur
 
-[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
+[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/docs/main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-fr"></p>
 
@@ -376,7 +376,7 @@ L'application supporte au minimum l'**anglais** et le **français**, et peut êt
 ### Pour les techniciens piano :
 ## 🚀 Découvrez mon outil de restauration de pianos : calculateur de plan de cordes et de conception des cordes de basse
 Si la restauration de pianos vous intéresse, découvrez mon autre projet :
-**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
+**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/docs/main/README.md)**
 
 ---
 
