@@ -196,7 +196,7 @@ Check: " Windows Security > Virus & threat protection > Protection history " , f
 
 ● **Installation on other distributions, without admin/root rights:**  
 	● Download the file archive for the latest version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
-	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 	● Extract the archive.  
 	● Navigate to the `installOnLinuxUser` directory.  
 	● Run the shell script: ```bash ./install.sh```  
