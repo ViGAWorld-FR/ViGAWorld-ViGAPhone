@@ -171,8 +171,8 @@ From the Google Play Store install the App [**Piano Tuner ETD MIDI Synth Pro**](
 ● **Hardware Requirements:** x64 platform, **AVX** support.  
 ● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
 
-● **Download and Installation:** Direct download the latest release [ViGAPhone-setup_amd64.exe](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhone-setup_amd64.exe). For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
-● Download the installer and run it, without admin rights.  
+● **Download and Installation:** Download the latest release installer and run it, without admin rights  [ViGAPhone-setup_amd64.exe](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhone-setup_amd64.exe).  
+For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 
 Upon launching, Windows may display a security warning indicating that the source is unknown. This message typically appears because the installer is not digitally signed, even though it was created using a standard and secure tool (Inno Setup).  
 
