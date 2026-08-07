@@ -191,12 +191,12 @@ Check: " Windows Security > Virus & threat protection > Protection history " , f
 
 ● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:**  
 	● Download the file package for the latest version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
-		For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 	● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 ● **Installation on other distributions, without admin/root rights:**  
 	● Download the file archive for the latest version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
-		For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 	● Extract the archive.  
 	● Navigate to the `installOnLinuxUser` directory.  
 	● Run the shell script: ```bash ./install.sh```  
@@ -362,12 +362,12 @@ Vérifier: "Sécurité Windows > Protection contre les virus et menaces > Histor
 
 ● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:**  
 	● Téléchargez l'archive de la dernière version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
-		Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● Installez avec votre gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 ● **Installation sur une autre distribution Linux, sans droits admin/root :**  
 	● Téléchargez l'archive de la dernière version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
-		Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● Dézippez l'archive.  
 	● Allez dans le répertoire `installOnLinuxUser`  
 	● Lancez le script d'installation : ```bash ./install.sh```
