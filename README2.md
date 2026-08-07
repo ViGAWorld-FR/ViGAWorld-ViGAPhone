@@ -216,7 +216,7 @@ The application supports at least **English** and **French**, and can be transla
 ### For piano technicians:
 ## 🚀 Discover Piano Rebuilding Tool: Piano Scaling & Bass String Design Calculator
 If you are interested in piano rebuilding, check out my other project:  
-**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/docs/main/README.md)**
+**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
 
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -386,7 +386,7 @@ L'application supporte au minimum l'**anglais** et le **français**, et peut êt
 ### Pour les techniciens piano :
 ## 🚀 Découvrez mon outil de restauration de pianos : calculateur de plan de cordes et de conception des cordes de basse
 Si la restauration de pianos vous intéresse, découvrez mon autre projet :
-**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/docs/main/README.md)**
+**[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
 
 ---
 
