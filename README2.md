@@ -172,7 +172,7 @@ From the Google Play Store install the App [**Piano Tuner ETD MIDI Synth Pro**](
 ● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
 
 ● **Download and Installation:** Download the installer for the latest version and run it without administrator rights  [ViGAPhone-setup_amd64.exe](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhone-setup_amd64.exe).  
-For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 
 Upon launching, Windows may display a security warning indicating that the source is unknown. This message typically appears because the installer is not digitally signed, even though it was created using a standard and secure tool (Inno Setup).  
 
@@ -191,12 +191,12 @@ Check: " Windows Security > Virus & threat protection > Protection history " , f
 
 ● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:**  
 	● Download the file package for the latest version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
-	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+		For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 	● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 ● **Installation on other distributions, without admin/root rights:**  
 	● Download the file archive for the latest version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
-	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+		For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 	● Extract the archive.  
 	● Navigate to the `installOnLinuxUser` directory.  
 	● Run the shell script: ```bash ./install.sh```  
@@ -343,7 +343,7 @@ Depuis le Google Play Store installez l'App [**Piano Tuner ETD MIDI Synth Pro**]
 ● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
 
 ● **Téléchargement et installation :**   Téléchargez le programme d'installation de la dernière version et exécutez-le sans droits d'administrateur [ViGAPhone-setup_amd64.exe](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhone-setup_amd64.exe).  
-Pour une version précédente, rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+	Pour une version précédente, rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
 
 Lors du lancement, Windows peut afficher un avertissement de sécurité indiquant que la source est inconnue. Ce message apparaît généralement parce que l'installateur n'est pas signé numériquement, bien qu'il ait été créé avec un outil standard et sécurisé (Inno Setup).  
 
@@ -362,12 +362,12 @@ Vérifier: "Sécurité Windows > Protection contre les virus et menaces > Histor
 
 ● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:**  
 	● Téléchargez l'archive de la dernière version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
-	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+		Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● Installez avec votre gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
 ● **Installation sur une autre distribution Linux, sans droits admin/root :**  
 	● Téléchargez l'archive de la dernière version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
-	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+		Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● Dézippez l'archive.  
 	● Allez dans le répertoire `installOnLinuxUser`  
 	● Lancez le script d'installation : ```bash ./install.sh```
