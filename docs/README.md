@@ -31,7 +31,7 @@
 
 <p align="center">
   🎧 <b>Audio demonstration</b> Click to listen:<br>
-  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
+  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone//main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
 </p>
 
 <br clear="all" />
@@ -152,7 +152,7 @@ For licensing or support inquiries:
 
 ## User manual
 
-[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
+[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone//main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-en"></p>
 
@@ -164,6 +164,22 @@ For licensing or support inquiries:
 
 From the Google Play Store install the App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app)
 
+---
+
+### 🪟 Windows
+
+● **Hardware Requirements:** x64 platform, **AVX** support.  
+● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
+
+● **Download and Installation:** Download the installer for the latest version and run it without administrator rights  [ViGAPhone-setup_amd64.exe](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhone-setup_amd64.exe).  
+	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
+
+Upon launching, Windows may display a security warning indicating that the source is unknown. This message typically appears because the installer is not digitally signed, even though it was created using a standard and secure tool (Inno Setup).  
+
+In case of installation failure:  
+Check: " Windows Security > Virus & threat protection > Protection history " , for any blocked entry related to the installation file, select: " Allow on device " .  
+
+---
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
@@ -174,28 +190,17 @@ From the Google Play Store install the App [**Piano Tuner ETD MIDI Synth Pro**](
 	● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
 
 ● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:**  
-	● Go to the [GitHub Releases page	.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
-	● download the file package: `vigaphone-bin_amd64.deb`  
+	● Download the file package for the latest version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
+	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 	● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
-● **Manual Download and Installation, without admin/root rights:**  
-	● Go to the [GitHub Releases page.](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
-	● Download the package: `ViGAPhoneR_linux_amd64.tar.gz`  
+● **Installation on other distributions, without admin/root rights:**  
+	● Download the file archive for the latest version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
+	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
 	● Extract the archive.  
 	● Navigate to the `installOnLinuxUser` directory.  
 	● Run the shell script: ```bash ./install.sh```  
 
-
-
----
-
-### 🪟 Windows
-
-● **Hardware Requirements:** x64 platform, **AVX** support.  
-● **OS Requirements:** Windows 10 or higher with a basic graphics card supporting **OpenGL**.  
-
-● **Download and Installation:** ● Go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
-	● Download the installer and run it, without admin rights: `ViGAPhone-setup_amd64.exe`.  
 
 ---
 
@@ -318,7 +323,7 @@ For licensing or support inquiries:
 
 ## Manuel utilisateur
 
-[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/MANUEL-UTILISATEUR.html)
+[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone//main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-fr"></p>
 
@@ -330,6 +335,22 @@ For licensing or support inquiries:
 
 Depuis le Google Play Store installez l'App [**Piano Tuner ETD MIDI Synth Pro**](https://play.google.com/store/apps/details?id=com.vigaphone.app).
 
+---
+
+### 🪟 Windows
+
+● **Prérequis matériel :** Plateforme x64, support **AVX**.  
+● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
+
+● **Téléchargement et installation :**   Téléchargez le programme d'installation de la dernière version et exécutez-le sans droits d'administrateur [ViGAPhone-setup_amd64.exe](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhone-setup_amd64.exe).  
+	Pour une version précédente, rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
+
+Lors du lancement, Windows peut afficher un avertissement de sécurité indiquant que la source est inconnue. Ce message apparaît généralement parce que l'installateur n'est pas signé numériquement, bien qu'il ait été créé avec un outil standard et sécurisé (Inno Setup).  
+
+En cas d'échec de l'installation :  
+Vérifier: "Sécurité Windows > Protection contre les virus et menaces > Historique de protection", pour toute entrée bloquée liée au fichier d'installation, sélectionner: "Autoriser sur l'appareil".  
+
+---
 
 ### 🐧 Linux (Ubuntu Debian / ArchLinux / ChromeOS / etc.)
 
@@ -340,27 +361,16 @@ Depuis le Google Play Store installez l'App [**Piano Tuner ETD MIDI Synth Pro**]
 	● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
 
 ● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:**  
-	● Allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
-	● télécharger le fichier package: `vigaphone-bin_amd64.deb`  
-	● L'installer avec le gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+	● Téléchargez l'archive de la dernière version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
+	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
+	● Installez avec votre gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
 
-● **Téléchargement et installation manuelle, sans droits admin/root :**  
-	● Allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
-	● Téléchargez l'archive : `ViGAPhoneR_linux_amd64.tar.gz`  
+● **Installation sur une autre distribution Linux, sans droits admin/root :**  
+	● Téléchargez l'archive de la dernière version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
+	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
 	● Dézippez l'archive.  
 	● Allez dans le répertoire `installOnLinuxUser`  
 	● Lancez le script d'installation : ```bash ./install.sh```
-
----
-
-### 🪟 Windows
-
-● **Prérequis matériel :** Plateforme x64, support **AVX**.  
-● **Prérequis OS :** Windows 10 ou supérieur avec une carte graphique supportant **OpenGL**.  
-
-● **Téléchargement et installation, sans droits admin :**  
-	● Rendez-vous sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases).  
-	● Téléchargez et exécutez l'auto-installateur : `ViGAPhone-setup_amd64.exe`.  
 
 ---
 
@@ -379,6 +389,7 @@ Si la restauration de pianos vous intéresse, découvrez mon autre projet :
 **[Piano-Scale-Design](https://github.com/ViGAWorld-FR/Piano-Scale-Design/blob/main/README.md)**
 
 ---
+
 
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-245884-4" border="0" /></a>
 
