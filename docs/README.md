@@ -31,7 +31,7 @@
 
 <p align="center">
   🎧 <b>Audio demonstration</b> Click to listen:<br>
-  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone//main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
+  <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/docs/main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
 </p>
 
 <br clear="all" />
@@ -152,7 +152,7 @@ For licensing or support inquiries:
 
 ## User manual
 
-[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone//main/MANUEL-UTILISATEUR.html)
+[read the user manual in English or other language via Google Translate](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/docs/main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-en"></p>
 
@@ -323,7 +323,7 @@ For licensing or support inquiries:
 
 ## Manuel utilisateur
 
-[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone//main/MANUEL-UTILISATEUR.html)
+[Lire le manuel utilisateur](https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/docs/main/MANUEL-UTILISATEUR.html)
 
 <p id="Installation-fr"></p>
 
