@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-29 12:31+0200\n"
+"POT-Creation-Date: 2026-08-15 17:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,36 +65,6 @@ msgid ""
 " "
 msgstr ""
 
-msgid "Instrument"
-msgstr ""
-
-msgid "Spectre de %d notes "
-msgstr ""
-
-msgid "au diapason %s %5.1fHz "
-msgstr ""
-
-msgid "pas de son?"
-msgstr ""
-
-msgid "capture gelée "
-msgstr ""
-
-msgid "(sélect. auto) "
-msgstr ""
-
-msgid "Note identifiée : %s [K"
-msgstr ""
-
-msgid "Paramètre"
-msgstr ""
-
-msgid "Niveau de Bruit"
-msgstr ""
-
-msgid " niveaux sonores : max%5.fdB moyen%5.fdB     "
-msgstr ""
-
 msgid ""
 "\n"
 "Conseil : Edition de l'inharmonicité et capture du timbre\n"
@@ -117,6 +87,9 @@ msgid ""
 "  v    : valide la capture \n"
 "[92m  V    : valide tout et sauvegarde les fichiers Instrument et WAV\n"
 "[0m"
+msgstr ""
+
+msgid "Instrument"
 msgstr ""
 
 msgid "Spectre d'inharmonicité en cents (100ièmes de 1/2 ton) de %d notes "
@@ -153,7 +126,7 @@ msgstr ""
 msgid "Inharmonicité %.6f         "
 msgstr ""
 
-msgid ": règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
+msgid "règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
 msgstr ""
 
 msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s> Note relative#%d\n"
@@ -180,7 +153,7 @@ msgstr ""
 msgid "==>Erreur d'accordage, la note %s n'a pas été accordée, vérifier les règles d'accord\n"
 msgstr ""
 
-msgid "Erreur, impossible d'ouvrir le fichier <%s>\n"
+msgid "impossible d'ouvrir le fichier <%s>\n"
 msgstr ""
 
 msgid "==> Erreur de lecture du fichier ou mauvaise syntaxe %s \n"
@@ -212,10 +185,7 @@ msgstr ""
 msgid "Note %s fréquence %7.1fHz non trouvée "
 msgstr ""
 
-msgid ""
-"\n"
-"Note %s mauvaise fréquence du partiel 1, fréquence cherchée %.2fHz non trouvée,\n"
-" vérifier la fréquence estimée et régler l'amplitude du partiel 1\n"
+msgid "Note %s: défaut du partiel 1, vérifier sa fréquence et son amplitude."
 msgstr ""
 
 msgid "Note %s fréquence trouvée %7.1fHz nb partiels %3d taux d'inharmonicité "
@@ -385,18 +355,7 @@ msgstr ""
 msgid "==> ATTENTION, le nombre de notes trouvées=%d est différent du nombre de notes de l'Instrument=%d \n"
 msgstr ""
 
-msgid "L'Instrument est près à être joué."
-msgstr ""
-
-msgid "Pas de capture pour cette note"
-msgstr ""
-
-msgid ""
-"\n"
-"Note %s frequence %.1fHz: liste des %d couples (fréquence, amplitude) capturés\n"
-msgstr ""
-
-msgid "Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f \n"
+msgid "L'Instrument est près à être joué, identique au réel, il faut l'accorder."
 msgstr ""
 
 msgid "Prérequis: "
@@ -1519,6 +1478,9 @@ msgstr ""
 msgid "Choisir un modèle d'Instrument:"
 msgstr ""
 
+msgid "fichier non trouvé"
+msgstr ""
+
 msgid "==> ERREUR: impossible d'initialiser FreeType\n"
 msgstr ""
 
@@ -1528,19 +1490,10 @@ msgstr ""
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr ""
 
-msgid "Courbe d'accordage"
-msgstr ""
-
-msgid "Étirement des octaves (Railsback)"
-msgstr ""
-
 msgid "Partiel"
 msgstr ""
 
 msgid "Notes consonantes par résonance sympathique"
-msgstr ""
-
-msgid "Inharmonicité"
 msgstr ""
 
 msgid "Progression des battements d'accords"
@@ -1552,10 +1505,10 @@ msgstr ""
 msgid "Sauvegardé"
 msgstr ""
 
-msgid "Spectre temporel"
+msgid "max "
 msgstr ""
 
-msgid "max "
+msgid "pas de son?"
 msgstr ""
 
 msgid ">>> JOUE LE SON REEL <<< "
@@ -1565,6 +1518,9 @@ msgid "capture gelée"
 msgstr ""
 
 msgid "Fixe le Niveau de Bruit"
+msgstr ""
+
+msgid "Niveau de Bruit"
 msgstr ""
 
 msgid "max"
@@ -1615,7 +1571,7 @@ msgstr ""
 msgid "choix par défaut"
 msgstr ""
 
-msgid ": fichier non trouvé fonte <%s>\n"
+msgid "fichier non trouvé fonte <%s>\n"
 msgstr ""
 
 msgid "Zoom"
@@ -2127,7 +2083,7 @@ msgstr ""
 msgid "accorde l'Instrument selon ses règles d'accordage "
 msgstr ""
 
-msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences fixées"
+msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences altérées"
 msgstr ""
 
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
@@ -2188,6 +2144,24 @@ msgid "Plein écran"
 msgstr ""
 
 msgid "Quitte l'application"
+msgstr ""
+
+msgid "Spectre temporel"
+msgstr ""
+
+msgid "Notes consonnantes"
+msgstr ""
+
+msgid "Battements des octaves"
+msgstr ""
+
+msgid "Étirement des octaves (Railsback)"
+msgstr ""
+
+msgid "Qualité d'accordage"
+msgstr ""
+
+msgid "Inharmonicité"
 msgstr ""
 
 msgid ""

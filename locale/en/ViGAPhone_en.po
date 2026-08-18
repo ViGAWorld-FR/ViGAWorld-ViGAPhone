@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-29 12:31+0200\n"
+"POT-Creation-Date: 2026-08-15 17:47+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -98,36 +98,6 @@ msgstr ""
 "  mpMP : manually adjust the Noise Level parameter \n"
 " "
 
-msgid "Instrument"
-msgstr "Instrument"
-
-msgid "Spectre de %d notes "
-msgstr "Spectrum of %d notes "
-
-msgid "au diapason %s %5.1fHz "
-msgstr "at pitch %s %5.1fHz "
-
-msgid "pas de son?"
-msgstr "no sound?"
-
-msgid "capture gelée "
-msgstr "capture frozen "
-
-msgid "(sélect. auto) "
-msgstr "(auto select) "
-
-msgid "Note identifiée : %s [K"
-msgstr "Note identified: %s [K"
-
-msgid "Paramètre"
-msgstr "Parameter"
-
-msgid "Niveau de Bruit"
-msgstr "Noise Level"
-
-msgid " niveaux sonores : max%5.fdB moyen%5.fdB     "
-msgstr " sound levels: max%5.fdB average%5.fdB     "
-
 msgid ""
 "\n"
 "Conseil : Edition de l'inharmonicité et capture du timbre\n"
@@ -166,6 +136,9 @@ msgstr ""
 "  v    : validate capture \n"
 "[92m  V    : validate all and save Instrument and WAV files\n"
 "[0m"
+
+msgid "Instrument"
+msgstr "Instrument"
 
 msgid "Spectre d'inharmonicité en cents (100ièmes de 1/2 ton) de %d notes "
 msgstr "Inharmonicity spectrum in cents (1/100th of semitone) of %d notes "
@@ -208,8 +181,8 @@ msgstr "Note %s partial %d frequency %.1fHz amplitude %.1fdB          \n"
 msgid "Inharmonicité %.6f         "
 msgstr "Inharmonicity %.6f         "
 
-msgid ": règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
-msgstr ": tuning rule <%s> has invalid syntax or out‑of‑range value \n"
+msgid "règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
+msgstr "tuning rule <%s> has invalid syntax or out‑of‑range value \n"
 
 msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s> Note relative#%d\n"
 msgstr "==> Error: note %s bad syntax in tuning rule <%s> Relative note #%d\n"
@@ -235,8 +208,8 @@ msgstr "==> Error: tuning failed\n"
 msgid "==>Erreur d'accordage, la note %s n'a pas été accordée, vérifier les règles d'accord\n"
 msgstr "==>Tuning error, note %s was not tuned, please check the tuning rules\n"
 
-msgid "Erreur, impossible d'ouvrir le fichier <%s>\n"
-msgstr "Error, cannot open file <%s>\n"
+msgid "impossible d'ouvrir le fichier <%s>\n"
+msgstr "cannot open file <%s>\n"
 
 msgid "==> Erreur de lecture du fichier ou mauvaise syntaxe %s \n"
 msgstr "==> Error reading file or bad syntax %s \n"
@@ -272,14 +245,8 @@ msgstr "New tuning performed\n"
 msgid "Note %s fréquence %7.1fHz non trouvée "
 msgstr "Note %s frequency %7.1fHz not found "
 
-msgid ""
-"\n"
-"Note %s mauvaise fréquence du partiel 1, fréquence cherchée %.2fHz non trouvée,\n"
-" vérifier la fréquence estimée et régler l'amplitude du partiel 1\n"
-msgstr ""
-"\n"
-"Note %s bad partial 1 frequency, target %.2fHz not found,\n"
-" check estimated frequency and adjust partial 1 amplitude\n"
+msgid "Note %s: défaut du partiel 1, vérifier sa fréquence et son amplitude."
+msgstr "Note %s: Partial 1 fault; check its frequency and amplitude."
 
 msgid "Note %s fréquence trouvée %7.1fHz nb partiels %3d taux d'inharmonicité "
 msgstr "Note %s frequency found %7.1fHz nb partials %3d inharmonicity rate "
@@ -456,21 +423,8 @@ msgstr "- tune the Instrument."
 msgid "==> ATTENTION, le nombre de notes trouvées=%d est différent du nombre de notes de l'Instrument=%d \n"
 msgstr "==> WARNING, the number of notes found=%d differs from the Instrument's note count=%d \n"
 
-msgid "L'Instrument est près à être joué."
-msgstr "The Instrument is ready to be played."
-
-msgid "Pas de capture pour cette note"
-msgstr "No capture for this note"
-
-msgid ""
-"\n"
-"Note %s frequence %.1fHz: liste des %d couples (fréquence, amplitude) capturés\n"
-msgstr ""
-"\n"
-"Note %s frequency %.1fHz: list of %d captured (frequency, amplitude) pairs\n"
-
-msgid "Fréquence : %.2fHz, Amplitude : %.1fdB freq/freqP1 %.3f \n"
-msgstr "Frequency: %.2fHz, Amplitude: %.1fdB freq/freqP1 %.3f \n"
+msgid "L'Instrument est près à être joué, identique au réel, il faut l'accorder."
+msgstr "The Instrument is ready to be played; just like the real thing, it needs to be tuned."
 
 msgid "Prérequis: "
 msgstr "Requirement:"
@@ -1631,6 +1585,9 @@ msgstr "unable to rename the protected Instrument file"
 msgid "Choisir un modèle d'Instrument:"
 msgstr "Choose an Instrument model:"
 
+msgid "fichier non trouvé"
+msgstr "file not found"
+
 msgid "==> ERREUR: impossible d'initialiser FreeType\n"
 msgstr "==> ERROR: unable to initialize FreeType\n"
 
@@ -1640,20 +1597,11 @@ msgstr "==> ERROR: unable to find a font equivalent to <%s> \n"
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr "Default font loaded: %s : %s \n"
 
-msgid "Courbe d'accordage"
-msgstr "Tuning curve"
-
-msgid "Étirement des octaves (Railsback)"
-msgstr "Octave stretching (Railsback)"
-
 msgid "Partiel"
 msgstr "Partial"
 
 msgid "Notes consonantes par résonance sympathique"
 msgstr "Consonant notes via sympathetic resonance"
-
-msgid "Inharmonicité"
-msgstr "inharmonicity"
 
 msgid "Progression des battements d'accords"
 msgstr "Chord beat progression"
@@ -1664,11 +1612,11 @@ msgstr "Master volume %.1fdB"
 msgid "Sauvegardé"
 msgstr "Save successful"
 
-msgid "Spectre temporel"
-msgstr "Time spectrum"
-
 msgid "max "
 msgstr "max "
+
+msgid "pas de son?"
+msgstr "no sound?"
 
 msgid ">>> JOUE LE SON REEL <<< "
 msgstr ">>> PLAYING REAL SOUND <<< "
@@ -1678,6 +1626,9 @@ msgstr "capture frozen"
 
 msgid "Fixe le Niveau de Bruit"
 msgstr "Set Noise Level"
+
+msgid "Niveau de Bruit"
+msgstr "Noise Level"
 
 msgid "max"
 msgstr "max"
@@ -1727,8 +1678,8 @@ msgstr "Console"
 msgid "choix par défaut"
 msgstr "default choice"
 
-msgid ": fichier non trouvé fonte <%s>\n"
-msgstr ": font file not found <%s> \n"
+msgid "fichier non trouvé fonte <%s>\n"
+msgstr "font file not found <%s> \n"
 
 msgid "Zoom"
 msgstr "Zoom"
@@ -2331,8 +2282,8 @@ msgstr "display Instrument note tuning rules and frequencies"
 msgid "accorde l'Instrument selon ses règles d'accordage "
 msgstr "tune the instrument according to its tuning rules "
 
-msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences fixées"
-msgstr "tune the instrument according to its tuning rules,  clear the fixed frequencies"
+msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences altérées"
+msgstr "tunes the instrument according to its automatic tuning rules, clears altered frequencies"
 
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
 msgstr "choose instrument temperament, a set of automatic tuning rules"
@@ -2393,6 +2344,24 @@ msgstr "Full screen"
 
 msgid "Quitte l'application"
 msgstr "Quit application"
+
+msgid "Spectre temporel"
+msgstr "Time spectrum"
+
+msgid "Notes consonnantes"
+msgstr "Consonant notes"
+
+msgid "Battements des octaves"
+msgstr "Octave beats"
+
+msgid "Étirement des octaves (Railsback)"
+msgstr "Octave stretching (Railsback)"
+
+msgid "Qualité d'accordage"
+msgstr "Tuning quality"
+
+msgid "Inharmonicité"
+msgstr "inharmonicity"
 
 msgid ""
 "\n"
@@ -2467,3 +2436,6 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+#~ msgid "L'Instrument est près à être joué, identique au réel il faut l'accorder."
+#~ msgstr "The Instrument is ready to be played; just like the real thing, it needs to be tuned."
