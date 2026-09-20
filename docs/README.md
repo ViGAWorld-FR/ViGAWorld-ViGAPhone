@@ -209,7 +209,7 @@ Check: " Windows Security > Virus & threat protection > Protection history " , f
 The application supports at least **English** and **French**, and can be translated into any language using the standard tool [Poedit](https://poedit.net/).  
 
 ● **Default Behavior:** The application uses the OS language. If the language is not supported, it defaults to English.  
-● **Manual Configuration:** Users can also choose the language in the application settings file using the `SetLocale` variable (refer to the user manual).
+● **Manual Configuration:** Users can change the language at any time while the application is running.
 
 ---
 
@@ -379,7 +379,7 @@ Vérifier: "Sécurité Windows > Protection contre les virus et menaces > Histor
 L'application supporte au minimum l'**anglais** et le **français**, et peut être traduite dans toutes les langues avec l'outil standard [Poedit](https://poedit.net/).  
 
 ● **Comportement par défaut :** L'application utilise la langue du système d'exploitation. Si celle-ci n'est pas supportée, elle bascule automatiquement en anglais.  
-● **Configuration manuelle :** L'utilisateur peut forcer la langue dans le fichier de configuration via la variable `SetLocale` (voir le manuel utilisateur).
+● **Configuration manuelle :** L'utilisateur peut changer la langue à tout moment dans l'application en cours d'exécution.
 
 ---
 
