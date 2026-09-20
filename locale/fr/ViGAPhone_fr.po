@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-15 17:47+0200\n"
+"POT-Creation-Date: 2026-09-19 10:56+0200\n"
 "PO-Revision-Date: 2026-04-12 07:20+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,7 +18,6 @@ msgstr ""
 "X-Source-Language: fr\n"
 
 msgid ""
-"Choisir une forme d'onde :\n"
 "0 abandonne\n"
 "1 sinusoïde\n"
 "2 triangle\n"
@@ -29,6 +28,7 @@ msgid ""
 "7 triangle avec 3 harmoniques, pente à -6dB\n"
 "8 Onde définie pour l'Instrument\n"
 "9 la sinusoide du Chef \n"
+"Choisir une forme d'onde :\n"
 "?"
 msgstr ""
 
@@ -71,8 +71,7 @@ msgid ""
 "Conseil : Edition de l'inharmonicité et capture du timbre\n"
 " ==> le microphone et le paramètre Niveau de Bruit doivent avoir été réglés \n"
 " Touches de commande :\n"
-"  mMpP : change la valeur     jJkK : déplace la note courante \n"
-"  + -  : agrandit réduit le maximum affiché \n"
+"  mMpP : change la valeur de l'inharmonicité \n"
 "  [flèches] : change la note courante\n"
 "  B    : bascule sur la vue d'édition des partiels\n"
 msgstr ""
@@ -90,24 +89,6 @@ msgid ""
 "[0m"
 msgstr ""
 
-msgid "Instrument"
-msgstr ""
-
-msgid "Spectre d'inharmonicité en cents (100ièmes de 1/2 ton) de %d notes "
-msgstr ""
-
-msgid "au diapason %5.1fHz note %s"
-msgstr ""
-
-msgid "Note %s fréquence %.1fHz taux d'inharmonicité %.6f cents %.2f"
-msgstr ""
-
-msgid " mesuré à %.1fHz"
-msgstr ""
-
-msgid "Fréquence du dernier partiel(#%d) %.1fHz soit %.1f fois la fréquence de base (limitée à %dHz)"
-msgstr ""
-
 msgid ""
 "\n"
 "Conseil : Edition des partiels touches de commande:\n"
@@ -116,15 +97,6 @@ msgid ""
 "  + -  : ajoute supprime le dernier partiel\n"
 "  [flèches] : change la note courante\n"
 "  B    : bascule sur la vue d'édition de l'inharmonicité\n"
-msgstr ""
-
-msgid "Spectre des %d partiels "
-msgstr ""
-
-msgid "Note %s partiel %d fréquence %.1fHz amplitude %.1fdB          \n"
-msgstr ""
-
-msgid "Inharmonicité %.6f         "
 msgstr ""
 
 msgid "règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
@@ -176,11 +148,14 @@ msgid ""
 "  0 : abandonne\n"
 "  r : affiche le résultat de l'accordage\n"
 "  c : choisis un nouveau jeu de règles d'accordage\n"
-"  v : valide l'accordage et l'applique à l'Instrument\n"
+"  v : valide le tempérament et accorde l'Instrument\n"
 "?"
 msgstr ""
 
 msgid "Nouvel accordage effectué\n"
+msgstr ""
+
+msgid "==> Erreur, la note est active et ne peut être restructurée."
 msgstr ""
 
 msgid "Note %s fréquence %7.1fHz non trouvée "
@@ -196,9 +171,6 @@ msgid "======0"
 msgstr ""
 
 msgid ", mauvaise qualité !"
-msgstr ""
-
-msgid "==> Erreur, la note est active et ne peut être restructurée."
 msgstr ""
 
 msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
@@ -225,7 +197,7 @@ msgstr ""
 msgid "note altérée à "
 msgstr ""
 
-msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
+msgid "==> Attention: des fréquences de notes sont altérées dans le fichier Instrument."
 msgstr ""
 
 msgid "Nb échantillons="
@@ -258,7 +230,10 @@ msgstr ""
 msgid "Nombre de notes trouvées: "
 msgstr ""
 
-msgid ", %d notes sonores %d notes vides "
+msgid ", %d notes sonores "
+msgstr ""
+
+msgid " notes vides "
 msgstr ""
 
 msgid ", %d notes avec du son saturé"
@@ -359,6 +334,9 @@ msgstr ""
 msgid "L'Instrument est près à être joué, identique au réel, il faut l'accorder."
 msgstr ""
 
+msgid "Appuyer sur la touche [Entrée] pour continuer dans l'activité 'Mesure de la signature acoustique'."
+msgstr ""
+
 msgid "Prérequis: "
 msgstr ""
 
@@ -386,10 +364,10 @@ msgstr ""
 msgid "Aucun périphérique MIDI-OUT disponible.\n"
 msgstr ""
 
-msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
+msgid "La liste est vide, connecter un périphérique MIDI"
 msgstr ""
 
-msgid "La liste est vide, connecter un périphérique MIDI"
+msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
 msgstr ""
 
 msgid "client connecté"
@@ -416,13 +394,10 @@ msgid ""
 "arrêt de l'application pour préserver le système audio"
 msgstr ""
 
-msgid "  note %s:P%-3d fréquence %6.1fHz amplitude %6.1fdB écart : %6.1fHz %4.1fcents \n"
+msgid "  note %s.P%-3d fréquence %6.1fHz amplitude %6.1fdB écart %6.1fHz %4.1fcents \n"
 msgstr ""
 
-msgid "note %s:P%d amplitude %6.1fdB à %6.2fHz \n"
-msgstr ""
-
-msgid "==> ERREUR: impossible de retirer la note %s, abandon de la commande \n"
+msgid "note %s.P%d amplitude %6.1fdB à %6.2fHz \n"
 msgstr ""
 
 msgid "==> ERREUR : JACK perte de %d événements MIDI taille buffer %d dépassée \n"
@@ -838,6 +813,9 @@ msgstr ""
 msgid "Choisir une Langue"
 msgstr ""
 
+msgid "0/q : abandonne, [ENTREE] rafraîchit la liste\n"
+msgstr ""
+
 msgid "En attente de l'arrêt de la note..."
 msgstr ""
 
@@ -874,22 +852,22 @@ msgstr ""
 msgid "Battement < %dHz et volume de battement > %ddB\n"
 msgstr ""
 
-msgid "Fréquence:%9.2fHz Note1 %-9s\n"
+msgid "Fréquence %9.2fHz Note1 %-9s\n"
 msgstr ""
 
-msgid "Fréquence:%9.2fHz Note1 %-9s Partiel:%02d Volume:%3.0fdB"
+msgid "Fréquence %9.2fHz Note1 %-9s Partiel %02d Volume %3.0fdB"
 msgstr ""
 
-msgid "Fréquence:%9.2fHz Note2 %-9s\n"
+msgid "Fréquence %9.2fHz Note2 %-9s\n"
 msgstr ""
 
-msgid "Fréquence:%9.2fHz Note2 %-9s Partiel:%02d Volume:%3.0fdB"
+msgid "Fréquence %9.2fHz Note2 %-9s Partiel %02d Volume %3.0fdB"
 msgstr ""
 
-msgid "Fréquence:%9.2fHz Note3 %-9s\n"
+msgid "Fréquence %9.2fHz Note3 %-9s\n"
 msgstr ""
 
-msgid "Fréquence:%9.2fHz Note3 %-9s Partiel:%02d Volume:%3.0fdB"
+msgid "Fréquence %9.2fHz Note3 %-9s Partiel %02d Volume %3.0fdB"
 msgstr ""
 
 msgid "Fréquence: %fHz Note%1d %[^V]Volume:%f"
@@ -901,7 +879,7 @@ msgstr ""
 msgid "Note : %s liste des notes et partiels en résonnance, limité à %.fdB \n"
 msgstr ""
 
-msgid "Note %s:P%d freq %.1fHz amplitude %.1fdB liste des notes partiels proches: \n"
+msgid "Note %s.P%d freq %.1fHz amplitude %.1fdB liste des notes partiels proches: \n"
 msgstr ""
 
 msgid "Liste détaillée des partiels : "
@@ -994,7 +972,7 @@ msgstr ""
 msgid "CPU, nombre de coeurs, AVX : "
 msgstr ""
 
-msgid "Nombre de threads Audio actifs créés = "
+msgid "Threads Audio PCM : "
 msgstr ""
 
 msgid "Améliorations sonores : "
@@ -1114,7 +1092,9 @@ msgstr ""
 msgid "==>Erreur, paramètre non modifiable \n"
 msgstr ""
 
-msgid "Paramètre à modifier = %s : note <%s>"
+msgid ""
+"Paramètre à modifier note <%s>:\n"
+"%s"
 msgstr ""
 
 msgid " = %d (déviation = %.2fHz) "
@@ -1140,7 +1120,7 @@ msgstr ""
 msgid "Choisir un paramètre général à modifier, puis touches de commande:"
 msgstr ""
 
-msgid " mMpP      : modifie la valeur numérique ou binaire "
+msgid " mMpP      : modifie la valeur "
 msgstr ""
 
 msgid " jk        : passe au paramètre précédent ou suivant "
@@ -1189,9 +1169,6 @@ msgid "Le son synthétisé est maintenant joué à la place du son de la capture
 msgstr ""
 
 msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
-msgstr ""
-
-msgid "==>Erreur, l'inharmonicité est trop forte ou la fréquence du dernier partiel est hors limites"
 msgstr ""
 
 msgid ""
@@ -1279,10 +1256,10 @@ msgstr ""
 msgid "==> Erreur, impossible d'ouvrir en écriture le fichier WAV : <%s> \n"
 msgstr ""
 
-msgid "Fichier WAV non modifiable <%s> "
+msgid "Fichier WAV enregistré : <%s>\n"
 msgstr ""
 
-msgid "Fichier WAV enregistré : <%s>\n"
+msgid "L'Instrument est protégé, impossible de le modifier.\n"
 msgstr ""
 
 msgid "==> Attention : nom de colonne inconnu <%s> \n"
@@ -1377,13 +1354,13 @@ msgstr ""
 msgid "====> Erreur, ligne %d le paramètre n'est pas reconnu : %s \n"
 msgstr ""
 
-msgid "Choisir un fichier Instrument dans le répertoire courant:"
+msgid "Choisir un fichier Instrument par son numéro ou filtrer la liste par des mots :"
 msgstr ""
 
-msgid "  0 : abandonne, '.' accéde au répertoire de base et '..' au parent, [ENTREE] rafraîchit la liste\n"
+msgid "  0/q : abandonne, '.' accéde au répertoire de base et '..' au parent, [ENTREE] rafraîchit la liste\n"
 msgstr ""
 
-msgid " fichier non trouvé"
+msgid "fichier non trouvé"
 msgstr ""
 
 msgid "erreur, fichier Instrument non trouvé ==>%s<== \n"
@@ -1418,16 +1395,22 @@ msgid ""
 "Suite à%s un abandon, le fichier Instrument n'a pas été chargé.\n"
 msgstr ""
 
-msgid "Le fichier Instrument est protégé, impossible de le modifier.\n"
+msgid "Sauvegarde de l'Instrument dans le fichier : %s \n"
 msgstr ""
 
-msgid "Sauvegarde de l'Instrument dans le fichier : %s \n"
+msgid "Sauvegarde réussie"
 msgstr ""
 
 msgid "fichier Instrument identique à l'ancien\n"
 msgstr ""
 
-msgid "Sauvegarde réussie"
+msgid "OUI"
+msgstr ""
+
+msgid "Pour enlever la protection saisir %s ; sinon laisser le champ vide?"
+msgstr ""
+
+msgid "L'Instrument n'est plus protégé, il peut-être modifié.\n"
 msgstr ""
 
 msgid "Sauvegarde du fichier Instrument: %s\n"
@@ -1440,7 +1423,6 @@ msgid ""
 "Appuyer sur [ENTREE] pour écrire sur le fichier Instrument actuel\n"
 " ou saisir '+' pour faire une sauvegarde incrémentielle\n"
 " ou saisir un nouveau nom de fichier Instrument\n"
-" "
 msgstr ""
 
 msgid "nom de fichier incorrect <%s>\n"
@@ -1452,7 +1434,16 @@ msgstr ""
 msgid "Saisir les nouvelles valeurs:"
 msgstr ""
 
-msgid "Nom court"
+msgid "(un $ à la fin du Nom court activera la protection)"
+msgstr ""
+
+msgid "Nom court (marque modèle NS ...)"
+msgstr ""
+
+msgid "Interdit de protéger l'Instrument 'run'."
+msgstr ""
+
+msgid "L'Instrument est  protégé contre les modifications."
 msgstr ""
 
 msgid "Version Date"
@@ -1467,19 +1458,7 @@ msgstr ""
 msgid "Auteur du paramétrage"
 msgstr ""
 
-msgid "nom du fichier"
-msgstr ""
-
-msgid "fichier Instrument renomé en <%s>\n"
-msgstr ""
-
-msgid "impossible de renomer le fichier Instrument protégé"
-msgstr ""
-
 msgid "Choisir un modèle d'Instrument:"
-msgstr ""
-
-msgid "fichier non trouvé"
 msgstr ""
 
 msgid "==> ERREUR: impossible d'initialiser FreeType\n"
@@ -1491,19 +1470,31 @@ msgstr ""
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr ""
 
-msgid "Partiel"
+msgid "Partiels 2 à 8"
+msgstr ""
+
+msgid "Partiels (1)"
+msgstr ""
+
+msgid "Partiels"
+msgstr ""
+
+msgid "Accorder "
 msgstr ""
 
 msgid "Notes consonantes par résonance sympathique"
 msgstr ""
 
+msgid "Inharmonicité et partiels 1 à 8"
+msgstr ""
+
 msgid "Progression des battements d'accords"
 msgstr ""
 
-msgid "Volume général %.1fdB"
+msgid "Accord"
 msgstr ""
 
-msgid "Sauvegardé"
+msgid "Volume général %.1fdB"
 msgstr ""
 
 msgid "max "
@@ -1536,9 +1527,6 @@ msgstr ""
 msgid "paramètre: "
 msgstr ""
 
-msgid "Accorder "
-msgstr ""
-
 msgid "Réel"
 msgstr ""
 
@@ -1557,16 +1545,19 @@ msgstr ""
 msgid "Valide et sauve"
 msgstr ""
 
+msgid "Notes consonantes"
+msgstr ""
+
 msgid "Valeur"
 msgstr ""
 
-msgid "Notes consonantes"
+msgid "Partiel"
 msgstr ""
 
 msgid "Graphique"
 msgstr ""
 
-msgid "Console"
+msgid "Texte"
 msgstr ""
 
 msgid "choix par défaut"
@@ -1698,7 +1689,10 @@ msgstr ""
 msgid "%s ATTENTION note non définie \n"
 msgstr ""
 
-msgid "Nom court : "
+msgid "Nom court "
+msgstr ""
+
+msgid "Fichier Instrument : "
 msgstr ""
 
 msgid "Version Date : "
@@ -1711,9 +1705,6 @@ msgid "Diapason : "
 msgstr ""
 
 msgid "Auteur du paramétrage : "
-msgstr ""
-
-msgid "Fichier Instrument : "
 msgstr ""
 
 msgid "Vélocité minimum : "
@@ -1819,13 +1810,12 @@ msgid ""
 " \n"
 "--- Liste des commandes disponibles sur la dernière note jouée: \n"
 "[flèches] : change la note courante, gauche = précédente, droite = suivante, bas = octave inférieure, haut = octave supérieure ; si les flèches ne marchent pas utiliser les commandes mMpP \n"
-"[espace] : rejoue/arrête la ou les 3 dernières notes \n"
+"[espace] : joue/arrête la note courante ou les notes de l'accord mémorisé\n"
 "[échap] : quitte la commande en cours \n"
-"b : rejoue et maintient la ou les 3 dernières notes, les touches restent baissées\n"
-"n : mémorise la note courante pour former un accord \n"
+"b : rejoue la note courante ou les notes de l'accord mémorisé, les touches restent baissées\n"
 "H : affiche les fréquences et amplitudes des partiels et quelques informations sur la note \n"
 "h : compare les partiels du dernier accord joué et affiche les concordances et les dissonances \n"
-"h + assitant accordeur graphique : liste des notes et partiels en résonance avec la note courante \n"
+"h + assistant d'accordage : liste des notes et partiels en résonance avec la note courante \n"
 "m M : diminue le paramètre un peu ou FORTEMENT \n"
 "N : choisit un paramètre de note à modifier \n"
 "p P : augmente le paramètre un peu ou FORTEMENT \n"
@@ -1836,7 +1826,7 @@ msgid ""
 "a : arrête toutes les notes (all notes off), efface l'accord mémorisé \n"
 "A : menu spécial Accordeur\n"
 "c : crée un nouvel Instrument à partir d'un modèle vierge \n"
-"C : bascule entre la vue console et la vue graphique \n"
+"C : bascule entre l'écran graphique et l'écran texte \n"
 "d : affiche les informations de débogage On/Off \n"
 "D : menu spécial Divers et Debogage\n"
 "F : charge un nouveau fichier d'Instrument \n"
@@ -1844,7 +1834,7 @@ msgid ""
 "i : modifie la description de l'Instrument \n"
 "I : affiche les informations sur le programme et le fichier d'Instrument \n"
 "q : quitte la commande en cours \n"
-"Q : quitte l'Application \n"
+"[CTRL]Q : quitte l'Application \n"
 "r : rafraichit l'écran \n"
 "R : recharge le fichier d'Instrument et restaure les valeurs d'origine \n"
 "S : sauvegarde les paramètres de l'Instrument dans un fichier ainsi que les captures sonores \n"
@@ -1855,20 +1845,20 @@ msgstr ""
 
 msgid ""
 "\n"
-"--- Liste des commandes dans la vue graphique: \n"
-"C : bascule entre la vue console et la vue graphique \n"
+"--- Liste des commandes dans l'écran graphique: \n"
+"C : bascule entre l'écran graphique et l'écran texte \n"
 "f : choisit l'échelle dB/réelle \n"
 "g : gèle la capture sonore pour l'analyse du timbre \n"
 "jJkK mMpP : déplacement et zoom \n"
 "r : recompose la vue \n"
 "t : choisit le spectre \n"
 "z : zoom on/off \n"
-"% : envoie les commandes jkmMpP à la console, agit sur le paramètre à modifier \n"
-"[flèches] [espace] a b s : identiques console\n"
+"% : envoie les commandes jkmMpP à l'écran texte, agit sur le paramètre à modifier \n"
+"[flèches] [espace] a b s : identiques écran texte \n"
 "[début/home] : positionne le spectre au début\n"
-"> : zone graphique du haut sélectionnée, affiche la courbe suivante\n"
-"< : zone graphique du haut sélectionnée, affiche la courbe précédente\n"
-"? : affiche sur la console la liste des commandes disponibles pour la vue graphique\n"
+"> : zone graphique du haut sélectionnée, affiche la vue suivante\n"
+"< : zone graphique du haut sélectionnée, affiche la vue précédente\n"
+"? : affiche sur l'écran texte la liste des commandes disponibles pour l'écran graphique\n"
 msgstr ""
 
 msgid "MIDInoteNum"
@@ -2033,13 +2023,17 @@ msgstr ""
 msgid "MIDI: affiche les événements reçus non traités On/Off"
 msgstr ""
 
-msgid "réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie, enveloppe ADSR sans DS, vélocité max, Reverb Off, sur toutes les notes, On/Off"
+msgid ""
+"réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie,\n"
+" enveloppe ADSR sans D/S, vélocité max, Reverb Off, sur toutes les notes, On/Off"
 msgstr ""
 
 msgid "réduit temporairement le nombre de voix à 1 sur toutes les notes On/Off"
 msgstr ""
 
-msgid "bascule temporairement les notes sur les captures sonores pour jouer les sons réels enregistrés On/Off"
+msgid ""
+"bascule temporairement les notes sur les captures sonores\n"
+" pour jouer les sons enregistrés On/Off"
 msgstr ""
 
 msgid "verrouille SustainTime dans la modification de DecayTime et SustainVolume On/Off"
@@ -2048,13 +2042,18 @@ msgstr ""
 msgid "Accordeur: Fréquence d'accord: joue la note par une onde sinusoïdale On/Off"
 msgstr ""
 
-msgid "Accordeur: Duo Fréquence d'accord battement: joue la note muette centrée sur deux ondes sinusoïdales proches créant le même battement"
+msgid ""
+"Accordeur: Duo Fréquence d'accord battement: joue la note muette centrée sur deux ondes sinusoïdales\n"
+" proches créant le même battement"
 msgstr ""
 
 msgid "Accordeur: Duo Fréquence d'accord durée: durée de chaque onde en alternance "
 msgstr ""
 
-msgid "Environnement: Choisit une Langue"
+msgid "Accordeur: seuil de précision d'accordage "
+msgstr ""
+
+msgid "Environnement: Langue affichée"
 msgstr ""
 
 msgid "ou entrée vide : abandonne"
@@ -2066,7 +2065,7 @@ msgstr ""
 msgid "affiche/modifie/capture l'inharmonicité et le timbre des notes de l'Instrument"
 msgstr ""
 
-msgid "assistant pour accorder l'Instrument réel: ajoute des informations de consonnances"
+msgid "assistant pour accorder l'Instrument réel: ajoute des informations de consonances"
 msgstr ""
 
 msgid "affiche/modifie les partiels de la note courante de l'Instrument"
@@ -2081,10 +2080,10 @@ msgstr ""
 msgid "affiche les règles d'accordage et les fréquences des notes de l'Instrument"
 msgstr ""
 
-msgid "accorde l'Instrument selon ses règles d'accordage "
+msgid "accorde l'Instrument selon ses règles d'accordage et les fréquences altérées"
 msgstr ""
 
-msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences altérées"
+msgid "accorde l'Instrument selon ses règles d'accordage, efface les fréquences altérées"
 msgstr ""
 
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
@@ -2102,37 +2101,64 @@ msgstr ""
 msgid "test:choisit la forme de l'onde de base"
 msgstr ""
 
-msgid "Spectrum: régle le microphone"
+msgid "Menu"
 msgstr ""
 
-msgid "Inharmonicité: capture le timbre"
+msgid "Spectrum / règle le microphone"
+msgstr ""
+
+msgid "Spectrum"
 msgstr ""
 
 msgid "Assistant d'accordage"
 msgstr ""
 
-msgid "Modifie les partiels de la note"
+msgid "Accordeur"
 msgstr ""
 
-msgid "Modifie le tempérament de l'Instrument"
+msgid "Mesure la signature acoustique"
+msgstr ""
+
+msgid "Mesure"
+msgstr ""
+
+msgid "Modifie les partiels"
+msgstr ""
+
+msgid "Modifie les paramètres de la note"
+msgstr ""
+
+msgid "Note"
 msgstr ""
 
 msgid "Charge un Instrument"
 msgstr ""
 
+msgid "Charge"
+msgstr ""
+
 msgid "Crée un nouvel Instrument"
+msgstr ""
+
+msgid "Nouveau"
 msgstr ""
 
 msgid "Modifie la description de l'Instrument"
 msgstr ""
 
-msgid "Modifie les paramètres de la note courante"
+msgid "Modifie le tempérament de l'Instrument"
 msgstr ""
 
-msgid "Modifie les paramètres généraux"
+msgid "Tempérament"
 msgstr ""
 
-msgid "Sauvegarde les modifications"
+msgid "Modifie les réglages généraux"
+msgstr ""
+
+msgid "Réglages"
+msgstr ""
+
+msgid "Recharge l'Instrument"
 msgstr ""
 
 msgid "Quoi de neuf?"
@@ -2147,13 +2173,16 @@ msgstr ""
 msgid "Quitte l'application"
 msgstr ""
 
+msgid "Vue"
+msgstr ""
+
 msgid "Spectre temporel"
 msgstr ""
 
-msgid "Notes consonnantes"
+msgid "Battements des octaves et tempérament"
 msgstr ""
 
-msgid "Battements des octaves"
+msgid "Progression des battements"
 msgstr ""
 
 msgid "Étirement des octaves (Railsback)"
@@ -2162,7 +2191,10 @@ msgstr ""
 msgid "Qualité d'accordage"
 msgstr ""
 
-msgid "Inharmonicité"
+msgid "Signature acoustique"
+msgstr ""
+
+msgid "Dérive des fréquences des partiels"
 msgstr ""
 
 msgid ""
@@ -2174,15 +2206,6 @@ msgid "nbNotes|nbOndes|=>    VU-mètre    <= dernière note jouée....volume  3p
 msgstr ""
 
 msgid "%c[41mAttention : %s charge système %.0f%c "
-msgstr ""
-
-msgid "==> ATTENTION : le fichier <%s> a été supprimé ou déplacé\n"
-msgstr ""
-
-msgid "==> ATTENTION : le fichier <%s> a été restauré\n"
-msgstr ""
-
-msgid "Fichier Instrument mis à jour, ok je le recharge...\n"
 msgstr ""
 
 msgid "JACK connexion d'un périphérique MIDI\n"
@@ -2201,6 +2224,9 @@ msgid "WINMM connexion d'un périphérique MIDI\n"
 msgstr ""
 
 msgid "WINMM déconnexion d'un périphérique MIDI\n"
+msgstr ""
+
+msgid "ATTENTION: Suite à un arrêt imprévu, la précédente session a été trouvée et restaurée."
 msgstr ""
 
 msgid ""

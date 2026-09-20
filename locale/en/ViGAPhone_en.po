@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-15 17:47+0200\n"
+"POT-Creation-Date: 2026-09-19 10:56+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,7 +19,6 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 
 msgid ""
-"Choisir une forme d'onde :\n"
 "0 abandonne\n"
 "1 sinusoïde\n"
 "2 triangle\n"
@@ -30,9 +29,9 @@ msgid ""
 "7 triangle avec 3 harmoniques, pente à -6dB\n"
 "8 Onde définie pour l'Instrument\n"
 "9 la sinusoide du Chef \n"
+"Choisir une forme d'onde :\n"
 "?"
 msgstr ""
-"Choose a waveform:\n"
 "0 cancel\n"
 "1 sine\n"
 "2 triangle\n"
@@ -43,6 +42,7 @@ msgstr ""
 "7 triangle with 3 harmonics, -6dB slope\n"
 "8 Waveform defined for the Instrument\n"
 "9 the Master sine \n"
+"Select a waveform: \n"
 "?"
 
 msgid "Erreur, choix hors limites"
@@ -103,8 +103,7 @@ msgid ""
 "Conseil : Edition de l'inharmonicité et capture du timbre\n"
 " ==> le microphone et le paramètre Niveau de Bruit doivent avoir été réglés \n"
 " Touches de commande :\n"
-"  mMpP : change la valeur     jJkK : déplace la note courante \n"
-"  + -  : agrandit réduit le maximum affiché \n"
+"  mMpP : change la valeur de l'inharmonicité \n"
 "  [flèches] : change la note courante\n"
 "  B    : bascule sur la vue d'édition des partiels\n"
 msgstr ""
@@ -112,8 +111,7 @@ msgstr ""
 "Tip: Inharmonicity editing and timbre capture\n"
 " ==> microphone and Noise Level parameter must have been set \n"
 " Control keys:\n"
-"  mMpP: change value     jJkK: move current note \n"
-"  + - : increase/decrease displayed maximum \n"
+"  mMpP: change inharmonicity value\n"
 "  [arrows]: change current note\n"
 "  B   : switch to partials editing view\n"
 
@@ -137,24 +135,6 @@ msgstr ""
 "[92m  V    : validate all and save Instrument and WAV files\n"
 "[0m"
 
-msgid "Instrument"
-msgstr "Instrument"
-
-msgid "Spectre d'inharmonicité en cents (100ièmes de 1/2 ton) de %d notes "
-msgstr "Inharmonicity spectrum in cents (1/100th of semitone) of %d notes "
-
-msgid "au diapason %5.1fHz note %s"
-msgstr "at pitch %5.1fHz note %s"
-
-msgid "Note %s fréquence %.1fHz taux d'inharmonicité %.6f cents %.2f"
-msgstr "Note %s frequency %.1fHz inharmonicity rate %.6f cents %.2f"
-
-msgid " mesuré à %.1fHz"
-msgstr " measured at %.1fHz"
-
-msgid "Fréquence du dernier partiel(#%d) %.1fHz soit %.1f fois la fréquence de base (limitée à %dHz)"
-msgstr "Frequency of last partial (#%d) %.1fHz i.e. %.1f times base frequency (limited to %dHz)"
-
 msgid ""
 "\n"
 "Conseil : Edition des partiels touches de commande:\n"
@@ -172,17 +152,8 @@ msgstr ""
 "  [arrows]: change current note\n"
 "  B   : switch to inharmonicity editing view\n"
 
-msgid "Spectre des %d partiels "
-msgstr "Spectrum of %d partials "
-
-msgid "Note %s partiel %d fréquence %.1fHz amplitude %.1fdB          \n"
-msgstr "Note %s partial %d frequency %.1fHz amplitude %.1fdB          \n"
-
-msgid "Inharmonicité %.6f         "
-msgstr "Inharmonicity %.6f         "
-
 msgid "règle accord <%s> mauvaise syntaxe ou valeur hors limites \n"
-msgstr "tuning rule <%s> has invalid syntax or out‑of‑range value \n"
+msgstr "tuning rule <%s> has invalid syntax or out-of-range value \n"
 
 msgid "==> Erreur: note %s mauvaise syntaxe de règle d'accord <%s> Note relative#%d\n"
 msgstr "==> Error: note %s bad syntax in tuning rule <%s> Relative note #%d\n"
@@ -230,17 +201,20 @@ msgid ""
 "  0 : abandonne\n"
 "  r : affiche le résultat de l'accordage\n"
 "  c : choisis un nouveau jeu de règles d'accordage\n"
-"  v : valide l'accordage et l'applique à l'Instrument\n"
+"  v : valide le tempérament et accorde l'Instrument\n"
 "?"
 msgstr ""
 "  0 : cancel\n"
 "  r : display tuning result\n"
 "  c : choose new tuning rules set\n"
-"  v : validate tuning and apply to Instrument\n"
+"  v : validate temperament and tune Instrument\n"
 "?"
 
 msgid "Nouvel accordage effectué\n"
 msgstr "New tuning performed\n"
+
+msgid "==> Erreur, la note est active et ne peut être restructurée."
+msgstr "==> Error, the note is active and cannot be restructured."
 
 msgid "Note %s fréquence %7.1fHz non trouvée "
 msgstr "Note %s frequency %7.1fHz not found "
@@ -256,9 +230,6 @@ msgstr "======0"
 
 msgid ", mauvaise qualité !"
 msgstr ", poor quality!"
-
-msgid "==> Erreur, la note est active et ne peut être restructurée."
-msgstr "==> Error, the note is active and cannot be restructured."
 
 msgid " ==> Echec de l'analyse note %s, fréquences trouvées: Pic-1 %.2fHz, Pic-0dB %.2fHz P1 probable %.2fHz"
 msgstr " ==> Analysis failed for note %s, frequencies found: Peak-1 %.2fHz, Peak-0dB %.2fHz probable P1 %.2fHz"
@@ -284,8 +255,8 @@ msgstr "==> Warning: tuning fork defined at"
 msgid "note altérée à "
 msgstr "altered note at "
 
-msgid "==> Attention: des fréquences de notes ont été définies dans le fichier Instrument, elles sont prioritaires sur les règles, les notes correspondantes ne seront pas accordées"
-msgstr "==> Warning: note frequencies have been defined in the Instrument file, they take priority over rules; corresponding notes will not be tuned"
+msgid "==> Attention: des fréquences de notes sont altérées dans le fichier Instrument."
+msgstr "==> Warning: note frequencies are altered in the instrument file."
 
 msgid "Nb échantillons="
 msgstr "Nb samples="
@@ -317,8 +288,11 @@ msgstr " seconds duration="
 msgid "Nombre de notes trouvées: "
 msgstr "Number of notes found: "
 
-msgid ", %d notes sonores %d notes vides "
-msgstr ", %d sounding notes %d empty notes "
+msgid ", %d notes sonores "
+msgstr ", %d sounding notes "
+
+msgid " notes vides "
+msgstr " empty notes "
 
 msgid ", %d notes avec du son saturé"
 msgstr ", %d notes with clipped sound"
@@ -426,6 +400,9 @@ msgstr "==> WARNING, the number of notes found=%d differs from the Instrument's 
 msgid "L'Instrument est près à être joué, identique au réel, il faut l'accorder."
 msgstr "The Instrument is ready to be played; just like the real thing, it needs to be tuned."
 
+msgid "Appuyer sur la touche [Entrée] pour continuer dans l'activité 'Mesure de la signature acoustique'."
+msgstr "Press the [Enter] key to continue with the 'Acoustic signature measurement' activity."
+
 msgid "Prérequis: "
 msgstr "Requirement:"
 
@@ -453,11 +430,11 @@ msgstr "--- Waiting for MIDI events..."
 msgid "Aucun périphérique MIDI-OUT disponible.\n"
 msgstr "No MIDI-OUT device available.\n"
 
-msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
-msgstr "Choose MIDI client to connect or disconnect:\n"
-
 msgid "La liste est vide, connecter un périphérique MIDI"
 msgstr "The list is empty, connect a MIDI device"
+
+msgid "Choisir le client MIDI à connecter ou déconnecter :\n"
+msgstr "Choose MIDI client to connect or disconnect:\n"
 
 msgid "client connecté"
 msgstr "connected client"
@@ -489,14 +466,11 @@ msgstr ""
 "\n"
 "stopping application to preserve the audio system"
 
-msgid "  note %s:P%-3d fréquence %6.1fHz amplitude %6.1fdB écart : %6.1fHz %4.1fcents \n"
-msgstr "  note %s:P%-3d frequency %6.1fHz amplitude %6.1fdB offset: %6.1fHz %4.1fcents \n"
+msgid "  note %s.P%-3d fréquence %6.1fHz amplitude %6.1fdB écart %6.1fHz %4.1fcents \n"
+msgstr "  note %s.P%-3d frequency %6.1fHz amplitude %6.1fdB offset %6.1fHz %4.1fcents \n"
 
-msgid "note %s:P%d amplitude %6.1fdB à %6.2fHz \n"
-msgstr "note %s:P%d amplitude %6.1fdB at %6.2fHz \n"
-
-msgid "==> ERREUR: impossible de retirer la note %s, abandon de la commande \n"
-msgstr "==> ERROR: unable to remove note %s, aborting command \n"
+msgid "note %s.P%d amplitude %6.1fdB à %6.2fHz \n"
+msgstr "note %s.P%d amplitude %6.1fdB at %6.2fHz \n"
 
 msgid "==> ERREUR : JACK perte de %d événements MIDI taille buffer %d dépassée \n"
 msgstr "==> ERROR: JACK lost %d MIDI events, buffer size %d exceeded \n"
@@ -792,7 +766,7 @@ msgid "==>ERREUR, format audio float32 non pris en charge par Windows...\n"
 msgstr "==>ERROR, float32 audio format not supported by Windows...\n"
 
 msgid "==>ERREUR, format audio %d canaux non pris en charge, seulement stereo possible...\n"
-msgstr "==>ERROR, %d‑channel audio format not supported, only stereo is possible...\n"
+msgstr "==>ERROR, %d-channel audio format not supported, only stereo is possible...\n"
 
 msgid "==> Attention : WASAPI le mode exclusif est utilisé par une autre application, passe en mode partagé\n"
 msgstr "==> Warning: WASAPI exclusive mode is used by another application, switching to shared mode\n"
@@ -807,7 +781,7 @@ msgid "==> Attention (%lX): WASAPI mode exclusif échoué, passe en mode partag�
 msgstr "==> Warning (%lX): WASAPI exclusive mode failed, switching to shared mode\n"
 
 msgid "==> Erreur : WASAPI mode partagé échoué, passe en mode non low latency\n"
-msgstr "==> Error: WASAPI shared mode failed, switching to non–low‑latency mode\n"
+msgstr "==> Error: WASAPI shared mode failed, switching to non–low-latency mode\n"
 
 msgid ""
 "\n"
@@ -927,6 +901,9 @@ msgstr "==> Error: Language not found."
 msgid "Choisir une Langue"
 msgstr "Choose a Language"
 
+msgid "0/q : abandonne, [ENTREE] rafraîchit la liste\n"
+msgstr "0/q : cancel, [ENTER] refreshes list\n"
+
 msgid "En attente de l'arrêt de la note..."
 msgstr "Waiting for note to stop..."
 
@@ -966,23 +943,23 @@ msgstr ""
 msgid "Battement < %dHz et volume de battement > %ddB\n"
 msgstr "Beat < %dHz and beat volume > %ddB\n"
 
-msgid "Fréquence:%9.2fHz Note1 %-9s\n"
-msgstr "Frequency:%9.2fHz Note1 %-9s\n"
+msgid "Fréquence %9.2fHz Note1 %-9s\n"
+msgstr "Frequency %9.2fHz Note1 %-9s\n"
 
-msgid "Fréquence:%9.2fHz Note1 %-9s Partiel:%02d Volume:%3.0fdB"
-msgstr "Frequency:%9.2fHz Note1 %-9s Partial:%02d Volume:%3.0fdB"
+msgid "Fréquence %9.2fHz Note1 %-9s Partiel %02d Volume %3.0fdB"
+msgstr "Frequency %9.2fHz Note1 %-9s Partial %02d Volume %3.0fdB"
 
-msgid "Fréquence:%9.2fHz Note2 %-9s\n"
-msgstr "Frequency:%9.2fHz Note2 %-9s\n"
+msgid "Fréquence %9.2fHz Note2 %-9s\n"
+msgstr "Frequency %9.2fHz Note2 %-9s\n"
 
-msgid "Fréquence:%9.2fHz Note2 %-9s Partiel:%02d Volume:%3.0fdB"
-msgstr "Frequency:%9.2fHz Note2 %-9s Partial:%02d Volume:%3.0fdB"
+msgid "Fréquence %9.2fHz Note2 %-9s Partiel %02d Volume %3.0fdB"
+msgstr "Frequency %9.2fHz Note2 %-9s Partial %02d Volume %3.0fdB"
 
-msgid "Fréquence:%9.2fHz Note3 %-9s\n"
-msgstr "Frequency:%9.2fHz Note3 %-9s\n"
+msgid "Fréquence %9.2fHz Note3 %-9s\n"
+msgstr "Frequency %9.2fHz Note3 %-9s\n"
 
-msgid "Fréquence:%9.2fHz Note3 %-9s Partiel:%02d Volume:%3.0fdB"
-msgstr "Frequency:%9.2fHz Note3 %-9s Partial:%02d Volume:%3.0fdB"
+msgid "Fréquence %9.2fHz Note3 %-9s Partiel %02d Volume %3.0fdB"
+msgstr "Frequency %9.2fHz Note3 %-9s Partial %02d Volume %3.0fdB"
 
 msgid "Fréquence: %fHz Note%1d %[^V]Volume:%f"
 msgstr "Frequency: %fHz Note%1d %[^V]Volume:%f"
@@ -993,8 +970,8 @@ msgstr "Result: %d partials vibrate with significant beating\n"
 msgid "Note : %s liste des notes et partiels en résonnance, limité à %.fdB \n"
 msgstr "Note: %s list of notes and partials in resonance, limited to %.fdB \n"
 
-msgid "Note %s:P%d freq %.1fHz amplitude %.1fdB liste des notes partiels proches: \n"
-msgstr "Note %s:P%d freq %.1fHz amplitude %.1fdB list of nearby partial notes: \n"
+msgid "Note %s.P%d freq %.1fHz amplitude %.1fdB liste des notes partiels proches: \n"
+msgstr "Note %s.P%d freq %.1fHz amplitude %.1fdB list of nearby partial notes: \n"
 
 msgid "Liste détaillée des partiels : "
 msgstr "Detailed list of partials: "
@@ -1086,8 +1063,8 @@ msgstr "OS locale, ViGAPhone SetLocale : "
 msgid "CPU, nombre de coeurs, AVX : "
 msgstr "CPU, core count, AVX: "
 
-msgid "Nombre de threads Audio actifs créés = "
-msgstr "Number of active Audio threads created = "
+msgid "Threads Audio PCM : "
+msgstr "PCM audio threads : "
 
 msgid "Améliorations sonores : "
 msgstr "Sound enhancements: "
@@ -1206,8 +1183,12 @@ msgstr "General Parameter to modify: "
 msgid "==>Erreur, paramètre non modifiable \n"
 msgstr "==>Error, parameter not modifiable \n"
 
-msgid "Paramètre à modifier = %s : note <%s>"
-msgstr "Parameter to modify = %s: note <%s>"
+msgid ""
+"Paramètre à modifier note <%s>:\n"
+"%s"
+msgstr ""
+"Parameter to modify note <%s>:\n"
+"%s"
 
 msgid " = %d (déviation = %.2fHz) "
 msgstr " = %d (deviation = %.2fHz) "
@@ -1234,8 +1215,8 @@ msgstr "Parameter not modifiable, you must use a spreadsheet to edit the Instrum
 msgid "Choisir un paramètre général à modifier, puis touches de commande:"
 msgstr "Choose a general parameter to modify, then control keys:"
 
-msgid " mMpP      : modifie la valeur numérique ou binaire "
-msgstr " mMpP      : modifies numerical or binary value "
+msgid " mMpP      : modifie la valeur "
+msgstr " mMpP      : edit value "
 
 msgid " jk        : passe au paramètre précédent ou suivant "
 msgstr " jk        : switches to previous or next parameter "
@@ -1284,9 +1265,6 @@ msgstr "Synthesized sound is now played instead of captured sound \n"
 
 msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
 msgstr "==>ERROR: no captured sound exists for note %s \n"
-
-msgid "==>Erreur, l'inharmonicité est trop forte ou la fréquence du dernier partiel est hors limites"
-msgstr "==>Error, inharmonicity too high or last partial frequency is out of range"
 
 msgid ""
 "\n"
@@ -1377,11 +1355,11 @@ msgstr "error, note %s file not found ==>%s<== \n"
 msgid "==> Erreur, impossible d'ouvrir en écriture le fichier WAV : <%s> \n"
 msgstr "==> Error, impossible to open WAV file for writing: <%s> \n"
 
-msgid "Fichier WAV non modifiable <%s> "
-msgstr "WAV file not modifiable <%s> "
-
 msgid "Fichier WAV enregistré : <%s>\n"
 msgstr "WAV file saved: <%s>\n"
+
+msgid "L'Instrument est protégé, impossible de le modifier.\n"
+msgstr "The Instrument is protected, unable to modify it.\n"
 
 msgid "==> Attention : nom de colonne inconnu <%s> \n"
 msgstr "==> Warning: unknown column name <%s> \n"
@@ -1420,7 +1398,7 @@ msgid "Attention, note %s avec 0 voix/corde \n"
 msgstr "Warning, note %s has 0 voices/strings \n"
 
 msgid "Attention, note %s avec nombre de voix/corde hors limites \n"
-msgstr "Warning, note %s has out‑of‑range voices per string \n"
+msgstr "Warning, note %s has out-of-range voices per string \n"
 
 msgid "==> Erreur : note %s, nombre d'harmoniques=%d, note avec 0 ou trop d'harmoniques \n"
 msgstr "==> Error: note %s, number of harmonics=%d, note has 0 or too many harmonics \n"
@@ -1442,7 +1420,7 @@ msgid "Attention, note %s avec fichier Attack WAV volume non renseigné ou à 0\
 msgstr "Warning, note %s has Attack WAV volume missing or set to 0\n"
 
 msgid "Attention, note %s : la durée de l'attaque ne peut pas être < à 0, elle est forcée au quart d'onde \n"
-msgstr "Warning, note %s: attack duration cannot be < 0, forced to quarter‑wave duration \n"
+msgstr "Warning, note %s: attack duration cannot be < 0, forced to quarter-wave duration \n"
 
 msgid "Attention, note MIDI %s avec fichier Release WAV mal renseigné\n"
 msgstr "Warning, MIDI note %s has an incorrectly specified Release WAV file\n"
@@ -1477,14 +1455,14 @@ msgstr "==> Error: parameter VelociteMinimum must be in dB and < 0dB \n"
 msgid "====> Erreur, ligne %d le paramètre n'est pas reconnu : %s \n"
 msgstr "====> Error, line %d parameter not recognized: %s \n"
 
-msgid "Choisir un fichier Instrument dans le répertoire courant:"
-msgstr "Choose an Instrument file in the current directory:"
+msgid "Choisir un fichier Instrument par son numéro ou filtrer la liste par des mots :"
+msgstr "Select an instrument file by number or filter the list by keywords:"
 
-msgid "  0 : abandonne, '.' accéde au répertoire de base et '..' au parent, [ENTREE] rafraîchit la liste\n"
-msgstr "  0 : cancel, '.' goes to base directory, '..' to parent, [ENTER] refreshes list\n"
+msgid "  0/q : abandonne, '.' accéde au répertoire de base et '..' au parent, [ENTREE] rafraîchit la liste\n"
+msgstr "  0/q : cancel, '.' goes to base directory, '..' to parent, [ENTER] refreshes list\n"
 
-msgid " fichier non trouvé"
-msgstr " file not found"
+msgid "fichier non trouvé"
+msgstr "file not found"
 
 msgid "erreur, fichier Instrument non trouvé ==>%s<== \n"
 msgstr "error, Instrument file not found ==>%s<== \n"
@@ -1520,17 +1498,23 @@ msgstr ""
 "\n"
 "Following%s an abort, the Instrument file was not loaded.\n"
 
-msgid "Le fichier Instrument est protégé, impossible de le modifier.\n"
-msgstr "The Instrument file is protected, unable to modify it.\n"
-
 msgid "Sauvegarde de l'Instrument dans le fichier : %s \n"
 msgstr "Saving Instrument to file: %s \n"
+
+msgid "Sauvegarde réussie"
+msgstr "Save successful"
 
 msgid "fichier Instrument identique à l'ancien\n"
 msgstr "Instrument file identical to the old one\n"
 
-msgid "Sauvegarde réussie"
-msgstr "Save successful"
+msgid "OUI"
+msgstr "YES"
+
+msgid "Pour enlever la protection saisir %s ; sinon laisser le champ vide?"
+msgstr "To remove protection enter %s; otherwise leave field empty?"
+
+msgid "L'Instrument n'est plus protégé, il peut-être modifié.\n"
+msgstr "The Instrument is no longer protected; it can be modified.\n"
 
 msgid "Sauvegarde du fichier Instrument: %s\n"
 msgstr "Saving Instrument file: %s\n"
@@ -1542,12 +1526,10 @@ msgid ""
 "Appuyer sur [ENTREE] pour écrire sur le fichier Instrument actuel\n"
 " ou saisir '+' pour faire une sauvegarde incrémentielle\n"
 " ou saisir un nouveau nom de fichier Instrument\n"
-" "
 msgstr ""
 "Press [ENTER] to overwrite current Instrument file\n"
 " or enter '+' to make an incremental backup\n"
 " or enter a new Instrument filename\n"
-"? "
 
 msgid "nom de fichier incorrect <%s>\n"
 msgstr "incorrect filename <%s>\n"
@@ -1558,8 +1540,17 @@ msgstr "Choose a wav file to load into the Instrument:"
 msgid "Saisir les nouvelles valeurs:"
 msgstr "Enter new values:"
 
-msgid "Nom court"
-msgstr "Short name"
+msgid "(un $ à la fin du Nom court activera la protection)"
+msgstr "(a $ at the end of the short name will enable protection)"
+
+msgid "Nom court (marque modèle NS ...)"
+msgstr "Short name (brand model SN ...)"
+
+msgid "Interdit de protéger l'Instrument 'run'."
+msgstr "Protecting the 'run' Instrument is prohibited."
+
+msgid "L'Instrument est  protégé contre les modifications."
+msgstr "The Instrument is protected against modifications."
 
 msgid "Version Date"
 msgstr "Version Date"
@@ -1573,20 +1564,8 @@ msgstr "Pitch"
 msgid "Auteur du paramétrage"
 msgstr "Parameter author"
 
-msgid "nom du fichier"
-msgstr "file name"
-
-msgid "fichier Instrument renomé en <%s>\n"
-msgstr "Instrument file renamed to <%s>\n"
-
-msgid "impossible de renomer le fichier Instrument protégé"
-msgstr "unable to rename the protected Instrument file"
-
 msgid "Choisir un modèle d'Instrument:"
 msgstr "Choose an Instrument model:"
-
-msgid "fichier non trouvé"
-msgstr "file not found"
 
 msgid "==> ERREUR: impossible d'initialiser FreeType\n"
 msgstr "==> ERROR: unable to initialize FreeType\n"
@@ -1597,20 +1576,32 @@ msgstr "==> ERROR: unable to find a font equivalent to <%s> \n"
 msgid "Fonte chargée par défaut : %s : %s \n"
 msgstr "Default font loaded: %s : %s \n"
 
-msgid "Partiel"
-msgstr "Partial"
+msgid "Partiels 2 à 8"
+msgstr "Partials 2 to 8"
+
+msgid "Partiels (1)"
+msgstr "Partials (1)"
+
+msgid "Partiels"
+msgstr "Partials"
+
+msgid "Accorder "
+msgstr "Tune "
 
 msgid "Notes consonantes par résonance sympathique"
 msgstr "Consonant notes via sympathetic resonance"
 
+msgid "Inharmonicité et partiels 1 à 8"
+msgstr "Inharmonicity and partials 1 to 8"
+
 msgid "Progression des battements d'accords"
 msgstr "Chord beat progression"
 
+msgid "Accord"
+msgstr "Chord"
+
 msgid "Volume général %.1fdB"
 msgstr "Master volume %.1fdB"
-
-msgid "Sauvegardé"
-msgstr "Save successful"
 
 msgid "max "
 msgstr "max "
@@ -1642,9 +1633,6 @@ msgstr "Unison comparator"
 msgid "paramètre: "
 msgstr "parameter: "
 
-msgid "Accorder "
-msgstr "Tune "
-
 msgid "Réel"
 msgstr "Real"
 
@@ -1663,17 +1651,20 @@ msgstr "Restore"
 msgid "Valide et sauve"
 msgstr "Validate and save"
 
+msgid "Notes consonantes"
+msgstr "Consonant notes"
+
 msgid "Valeur"
 msgstr "Value"
 
-msgid "Notes consonantes"
-msgstr "Consonant notes"
+msgid "Partiel"
+msgstr "Partial"
 
 msgid "Graphique"
 msgstr "Graphic"
 
-msgid "Console"
-msgstr "Console"
+msgid "Texte"
+msgstr "Text"
 
 msgid "choix par défaut"
 msgstr "default choice"
@@ -1816,8 +1807,11 @@ msgstr "====> Warning: master volume modified from %0.1fdB to %0.1fdB \n"
 msgid "%s ATTENTION note non définie \n"
 msgstr "%s WARNING undefined note \n"
 
-msgid "Nom court : "
-msgstr "Short name: "
+msgid "Nom court "
+msgstr "Short name"
+
+msgid "Fichier Instrument : "
+msgstr "Instrument File: "
 
 msgid "Version Date : "
 msgstr "Version Date: "
@@ -1830,9 +1824,6 @@ msgstr "Pitch: "
 
 msgid "Auteur du paramétrage : "
 msgstr "Parameter settings author: "
-
-msgid "Fichier Instrument : "
-msgstr "Instrument File: "
 
 msgid "Vélocité minimum : "
 msgstr "Minimum velocity: "
@@ -1967,13 +1958,12 @@ msgid ""
 " \n"
 "--- Liste des commandes disponibles sur la dernière note jouée: \n"
 "[flèches] : change la note courante, gauche = précédente, droite = suivante, bas = octave inférieure, haut = octave supérieure ; si les flèches ne marchent pas utiliser les commandes mMpP \n"
-"[espace] : rejoue/arrête la ou les 3 dernières notes \n"
+"[espace] : joue/arrête la note courante ou les notes de l'accord mémorisé\n"
 "[échap] : quitte la commande en cours \n"
-"b : rejoue et maintient la ou les 3 dernières notes, les touches restent baissées\n"
-"n : mémorise la note courante pour former un accord \n"
+"b : rejoue la note courante ou les notes de l'accord mémorisé, les touches restent baissées\n"
 "H : affiche les fréquences et amplitudes des partiels et quelques informations sur la note \n"
 "h : compare les partiels du dernier accord joué et affiche les concordances et les dissonances \n"
-"h + assitant accordeur graphique : liste des notes et partiels en résonance avec la note courante \n"
+"h + assistant d'accordage : liste des notes et partiels en résonance avec la note courante \n"
 "m M : diminue le paramètre un peu ou FORTEMENT \n"
 "N : choisit un paramètre de note à modifier \n"
 "p P : augmente le paramètre un peu ou FORTEMENT \n"
@@ -1984,7 +1974,7 @@ msgid ""
 "a : arrête toutes les notes (all notes off), efface l'accord mémorisé \n"
 "A : menu spécial Accordeur\n"
 "c : crée un nouvel Instrument à partir d'un modèle vierge \n"
-"C : bascule entre la vue console et la vue graphique \n"
+"C : bascule entre l'écran graphique et l'écran texte \n"
 "d : affiche les informations de débogage On/Off \n"
 "D : menu spécial Divers et Debogage\n"
 "F : charge un nouveau fichier d'Instrument \n"
@@ -1992,7 +1982,7 @@ msgid ""
 "i : modifie la description de l'Instrument \n"
 "I : affiche les informations sur le programme et le fichier d'Instrument \n"
 "q : quitte la commande en cours \n"
-"Q : quitte l'Application \n"
+"[CTRL]Q : quitte l'Application \n"
 "r : rafraichit l'écran \n"
 "R : recharge le fichier d'Instrument et restaure les valeurs d'origine \n"
 "S : sauvegarde les paramètres de l'Instrument dans un fichier ainsi que les captures sonores \n"
@@ -2003,13 +1993,12 @@ msgstr ""
 " \n"
 "--- List of available commands for the last note played: \n"
 "[arrows] : change current note: left = previous, right = next, down = lower octave, up = upper octave; if arrows don't work use mMpP commands \n"
-"[space] : replay/stop the last note(s) \n"
+"[space] : replay/stop the current note or memorized chord notes \n"
 "[Esc] : quit current command \n"
 "b : replay and sustain the last note(s), keys remain pressed\n"
-"n : memorize current note to build a chord \n"
 "H : displays partials' frequencies and amplitudes and note info \n"
 "h : compares partials of the last played chord and shows consonances/dissonances \n"
-"h + graphic tuner assistant: list of notes/partials in resonance with current note \n"
+"h + tuning assistant: list of notes/partials in resonance with current note \n"
 "m M : decrease parameter slightly or STRONGLY \n"
 "N : choose a note parameter to modify \n"
 "p P : increase parameter slightly or STRONGLY \n"
@@ -2020,7 +2009,7 @@ msgstr ""
 "a : stop all notes (all notes off), clear memorized chord \n"
 "A : special Tuner menu\n"
 "c : create a new Instrument from a blank model \n"
-"C : toggle between console and graphic view \n"
+"C : toggle between graphic and text screen \n"
 "d : display debug information On/Off \n"
 "D : special Misc and Debug menu\n"
 "F : load a new Instrument file \n"
@@ -2028,7 +2017,7 @@ msgstr ""
 "i : modify Instrument description \n"
 "I : display program and Instrument file info \n"
 "q : quit current command \n"
-"Q : quit Application \n"
+"[CTRL]Q : quit Application \n"
 "r : refresh screen \n"
 "R : reload Instrument file and restore original values \n"
 "S : save Instrument parameters and sound captures to file \n"
@@ -2038,36 +2027,36 @@ msgstr ""
 
 msgid ""
 "\n"
-"--- Liste des commandes dans la vue graphique: \n"
-"C : bascule entre la vue console et la vue graphique \n"
+"--- Liste des commandes dans l'écran graphique: \n"
+"C : bascule entre l'écran graphique et l'écran texte \n"
 "f : choisit l'échelle dB/réelle \n"
 "g : gèle la capture sonore pour l'analyse du timbre \n"
 "jJkK mMpP : déplacement et zoom \n"
 "r : recompose la vue \n"
 "t : choisit le spectre \n"
 "z : zoom on/off \n"
-"% : envoie les commandes jkmMpP à la console, agit sur le paramètre à modifier \n"
-"[flèches] [espace] a b s : identiques console\n"
+"% : envoie les commandes jkmMpP à l'écran texte, agit sur le paramètre à modifier \n"
+"[flèches] [espace] a b s : identiques écran texte \n"
 "[début/home] : positionne le spectre au début\n"
-"> : zone graphique du haut sélectionnée, affiche la courbe suivante\n"
-"< : zone graphique du haut sélectionnée, affiche la courbe précédente\n"
-"? : affiche sur la console la liste des commandes disponibles pour la vue graphique\n"
+"> : zone graphique du haut sélectionnée, affiche la vue suivante\n"
+"< : zone graphique du haut sélectionnée, affiche la vue précédente\n"
+"? : affiche sur l'écran texte la liste des commandes disponibles pour l'écran graphique\n"
 msgstr ""
 "\n"
-"--- List of commands in graphic view: \n"
-"C : toggle between console and graphic view \n"
+"--- List of commands in graphic screen: \n"
+"C : toggle between graphic and text screen \n"
 "f : choose dB/real scale \n"
 "g : freeze sound capture for timbre analysis \n"
 "jJkK mMpP : move and zoom \n"
-"r : reset view \n"
+"r : redraw view \n"
 "t : choose spectrum \n"
 "z : zoom on/off \n"
-"% : send jkmMpP commands to console, affects parameter being modified \n"
-"[arrows] [space] a b s : same as console\n"
+"% : send jkmMpP commands to the text screen, affects parameter being modified \n"
+"[arrows] [space] a b s : same as text screen \n"
 "[home] : position spectrum at start\n"
-"> : Upper graph area selected, displays the next curve\n"
-"< : Upper graph area selected, displays the previous curve\n"
-"? : display list of available commands for graphic view on console\n"
+"> : upper graph area selected, displays the next curve\n"
+"< : upper graph area selected, displays the previous curve\n"
+"? : display list of available commands for graphic screen on text screen\n"
 
 msgid "MIDInoteNum"
 msgstr "MIDInoteNum"
@@ -2103,13 +2092,13 @@ msgid "dureté du marteau"
 msgstr "hammer hardness"
 
 msgid "fréq coupure filtre marteau passe bas"
-msgstr "hammer low‑pass cutoff freq"
+msgstr "hammer low-pass cutoff freq"
 
 msgid "fréq coupure filtre TH passe bas"
-msgstr "TH low‑pass cutoff freq"
+msgstr "TH low-pass cutoff freq"
 
 msgid "puissance filtre TH passe bas en dB"
-msgstr "TH low‑pass filter level dB"
+msgstr "TH low-pass filter level dB"
 
 msgid "volumeAjuste dB"
 msgstr "adjusted volume dB"
@@ -2231,14 +2220,22 @@ msgstr "MIDI: display received events On/Off"
 msgid "MIDI: affiche les événements reçus non traités On/Off"
 msgstr "MIDI: display unhandled received events On/Off"
 
-msgid "réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie, enveloppe ADSR sans DS, vélocité max, Reverb Off, sur toutes les notes, On/Off"
-msgstr "temporarily reduce sound effects: mono voice, damper, infinite duration, ADSR envelope without DS, max velocity, Reverb Off, on all notes, On/Off"
+msgid ""
+"réduit temporairement les effets sonores: mono voix, étouffoir, durée infinie,\n"
+" enveloppe ADSR sans D/S, vélocité max, Reverb Off, sur toutes les notes, On/Off"
+msgstr ""
+"temporarily reduce sound effects: mono voice, damper, infinite duration,\n"
+" ADSR envelope without D/S, max velocity, Reverb Off, on all notes, On/Off"
 
 msgid "réduit temporairement le nombre de voix à 1 sur toutes les notes On/Off"
 msgstr "temporarily reduce polyphony to 1 voice for all notes On/Off"
 
-msgid "bascule temporairement les notes sur les captures sonores pour jouer les sons réels enregistrés On/Off"
-msgstr "temporarily switch notes to audio samples to play recorded real sounds On/Off"
+msgid ""
+"bascule temporairement les notes sur les captures sonores\n"
+" pour jouer les sons enregistrés On/Off"
+msgstr ""
+"temporarily switch notes to audio samples\n"
+" to play actual recorded sounds On/Off"
 
 msgid "verrouille SustainTime dans la modification de DecayTime et SustainVolume On/Off"
 msgstr "lock SustainTime when modifying DecayTime and SustainVolume On/Off"
@@ -2246,14 +2243,21 @@ msgstr "lock SustainTime when modifying DecayTime and SustainVolume On/Off"
 msgid "Accordeur: Fréquence d'accord: joue la note par une onde sinusoïdale On/Off"
 msgstr "Tuner: Tuning frequency: plays the note using a sine wave On/Off"
 
-msgid "Accordeur: Duo Fréquence d'accord battement: joue la note muette centrée sur deux ondes sinusoïdales proches créant le même battement"
-msgstr "Tuner: Duo tuning frequency beat: plays the muted note centered between two close sine waves producing the same beat"
+msgid ""
+"Accordeur: Duo Fréquence d'accord battement: joue la note muette centrée sur deux ondes sinusoïdales\n"
+" proches créant le même battement"
+msgstr ""
+"Tuner: Tuning frequency beat duo: plays the muted note centered\n"
+" between two close sine waves creating the same beat"
 
 msgid "Accordeur: Duo Fréquence d'accord durée: durée de chaque onde en alternance "
 msgstr "Tuner: Duo tuning frequency duration: duration of each alternating wave "
 
-msgid "Environnement: Choisit une Langue"
-msgstr "Environment: Choose a Language"
+msgid "Accordeur: seuil de précision d'accordage "
+msgstr "Tuner: tuning precision threshold "
+
+msgid "Environnement: Langue affichée"
+msgstr "Environment: Displayed language"
 
 msgid "ou entrée vide : abandonne"
 msgstr "or empty input: cancel"
@@ -2264,7 +2268,7 @@ msgstr "display spectrogram to adjust microphone and noise level"
 msgid "affiche/modifie/capture l'inharmonicité et le timbre des notes de l'Instrument"
 msgstr "display/edit/capture inharmonicity and timbre of the Instrument"
 
-msgid "assistant pour accorder l'Instrument réel: ajoute des informations de consonnances"
+msgid "assistant pour accorder l'Instrument réel: ajoute des informations de consonances"
 msgstr "graphic assistant to tune real instrument: adds consonance information"
 
 msgid "affiche/modifie les partiels de la note courante de l'Instrument"
@@ -2279,11 +2283,11 @@ msgstr "capture instrument note timbre from WAV file, must start from current no
 msgid "affiche les règles d'accordage et les fréquences des notes de l'Instrument"
 msgstr "display Instrument note tuning rules and frequencies"
 
-msgid "accorde l'Instrument selon ses règles d'accordage "
-msgstr "tune the instrument according to its tuning rules "
+msgid "accorde l'Instrument selon ses règles d'accordage et les fréquences altérées"
+msgstr "tune Instrument according to its tuning rules and altered frequencies"
 
-msgid "accorde l'Instrument selon ses règles d'accordage automatique, efface les fréquences altérées"
-msgstr "tunes the instrument according to its automatic tuning rules, clears altered frequencies"
+msgid "accorde l'Instrument selon ses règles d'accordage, efface les fréquences altérées"
+msgstr "tune Instrument according to its tuning rules, clear altered frequencies"
 
 msgid "choisis le tempérament de l'Instrument, un jeu de règles d'accordage automatique"
 msgstr "choose instrument temperament, a set of automatic tuning rules"
@@ -2300,38 +2304,65 @@ msgstr "MIDI: display channels state"
 msgid "test:choisit la forme de l'onde de base"
 msgstr "test: choose basic waveform"
 
-msgid "Spectrum: régle le microphone"
-msgstr "Spectrum: adjust microphone"
+msgid "Menu"
+msgstr "Menu"
 
-msgid "Inharmonicité: capture le timbre"
-msgstr "Inharmonicity: capture timbre"
+msgid "Spectrum / règle le microphone"
+msgstr "Spectrum / adjust microphone"
+
+msgid "Spectrum"
+msgstr "Spectrum"
 
 msgid "Assistant d'accordage"
 msgstr "Tuning assistant"
 
-msgid "Modifie les partiels de la note"
+msgid "Accordeur"
+msgstr "Tuner"
+
+msgid "Mesure la signature acoustique"
+msgstr "Measure acoustic signature"
+
+msgid "Mesure"
+msgstr "Measure"
+
+msgid "Modifie les partiels"
+msgstr "Edit partials"
+
+msgid "Modifie les paramètres de la note"
 msgstr "Edit note partials"
 
-msgid "Modifie le tempérament de l'Instrument"
-msgstr "Edit Instrument's temperament"
+msgid "Note"
+msgstr "Note"
 
 msgid "Charge un Instrument"
 msgstr "Load an Instrument"
 
+msgid "Charge"
+msgstr "Load"
+
 msgid "Crée un nouvel Instrument"
 msgstr "Create a new Instrument"
+
+msgid "Nouveau"
+msgstr "New"
 
 msgid "Modifie la description de l'Instrument"
 msgstr "Edit Instrument description"
 
-msgid "Modifie les paramètres de la note courante"
-msgstr "Current note settings"
+msgid "Modifie le tempérament de l'Instrument"
+msgstr "Edit Instrument's temperament"
 
-msgid "Modifie les paramètres généraux"
+msgid "Tempérament"
+msgstr "Temperament"
+
+msgid "Modifie les réglages généraux"
 msgstr "General settings"
 
-msgid "Sauvegarde les modifications"
-msgstr "Save changes"
+msgid "Réglages"
+msgstr "Settings"
+
+msgid "Recharge l'Instrument"
+msgstr "Reload the Instrument"
 
 msgid "Quoi de neuf?"
 msgstr "What's new?"
@@ -2345,14 +2376,17 @@ msgstr "Full screen"
 msgid "Quitte l'application"
 msgstr "Quit application"
 
+msgid "Vue"
+msgstr "View"
+
 msgid "Spectre temporel"
 msgstr "Time spectrum"
 
-msgid "Notes consonnantes"
-msgstr "Consonant notes"
+msgid "Battements des octaves et tempérament"
+msgstr "Octave beats and temperament"
 
-msgid "Battements des octaves"
-msgstr "Octave beats"
+msgid "Progression des battements"
+msgstr "Beat progression"
 
 msgid "Étirement des octaves (Railsback)"
 msgstr "Octave stretching (Railsback)"
@@ -2360,8 +2394,11 @@ msgstr "Octave stretching (Railsback)"
 msgid "Qualité d'accordage"
 msgstr "Tuning quality"
 
-msgid "Inharmonicité"
-msgstr "inharmonicity"
+msgid "Signature acoustique"
+msgstr "Acoustic signature"
+
+msgid "Dérive des fréquences des partiels"
+msgstr "Partials frequency drift"
 
 msgid ""
 "\n"
@@ -2375,15 +2412,6 @@ msgstr "nbNotes|nbWaves|=>    VU-meter    <= last note played.......volume   3pe
 
 msgid "%c[41mAttention : %s charge système %.0f%c "
 msgstr "%c[41mWarning: %s system load %.0f%c "
-
-msgid "==> ATTENTION : le fichier <%s> a été supprimé ou déplacé\n"
-msgstr "==> WARNING: file <%s> was deleted or moved\n"
-
-msgid "==> ATTENTION : le fichier <%s> a été restauré\n"
-msgstr "==> WARNING: file <%s> was restored\n"
-
-msgid "Fichier Instrument mis à jour, ok je le recharge...\n"
-msgstr "Instrument file updated, reloading...\n"
 
 msgid "JACK connexion d'un périphérique MIDI\n"
 msgstr "JACK: MIDI device connected\n"
@@ -2402,6 +2430,9 @@ msgstr "WINMM: MIDI device connected\n"
 
 msgid "WINMM déconnexion d'un périphérique MIDI\n"
 msgstr "WINMM: MIDI device disconnected\n"
+
+msgid "ATTENTION: Suite à un arrêt imprévu, la précédente session a été trouvée et restaurée."
+msgstr "ATTENTION: Following an unexpected shutdown, the previous session was found and restored."
 
 msgid ""
 "\n"
@@ -2436,6 +2467,3 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
-
-#~ msgid "L'Instrument est près à être joué, identique au réel il faut l'accorder."
-#~ msgstr "The Instrument is ready to be played; just like the real thing, it needs to be tuned."

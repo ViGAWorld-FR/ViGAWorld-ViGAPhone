@@ -187,12 +187,12 @@ Check: " Windows Security > Virus & threat protection > Protection history " , f
 ● **OS Requirements:** Any distribution compatible with **libc6 >= 2.36** (Debian12 minimum) **X11**, **OpenGL**, using **GNOME** or equivalent.  
 
 ● **Installation on Arch Linux and derivatives:**  
-	● Install the package: `AUR/vigaphone-bin` from your AUR packages manager.  
+	● Install the package: `AUR/vigaphone-piano-tuner-midi-synth-bin` from your AUR packages manager.  
 
 ● **Installation on Ubuntu/DEBIAN/ChromeOS and derivatives:**  
-	● Download the file package for the latest version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
+	● Download the file package for the latest version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-piano-tuner-midi-synth-bin_amd64.deb).  
 	For a previous version, go to the [GitHub Releases](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases) page.  
-	● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+	● Install it with your packages manager or with the apt command : ```sudo apt install ./vigaphone-piano-tuner-midi-synth-bin_amd64.deb```  
 
 ● **Installation on other distributions, without admin/root rights:**  
 	● Download the file archive for the latest version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
@@ -358,12 +358,12 @@ Vérifier: "Sécurité Windows > Protection contre les virus et menaces > Histor
 ● **Prérequis OS :** Toute distribution compatible avec **libc6 >= 2.36** (Debian12 minimum) **X11**, **OpenGL**, avec **GNOME** ou équivalent.  
 
 ● **Installation sur Arch Linux et dérivés :**  
-	● Installez le paquet : `AUR/vigaphone-bin` depuis votre gestionnaire de paquets AUR.  
+	● Installez le paquet : `AUR/vigaphone-piano-tuner-midi-synth-bin` depuis votre gestionnaire de paquets AUR.  
 
 ● **Installation sur Ubuntu/DEBIAN/ChromeOS et dérivés:**  
-	● Téléchargez l'archive de la dernière version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-bin_amd64.deb).  
+	● Téléchargez l'archive de la dernière version [vigaphone-bin_amd64.deb](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/vigaphone-piano-tuner-midi-synth-bin_amd64.deb).  
 	Pour une version précédente allez sur la page des [Releases GitHub](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases)  
-	● Installez avec votre gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-bin_amd64.deb```  
+	● Installez avec votre gestionnaire de paquets ou la commande apt : ```sudo apt install ./vigaphone-piano-tuner-midi-synth-bin_amd64.deb```  
 
 ● **Installation sur une autre distribution Linux, sans droits admin/root :**  
 	● Téléchargez l'archive de la dernière version [ViGAPhoneR_linux_amd64.tar.gz](https://github.com/ViGAWorld-FR/ViGAWorld-ViGAPhone/releases/latest/download/ViGAPhoneR_linux_amd64.tar.gz).  
