@@ -2,7 +2,6 @@
 ---
 # ViGAPhone Synth Lab — What's new? / Quoi de neuf ?
 
-
 ## 1.6.2
 ### Français
 - Correction de bogue de la capture qui plante.
