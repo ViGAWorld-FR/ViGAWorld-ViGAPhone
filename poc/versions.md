@@ -1,3 +1,5 @@
+---
+---
 # ViGAPhone Synth Lab — What's new? / Quoi de neuf ?
 
 ## 1.6.2
