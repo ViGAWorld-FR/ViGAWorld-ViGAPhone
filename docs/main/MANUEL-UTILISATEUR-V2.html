@@ -7,7 +7,7 @@
 	<meta name="author" content="TualatriX"/>
 	<meta name="created" content="2008-02-15T12:08:28"/>
 	<meta name="changedby" content="Vincent GACOUGNOLLE"/>
-	<meta name="changed" content="2026-09-26T10:44:06.454870141"/>
+	<meta name="changed" content="2026-10-01T17:51:40.639261604"/>
 	<meta name="Info 1" content=""/>
 	<meta name="Info 2" content=""/>
 	<meta name="Info 3" content=""/>
@@ -803,6 +803,10 @@ spectrales, la position et la durée de la portion de son analysée,
 changer la fréquence du partiel 1 dont dépend la reconnaissance de
 la note et son analyse. Voir les chapitres sur les vues &quot;Mesure
 de la signature acoustique&quot; et &quot;Spectrum&quot;.</font></p>
+<p><font face="Arial, sans-serif">Quand une signature est
+enregistrée, un bouton &quot;X&quot; apparaît dans le cadre de la
+vue, il permet d'annuler l'enregistrement et de restaurer la
+signature précédente.</font></p>
 <p><font face="Arial, sans-serif">Au final il faut valider l'ensemble
 des mesures pour les sauvegarder dans un fichier initialement créé.</font></p>
 <p><font face="Arial, sans-serif">Il est important de soigner la
@@ -966,11 +970,11 @@ note et en commençant par la note la plus basse, quand le timbre a
 été analysé et la note reconnue l'application passe
 automatiquement à la note suivante. Jouer la note le plus longtemps
 possible permet de mesurer sa signature acoustique et son enveloppe
-sonore. Le bouton &quot;Valide et sauve&quot; procède au calcul des
-fréquences d'accordage de l'Instrument selon l'inharmonicité de
-chaque note mesurée, et enregistre les données mesurées dans le
-fichier Instrument et le son des notes dans le fichier wav
-correspondant.</font></p>
+sonore. Le bouton &quot;<span style="font-style: normal"><span style="font-weight: normal">Confirme
+et enregistre</span></span>&quot; procède au calcul des fréquences
+d'accordage de l'Instrument selon l'inharmonicité de chaque note
+mesurée, et enregistre les données mesurées dans le fichier
+Instrument et le son des notes dans le fichier wav correspondant.</font></p>
 <p><font face="Arial, sans-serif">Si la courbe d'inharmonicité a une
 valeur discontinue, soit il y a un changement de registre dans les
 cordes, par exemple pour le piano le passage des notes basses
@@ -1172,7 +1176,7 @@ accordage.<br/>
 </span><b>→ <i>Menu : </i><i>Charge un Instrument</i></b></font></p>
 <p style="font-weight: normal"><font face="Arial, sans-serif">Ou</font></p>
 <p><font face="Arial, sans-serif"><b>1</b><b>b) Créer un fichier
-Instrument pour le piano à accorder</b><span style="font-weight: normal">
+Instrument pour le piano à accorder</b><b>,</b><span style="font-weight: normal">
 en choisissant le modèle de piano vierge</span><span style="font-weight: normal">
 </span><span style="font-weight: normal">(</span><i><span style="font-weight: normal">blank_piano</span></i><span style="font-weight: normal">)</span><span style="font-weight: normal">,
 saisi</span><span style="font-weight: normal">r</span><span style="font-weight: normal">
@@ -1194,8 +1198,10 @@ d'accordage</b></i></font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><font face="Arial, sans-serif">La
 vue &quot;Qualité d'accordage&quot; est affichée au démarrage de
 l'activité et va renseigner l'accordeur sur son objectif et sur la
-précision de son travail. </font>
-</p>
+précision de son travail. Quand une corde d'une note est mise en
+vibration pour la première fois, sa signature acoustique est
+mesurée, puis verrouillée: elle ne sera pas altérée par les coups
+de marteau successifs ni par les accords de contrôle.</font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
 
 </p>
@@ -1218,19 +1224,24 @@ son activité.</font></p>
 
 </p>
 <p style="margin-bottom: 0cm; font-weight: normal"><font face="Arial, sans-serif">A
-chaque fois qu'une corde entre en vibration, elle est mesurée en
-continu et l'accordeur peut régler sa fréquence dans le
-&quot;Comparateur d'unisson&quot;. Une marque rouge apparaît sur le
-fond de touche du clavier virtuel quand la durée est suffisante pour
-avoir une qualité de mesure optimale avec une fréquence stable.</font></p>
+chaque fois qu'une corde entre en vibration, elle est mesurée et
+l'accordeur peut régler sa fréquence dans le &quot;Comparateur
+d'unisson&quot; qui affiche le spectre fréquentiel centré sur le
+partiel à accorder.</font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
 
 </p>
 <p style="margin-bottom: 0cm; font-weight: normal"><font face="Arial, sans-serif">La
-signature acoustique de chaque note est mesurée, et l'ensemble des
-fréquences des notes est recalculé instantanément, la courbe
-d'objectif et les curseurs de qualité des notes se modifient
-permettant la progression de l'activité.</font></p>
+signature acoustique de chaque note est mesurée et verrouillée
+uniquement à la première vibration, une marque rouge apparaît dans
+le clavier virtuel pour la note concernée quand la durée est
+suffisante pour avoir une qualité de mesure optimale avec une
+fréquence stable, l'ensemble des fréquences des notes est recalculé
+instantanément, la courbe d'objectif et les curseurs de qualité des
+notes se modifient permettant la progression de l'activité. Quand la
+mesure est effectuée, un bouton &quot;X&quot; apparaît dans la vue,
+il indique la présence d'un enregistrement sonore et permet
+d'effacer la mesure pour la refaire si besoin.</font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
 
 </p>
@@ -1239,7 +1250,8 @@ l'accordage est terminé, il est possible d'enregistrer l</span><span style="fon
 signature</span><span style="font-weight: normal"> acoustique de
 l'instrument en allant dans l'activité &quot;Mesure l</span><span style="font-weight: normal">a
 signature</span><span style="font-weight: normal"> acous</span><span style="font-style: normal"><span style="font-weight: normal">tique&quot;</span></span><span style="font-style: normal"><span style="font-weight: normal">
-et en validant les mesures.</span></span></font></p>
+et en </span></span><span style="font-style: normal"><span style="font-weight: normal">cliquant
+sur le bouton &quot;Confirme et enregistre&quot;</span></span><span style="font-style: normal"><span style="font-weight: normal">.</span></span></font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
 
 </p>
@@ -1294,10 +1306,11 @@ automatiquement à la note suivante</span></span><span style="font-style: normal
 </span></span><span style="font-style: normal"><span style="font-weight: normal">cela
 devrait prendre moins de </span></span><span style="font-style: normal"><span style="font-weight: normal">3</span></span><span style="font-style: normal"><span style="font-weight: normal">&nbsp;</span></span><span style="font-style: normal"><span style="font-weight: normal">minutes</span></span><span style="font-style: normal"><span style="font-weight: normal">.</span></span></font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><font face="Arial, sans-serif">Le
-bouton &quot;Valide et sauve&quot; procède au calcul des fréquences
-d'accordage de l'Instrument selon l'inharmonicité de chaque note
-mesurée, et enregistre les données mesurées dans le fichier
-Instrument et le son des notes dans le fichier wav correspondant.</font></p>
+bouton &quot;<span style="font-style: normal">Confirme et enregistre</span>&quot;
+procède au calcul des fréquences d'accordage de l'Instrument selon
+l'inharmonicité de chaque note mesurée, et enregistre les données
+mesurées dans le fichier Instrument et le son des notes dans le
+fichier wav correspondant.</font></p>
 <p style="margin-bottom: 0cm; font-weight: normal"><br/>
 
 </p>
@@ -1984,7 +1997,9 @@ des commentaires.</font></font></p>
 </p>
 <p style="margin-bottom: 0cm"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Note:
 le nom du paramètre est mis entre { } pour éviter sa traduction
-automatique par Google</font></font></p>
+automatique par Google, le 'U' indique que le paramètre utilisateur
+modifié dans l'application est sauvegardé et persiste entre les
+sessions.</font></font></p>
 <table width="1040" cellpadding="0" cellspacing="0" style="page-break-inside: auto">
 	<col width="211"/>
 	<col width="136"/>
@@ -3448,8 +3463,9 @@ cas d'un arrêt automatique sur détection d'un silence.</font></p>
 </p>
 <p style="margin-bottom: 0cm"><font face="Arial, sans-serif">Une fois
 toutes les notes capturées et avant de poursuivre par la
-modification des paramètres composant le timbre, appuyer sur le
-bouton &quot;Valide et sauve&quot; ce qui va accorder l'Instrument
+modification des paramètres composant le timbre, cliquer sur le
+bouton &quot;<span style="font-style: normal"><span style="font-weight: normal">Confirme
+et enregistre</span></span>&quot; ce qui va accorder l'Instrument
 selon les règles automatiques et effacer les fréquences
 particulières de chaque note capturée donnant un Instrument
 immédiatement utilisable pour jouer ou pour accorder l'instrument
