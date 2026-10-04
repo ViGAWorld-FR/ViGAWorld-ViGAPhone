@@ -1,0 +1,13 @@
+InstrType	piano
+Description	"EN : accounts for inharmonicity by stretching the bass and treble ranges to create a cohesive, pleasing sound—even for small pianos with significant bass inharmonicity.
+FR : tient compte de l'inharmonicité en étirant les registres des graves et des aigus pour créer un son cohérent et agréable — même sur les petits pianos présentant une forte inharmonicité dans les graves."
+Objectif	Concert soliste
+MIDInoteNum	règle accord
+1	NP8:1
+33	NP8:2
+45	NP4:2
+57	*
+69	T-P4:2
+70	N-P2:1
+82	N-P4:1
+94	N-P2:1

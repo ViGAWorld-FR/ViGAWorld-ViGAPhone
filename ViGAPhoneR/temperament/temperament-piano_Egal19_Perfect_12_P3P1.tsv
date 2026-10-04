@@ -1,0 +1,8 @@
+InstrType	piano		
+Description	"EN: takes piano inharmonicity into account by stretching the bass and treble according to the perfect twelfth (3:1 ratio)
+FR: tient compte de l’inharmonicité du piano en réalisant un étirement des basses et des aigus selon la douzième parfaite (rapport 3:1)"
+Objectif	Maintenir la qualité des accords en étirant légèrement les aigus		
+MIDInoteNum	règle accord	Note nom	note num
+9	NP3:1		
+69	T-P3:1	La 3	49
+70	N-P3:1		

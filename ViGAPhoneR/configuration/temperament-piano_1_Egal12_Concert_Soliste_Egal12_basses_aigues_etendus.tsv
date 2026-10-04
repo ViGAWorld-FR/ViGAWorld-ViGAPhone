@@ -1,9 +1,0 @@
-InstrType	piano
-Description	prend en compte l’inharmonicité en étirant les basses et les aiguës pour avoir un ensemble cohérent et agréable à l’oreille
-Objectif	Concert Soliste
-NoteNum@M20	règle accord
--19	N12P4:2
-13	N12P2:1
-38	*
-49	T-12P2:1
-50	N-24P4:1
