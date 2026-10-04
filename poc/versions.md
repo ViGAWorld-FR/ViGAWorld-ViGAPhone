@@ -2,6 +2,33 @@
 ---
 # ViGAPhone Synth Lab — What's new? / Quoi de neuf ?
 
+## 2.0.0_beta
+### Français
+R2.0.0 révolution
+- session avec sauvegarde et restauration automatique en cas d'arrêt inopiné de l'application
+- les fonctionnalités principales et toutes les courbes sont purement graphiques, la vue console est réservée pour l'affichage ou la saisie de textes 
+- capture du timbre et de l'inharmonicité en mode graphique
+- mise à jour en temps réel pendant l'accordage des courbes
+- courbes pour la construction et le contrôle du tempérament
+- construction graphique du tempérament adapté à l'instrument à accorder
+- courbe de Qualité d'accordage
+- grammaire du tempérament , par défaut l'octave comprend 12 notes et il est inutile de préciser la distance, seul le signe - inverse la distance
+- dessin d'un clavier de piano comme base du tracer des courbes et pour choisir la note courante, avec information sur l'état des notes (touches basses, accord mémorisé, inharmonicité mesurée, etc)
+
+
+### English
+R2.0.0 Revolution
+- Session management with automatic save and recovery in case of an unexpected app crash
+- Core features and all curves are now purely graphical; the console view is reserved for text display and entry
+- Timbre and inharmonicity capture in graphical mode
+- Real-time updates of curves during tuning
+- Curves for temperament construction and inspection
+- Graphical construction of a custom temperament tailored to the instrument being tuned
+- "Tuning Quality" curve
+- Temperament grammar: by default, an octave contains 12 notes and specifying intervals is no longer required—only the minus sign (-) reverses direction
+- Rendered piano keyboard serving as the baseline for curve plotting and note selection, with visual status indicators (held-down keys, memorized chords, measured inharmonicity, etc.)
+
+
 ## 1.6.2
 ### Français
 - Correction de bogue de la capture qui plante.
