@@ -2,7 +2,7 @@
 ---
 # ViGAPhone Synth Lab — What's new? / Quoi de neuf ?
 
-## 2.0.0_beta
+## 2.0.0_beta Revolution
 ### Français
 R2.0.0 révolution
 - session avec sauvegarde et restauration automatique en cas d'arrêt inopiné de l'application
