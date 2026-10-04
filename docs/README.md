@@ -1,4 +1,4 @@
-<h1 align="center">ViGAPhone Synth Lab V2: New Living Physical-Modeling Synthesizer, Instrument Piano Tuner, MIDI-MPE application and VST3 plugin, Sound and Timbre Spectral Analyzer and more...</h1>
+<h1 align="center">ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer, Instrument Piano Tuner, MIDI-MPE application and VST3 plugin, Sound and Timbre Spectral Analyzer and more...</h1>
 
 <p align="center">
   App for Android<img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> / Windows🪟 / Linux🐧
