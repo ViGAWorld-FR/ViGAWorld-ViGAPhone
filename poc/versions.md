@@ -3,19 +3,6 @@
 # ViGAPhone Synth Lab — What's new? / Quoi de neuf ?
 
 ## 2.0.0_beta Revolution
-### Français
-R2.0.0 révolution
-- session avec sauvegarde et restauration automatique en cas d'arrêt inopiné de l'application
-- les fonctionnalités principales et toutes les courbes sont purement graphiques, la vue console est réservée pour l'affichage ou la saisie de textes 
-- capture du timbre et de l'inharmonicité en mode graphique
-- mise à jour en temps réel pendant l'accordage des courbes
-- courbes pour la construction et le contrôle du tempérament
-- construction graphique du tempérament adapté à l'instrument à accorder
-- courbe de Qualité d'accordage
-- grammaire du tempérament , par défaut l'octave comprend 12 notes et il est inutile de préciser la distance, seul le signe - inverse la distance
-- dessin d'un clavier de piano comme base du tracer des courbes et pour choisir la note courante, avec information sur l'état des notes (touches basses, accord mémorisé, inharmonicité mesurée, etc)
-
-
 ### English
 R2.0.0 Revolution
 - Session management with automatic save and recovery in case of an unexpected app crash
@@ -27,6 +14,18 @@ R2.0.0 Revolution
 - "Tuning Quality" curve
 - Temperament grammar: by default, an octave contains 12 notes and specifying intervals is no longer required—only the minus sign (-) reverses direction
 - Rendered piano keyboard serving as the baseline for curve plotting and note selection, with visual status indicators (held-down keys, memorized chords, measured inharmonicity, etc.)
+
+### Français
+R2.0.0 révolution
+- session avec sauvegarde et restauration automatique en cas d'arrêt inopiné de l'application
+- les fonctionnalités principales et toutes les courbes sont purement graphiques, la vue console est réservée pour l'affichage ou la saisie de textes 
+- capture du timbre et de l'inharmonicité en mode graphique
+- mise à jour en temps réel pendant l'accordage des courbes
+- courbes pour la construction et le contrôle du tempérament
+- construction graphique du tempérament adapté à l'instrument à accorder
+- courbe de Qualité d'accordage
+- grammaire du tempérament , par défaut l'octave comprend 12 notes et il est inutile de préciser la distance, seul le signe - inverse la distance
+- dessin d'un clavier de piano comme base du tracer des courbes et pour choisir la note courante, avec information sur l'état des notes (touches basses, accord mémorisé, inharmonicité mesurée, etc)
 
 
 ## 1.6.2
