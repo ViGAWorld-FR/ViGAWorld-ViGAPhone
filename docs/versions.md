@@ -20,7 +20,7 @@ R2.0.0 révolution
 - session avec sauvegarde et restauration automatique en cas d'arrêt inopiné de l'application
 - les fonctionnalités principales et toutes les courbes sont purement graphiques, la vue console est réservée pour l'affichage ou la saisie de textes 
 - capture du timbre et de l'inharmonicité en mode graphique
-- mise à jour en temps réel pendant l'accordage des courbes
+- mise à jour des courbes en temps réel pendant l'accordage
 - courbes pour la construction et le contrôle du tempérament
 - construction graphique du tempérament adapté à l'instrument à accorder
 - courbe de Qualité d'accordage

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 11:12+0200\n"
+"POT-Creation-Date: 2026-10-09 15:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1167,6 +1167,15 @@ msgstr ""
 msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
 msgstr ""
 
+msgid "Ouvre la page de version dans le navigateur web par défaut."
+msgstr ""
+
+msgid " Echec de la commande."
+msgstr ""
+
+msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
+msgstr ""
+
 msgid ""
 "\n"
 "Erreur, il faut d'abord jouer une première note \n"
@@ -1181,12 +1190,6 @@ msgid "Erreur, serveur son non géré\n"
 msgstr ""
 
 msgid "fonction non disponible sous windows"
-msgstr ""
-
-msgid " Echec de la commande."
-msgstr ""
-
-msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
 msgstr ""
 
 msgid "Capture démarrée jusqu'au niveau sonore de %.fdB ou un appui sur une touche..."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-06 11:12+0200\n"
+"POT-Creation-Date: 2026-10-09 15:27+0200\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1260,6 +1260,15 @@ msgstr "Synthesized sound is now played instead of captured sound \n"
 msgid "==>ERREUR : il n'y a pas de son capturé pour la note %s \n"
 msgstr "==>ERROR: no captured sound exists for note %s \n"
 
+msgid "Ouvre la page de version dans le navigateur web par défaut."
+msgstr "Opens the version page in the default web browser."
+
+msgid " Echec de la commande."
+msgstr " Command aborted."
+
+msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
+msgstr "Open the User Manual in the default web browser."
+
 msgid ""
 "\n"
 "Erreur, il faut d'abord jouer une première note \n"
@@ -1279,12 +1288,6 @@ msgstr "Error, unsupported sound server\n"
 
 msgid "fonction non disponible sous windows"
 msgstr "function not available under Windows"
-
-msgid " Echec de la commande."
-msgstr " Command aborted."
-
-msgid "Ouvre le Manuel utilisateur dans le navigateur web par défaut."
-msgstr "Open the User Manual in the default web browser."
 
 msgid "Capture démarrée jusqu'au niveau sonore de %.fdB ou un appui sur une touche..."
 msgstr "Capture started until sound level reaches %.fdB or key press..."
