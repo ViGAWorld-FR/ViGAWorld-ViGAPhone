@@ -124,8 +124,8 @@ Creations made with ViGAPhone can be saved, archived, and shared, ensuring the p
 - MIDI plug n play
 - VST3 plugin
 - High-resolution MIDI velocity is fully supported, offering greater precision and nuance in the musician’s performance. Note-off velocity is also handled, allowing for expressive control over associated sound effects and release dynamics
-- A keyboard-driven text interface: streamlined and highly efficient, ideal for professionals
 - A graphical interface for real-time sound analysis, timbre reproduction, and ultra-precise piano or any instrument tuning
+- A keyboard-driven text interface: streamlined and highly efficient, ideal for professionals
 - An extremely compact executable size—where design quality and code efficiency truly matter
 - Runing on Linux with Jack/ALSA as well as on Windows 10 and higher
 - The audio engine is exceptionally powerful—arguably the most efficient in the world. It can run on computers that are 15 years old and handle tens of thousands of waves in real time without overloading the system. It performs pure additive synthesis using sine waves, or blends them with complex computed or sampled waveforms, offering infinite creative possibilities and an extreme sonic richness.
@@ -298,8 +298,8 @@ Les instruments créés avec ViGAPhone peuvent être enregistrés, archivés et 
 - MIDI plug n play.
 - plugin VST3.
 - la vélocité MIDI haute résolution est prise en charge, offrant une précision accrue dans le jeu et une meilleure restitution des nuances d’interprétation. La vélocité du note-off est également gérée, permettant de contrôler finement les effets sonores liés à la fin de note, comme les résonances, les relâchements ou les transitions expressives.
-- Une interface texte entièrement commandée au clavier, sans fioritures et parfaitement efficace, idéale pour les professionnels.
 - Une interface graphique pour l'analyse sonore en temps réel, la reproduction du timbre d'un instrument ou l'accordage d'un piano avec une précision inégalée. A vos claviers!
+- Une interface texte entièrement commandée au clavier, sans fioritures et parfaitement efficace, idéale pour les professionnels.
 - Une taille de fichier exécutable du programme extrêmement réduite, ici c'est la qualité de la conception et du code qui pèse lourd.
 - fonctionne sur Linux Jack/ALSA ou sur Windows10 et plus.
 - Le moteur audio est extrêmement performant, sans doute le plus performant au monde. Il peut fonctionner sur des ordinateurs de 15 ans d'âge et gérer plusieurs dizaines de milliers d'ondes en temps réel sans saturer le système. Il fait de la synthèse additive pure avec des ondes sinusoïdales, ou mixer avec des ondes complexes calculées ou échantillonnées offrant une infinité de possibilités et une richesse sonore extrême.
