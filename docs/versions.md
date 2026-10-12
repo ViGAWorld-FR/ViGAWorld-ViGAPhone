@@ -5,7 +5,7 @@
 ## 2.0.0_beta2 Revolution
 ### English
 R2.0.0 Revolution
-- Session management with automatic save and recovery in case of an unexpected app crash
+- Session management with automatic save and recovery in case of an unexpected app stop
 - Core features and all curves are now purely graphical; the console view is reserved for text display and entry
 - Timbre and inharmonicity capture in graphical mode
 - Real-time updates of curves during tuning
