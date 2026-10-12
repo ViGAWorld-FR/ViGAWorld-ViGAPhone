@@ -16,7 +16,7 @@ R2.0.0 Revolution
 - Rendered piano keyboard serving as the baseline for curve plotting and note selection, with visual status indicators (held-down keys, memorized chords, measured inharmonicity, etc.)
 
 ### Français
-R2.0.0 révolution
+R2.0.0 Révolution
 - session avec sauvegarde et restauration automatique en cas d'arrêt inopiné de l'application
 - les fonctionnalités principales et toutes les courbes sont purement graphiques, la vue console est réservée pour l'affichage ou la saisie de textes 
 - capture du timbre et de l'inharmonicité en mode graphique
