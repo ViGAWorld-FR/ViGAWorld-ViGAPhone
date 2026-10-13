@@ -40,11 +40,9 @@
 
 
 
-# EN ViGAWorld - ViGAPhone Synth Lab: because music is a world of sharing!
-
-
 <p id="short-presentation"></p>
 
+# EN ViGAWorld - ViGAPhone Synth Lab: because music is a world of sharing!
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone Synth Lab** The ViGAPhone Synth Lab offers a versatile suite of musical services. It features an extraordinary, realistic and living physical modeling synthesizer for performing and creative musicians, complete with specialized tools for designing and building entirely new instruments. Additionally, it provides a dedicated set of professional diagnostic and tuning tools for piano technicians and other specialists.
 
