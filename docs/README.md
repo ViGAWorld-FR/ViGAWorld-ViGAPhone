@@ -37,8 +37,8 @@
 <p align="center">
   🎧 <b>Video demonstration of tuner tools</b> Click to view:<br>
   <a href="https://youtu.be/hj5jZDovgjY">Piano Tuner ETD MIDI Synth Pro - App presentation on an S10 phone</a>
-  [![Piano Tuner ETD MIDI Synth Pro - App presentation on an S10 phone](https://img.youtube.com/vi/hj5jZDovgjY/maxresdefault.jpg)](https://www.youtube.com/watch?v=hj5jZDovgjY)
 </p>
+  [![Piano Tuner ETD MIDI Synth Pro - App presentation on an S10 phone](https://img.youtube.com/vi/hj5jZDovgjY/maxresdefault.jpg)](https://www.youtube.com/watch?v=hj5jZDovgjY)
 
 
 <br clear="all" />
