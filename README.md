@@ -36,7 +36,6 @@
 
 <p align="center">
   🎬 <b>Video demonstration of tuner tools on a  S10 phone</b>, click to view:<br>
-  <small><i>(⚙️ Switch to 720p HD for best clarity)</i></small><br>
   <a href="https://www.youtube.com/watch?v=5hrEWaiWzu8" target="_blank">
     <img src="https://img.youtube.com/vi/5hrEWaiWzu8/maxresdefault.jpg" alt="Piano Tuner" width="600">
   </a>
