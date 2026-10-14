@@ -30,7 +30,7 @@
 </table>
 
 <p align="center">
-  🎧 <b>Audio demonstration</b>, click to listen:<br>
+  🎧 <b>Audio demonstration of PM synthesizer</b>, click to listen:<br>
   <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
 </p>
 
