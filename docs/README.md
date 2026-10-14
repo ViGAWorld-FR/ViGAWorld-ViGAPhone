@@ -34,6 +34,12 @@
   <a href="https://vigaworld-fr.github.io/ViGAWorld-ViGAPhone/main/audio/MichelPolnareff_LoveMe.mp3">9 instruments played by Rosegarden on a Bosendorfer Imperial, no samples!</a>
 </p>
 
+<p align="center">
+  🎧 <b>Video demonstration of tuner tools</b> Click to view:<br>
+  <a href="https://youtu.be/hj5jZDovgjY">Piano Tuner ETD MIDI Synth Pro - App presentation on an S10 phone</a>
+</p>
+
+
 <br clear="all" />
 
 ---
