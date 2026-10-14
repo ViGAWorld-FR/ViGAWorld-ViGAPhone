@@ -35,10 +35,10 @@
 </p>
 
 <p align="center">
-  🎬 <b>Video demonstration of tuner tools</b>, click to view:<br>
-  <small><i>(⚙️ Switch to 720p60 HD for best clarity)</i></small><br>
-  <a href="https://www.youtube.com/watch?v=hj5jZDovgjY" target="_blank">
-    <img src="https://img.youtube.com/vi/hj5jZDovgjY/maxresdefault.jpg" alt="Piano Tuner S10" width="600">
+  🎬 <b>Video demonstration of tuner tools on a  S10 phone</b>, click to view:<br>
+  <small><i>(⚙️ Switch to 720p HD for best clarity)</i></small><br>
+  <a href="https://www.youtube.com/watch?v=5hrEWaiWzu8" target="_blank">
+    <img src="https://img.youtube.com/vi/5hrEWaiWzu8/maxresdefault.jpg" alt="Piano Tuner" width="600">
   </a>
 </p>
 
