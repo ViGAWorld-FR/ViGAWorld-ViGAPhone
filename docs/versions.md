@@ -6,7 +6,7 @@
 ### English
 R2.0.0 Revolution
 - Session management with automatic save and recovery in case of an unexpected app stop
-- Core features and all curves are now purely graphical; the console view is reserved for text display and entry
+- Core features and all curves are now purely graphical; the console view is reserved for text display, entry and advanced tools
 - Timbre and inharmonicity capture in graphical mode
 - Real-time updates of curves during tuning
 - Curves for temperament construction and inspection
@@ -18,7 +18,7 @@ R2.0.0 Revolution
 ### Français
 R2.0.0 Révolution
 - session avec sauvegarde et restauration automatique en cas d'arrêt inopiné de l'application
-- les fonctionnalités principales et toutes les courbes sont purement graphiques, la vue console est réservée pour l'affichage ou la saisie de textes 
+- les fonctionnalités principales et toutes les courbes sont purement graphiques, la vue console est réservée pour l'affichage de textes, la saisie ou pour des outils avancés
 - capture du timbre et de l'inharmonicité en mode graphique
 - mise à jour des courbes en temps réel pendant l'accordage
 - courbes pour la construction et le contrôle du tempérament
