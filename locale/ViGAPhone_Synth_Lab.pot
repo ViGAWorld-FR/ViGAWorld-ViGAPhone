@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 15:28+0200\n"
+"POT-Creation-Date: 2026-10-27 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -340,6 +340,9 @@ msgid "Régler le Niveau de Bruit du microphone"
 msgstr ""
 
 msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
+msgstr ""
+
+msgid "textes traduits de la langue locale fr"
 msgstr ""
 
 msgid "périphérique déconnecté"
@@ -806,10 +809,13 @@ msgstr ""
 msgid "==> Erreur : langues non trouvées."
 msgstr ""
 
-msgid "Choisir une Langue"
+msgid "Choisir une Langue par son numéro ou taper son code 2 lettres."
 msgstr ""
 
-msgid "0/q : abandonne, [ENTREE] rafraîchit la liste\n"
+msgid "0 : choisis la langue du système d'exploitation\n"
+msgstr ""
+
+msgid "q : abandonne, [ENTREE] rafraîchit la liste\n"
 msgstr ""
 
 msgid "En attente de l'arrêt de la note..."
@@ -1586,7 +1592,10 @@ msgstr ""
 msgid "Erreur icône de l'application non trouvée\n"
 msgstr ""
 
-msgid "==> ERREUR: fichier langue PO <%s> non trouvé, langue 'en_US' par défaut\n"
+msgid "==> ERREUR: langue Android auto-traduite '%s' non trouvée, langue forcée à 'en' par défaut.\n"
+msgstr ""
+
+msgid "==> ERREUR: fichier langue PO <%s> non trouvé, langue forcée à 'en' par défaut\n"
 msgstr ""
 
 msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 14:58+0200\n"
+"POT-Creation-Date: 2026-10-27 17:03+0100\n"
 "PO-Revision-Date: 2026-04-12 09:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -405,6 +405,9 @@ msgstr "Set Microphone Noise Level"
 
 msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
 msgstr "master volume raised from %.1fdB to %.1fdB \n"
+
+msgid "textes traduits de la langue locale fr"
+msgstr "Texts translated from the local language (French)"
 
 msgid "périphérique déconnecté"
 msgstr "device disconnected"
@@ -892,11 +895,14 @@ msgstr "Choose MIDI client to connect:\n"
 msgid "==> Erreur : langues non trouvées."
 msgstr "==> Error: Language not found."
 
-msgid "Choisir une Langue"
-msgstr "Choose a Language"
+msgid "Choisir une Langue par son numéro ou taper son code 2 lettres."
+msgstr "Choose a Language by its number or enter its 2-letter code."
 
-msgid "0/q : abandonne, [ENTREE] rafraîchit la liste\n"
-msgstr "0/q : cancel, [ENTER] refreshes list\n"
+msgid "0 : choisis la langue du système d'exploitation\n"
+msgstr "0: choose the operating system language\n"
+
+msgid "q : abandonne, [ENTREE] rafraîchit la liste\n"
+msgstr "q : cancel, [ENTER] refreshes list\n"
 
 msgid "En attente de l'arrêt de la note..."
 msgstr "Waiting for note to stop..."
@@ -1690,8 +1696,11 @@ msgstr "Select Microphone"
 msgid "Erreur icône de l'application non trouvée\n"
 msgstr "Error: application icon not found\n"
 
-msgid "==> ERREUR: fichier langue PO <%s> non trouvé, langue 'en_US' par défaut\n"
-msgstr "==> ERROR: PO Language file <%s> not found, defaulting to 'en_US'\n"
+msgid "==> ERREUR: langue Android auto-traduite '%s' non trouvée, langue forcée à 'en' par défaut.\n"
+msgstr "==> ERROR: auto-translated Android language '%s' not found, default language set to 'en'.\n"
+
+msgid "==> ERREUR: fichier langue PO <%s> non trouvé, langue forcée à 'en' par défaut\n"
+msgstr "==> ERROR: PO Language file <%s> not found, default language set to 'en'.\n"
 
 msgid "==> Attention : Fichier général de configuration non trouvé ou contenant des erreurs, le fonctionnement peut être dégradé \n"
 msgstr "==> Warning: General configuration file not found or corrupted; performance may be degraded \n"
@@ -2467,3 +2476,6 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
+
+#~ msgid "Les langues auto-traduites par Android ne sont pas listées.\n"
+#~ msgstr "Android auto-translated languages ​​are not listed.\n"
