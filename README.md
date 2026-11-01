@@ -88,7 +88,7 @@ It is already the best software in the world combining sound synthesis, spectral
   <img src="images/temperament.png" alt="ViGAPhone temperament" >
 </a>
 
-- ViGAPhone piano's beat progressions / Progressions des accords
+- ViGAPhone piano's beat progression / Progressions des accords
 
 <a href="images/beat-progression.png">
   <img src="images/beat-progression.png" alt="ViGAPhone beat-progression" >
