@@ -278,6 +278,19 @@ Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore, l'a
 </a>
 
 
+- Création du tempérament et de l'étirement  des octaves
+
+<a href="images/temperament.png">
+  <img src="images/temperament.png" alt="ViGAPhone temperament" >
+</a>
+
+- Progressions des accords
+
+<a href="images/beat-progression.png">
+  <img src="images/beat-progression.png" alt="ViGAPhone beat-progression" >
+</a>
+
+
 - Voici les services qu'offre le ViGAPhone Synth Lab :
 ## 🎵 Pour les musiciens
 - jouer avec un son réaliste, riche, profond, unique, un timbre sensible au toucher, tout ce qu'il faut pour prendre plaisir à jouer ou à composer en "standalone" à partir d'un clavier MIDI ou en "plugin" VST3 dans une chaîne de production musicale
