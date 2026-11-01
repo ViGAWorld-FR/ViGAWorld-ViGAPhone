@@ -67,7 +67,7 @@ It is already the best software in the world combining sound synthesis, spectral
 - ViGAPhone high precision any instrument and piano electronic tuner / accordeur électronique haute précision de piano et tout instrument
 
 <a href="images/accorder-EN.png">
-  <img src="images/accorder-EN.png" alt="ViGAPhone tuner" width="800" height="600">
+  <img src="images/accorder-EN.png" alt="ViGAPhone tuner">
 </a>
 
 - ViGAPhone piano's inharmonicity acquisition
@@ -80,6 +80,18 @@ It is already the best software in the world combining sound synthesis, spectral
 
 <a href="images/captureTimbreAnalyse.png">
   <img src="images/captureTimbreAnalyse.png" alt="ViGAPhone timbre modeling" width="800" height="600">
+</a>
+
+- ViGAPhone piano's temperament editor / Création du tempérament et de l'étirement  des octaves
+
+<a href="images/temperament.png">
+  <img src="images/temperament.png" alt="ViGAPhone temperament" width="800" height="600">
+</a>
+
+- ViGAPhone piano's beat progressions / Progressions des accords
+
+<a href="images/beat-progression.png">
+  <img src="images/beat-progression.png" alt="ViGAPhone beat-progression" width="800" height="600">
 </a>
 
 
