@@ -73,25 +73,25 @@ It is already the best software in the world combining sound synthesis, spectral
 - ViGAPhone piano's inharmonicity acquisition
 
 <a href="images/inharmonicite.png">
-  <img src="images/inharmonicite.png" alt="ViGAPhone inharmonicity acquisition" width="800" height="600">
+  <img src="images/inharmonicite.png" alt="ViGAPhone inharmonicity acquisition" >
 </a>
 
 - ViGAPhone piano's timbre acquisition and modeling / Acquisition et modélisation du timbre du piano
 
 <a href="images/captureTimbreAnalyse.png">
-  <img src="images/captureTimbreAnalyse.png" alt="ViGAPhone timbre modeling" width="800" height="600">
+  <img src="images/captureTimbreAnalyse.png" alt="ViGAPhone timbre modeling" >
 </a>
 
 - ViGAPhone piano's temperament editor / Création du tempérament et de l'étirement  des octaves
 
 <a href="images/temperament.png">
-  <img src="images/temperament.png" alt="ViGAPhone temperament" width="800" height="600">
+  <img src="images/temperament.png" alt="ViGAPhone temperament" >
 </a>
 
 - ViGAPhone piano's beat progressions / Progressions des accords
 
 <a href="images/beat-progression.png">
-  <img src="images/beat-progression.png" alt="ViGAPhone beat-progression" width="800" height="600">
+  <img src="images/beat-progression.png" alt="ViGAPhone beat-progression" >
 </a>
 
 
@@ -262,19 +262,19 @@ Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore, l'a
 - ViGAPhone : accordeur électronique haute précision de piano et tout instrument
 
 <a href="images/accorder-EN.png">
-  <img src="images/accorder-EN.png" alt="ViGAPhone tuner" width="800" height="600">
+  <img src="images/accorder-EN.png" alt="ViGAPhone tuner" >
 </a>
 
 - ViGAPhone : capture et analyse de l'inharmonicité d'un piano
 
 <a href="images/inharmonicite.png">
-  <img src="images/inharmonicite.png" alt="ViGAPhone inharmonicity acquisition" width="800" height="600">
+  <img src="images/inharmonicite.png" alt="ViGAPhone inharmonicity acquisition" >
 </a>
 
 - ViGAPhone : acquisition et modélisation du timbre du piano
 
 <a href="images/captureTimbreAnalyse.png">
-  <img src="images/captureTimbreAnalyse.png" alt="ViGAPhone timbre modeling" width="800" height="600">
+  <img src="images/captureTimbreAnalyse.png" alt="ViGAPhone timbre modeling" >
 </a>
 
 
