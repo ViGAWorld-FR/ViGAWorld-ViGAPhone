@@ -82,7 +82,7 @@ It is already the best software in the world combining sound synthesis, spectral
   <img src="images/captureTimbreAnalyse.png" alt="ViGAPhone timbre modeling" >
 </a>
 
-- ViGAPhone piano's temperament editor / Création du tempérament et de l'étirement  des octaves
+- ViGAPhone piano's temperament and octave-stretch editor / Création du tempérament et de l'étirement  des octaves
 
 <a href="images/temperament.png">
   <img src="images/temperament.png" alt="ViGAPhone temperament" >
