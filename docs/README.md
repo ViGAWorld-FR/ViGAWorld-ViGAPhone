@@ -57,7 +57,7 @@ Built to Last. 100% Human-Engineered. Zero AI.
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone Synth Lab** The ViGAPhone Synth Lab offers a versatile suite of musical services. It features an extraordinary, realistic and living physical modeling synthesizer for performing and creative musicians, complete with specialized tools for designing and building entirely new instruments. Additionally, it provides a dedicated set of professional diagnostic and tuning tools for piano technicians and other specialists.
 
-This application was developed by a human—a software engineer and piano technician. No external libraries or AI-driven development were used; this ensures complete mastery of the code, as well as the application's maintainability and long-term viability.
+This application was developed by a software engineer and piano technician. No external libraries or AI-driven development were used; this ensures complete mastery of the code, as well as the application's maintainability and long-term viability.
 
 ## 🎹 Overview
 
@@ -254,7 +254,7 @@ If you are interested in piano rebuilding, check out my other project:
 Le ViGAPhone Synth Lab est une collection d'instruments et d'outils dédiée au monde musical, un ensemble de services combinant : 
 un synthétiseur MIDI par modèles physiques d'un réalisme vivant pour les interprètes, un laboratoire de conception pour créer de nouveaux instruments, ainsi qu'une suite d'expertises techniques destinée aux techniciens du piano et de tous les instruments.
 
-Cette application est développée par un humain ingénieur en informatique et technicien du piano, aucune bibliothèque externe aucun développement par IA ne sont utilisés, ceci assure une maîtrise parfaite du code, la maintenabilité et la pérennité de l'application.
+Cette application est développée par un ingénieur en informatique et technicien du piano, aucune bibliothèque externe aucun développement par IA ne sont utilisés, ceci assure une maîtrise parfaite du code, la maintenabilité et la pérennité de l'application.
 
 
 ## 🎹  Tout sur le ViGAPhone:
