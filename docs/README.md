@@ -1,4 +1,4 @@
-<h1 align="center">ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer, Instrument Piano Tuner, MIDI-MPE application and VST3 plugin, Sound and Timbre Spectral Analyzer and more...</h1>
+<h1 align="center">ViGAPhone Synth Lab: New Living Physical-Modeling Synthesizer, Instrument Piano Tuner, MIDI-MPE application and VST3 plugin, Sound and Timbre Spectral Analyzer and more...<b>Built to Last. 100% Human-Engineered. Zero AI.</h1>
 
 <p align="center">
   App for Android<img src="https://cdn.simpleicons.org/android/3DDC84" width="20" height="20" /> / Windows🪟 / Linux🐧
@@ -53,6 +53,8 @@
 # EN ViGAWorld - ViGAPhone Synth Lab: because music is a world of sharing!
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 **ViGAPhone Synth Lab** The ViGAPhone Synth Lab offers a versatile suite of musical services. It features an extraordinary, realistic and living physical modeling synthesizer for performing and creative musicians, complete with specialized tools for designing and building entirely new instruments. Additionally, it provides a dedicated set of professional diagnostic and tuning tools for piano technicians and other specialists.
+
+This application was developed by a human—a software engineer and piano technician. No external libraries or AI-driven development were used; this ensures complete mastery of the code, as well as the application's maintainability and long-term viability.
 
 ## 🎹 Overview
 
@@ -248,6 +250,8 @@ If you are interested in piano rebuilding, check out my other project:
 **ViGAPhone Synth Lab** 
 Le ViGAPhone Synth Lab est une collection d'instruments et d'outils dédiée au monde musical, un ensemble de services combinant : 
 un synthétiseur MIDI par modèles physiques d'un réalisme vivant pour les interprètes, un laboratoire de conception pour créer de nouveaux instruments, ainsi qu'une suite d'expertises techniques destinée aux techniciens du piano et de tous les instruments.
+
+Cette application est développée par un humain ingénieur en informatique et technicien du piano, aucune bibliothèque externe aucun développement par IA ne sont utilisés, ceci assure une maîtrise parfaite du code, la maintenabilité et la pérennité de l'application.
 
 
 ## 🎹  Tout sur le ViGAPhone:
