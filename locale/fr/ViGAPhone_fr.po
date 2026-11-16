@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 17:03+0100\n"
+"POT-Creation-Date: 2026-11-15 18:31+0100\n"
 "PO-Revision-Date: 2026-04-12 07:20+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -652,10 +652,10 @@ msgstr ""
 msgid "Erreur snd_pcm_set_params ALSA: "
 msgstr ""
 
-msgid "connexion auto JACK\n"
+msgid "Connexion auto JACK.\n"
 msgstr ""
 
-msgid "connexion auto ALSA\n"
+msgid "Connexion auto ALSA.\n"
 msgstr ""
 
 msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
@@ -960,13 +960,13 @@ msgstr ""
 msgid "--- Information sur l'environnement technique"
 msgstr ""
 
-msgid "répertoire de base : "
+msgid "Répertoire de base : "
 msgstr ""
 
-msgid "répertoire courant : "
+msgid "Répertoire courant : "
 msgstr ""
 
-msgid "répertoire courant Instrument : "
+msgid "Répertoire courant Instrument : "
 msgstr ""
 
 msgid "OS locale, ViGAPhone SetLocale : "
@@ -1407,7 +1407,7 @@ msgstr ""
 msgid "Sauvegarde réussie"
 msgstr ""
 
-msgid "fichier Instrument identique à l'ancien\n"
+msgid "Fichier Instrument identique à l'ancien.\n"
 msgstr ""
 
 msgid "OUI"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViGAPhone_Synth_Lab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 17:03+0100\n"
-"PO-Revision-Date: 2026-04-12 09:03+0200\n"
+"POT-Creation-Date: 2026-11-15 18:31+0100\n"
+"PO-Revision-Date: 2026-11-15 18:32+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Source-Language: fr\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.10\n"
 
 msgid ""
 "0 abandonne\n"
@@ -244,7 +244,7 @@ msgid "Accordage automatique selon les règles définies dans le fichier Instrum
 msgstr "Automatic tuning according to the rules defined in the Instrument file"
 
 msgid "==> Attention: diapason défini à "
-msgstr "==> Warning: tuning fork defined at"
+msgstr "==> Warning: tuning fork defined at "
 
 msgid "note altérée à "
 msgstr "altered note at "
@@ -398,7 +398,7 @@ msgid "Appuyer sur la touche [Entrée] pour continuer dans l'activité 'Mesure d
 msgstr "Press the [Enter] key to continue with the 'Acoustic signature measurement' activity."
 
 msgid "Prérequis: "
-msgstr "Requirement:"
+msgstr "Requirement: "
 
 msgid "Régler le Niveau de Bruit du microphone"
 msgstr "Set Microphone Noise Level"
@@ -407,7 +407,7 @@ msgid "volume sonore général remonté de %.1fdB à %.1fdB \n"
 msgstr "master volume raised from %.1fdB to %.1fdB \n"
 
 msgid "textes traduits de la langue locale fr"
-msgstr "Texts translated from the local language (French)"
+msgstr "texts translated from the local language (French)"
 
 msgid "périphérique déconnecté"
 msgstr "device disconnected"
@@ -552,7 +552,7 @@ msgid "Client JACK arrêté"
 msgstr "JACK client stopped"
 
 msgid "Erreur efd\n"
-msgstr "efd error\n"
+msgstr "Efd error\n"
 
 msgid "==> Erreur : Le serveur JACK est introuvable ou n'est pas lancé, bascule sur ALSA."
 msgstr "==> Error: The JACK server is not found or not running, switching to ALSA."
@@ -735,11 +735,11 @@ msgstr "Impulse not detected, latency not measured.\n"
 msgid "Erreur snd_pcm_set_params ALSA: "
 msgstr "ALSA snd_pcm_set_params error: "
 
-msgid "connexion auto JACK\n"
-msgstr "JACK auto-connection\n"
+msgid "Connexion auto JACK.\n"
+msgstr "JACK auto-connection.\n"
 
-msgid "connexion auto ALSA\n"
-msgstr "ALSA auto-connection\n"
+msgid "Connexion auto ALSA.\n"
+msgstr "ALSA auto-connection.\n"
 
 msgid "Connexion automatique impossible, passer en manuel si besoin est.\n"
 msgstr "Auto-connection impossible, switch to manual if needed.\n"
@@ -1048,14 +1048,14 @@ msgstr "--- Instrument file information"
 msgid "--- Information sur l'environnement technique"
 msgstr "--- Technical environment information"
 
-msgid "répertoire de base : "
-msgstr "working directory: "
+msgid "Répertoire de base : "
+msgstr "Base directory: "
 
-msgid "répertoire courant : "
-msgstr "working directory: "
+msgid "Répertoire courant : "
+msgstr "Working directory: "
 
-msgid "répertoire courant Instrument : "
-msgstr "Instrument working directory: "
+msgid "Répertoire courant Instrument : "
+msgstr "Current Instrument directory: "
 
 msgid "OS locale, ViGAPhone SetLocale : "
 msgstr "OS locale, ViGAPhone SetLocale : "
@@ -1507,8 +1507,8 @@ msgstr "Saving Instrument to file: %s \n"
 msgid "Sauvegarde réussie"
 msgstr "Save successful"
 
-msgid "fichier Instrument identique à l'ancien\n"
-msgstr "Instrument file identical to the old one\n"
+msgid "Fichier Instrument identique à l'ancien.\n"
+msgstr "Instrument file identical to the old one.\n"
 
 msgid "OUI"
 msgstr "YES"
@@ -1814,7 +1814,7 @@ msgid "%s ATTENTION note non définie \n"
 msgstr "%s WARNING undefined note \n"
 
 msgid "Nom court "
-msgstr "Short name"
+msgstr "Short name "
 
 msgid "Fichier Instrument : "
 msgstr "Instrument File: "
@@ -2476,6 +2476,3 @@ msgstr "==> ERROR: cannot find directory %s \n"
 
 msgid "==> ERREUR : impossible d'installer la gestion du signal SIGINT\n"
 msgstr "==> ERROR: unable to install SIGINT signal handler\n"
-
-#~ msgid "Les langues auto-traduites par Android ne sont pas listées.\n"
-#~ msgstr "Android auto-translated languages ​​are not listed.\n"
