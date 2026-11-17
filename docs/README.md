@@ -257,7 +257,7 @@ If you are interested in piano rebuilding, check out my other project:
 # FR ViGAWorld - ViGAPhone Synth Lab : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
 
-**ViGAPhone Synth Lab** est un atelier acoustique tout-en-un qui réunit **deux points de vue sur un même monde acoustique autour de l'instrument de musique **.
+**ViGAPhone Synth Lab** est un atelier acoustique tout-en-un qui réunit **deux points de vue sur un même monde acoustique autour de l'instrument de musique**.
 
 ### Un seul monde acoustique, deux points de vue
 
