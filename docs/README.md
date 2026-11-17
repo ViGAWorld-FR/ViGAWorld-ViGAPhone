@@ -55,19 +55,31 @@ Built to Last. 100% Human-Engineered. Zero AI.
 
 # EN ViGAWorld - ViGAPhone Synth Lab: because music is a world of sharing!
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
-**ViGAPhone Synth Lab** The ViGAPhone Synth Lab offers a versatile suite of musical services. It features an extraordinary, realistic and living physical modeling synthesizer for performing and creative musicians, complete with specialized tools for designing and building entirely new instruments. Additionally, it provides a dedicated set of professional diagnostic and tuning tools for piano technicians and other specialists.
 
-This application was developed by a software engineer and piano technician. No external libraries or AI-driven development were used; this ensures complete mastery of the code, as well as the application's maintainability and long-term viability.
+# ViGAPhone Synth Lab
+**Where Acoustic Precision Meets Physical-Modeling Synthesis**
+
+**ViGAPhone Synth Lab** is an all-in-one acoustic workbench built around a single philosophy: **one acoustic world, two perspectives**. It brings together surgical precision for **piano technicians** and an expressive, living physical-modeling synthesizer for **musicians**.
+
+### One Acoustic World, Two Perspectives
+
+- **For Piano Technicians & Tuners:** A complete suite of professional diagnostic, spectrum analysis, and real-time inharmonicity measurement tools. Design custom temperaments, analyze voicing, and tune any piano hands-free with automatic note recognition and real-time target curve adaptation.
+- **For Performing & Creative Musicians:** An expressive, living physical-modeling synthesizer (MIDI/MPE compatible) capable of emulating strings, percussion, and wind instruments—or letting you sculpt entirely new acoustic instruments from scratch.
+
+---
 
 ## 🎹 Overview
 
-- ViGAPhone is a realistic synthesis program for Linux or Windows computers, optionally used with a MIDI keyboard. It is designed for performing musicians, professional tuners, and occasional hobbyists.
+**ViGAPhone** is a realistic synthesis and acoustic analysis program for Windows, Linux, and Android, optionally played via a MIDI/MPE keyboard. It is designed for professional tuners, performing musicians, and curious hobbyists alike.
 
-If you're familiar with Pianoteq (Modartt), Ivory (Synthogy), or Kontakt (Native Instruments), you already have some insight into physical modeling or sampling-based synthesis.
+If you are familiar with **Pianoteq (Modartt)**, **Ivory (Synthogy)**, or **Kontakt (Native Instruments)**, you already have some insight into physical modeling or sampling-based synthesis.
 
-ViGAPhone is based on physical modeling synthesis of string, percussion, or wind instruments, similar to Pianoteq, but with far more possibilities offered to the user. The first version was developed around the piano instrument, but it already includes everything needed to emulate other instruments to create entirely new ones.
+Like Pianoteq, ViGAPhone relies on **pure physical modeling** of string, percussion, and wind instruments rather than static audio samples—but goes much further by opening the engine to the user. While initially built around the acoustic piano, it already includes everything needed to emulate other instruments or invent entirely new ones.
 
-It is already the best software in the world combining sound synthesis, spectral analysis and reproduction of instrument timbre, and assistance with electronic tuning of the piano and any instrument.
+By uniting spectral analysis, precision electronic tuning, timbre reproduction, and real-time physical-modeling synthesis in a single application, ViGAPhone naturally extends the technician's craft into the musician's expression—because every piano tuner loves to play the result of their work, and every musician gains from exploring the living physics of their instrument.
+
+Developed by a former software engineer and piano technician, the entire application is crafted in pure C++ with **no external libraries and no AI-driven code generation**—ensuring complete mastery of the codebase, rock-solid stability, ultra-low latency, minimal battery drain, and long-term maintainability.
+
 
 - ViGAPhone high precision any instrument and piano Electronic Tuning Device / accordeur électronique haute précision de piano et tout instrument
 
@@ -250,21 +262,29 @@ If you are interested in piano rebuilding, check out my other project:
 
 # FR ViGAWorld - ViGAPhone Synth Lab : parce que la musique est un monde de partage !
 ![ViGAPhone](images/ViGAPhone-logo_128.png)
-**ViGAPhone Synth Lab** 
-Le ViGAPhone Synth Lab est une collection d'instruments et d'outils dédiée au monde musical, un ensemble de services combinant : 
-un synthétiseur MIDI par modèles physiques d'un réalisme vivant pour les interprètes, un laboratoire de conception pour créer de nouveaux instruments, ainsi qu'une suite d'expertises techniques destinée aux techniciens du piano et de tous les instruments.
 
-Cette application est développée par un ingénieur en informatique et technicien du piano, aucune bibliothèque externe aucun développement par IA ne sont utilisés, ceci assure une maîtrise parfaite du code, la maintenabilité et la pérennité de l'application.
+**Quand la précision acoustique rencontre la synthèse par modélisation physique**
 
+**ViGAPhone Synth Lab** (disponible sur Windows, Linux et Android sous le nom *Piano Tuner ETD: ViGAPhone S L*) est un atelier acoustique tout-en-un bâti autour d'une philosophie unique : **un seul monde acoustique, deux points de vue**. Il réunit la précision chirurgicale attendue par les **techniciens du piano** et un synthétiseur par modélisation physique vivant et expressif pour les **musiciens**.
 
-## 🎹  Tout sur le ViGAPhone:
-- Un synthétiseur réaliste extraordinaire pour les musiciens interprètes et créatifs, un outil révolutionnaire et indispensable pour les accordeurs de pianos et autres.
+Développée par un ancien ingénieur logiciel et technicien du piano, l'intégralité de l'application est écrite en C++ pur, **sans bibliothèques externes et sans code généré par IA** — garantissant une maîtrise totale du code, une stabilité à toute épreuve, une latence ultra-faible, une consommation de batterie minimale et une pérennité à long terme.
 
-Je mets à votre disposition mon programme de synthèse réaliste: le ViGAPhone, pour ordinateur Linux ou Windows optionnellement accompagné d'un clavier MIDI. Il devrait intéresser un maximum de personnes car il est fait pour les musiciens, les accordeurs professionnels ou amateurs occasionnels. Si vous connaissez Pianoteq de Modartt ou Ivory de Synthogy ou Kontakt de Native-Instrument ou etc, vous connaissez déjà un peu le sujet de la synthèse par modèle physique ou par sampling.
+### Un seul monde acoustique, deux points de vue
 
-ViGAPhone est basé sur la synthèse par modèle physique des instruments à cordes à percussion ou à vent, comme  Pianoteq, mais avec beaucoup plus de possibilités offertes à l'utilisateur. La première version a été développée autour de l'instrument Piano, mais elle possède déjà tout ce qu'il faut pour imiter d'autres instruments ou en créer de nouveaux.
+- **Pour les techniciens et accordeurs de piano :** Une suite complète d'outils professionnels de diagnostic, d'analyse spectrale et de mesure d'inharmonicité en temps réel. Créez des tempéraments sur mesure, analysez l'harmonisation et accordez n'importe quel piano les mains libres grâce à la reconnaissance automatique des notes et à l'adaptation en temps réel de la courbe cible.
+- **Pour les musiciens interprètes et créatifs :** Un synthétiseur par modélisation physique vivant et expressif (compatible MIDI/MPE), capable d'émuler des instruments à cordes, à percussion et à vent — ou de vous laisser sculpter de tout nouveaux instruments acoustiques de A à Z.
 
-Il est déjà le meilleur logiciel au monde rassemblant la synthèse sonore, l'analyse et la reproduction spectrale du timbre des instruments, et l'assistance à l'accordage électronique du piano et de tout instrument.
+---
+
+## 🎹 Présentation générale
+
+**ViGAPhone** est un logiciel réaliste de synthèse sonore et d'analyse acoustique pour Windows, Linux et Android, utilisable avec un clavier MIDI/MPE. Il s'adresse aussi bien aux accordeurs professionnels qu'aux musiciens interprètes et aux amateurs passionnés.
+
+Si vous connaissez **Pianoteq (Modartt)**, **Ivory (Synthogy)** ou **Kontakt (Native Instruments)**, vous avez déjà un aperçu de la modélisation physique ou de la synthèse par échantillonnage.
+
+À l'instar de Pianoteq, ViGAPhone repose sur la **modélisation physique pure** d'instruments à cordes, à percussion et à vent plutôt que sur des échantillons audio statiques — mais va beaucoup plus loin en ouvrant l'intégralité du moteur à l'utilisateur. Bien que conçu à l'origine autour du piano acoustique, il intègre déjà tout le nécessaire pour émuler d'autres instruments ou en inventer de totalement inédits.
+
+En réunissant dans une même application l'analyse spectrale, l'accordage électronique de précision, la reproduction de timbre et la synthèse par modélisation physique, ViGAPhone prolonge naturellement le geste du technicien vers celui du musicien — parce que chaque accordeur aime faire sonner et jouer le résultat de son travail, et que chaque musicien gagne à explorer la physique vivante de son instrument.
 
 - ViGAPhone : accordeur électronique haute précision de piano et tout instrument
 
